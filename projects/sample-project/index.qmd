@@ -1,0 +1,20 @@
+---
+title: "Project Template"
+description: "This is a placeholder for a future project."
+author: "GATOR Lab"
+date: "2026-01-01"
+categories: [template]
+image: "/files/images/placeholder3.JPG"
+subtitle: "Funding Agency"
+funding: "$TBA"
+started: "2026"
+ended: "Future"
+---
+
+## Abstract
+
+This is a summary of the project. A representative image should be defined in the `image` field in the frontmatter above.
+
+## Funding
+
+This project is funded by [Agency Name].

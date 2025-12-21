@@ -1,0 +1,26 @@
+---
+title: "Levente Juhász, PhD"
+subtitle: "Assistant Professor of Geospatial Analytics | Director of GATOR Lab"
+image: "../files/profiles/levente.jpg"
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/juhasz-l
+    - text: "{{< ai google-scholar >}} Scholar"
+      href: https://scholar.google.com/citations?user=nmhXJtMAAAAJ&hl=en
+---
+
+## Biography
+Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science.
+
+## Research Interests
+His work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Key areas include:
+
+* **GeoAI:** Developing frameworks for geospatial reasoning using Large Language Models (LLMs).
+* **Spatial Data Integrity:** Interrogating the quality, bias, and malicious defacement of crowdsourced data (e.g., VGI and OpenStreetMap).
+* **Climate Resilience:** Building scalable environmental decision support systems, such as the EPA-funded "Future Shorelines" project.
+
+## Lab History
+Founded in 2026, the GATOR Lab marks Dr. Juhász's return to the University of Florida to establish a high-performance hub for geospatial data science.

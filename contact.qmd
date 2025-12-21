@@ -1,24 +1,20 @@
 ---
 title: "Contact"
-description-meta: "Reach out to me with questions and comments"
+description-meta: "Reach out with questions and comments"
 title-block-banner: false
 ---
 
-<center>
+**Levente Juhász, PhD**
 
-**Quarto Academic**
+Ft. Lauderdale Research and Education Center  
+School of Forest, Fisheries and Geomatics Sciences    
+University of Florida/IFAS
 
-School
+🏢 3205 College Ave  
+Davie, FL 33313  
+USA
 
-College
-
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
+📧: levente.juhasz@ufl.edu 
 
 
-</center>
+

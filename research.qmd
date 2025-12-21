@@ -1,0 +1,20 @@
+---
+title: "Research Vision & Infrastructure"
+---
+
+## The Geospatial Paradox
+We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it.
+
+## Our Computing Stack
+To stay at the cutting edge of **Scalable Geospatial Data Science**, we utilize top-notch infrastructure. We are currently in the process of setting up our core infrastructure which will include:
+
+* **HiPerGator AI:** Direct access to the University of Florida's supercomputer, the most powerful AI system in U.S. academia.
+* **In-Lab AI Workstation:** A dedicated high-performance GPU machine for rapid local development and model prototyping.
+* **Cloud-Native Workflows:** We specialize in leveraging high-performance computing and cloud-native technologies to overcome spatiotemporal analysis bottlenecks.
+
+## Interdisciplinary Impact
+Our work translates modern computing into real-world solutions, for example:
+
+* **Environmental Resilience:** Modeling coastal change and climate impacts (e.g., our EPA-funded "*Future Shorelines*" project).
+* **Urban Analytics:** Interrogating the integrity and bias of spatial data in human systems.
+* **Precision Sensing & Analytics:** Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure.

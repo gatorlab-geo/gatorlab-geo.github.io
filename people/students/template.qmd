@@ -1,0 +1,10 @@
+---
+title: "Future Student"
+subtitle: "PhD Student"
+image: "/files/images/want.jpg"
+started: "2026"
+---
+
+## Biography
+
+We are hiring! [Check out what we are looking for in a future PhD student](../../join.qmd).

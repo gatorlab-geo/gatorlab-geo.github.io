@@ -7,58 +7,53 @@ description-meta: "Geospatial Analytics, Technology and Open Research (GATOR) La
 author-meta: "Dr. Levente Juhasz"
 
 website:
-  title: "Geospatial Analytics, Technology and Open Research (GATOR) Lab"
-  image: "https://quarto.org/quarto.png"
-  description: "Geospatial Analytics, Technology and Open Research (GATOR) Lab"
- 
+  title: "GATOR Lab @ UF"
+  favicon: files/images/gator-logo-square-bg.png
   navbar:
-    background: light  # You can change the background color here
-
-    left:   # You can comment out all navigation items here if you just like to keep the index page only
-#      - text: Home
-#        href: index.qmd
-      - text: About
+    logo: files/images/gator-logo-square.png
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
         menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event
-          - text: Contact
-            href: contact.qmd
-      - text: Research
-        menu:
-          - text: List of Publications
-            href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
+          - text: "Our Vision & Stack"
+            href: research.qmd
+          - text: "Projects & Grants"
             href: projects.qmd
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
-      - text: Outreach
+          - text: "Publications"
+            href: publications.qmd
+      - text: "People"
         menu:
-        - text: Presentations
-          href: posts.qmd#category=presentation
-      - text: People   # Comment the Group part out to remove the Group page
-        href: people.qmd
-
+          - text: "Lab Members"
+            href: people.qmd
+          - text: "Join the Lab" # High visibility for recruitment
+            href: join.qmd
+      - text: "Lab Life"
+        menu:
+          - text: "News & Events"
+            href: posts.qmd
+          - text: "Teaching"
+            href: teaching.qmd
+      - text: "Resources"
+        menu:
+          - text: "GIScience Journals"
+            href: resources/journals.qmd # Create this folder/file later
+          - text: "Open Data & Tools"
+            href: resources/data.qmd
     right:
-      - text: CV
-        href: files/nsf-biosketch.pdf
+      - text: "Contact"
+        href: contact.qmd
+      - text: "CV"
+        href: files/Juhasz_UF_CV_new.pdf
       - icon: github
         href: https://github.com/orgs/gatorlab-geo/
-        target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank
       - icon: rss
         href: posts.xml
-        target: _blank
-   page-navigation: true
+  page-navigation: true
 
   page-footer:
-    left: "[GATOR Lab](http://www.gatorlab.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Adapted from [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template)"
+    left: "![](/files/images/gator-logo-square.png){width=30px} [GATOR Lab](http://www.gatorlab.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "[![](/files/images/University_of_Florida_logo.svg){width=120px}](https://www.ufl.edu)<br>Adapted from [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template)"
     right:
       - icon: github
         href: https://github.com/gatorlab-geo/
@@ -82,8 +77,10 @@ website:
 #  repo-actions: [edit, issue, source]
 
   open-graph: true
+  image: files/images/gator-logo-square-bg.png
 
   twitter-card: true
+#  image: files/images/gator-logo-square-bg.png
 #  card-style: summary      
 
   site-url: "https://gatorlab.io"

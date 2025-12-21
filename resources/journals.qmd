@@ -1,0 +1,10 @@
+---
+title: "GIScience Journals"
+description: "A dashboard for GIScience publishing venues."
+---
+
+## Community Dashboard
+
+We are building an interactive dashboard to help the community explore and select suitable journals for their work.
+
+*Coming soon...*

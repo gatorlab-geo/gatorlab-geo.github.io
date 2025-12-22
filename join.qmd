@@ -3,7 +3,7 @@ title: "Join the GATOR Lab"
 ---
 
 ## Open Positions (Fall 2026)
-We are currently seeking [**two fully funded PhD students**](/files/PhD_Opportunities_ GATOR_Lab_UF.pdf) to join our team.
+We are currently seeking [**two fully funded PhD students**](/files/PhD_Opportunities_GATOR_Lab_UF.pdf) to join our team.
 
 ### 1. GeoAI & Scalable Analytics
 Focus on cloud-native workflows, Large Language Models (LLMs) for geospatial reasoning and and scalable geospatial data science.

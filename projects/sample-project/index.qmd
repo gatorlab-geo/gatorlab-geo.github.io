@@ -1,20 +1,24 @@
 ---
-title: "Project Template"
-description: "This is a placeholder for a future project."
+title: "Geographic Expansion and Improvements of the Future Shorelines Tool"
+description: "[Project website](https://futureshorelines.fiu.edu/)"
 author: "GATOR Lab"
 date: "2026-01-01"
-categories: [template]
-image: "/files/images/placeholder3.JPG"
-subtitle: "Funding Agency"
-funding: "$TBA"
+categories: [environmental]
+image: "/files/images/futureshorelines.jpeg"
+subtitle: "Environmental Protection Agency (sub-award from FIU)"
+funding: "$750,000"
 started: "2026"
 ended: "Future"
 ---
 
+---
+
+![](/files/images/futureshorelines.jpeg)
+
 ## Abstract
 
-This is a summary of the project. A representative image should be defined in the `image` field in the frontmatter above.
+This project expands and enhances [Future Shorelines](https://futureshorelines.fiu.edu/), a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning.
 
 ## Funding
 
-This project is funded by [Agency Name].
+Original funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU.

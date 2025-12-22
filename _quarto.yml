@@ -47,6 +47,8 @@ website:
         href: files/Juhasz_UF_CV_new.pdf
       - icon: github
         href: https://github.com/orgs/gatorlab-geo/
+      - icon: bluesky
+        href: https://bsky.app/profile/gatorlab.bsky.social
       - icon: rss
         href: posts.xml
   page-navigation: true
@@ -59,7 +61,7 @@ website:
         href: https://github.com/gatorlab-geo/
         target: _blank
       - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
+        href: https://bsky.app/profile/gatorlab.bsky.social
         target: _blank
       - icon: rss
         href: posts.xml

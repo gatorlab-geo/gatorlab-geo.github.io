@@ -16,5 +16,5 @@ To stay at the cutting edge of **Scalable Geospatial Data Science**, we utilize 
 Our work translates modern computing into real-world solutions, for example:
 
 * **Environmental Resilience:** Modeling coastal change and climate impacts (e.g., our EPA-funded "*Future Shorelines*" project).
-* **Urban Analytics:** Interrogating the integrity and bias of spatial data in human systems.
+* **Spatial Data Science:** Interrogating the integrity and bias of spatial data in human systems.
 * **Precision Sensing & Analytics:** Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure.

@@ -3,7 +3,7 @@ title: "Join the GATOR Lab"
 ---
 
 ## Open Positions (Fall 2026)
-We are currently seeking **two fully funded PhD students** to join our team.
+We are currently seeking [**two fully funded PhD students**](/files/PhD_Opportunities_ GATOR_Lab_UF.pdf) to join our team.
 
 ### 1. GeoAI & Scalable Analytics
 Focus on cloud-native workflows, Large Language Models (LLMs) for geospatial reasoning and and scalable geospatial data science.
@@ -18,7 +18,7 @@ Primarily work on the "Future Shorelines" project to model sea-level rise and co
 
 
 ## How to Apply
-Review of applications is **ongoing**. Please email **Dr. Levente Juhász** (levente.juhasz@ufl.edu) with:
+Review of applications is **ongoing**. Please email **Dr. Levente Juhász** (levente.giscience@gmail.com | levente.juhasz@ufl.edu [from January]) with:
 
 1. Your **CV** and a link to your **GitHub/Portfolio**.
 2. A **Brief Statement of Interest** explaining *WHY* GATOR Lab and *HOW* you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit.

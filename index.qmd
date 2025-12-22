@@ -18,7 +18,7 @@ about:
       href: https://github.com/gatorlab-geo/
       target: _blank
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org/0000-0002-0168-6200
+      href: https://orcid.org/0000-0003-3393-4021
       target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.com/citations?user=nmhXJtMAAAAJ&hl=en
@@ -45,6 +45,14 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 ---
 
 :::{#hero-heading}
+
+::: {.callout-note appearance="simple" icon=false}
+# 🚀 The GATOR Lab is launching in January 2026.
+:::
+
+::: {.callout-note appearance="simple" icon=false}
+# [💼🧑‍🎓 We are looking for 2 PhD Students to join our team in Fall 2026!](join.qmd)
+:::
 
 Welcome to the **G**eospatial **A**nalytics, **T**echnology and **O**pen **R**esearch (GATOR) Lab at the [University of Florida](https://ufl.edu). We are part of the [Geomatics Program](https://ffgs.ifas.ufl.edu/about/geomatics/) in the [School of Forest, Fisheries and Geomatics Sciences](https://sffgs.ifas.ufl.edu) at [UF/IFAS](https://ifas.ufl.edu).
 

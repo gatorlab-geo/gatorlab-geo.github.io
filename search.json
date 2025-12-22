@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nProject Template\n\n\nGATOR Lab\n\n\nFunding Agency\n\n\nThis is a placeholder for a future project.\n\n\n$TBA\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts.html",
@@ -109,35 +109,28 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu"
-  },
-  {
-    "objectID": "projects/sample-project/index.html",
-    "href": "projects/sample-project/index.html",
-    "title": "Project Template",
-    "section": "",
-    "text": "This is a summary of the project. A representative image should be defined in the image field in the frontmatter above."
+    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.giscience@gmail.com\n📧: levente.juhasz@ufl.edu [pending creation]"
   },
   {
     "objectID": "projects/sample-project/index.html#abstract",
     "href": "projects/sample-project/index.html#abstract",
-    "title": "Project Template",
-    "section": "",
-    "text": "This is a summary of the project. A representative image should be defined in the image field in the frontmatter above."
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Abstract",
+    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
   },
   {
     "objectID": "projects/sample-project/index.html#funding",
     "href": "projects/sample-project/index.html#funding",
-    "title": "Project Template",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
     "section": "Funding",
-    "text": "Funding\nThis project is funded by [Agency Name]."
+    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Geospatial Analytics, Technology & Open Research",
     "section": "",
-    "text": "Lab\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological eadvancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+    "text": "Lab\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \n\n\n\n\n\n\nNote🚀 The GATOR Lab is launching in January 2026.\n\n\n\n\n\n\n\n\n\n\n\nNote💼🧑‍🎓 We are looking for 2 PhD Students to join our team in Fall 2026!\n\n\n\n\n\nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological eadvancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
   },
   {
     "objectID": "index.html#our-work",
@@ -214,7 +207,7 @@
     "href": "join.html#how-to-apply",
     "title": "Join the GATOR Lab",
     "section": "How to Apply",
-    "text": "How to Apply\nReview of applications is ongoing. Please email Dr. Levente Juhász (levente.juhasz@ufl.edu) with:\n\nYour CV and a link to your GitHub/Portfolio.\nA Brief Statement of Interest explaining WHY GATOR Lab and HOW you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit."
+    "text": "How to Apply\nReview of applications is ongoing. Please email Dr. Levente Juhász (levente.giscience@gmail.com | levente.juhasz@ufl.edu [from January]) with:\n\nYour CV and a link to your GitHub/Portfolio.\nA Brief Statement of Interest explaining WHY GATOR Lab and HOW you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit."
   },
   {
     "objectID": "research.html",
@@ -242,7 +235,7 @@
     "href": "research.html#interdisciplinary-impact",
     "title": "Research Vision & Infrastructure",
     "section": "Interdisciplinary Impact",
-    "text": "Interdisciplinary Impact\nOur work translates modern computing into real-world solutions, for example:\n\nEnvironmental Resilience: Modeling coastal change and climate impacts (e.g., our EPA-funded “Future Shorelines” project).\nUrban Analytics: Interrogating the integrity and bias of spatial data in human systems.\nPrecision Sensing & Analytics: Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure."
+    "text": "Interdisciplinary Impact\nOur work translates modern computing into real-world solutions, for example:\n\nEnvironmental Resilience: Modeling coastal change and climate impacts (e.g., our EPA-funded “Future Shorelines” project).\nSpatial Data Science: Interrogating the integrity and bias of spatial data in human systems.\nPrecision Sensing & Analytics: Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure."
   },
   {
     "objectID": "people/students/template.html",

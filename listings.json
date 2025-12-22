@@ -1,0 +1,27 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/sample-project/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/levente-juhasz.html",
+      "/people/students/template.html"
+    ]
+  }
+]

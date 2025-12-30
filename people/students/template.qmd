@@ -1,7 +1,7 @@
 ---
 title: "Future Student"
 subtitle: "PhD Student"
-image: "/files/images/want.jpg"
+image: "/files/profiles//want_you_join.png"
 started: "2026"
 ---
 

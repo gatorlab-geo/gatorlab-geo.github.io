@@ -11,6 +11,8 @@ Focus on cloud-native workflows, Large Language Models (LLMs) for geospatial rea
 ### 2. Climate Resilience & Coastal Informatics 
 Primarily work on the "Future Shorelines" project to model sea-level rise and coastal change, and bring cutting-edge computing to solve an environmental problem.
 
+*We also welcome original research proposals that align with the lab’s core mission and expertise.*
+
 ---
 
 ## What We Value
@@ -21,4 +23,8 @@ Primarily work on the "Future Shorelines" project to model sea-level rise and co
 Review of applications is **ongoing**. Please email **Dr. Levente Juhász** (join@gatorlab.io — *Note: UF email available Jan 2026*) with:
 
 1. Your **CV** and a link to your **GitHub/Portfolio**.
-2. A **Brief Statement of Interest** explaining *WHY* GATOR Lab and *HOW* you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit.
+2. A **Brief Statement of Interest** explaining *WHY* GATOR Lab and *HOW* you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit. Be creative, authentic, and tell us why want to join the GATOR Lab.
+
+<div style="text-align: center;">
+*Join us at the University of Florida to build the future of Geospatial Data Science.*
+</div>

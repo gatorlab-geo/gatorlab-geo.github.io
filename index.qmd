@@ -21,7 +21,7 @@ about:
       href: https://orcid.org/0000-0003-3393-4021
       target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com/citations?user=nmhXJtMAAAAJ&hl=en
+      href: https://scholar.google.com/citations?hl=en&user=NkUrf04AAAAJ
       target: _blank
 #      target: _blank
 

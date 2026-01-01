@@ -47,10 +47,6 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 :::{#hero-heading}
 
 ::: {.callout-note appearance="simple" icon=false}
-# 🚀 The GATOR Lab is launching in January 2026.
-:::
-
-::: {.callout-note appearance="simple" icon=false}
 # [💼🧑‍🎓 We are looking for 2 PhD Students to join our team in Fall 2026!](join.qmd)
 :::
 

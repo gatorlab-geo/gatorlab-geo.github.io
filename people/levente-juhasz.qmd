@@ -1,13 +1,13 @@
 ---
 title: "Levente Juhász, PhD"
 subtitle: "Assistant Professor of Geospatial Analytics | Director of GATOR Lab"
-image: "../files/profiles/levente.jpg"
+image: "../files/profiles/levente_profile.jpg"
 about:
   template: trestles
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/juhasz-l
+      href: https://github.com/
     - text: "{{< ai google-scholar >}} Scholar"
       href: https://scholar.google.com/citations?hl=en&user=NkUrf04AAAAJ
     - text: "{{< ai researchgate >}} ResearchGate"

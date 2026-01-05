@@ -9,7 +9,9 @@ about:
       text: GitHub
       href: https://github.com/juhasz-l
     - text: "{{< ai google-scholar >}} Scholar"
-      href: https://scholar.google.com/citations?user=nmhXJtMAAAAJ&hl=en
+      href: https://scholar.google.com/citations?hl=en&user=NkUrf04AAAAJ
+    - text: "{{< ai researchgate >}} ResearchGate"
+      href: https://www.researchgate.net/profile/Levente_Juhasz
 ---
 
 ## Biography

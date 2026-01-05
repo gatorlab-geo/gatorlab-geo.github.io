@@ -18,6 +18,10 @@ Primarily work on the "Future Shorelines" project to model sea-level rise and co
 ## What We Value
 **Above all, we value intellectual curiosity and a critical mindset.** We are looking for researchers who don't just apply tools, but interrogate them. We are not afraid to ask interesting but difficult questions, and engage with challenging problems. You will thrive here if you are passionate about open science and eager to solve complex spatial problems through a data-science lens.
 
+## Requirements
+
+- **MS degree**: We are looking for candidates with a masters degree or equivalent in GIScience, Computer Science, Statistics, Data Science, Geography or a related field.
+- **Research**: Peer-reviewed publications are not a hard requirement but we expect candidates to have a track record of research.
 
 ## How to Apply
 Review of applications is **ongoing**. Please email **Dr. Levente Juhász** (join@gatorlab.io — *Note: UF email available Jan 2026*) with:

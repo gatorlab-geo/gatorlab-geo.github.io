@@ -57,7 +57,7 @@ We are located at the [Fort Lauderdale Research and Education Center](https://fl
 
 ## Our Work
 
-Broadly speaking, we are interested in harnessing the latest technological and methodological eadvancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.
+Broadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.
 
 ## Research Pillars
 

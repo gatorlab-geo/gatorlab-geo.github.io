@@ -20,13 +20,13 @@ listing:
     grid-columns: 3
     image-height: 200px
 
-  - id: alumni
-    contents: "alumni.yml" # Keep as YML if they don't need individual pages
-    type: table
-    fields: [title, subtitle, started, ended]
-    field-display-names: 
-      title: "Name"
-      subtitle: "Current Role"
+#  - id: alumni
+#    contents: "alumni.yml" # Keep as YML if they don't need individual pages
+#    type: table
+#    fields: [title, subtitle, started, ended]
+#    field-display-names: 
+#      title: "Name"
+#      subtitle: "Current Role"
 ---
 <style>{css, echo=FALSE}
 /* This fix stops the "zoomed-in" look and fits the headshot properly */
@@ -53,6 +53,3 @@ listing:
 
 Our lab is growing! Check out our [open positions](join.qmd).
 
-## Alumni
-:::{#alumni}
-:::

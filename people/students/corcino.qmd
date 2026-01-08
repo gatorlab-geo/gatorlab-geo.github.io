@@ -1,0 +1,22 @@
+---
+title: "Jorge Corcino"
+subtitle: "MS Student (volunteer)"
+image: "/files/profiles/jorge.jfif"
+started: "2026"
+ended: "present"
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/
+---
+
+## Biography
+
+Jorge is currently a graduate student at Florida International University majoring in Data Science & AI. He is originally from the British Virgin Islands and is currently based in Miami, FL. His backgroud is in Information Systems / Computer Science. While making a pivot towards data science he discovered his passion for geospatial data. At home, he works for the BVI Electricity Corporation, and he expects to utilize his data analytics and GIS skills when he returns.
+
+## Research Interests
+
+Jorge's research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI.
+

@@ -22,6 +22,7 @@ Primarily work on the "Future Shorelines" project to model sea-level rise and co
 
 - **MS degree**: We are looking for candidates with a masters degree or equivalent in GIScience, Computer Science, Statistics, Data Science, Geography or a related field.
 - **Research**: Peer-reviewed publications are not a hard requirement but we expect candidates to have a track record of research.
+- Satisfying all UF graduate admission requirements.
 
 ## How to Apply
 Review of applications is **ongoing**. Please email **Dr. Levente Juhász** (join@gatorlab.io — *Note: UF email available Jan 2026*) with:

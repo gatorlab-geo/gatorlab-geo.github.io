@@ -14,7 +14,7 @@ about:
   image-width: 100%
   links:
     - icon: github
-      text: Lab
+      text: GitHub
       href: https://github.com/gatorlab-geo/
       target: _blank
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension

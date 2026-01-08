@@ -130,34 +130,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NBL9B0EX18"></script>
 
@@ -367,7 +339,6 @@ window.Quarto = {
   <ul>
   <li><a href="#faculty" id="toc-faculty" class="nav-link active" data-scroll-target="#faculty">Faculty</a></li>
   <li><a href="#lab-members" id="toc-lab-members" class="nav-link" data-scroll-target="#lab-members">Lab Members</a></li>
-  <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
   </ul>
 </nav>
     </div>
@@ -412,7 +383,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="faculty">Faculty</h2>
 <div id="listing-faculty" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767893170584" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767894492244" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
 <a href="./people/levente-juhasz.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -436,7 +407,7 @@ Assistant Professor of Geospatial Analytics | Director of GATOR Lab
 <h2 class="anchored" data-anchor-id="lab-members">Lab Members</h2>
 <div id="listing-lab-members" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767893170584" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767894492244" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <a href="./people/students/template.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -452,34 +423,26 @@ PhD Student
 </div>
 </div></a>
 </div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1767894492244" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
+<a href="./people/students/corcino.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/jorge.jfif" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jorge Corcino
+</h5>
+<div class="card-subtitle listing-subtitle">
+MS Student (volunteer)
+</div>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <p>Our lab is growing! Check out our <a href="./join.html">open positions</a>.</p>
-</section>
-<section id="alumni" class="level2">
-<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<div id="listing-alumni" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table caption-top">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th">Name</th>
-<th data-quarto-table-cell-role="th">Current Role</th>
-<th data-quarto-table-cell-role="th">started</th>
-<th data-quarto-table-cell-role="th">ended</th>
-</tr>
-</thead>
-<tbody class="list">
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
 
 
 

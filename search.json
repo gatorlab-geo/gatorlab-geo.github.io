@@ -14,172 +14,46 @@
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nnews\n\n\n\nWe are excited to launch our website.\n\n\n\n\n\nDec 31, 2025\n\n\nLevente Juhasz\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/levente-juhasz.html",
-    "href": "people/levente-juhasz.html",
-    "title": "Levente Juhász, PhD",
+    "objectID": "people/students/template.html",
+    "href": "people/students/template.html",
+    "title": "Future Student",
     "section": "",
-    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
+    "text": "We are hiring! Check out what we are looking for in a future PhD student."
   },
   {
-    "objectID": "people/levente-juhasz.html#biography",
-    "href": "people/levente-juhasz.html#biography",
-    "title": "Levente Juhász, PhD",
+    "objectID": "people/students/template.html#biography",
+    "href": "people/students/template.html#biography",
+    "title": "Future Student",
     "section": "",
-    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
+    "text": "We are hiring! Check out what we are looking for in a future PhD student."
   },
   {
-    "objectID": "people/levente-juhasz.html#research-interests",
-    "href": "people/levente-juhasz.html#research-interests",
-    "title": "Levente Juhász, PhD",
-    "section": "Research Interests",
-    "text": "Research Interests\nHis work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Key areas include:\n\nGeoAI: Developing frameworks for geospatial reasoning using Large Language Models (LLMs).\nSpatial Data Integrity: Interrogating the quality, bias, and malicious defacement of crowdsourced data (e.g., VGI and OpenStreetMap).\nClimate Resilience: Building scalable environmental decision support systems, such as the EPA-funded “Future Shorelines” project."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#lab-history",
-    "href": "people/levente-juhasz.html#lab-history",
-    "title": "Levente Juhász, PhD",
-    "section": "Lab History",
-    "text": "Lab History\nFounded in 2026, the GATOR Lab marks Dr. Juhász’s return to the University of Florida to establish a high-performance hub for geospatial data science."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research Vision & Infrastructure",
     "section": "",
-    "text": "Juhász, L. (2024). Assessing publication trends in selected GIScience journals. International Journal of Geographical Information Science."
+    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
   },
   {
-    "objectID": "publications.html#section",
-    "href": "publications.html#section",
-    "title": "Publications",
+    "objectID": "research.html#the-geospatial-paradox",
+    "href": "research.html#the-geospatial-paradox",
+    "title": "Research Vision & Infrastructure",
     "section": "",
-    "text": "Juhász, L. (2024). Assessing publication trends in selected GIScience journals. International Journal of Geographical Information Science."
+    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
   },
   {
-    "objectID": "resources/journals.html",
-    "href": "resources/journals.html",
-    "title": "GIScience Journals",
-    "section": "",
-    "text": "We are building an interactive dashboard to help the community explore and select suitable journals for their work.\nComing soon…"
+    "objectID": "research.html#our-computing-stack",
+    "href": "research.html#our-computing-stack",
+    "title": "Research Vision & Infrastructure",
+    "section": "Our Computing Stack",
+    "text": "Our Computing Stack\nTo stay at the cutting edge of Scalable Geospatial Data Science, we utilize top-notch infrastructure. We are currently in the process of setting up our core infrastructure which will include:\n\nHiPerGator AI: Direct access to the University of Florida’s supercomputer, the most powerful AI system in U.S. academia.\nIn-Lab AI Workstation: A dedicated high-performance GPU machine for rapid local development and model prototyping.\nCloud-Native Workflows: We specialize in leveraging high-performance computing and cloud-native technologies to overcome spatiotemporal analysis bottlenecks."
   },
   {
-    "objectID": "resources/journals.html#community-dashboard",
-    "href": "resources/journals.html#community-dashboard",
-    "title": "GIScience Journals",
-    "section": "",
-    "text": "We are building an interactive dashboard to help the community explore and select suitable journals for their work.\nComing soon…"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "",
-    "text": "I am excited to announce the launch of the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. I accepted a position of Assistant Professor of Geospatial Analytics in Geomatics from the Spring 2026 semester. This marks my return to UF after a 6-year spell at Florida International University as research faculty. I am beyond excited to be back at UF and to continue my research in geospatial analytics, technology and open research."
-  },
-  {
-    "objectID": "posts/welcome/index.html#hello-welcome",
-    "href": "posts/welcome/index.html#hello-welcome",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "",
-    "text": "I am excited to announce the launch of the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. I accepted a position of Assistant Professor of Geospatial Analytics in Geomatics from the Spring 2026 semester. This marks my return to UF after a 6-year spell at Florida International University as research faculty. I am beyond excited to be back at UF and to continue my research in geospatial analytics, technology and open research."
-  },
-  {
-    "objectID": "posts/welcome/index.html#why-gator",
-    "href": "posts/welcome/index.html#why-gator",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "Why GATOR?",
-    "text": "Why GATOR?\nThe GATOR acronym is a play on words. It stands for Geospatial Analytics, Technology and Open Research. It represents the Geospatial (or Geomatics), Analytics, Technology and Open Research pillars of our research. As an alumnus, and now faculty member I also found it important to pay tribute to the Florida Gators, and ground our lab’s mission within The Gator Nation."
-  },
-  {
-    "objectID": "posts/welcome/index.html#whats-ahead",
-    "href": "posts/welcome/index.html#whats-ahead",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "What’s ahead?",
-    "text": "What’s ahead?\nI am currently in the process of setting up our core infrastructure. The next and ongoing major step is to recruit. We are currently seeking two fully funded PhD students to join our team. This is an exciting opportunity not only for me, but for the first few lab members, who will be an important part of establishing the lab’s culture and direction. I am not just looking for the usual candidates, but for people who are passionate about open science and eager to solve complex spatial problems through a data-science lens. While an excellent academic background is important, I am more interested in your intellectual curiosity and a critical mindset. I am also interested in the person behind the CV, and I am open to discussing your interests and aspirations. If you are interested in joining the lab, please consult the join page for more information.\nIt is my hope that the lab will extend beyond PhD students. In the future, I plan to recruit postdocs, visiting scholars, and collaborators to work on our projects. I am also interested in working with industry partners, and I am open to discussing potential collaborations, which will benefit the lab in many ways: it will inform our research, teaching, and help us stay at the cutting edge of geospatial analytics and technology."
-  },
-  {
-    "objectID": "posts/welcome/index.html#where-we-are",
-    "href": "posts/welcome/index.html#where-we-are",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "Where we are?",
-    "text": "Where we are?\nWe are located in sunny South Florida, at the Fort Lauderdale Research & Education Center. While not being located in Gainesville may seem unusual, it is a great location for research and collaboration. South Florida (Miami - Ft. Lauderdale - West Palm Beach) is a vibrant metropolitan area with a rich cultural heritage. It is not only a great place to be, but it also provides a great environment for research and collaboration: it is a hub of innovation and creativity, with a diverse population and a rich cultural heritage. It also lies at the forefront of man-made and environmental challenges waiting to be solved by science."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
-  },
-  {
-    "objectID": "projects/sample-project/index.html#abstract",
-    "href": "projects/sample-project/index.html#abstract",
-    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
-    "section": "Abstract",
-    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
-  },
-  {
-    "objectID": "projects/sample-project/index.html#funding",
-    "href": "projects/sample-project/index.html#funding",
-    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
-    "section": "Funding",
-    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \n\n\n\n\n\n\nNote💼🧑‍🎓 We are looking for 2 PhD Students to join our team in Fall 2026!\n\n\n\n\n\nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
-  },
-  {
-    "objectID": "index.html#our-work",
-    "href": "index.html#our-work",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "Broadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges."
-  },
-  {
-    "objectID": "index.html#research-pillars",
-    "href": "index.html#research-pillars",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "Scalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nDec 31, 2025\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Coming soon…"
-  },
-  {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "Coming soon…"
-  },
-  {
-    "objectID": "resources/data.html",
-    "href": "resources/data.html",
-    "title": "Open Data & Tools",
-    "section": "",
-    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
-  },
-  {
-    "objectID": "resources/data.html#open-science",
-    "href": "resources/data.html#open-science",
-    "title": "Open Data & Tools",
-    "section": "",
-    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
+    "objectID": "research.html#interdisciplinary-impact",
+    "href": "research.html#interdisciplinary-impact",
+    "title": "Research Vision & Infrastructure",
+    "section": "Interdisciplinary Impact",
+    "text": "Interdisciplinary Impact\nOur work translates modern computing into real-world solutions, for example:\n\nEnvironmental Resilience: Modeling coastal change and climate impacts (e.g., our EPA-funded “Future Shorelines” project).\nSpatial Data Science: Interrogating the integrity and bias of spatial data in human systems.\nPrecision Sensing & Analytics: Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure."
   },
   {
     "objectID": "join.html",
@@ -217,46 +91,200 @@
     "text": "How to Apply\nReview of applications is ongoing. Please email Dr. Levente Juhász (join@gatorlab.io — Note: UF email available Jan 2026) with:\n\nYour CV and a link to your GitHub/Portfolio.\nA Brief Statement of Interest explaining WHY GATOR Lab and HOW you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit. Be creative, authentic, and tell us why want to join the GATOR Lab.\n\n\nJoin us at the University of Florida to build the future of Geospatial Data Science."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research Vision & Infrastructure",
+    "objectID": "resources/data.html",
+    "href": "resources/data.html",
+    "title": "Open Data & Tools",
     "section": "",
-    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
+    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
   },
   {
-    "objectID": "research.html#the-geospatial-paradox",
-    "href": "research.html#the-geospatial-paradox",
-    "title": "Research Vision & Infrastructure",
+    "objectID": "resources/data.html#open-science",
+    "href": "resources/data.html#open-science",
+    "title": "Open Data & Tools",
     "section": "",
-    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
+    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
   },
   {
-    "objectID": "research.html#our-computing-stack",
-    "href": "research.html#our-computing-stack",
-    "title": "Research Vision & Infrastructure",
-    "section": "Our Computing Stack",
-    "text": "Our Computing Stack\nTo stay at the cutting edge of Scalable Geospatial Data Science, we utilize top-notch infrastructure. We are currently in the process of setting up our core infrastructure which will include:\n\nHiPerGator AI: Direct access to the University of Florida’s supercomputer, the most powerful AI system in U.S. academia.\nIn-Lab AI Workstation: A dedicated high-performance GPU machine for rapid local development and model prototyping.\nCloud-Native Workflows: We specialize in leveraging high-performance computing and cloud-native technologies to overcome spatiotemporal analysis bottlenecks."
-  },
-  {
-    "objectID": "research.html#interdisciplinary-impact",
-    "href": "research.html#interdisciplinary-impact",
-    "title": "Research Vision & Infrastructure",
-    "section": "Interdisciplinary Impact",
-    "text": "Interdisciplinary Impact\nOur work translates modern computing into real-world solutions, for example:\n\nEnvironmental Resilience: Modeling coastal change and climate impacts (e.g., our EPA-funded “Future Shorelines” project).\nSpatial Data Science: Interrogating the integrity and bias of spatial data in human systems.\nPrecision Sensing & Analytics: Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure."
-  },
-  {
-    "objectID": "people/students/template.html",
-    "href": "people/students/template.html",
-    "title": "Future Student",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "We are hiring! Check out what we are looking for in a future PhD student."
+    "text": "Coming soon…"
   },
   {
-    "objectID": "people/students/template.html#biography",
-    "href": "people/students/template.html#biography",
-    "title": "Future Student",
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
     "section": "",
-    "text": "We are hiring! Check out what we are looking for in a future PhD student."
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \n\n\n\n\n\n\nNote💼🧑‍🎓 We are looking for 2 PhD Students to join our team in Fall 2026!\n\n\n\n\n\nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+  },
+  {
+    "objectID": "index.html#our-work",
+    "href": "index.html#our-work",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "Broadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges."
+  },
+  {
+    "objectID": "index.html#research-pillars",
+    "href": "index.html#research-pillars",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "Scalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+  },
+  {
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "Recent Posts",
+    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nDec 31, 2025\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+  },
+  {
+    "objectID": "projects/sample-project/index.html#abstract",
+    "href": "projects/sample-project/index.html#abstract",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Abstract",
+    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
+  },
+  {
+    "objectID": "projects/sample-project/index.html#funding",
+    "href": "projects/sample-project/index.html#funding",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Funding",
+    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to the GATOR Lab!",
+    "section": "",
+    "text": "I am excited to announce the launch of the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. I accepted a position of Assistant Professor of Geospatial Analytics in Geomatics from the Spring 2026 semester. This marks my return to UF after a 6-year spell at Florida International University as research faculty. I am beyond excited to be back at UF and to continue my research in geospatial analytics, technology and open research."
+  },
+  {
+    "objectID": "posts/welcome/index.html#hello-welcome",
+    "href": "posts/welcome/index.html#hello-welcome",
+    "title": "Welcome to the GATOR Lab!",
+    "section": "",
+    "text": "I am excited to announce the launch of the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. I accepted a position of Assistant Professor of Geospatial Analytics in Geomatics from the Spring 2026 semester. This marks my return to UF after a 6-year spell at Florida International University as research faculty. I am beyond excited to be back at UF and to continue my research in geospatial analytics, technology and open research."
+  },
+  {
+    "objectID": "posts/welcome/index.html#why-gator",
+    "href": "posts/welcome/index.html#why-gator",
+    "title": "Welcome to the GATOR Lab!",
+    "section": "Why GATOR?",
+    "text": "Why GATOR?\nThe GATOR acronym is a play on words. It stands for Geospatial Analytics, Technology and Open Research. It represents the Geospatial (or Geomatics), Analytics, Technology and Open Research pillars of our research. As an alumnus, and now faculty member I also found it important to pay tribute to the Florida Gators, and ground our lab’s mission within The Gator Nation."
+  },
+  {
+    "objectID": "posts/welcome/index.html#whats-ahead",
+    "href": "posts/welcome/index.html#whats-ahead",
+    "title": "Welcome to the GATOR Lab!",
+    "section": "What’s ahead?",
+    "text": "What’s ahead?\nI am currently in the process of setting up our core infrastructure. The next and ongoing major step is to recruit. We are currently seeking two fully funded PhD students to join our team. This is an exciting opportunity not only for me, but for the first few lab members, who will be an important part of establishing the lab’s culture and direction. I am not just looking for the usual candidates, but for people who are passionate about open science and eager to solve complex spatial problems through a data-science lens. While an excellent academic background is important, I am more interested in your intellectual curiosity and a critical mindset. I am also interested in the person behind the CV, and I am open to discussing your interests and aspirations. If you are interested in joining the lab, please consult the join page for more information.\nIt is my hope that the lab will extend beyond PhD students. In the future, I plan to recruit postdocs, visiting scholars, and collaborators to work on our projects. I am also interested in working with industry partners, and I am open to discussing potential collaborations, which will benefit the lab in many ways: it will inform our research, teaching, and help us stay at the cutting edge of geospatial analytics and technology."
+  },
+  {
+    "objectID": "posts/welcome/index.html#where-we-are",
+    "href": "posts/welcome/index.html#where-we-are",
+    "title": "Welcome to the GATOR Lab!",
+    "section": "Where we are?",
+    "text": "Where we are?\nWe are located in sunny South Florida, at the Fort Lauderdale Research & Education Center. While not being located in Gainesville may seem unusual, it is a great location for research and collaboration. South Florida (Miami - Ft. Lauderdale - West Palm Beach) is a vibrant metropolitan area with a rich cultural heritage. It is not only a great place to be, but it also provides a great environment for research and collaboration: it is a hub of innovation and creativity, with a diverse population and a rich cultural heritage. It also lies at the forefront of man-made and environmental challenges waiting to be solved by science."
+  },
+  {
+    "objectID": "resources/journals.html",
+    "href": "resources/journals.html",
+    "title": "GIScience Journals",
+    "section": "",
+    "text": "We are building an interactive dashboard to help the community explore and select suitable journals for their work.\nComing soon…"
+  },
+  {
+    "objectID": "resources/journals.html#community-dashboard",
+    "href": "resources/journals.html#community-dashboard",
+    "title": "GIScience Journals",
+    "section": "",
+    "text": "We are building an interactive dashboard to help the community explore and select suitable journals for their work.\nComing soon…"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Juhász, L. (2024). Assessing publication trends in selected GIScience journals. International Journal of Geographical Information Science."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "",
+    "text": "Juhász, L. (2024). Assessing publication trends in selected GIScience journals. International Journal of Geographical Information Science."
+  },
+  {
+    "objectID": "people/levente-juhasz.html",
+    "href": "people/levente-juhasz.html",
+    "title": "Levente Juhász, PhD",
+    "section": "",
+    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
+  },
+  {
+    "objectID": "people/levente-juhasz.html#biography",
+    "href": "people/levente-juhasz.html#biography",
+    "title": "Levente Juhász, PhD",
+    "section": "",
+    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
+  },
+  {
+    "objectID": "people/levente-juhasz.html#research-interests",
+    "href": "people/levente-juhasz.html#research-interests",
+    "title": "Levente Juhász, PhD",
+    "section": "Research Interests",
+    "text": "Research Interests\nHis work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Key areas include:\n\nGeoAI: Developing frameworks for geospatial reasoning using Large Language Models (LLMs).\nSpatial Data Integrity: Interrogating the quality, bias, and malicious defacement of crowdsourced data (e.g., VGI and OpenStreetMap).\nClimate Resilience: Building scalable environmental decision support systems, such as the EPA-funded “Future Shorelines” project."
+  },
+  {
+    "objectID": "people/levente-juhasz.html#lab-history",
+    "href": "people/levente-juhasz.html#lab-history",
+    "title": "Levente Juhász, PhD",
+    "section": "Lab History",
+    "text": "Lab History\nFounded in 2026, the GATOR Lab marks Dr. Juhász’s return to the University of Florida to establish a high-performance hub for geospatial data science."
+  },
+  {
+    "objectID": "people/levente-juhasz.html#outside-of-research",
+    "href": "people/levente-juhasz.html#outside-of-research",
+    "title": "Levente Juhász, PhD",
+    "section": "Outside of Research",
+    "text": "Outside of Research\nI enjoy the outdoors and endurance sports. My favorite activities are road cycling, obstacle course racing, and more recently ultra running."
+  },
+  {
+    "objectID": "people/students/corcino.html",
+    "href": "people/students/corcino.html",
+    "title": "Jorge Corcino",
+    "section": "",
+    "text": "Jorge is currently a graduate student at Florida International University majoring in Data Science & AI. He is originally from the British Virgin Islands and is currently based in Miami, FL. His backgroud is in Information Systems / Computer Science. While making a pivot towards data science he discovered his passion for geospatial data. At home, he works for the BVI Electricity Corporation, and he expects to utilize his data analytics and GIS skills when he returns."
+  },
+  {
+    "objectID": "people/students/corcino.html#biography",
+    "href": "people/students/corcino.html#biography",
+    "title": "Jorge Corcino",
+    "section": "",
+    "text": "Jorge is currently a graduate student at Florida International University majoring in Data Science & AI. He is originally from the British Virgin Islands and is currently based in Miami, FL. His backgroud is in Information Systems / Computer Science. While making a pivot towards data science he discovered his passion for geospatial data. At home, he works for the BVI Electricity Corporation, and he expects to utilize his data analytics and GIS skills when he returns."
+  },
+  {
+    "objectID": "people/students/corcino.html#research-interests",
+    "href": "people/students/corcino.html#research-interests",
+    "title": "Jorge Corcino",
+    "section": "Research Interests",
+    "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
   },
   {
     "objectID": "people.html",
@@ -277,13 +305,6 @@
     "href": "people.html#lab-members",
     "title": "People",
     "section": "Lab Members",
-    "text": "Lab Members\n\n\n\n\n\n\n\n\n\n\nFuture Student\n\n\nPhD Student\n\n\n\n\n\nNo matching items\n\nOur lab is growing! Check out our open positions."
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\nName\nCurrent Role\nstarted\nended\n\n\n\n\n\nNo matching items"
+    "text": "Lab Members\n\n\n\n\n\n\n\n\n\n\nFuture Student\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\nJorge Corcino\n\n\nMS Student (volunteer)\n\n\n\n\n\nNo matching items\n\nOur lab is growing! Check out our open positions."
   }
 ]

@@ -17,7 +17,52 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Wed, 31 Dec 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 14 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>New dashboard for GIScience journal analysis</title>
+  <dc:creator>Levente Juhasz</dc:creator>
+  <link>https://gatorlab.io/posts/journal_dashboard/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="new-dashboard-for-journal-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="new-dashboard-for-journal-analysis">New dashboard for journal analysis</h2>
+<p>Building on the 2024 publication, <a href="https://doi.org/10.1080/13658816.2024.2347306">“Assessing publication trends in selected GIScience journals”</a> in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.</p>
+<p>The dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/giscience_collab_network.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>International collaboration network in GIScience research</figcaption>
+</figure>
+</div>
+<section id="why-use-this" class="level3">
+<h3 class="anchored" data-anchor-id="why-use-this">Why use this?</h3>
+<p>Selecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:</p>
+<ul>
+<li><strong>Meta Rankings</strong>: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.</li>
+<li><strong>Open Access Trends</strong>: Monitor the shift towards OA</li>
+<li><strong>Collaboration Networks</strong>: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.</li>
+<li><strong>Cost vs.&nbsp;Impact</strong>: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.</li>
+</ul>
+</section>
+<section id="built-for-open-science" class="level3">
+<h3 class="anchored" data-anchor-id="built-for-open-science">Built for Open Science</h3>
+<p>In the spirit of open principles, the dashboard is built using <a href="https://posit-dev.github.io/r-shinylive/">Shinylive</a>. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard was built by <a href="https://gatorlab.io/people/students/corcino.html">Jorge Corcino</a>. Stay tuned as we are releasing the the updated dataset and the source code of the dashboard very soon.</p>
+<p>We hope this serves as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.</p>
+<p>Explore the dashboard <a href="../../resources/journals.html">here</a> or launch the <a href="../../resources/dashboard/index.html">Full Screen version</a>.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://gatorlab.io/posts/journal_dashboard/</guid>
+  <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gatorlab.io/files/images/giscience_journal_ranking_plot.png" medium="image" type="image/png" height="171" width="144"/>
+</item>
 <item>
   <title>Welcome to the GATOR Lab!</title>
   <dc:creator>Levente Juhasz</dc:creator>

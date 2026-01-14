@@ -9,7 +9,7 @@
 <meta name="author" content="Dr.&nbsp;Levente Juhasz">
 <meta name="description" content="Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida">
 
-<title>GIScience Journals – GATOR Lab @ UF</title>
+<title>GIScience Journal Assessment Dashboard – GATOR Lab @ UF</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,12 +104,12 @@ https://badge.dimensions.ai/
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="GIScience Journals – GATOR Lab @ UF">
-<meta property="og:description" content="A dashboard for GIScience publishing venues.">
+<meta property="og:title" content="GIScience Journal Assessment Dashboard – GATOR Lab @ UF">
+<meta property="og:description" content="Interactive Dashboard of publication trends in selected GIScience journals">
 <meta property="og:image" content="https://gatorlab.io/resources/files/images/gator-logo-square-bg.png">
 <meta property="og:site_name" content="GATOR Lab @ UF">
-<meta name="twitter:title" content="GIScience Journals – GATOR Lab @ UF">
-<meta name="twitter:description" content="A dashboard for GIScience publishing venues.">
+<meta name="twitter:title" content="GIScience Journal Assessment Dashboard – GATOR Lab @ UF">
+<meta name="twitter:description" content="Interactive Dashboard of publication trends in selected GIScience journals">
 <meta name="twitter:image" content="https://gatorlab.io/resources/files/images/gator-logo-square-bg.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -195,7 +195,7 @@ https://badge.dimensions.ai/
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
     <a class="dropdown-item" href="../resources/journals.html">
- <span class="dropdown-text">GIScience Journals</span></a>
+ <span class="dropdown-text">GIScience Journal Dashboard</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../resources/data.html">
@@ -241,34 +241,24 @@ https://badge.dimensions.ai/
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#community-dashboard" id="toc-community-dashboard" class="nav-link active" data-scroll-target="#community-dashboard">Community Dashboard</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GIScience Journals</h1>
-</div>
-
-<div>
-  <div class="description">
-    A dashboard for GIScience publishing venues.
-  </div>
+<h1 class="title">GIScience Journal Assessment Dashboard</h1>
+<p class="subtitle lead">Interactive Dashboard of publication trends in selected GIScience journals</p>
 </div>
 
 
-<div class="quarto-title-meta">
+
+<div class="quarto-title-meta column-page">
 
     
   
@@ -280,13 +270,25 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="community-dashboard" class="level2">
-<h2 class="anchored" data-anchor-id="community-dashboard">Community Dashboard</h2>
-<p>We are building an interactive dashboard to help the community explore and select suitable journals for their work.</p>
-<p><em>Coming soon…</em></p>
+<p>We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled <a href="https://doi.org/10.1080/13658816.2024.2347306">“Assessing publication trends in selected GIScience journals”</a>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Launch Dashboard
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The dashboard runs completely in your browser using WebAssembly. It may take a few seconds to load the data initially.</p>
+</div>
+</div>
+<iframe src="../resources/dashboard/index.html" width="100%" height="1000px" style="border:none;">
+</iframe>
+<p><a href="../resources/dashboard/index.html" class="btn btn-primary btn-lg" role="button">Launch Full Screen Dashboard</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -8,12 +8,14 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/journal_dashboard/index.html",
       "/posts/welcome/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/journal_dashboard/index.html",
       "/posts/welcome/index.html"
     ]
   },

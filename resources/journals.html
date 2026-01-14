@@ -284,8 +284,40 @@ https://badge.dimensions.ai/
 <p>The dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.</p>
 </div>
 </div>
-<iframe src="../resources/dashboard/index.html" width="100%" height="1000px" style="border:none;">
-</iframe>
+<div class="dashboard-container" style="position: relative; min-height: 1000px; background-color: #f8f9fa; border-radius: 4px;">
+  <div id="dashboard-loader" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 4px;">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div style="margin-top: 1.5rem; font-weight: 600; color: #0021A5; font-size: 1.2rem;">Initializing Dashboard...</div>
+    <div style="font-size: 0.9em; color: #6c757d; margin-top: 0.5rem;">Downloading engine &amp; data (first run ~30s)</div>
+  </div>
+  <iframe id="dashboard-frame" src="../resources/dashboard/index.html" width="100%" height="1000px" style="border:none; border-radius: 4px;"></iframe>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const iframe = document.getElementById('dashboard-frame');
+    const loader = document.getElementById('dashboard-loader');
+    
+    // The iframe 'load' event fires when the initial HTML is fetched.
+    // Shinylive then starts its own bootstrap process.
+    // We keep our loader visible for a few seconds to cover the initial blank/white flash,
+    // then let Shinylive's internal loader (or the app) take over if it's slow.
+    // Ideally, we'd wait for a message from the iframe, but cross-origin/sandbox might limit that.
+    
+    iframe.onload = function() {
+      // Keep loader for 2s to ensure the iframe has rendered its splash
+      setTimeout(() => {
+        loader.style.transition = 'opacity 0.5s ease';
+        loader.style.opacity = '0';
+        setTimeout(() => {
+          loader.style.display = 'none';
+        }, 500);
+      }, 2000);
+    };
+  });
+</script>
 <p><a href="../resources/dashboard/index.html" class="btn btn-primary btn-lg" role="button">Launch Full Screen Dashboard</a></p>
 
 

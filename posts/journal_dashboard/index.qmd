@@ -1,0 +1,34 @@
+---
+title: "New dashboard for GIScience journal analysis"
+description: "The first resource out of the GATOR Lab is a fun one!"
+author: "Levente Juhasz"
+date: "2026-01-14"
+categories: [news]
+image: "/files/images/giscience_journal_ranking_plot.png"
+---
+
+
+## New dashboard for journal analysis
+
+Building on the 2024  publication, ["Assessing publication trends in selected GIScience journals"](https://doi.org/10.1080/13658816.2024.2347306) in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.
+
+The dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).
+
+![International collaboration network in GIScience research](/files/images/giscience_collab_network.png){fig-align="center" width="100%"}
+
+### Why use this?
+Selecting a publication venue is often based on "gut feeling" or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:
+
+- **Meta Rankings**: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of "prestige".
+- **Open Access Trends**: Monitor the shift towards OA
+- **Collaboration Networks**: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented... a gap we hope to highlight and help close to build an inclusive community.
+- **Cost vs. Impact**: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best "value" for your research.
+
+### Built for Open Science
+In the spirit of open principles, the dashboard is built using [Shinylive](https://posit-dev.github.io/r-shinylive/). This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard was built by [Jorge Corcino](https://gatorlab.io/people/students/corcino.html). Stay tuned as we are releasing the the 
+updated dataset and the source code of the dashboard very soon.
+
+We hope this serves as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.
+
+Explore the dashboard [here](/resources/journals.html) or launch the [Full Screen version](/resources/dashboard/index.html).
+

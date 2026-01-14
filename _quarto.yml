@@ -1,7 +1,9 @@
 project:
   type: website
   output-dir: docs
-  resources: ["resources/dashboard"]
+  resources: 
+    - "resources/dashboard/**"
+    - "files/dashboard_data/**"
 
 # Meta
 description-meta: "Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida"

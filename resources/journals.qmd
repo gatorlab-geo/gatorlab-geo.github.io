@@ -8,7 +8,7 @@ We monitor key geographic information science (GIScience) journals to track the 
 
 ::: {.callout-tip}
 ## Launch Dashboard
-The dashboard runs completely in your browser using WebAssembly. It may take a few seconds to load the data initially.
+The dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.
 :::
 
 <iframe src="/resources/dashboard/index.html" width="100%" height="1000px" style="border:none;"></iframe>

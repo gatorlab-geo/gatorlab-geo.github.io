@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  resources: ["resources/dashboard"]
 
 # Meta
 description-meta: "Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida"
@@ -36,7 +37,7 @@ website:
             href: teaching.qmd
       - text: "Resources"
         menu:
-          - text: "GIScience Journals"
+          - text: "GIScience Journal Dashboard"
             href: resources/journals.qmd # Create this folder/file later
           - text: "Open Data & Tools"
             href: resources/data.qmd

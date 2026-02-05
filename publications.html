@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -248,17 +268,11 @@ https://badge.dimensions.ai/
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2024</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -268,7 +282,7 @@ https://badge.dimensions.ai/
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -280,12 +294,16 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2024</h2>
-<p>Juhász, L. (2024). <a href="https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2347306#abstract">Assessing publication trends in selected GIScience journals</a>. <em>International Journal of Geographical Information Science</em>.</p>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-juhasz2026discrete" class="csl-entry" role="listitem">
+Juhász, L. (2026). Discrete global grid systems as a framework for geometrically rigorous and spatially explicit GeoAI: A research agenda. In <em><span class="nocase">Workshop on Critical Challenges of GeoAI, Arizona State University</span></em>. Tempe, AZ. DOI: <a href="https://doi.org/10.5281/zenodo.18471033">10.5281/zenodo.18471033</a>.  <a href="/files/papers/JUHASZ_GeoAI_DGGS_Position_Paper.pdf" target="_blank" style="text-decoration: none;">[pdf]</a>
+</div>
+<div id="ref-juhasz2024assessing" class="csl-entry" role="listitem">
+Juhász, L. (2024). Assessing publication trends in selected GIScience journals. <em>International Journal of Geographical Information Science</em>, <em>38</em>, 1443–1467. DOI: <a href="https://doi.org/10.1080/13658816.2024.2347306">10.1080/13658816.2024.2347306</a>.  <a href="/files/papers/Juhasz_GIScience_publicaion_trends.pdf" target="_blank" style="text-decoration: none;">[pdf]</a>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -3,8 +3,11 @@ title: "Publications"
 subtitle: "Selected publications"
 description-meta: "Selected publications"
 page-layout: full
+bibliography: references.bib
+csl: apa-custom.csl
+nocite: |
+  @*
 ---
 
-## 2024
-
-Juhász, L. (2024). [Assessing publication trends in selected GIScience journals](https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2347306#abstract). *International Journal of Geographical Information Science*.
+::: {#refs}
+:::

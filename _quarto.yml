@@ -1,9 +1,11 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+      - python3 scripts/fix_publications.py
   resources: 
     - "resources/dashboard/**"
-    - "files/dashboard_data/**"
+    - "files/**"
 
 # Meta
 description-meta: "Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida"

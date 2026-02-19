@@ -1,0 +1,28 @@
+---
+title: "Joining the IJGI Editorial Board"
+description: "Dr. Levente Juhász has been appointed to the Editorial Board of the ISPRS International Journal of Geo-Information."
+author: "Levente Juhasz"
+date: "2026-02-19"
+categories: [news, editorial]
+image: "/files/images/ijgi.jpeg"
+---
+
+## New Appointment
+
+I am pleased to announce that I have joined the Editorial Board of the [**ISPRS International Journal of Geo-Information (IJGI)**](https://www.mdpi.com/journal/ijgi), an open access journal published by MDPI. In this role, I am responsible for manuscript pre-checks, overseeing the peer-review process, and providing final editorial decisions within my field of expertise, which is of course geospatial analytics, spatial data science, GeoAI and fundamental data quality questions, especially user-generated data sources. If you are interested, check out how IJGI performs among other GIScience journals in our [GIScience Journal Assessment Tool](https://gatorlab.io/resources/journals.html).
+
+## A History of Collaboration
+
+This appointment builds on a long-standing relationship with IJGI. My previous contributions to the journal include:
+
+* [**2019 Outstanding Reviewer Award**](https://www.mdpi.com/journal/ijgi/awards/734): Recognized for excellence and dedication to the peer-review process.
+* **April 2020 Cover Story**: My research about Cartographic Vandalism was featured as the [cover story](https://www.mdpi.com/2220-9964/9/4) for Volume 9, Issue 4.
+* **Special Issue Editor**: I have served as a Guest Editor for several collections:
+    * [Advances in Social Network Analysis – Spatio-Temporal and Semantic Methods](https://www.mdpi.com/journal/ijgi/special_issues/social_network_analysis)
+    * [OpenStreetMap as A Multi-Disciplinary Nexus: Perspectives, Practices and Procedures](https://www.mdpi.com/journal/ijgi/special_issues/OpenStreetMap)
+    * [Advances in AI-Driven Geospatial Analysis and Data Generation](https://www.mdpi.com/journal/ijgi/special_issues/AI_geospatial)
+    * [Advances in AI-Driven Geospatial Analysis and Data Generation (2nd Edition)](https://www.mdpi.com/journal/ijgi/special_issues/U5667L963I)
+
+## Safeguarding Scientific Integrity
+
+As an advocate for open science and reproducibility, I am committed to fostering open scientific exchange while maintaining high-quality research standards. My focus will be on ensuring that research is sound and validated, which is essential for reducing research waste and accelerating progress in geospatial analytics. I look forward to working with the editorial team to safeguard the integrity of the scholarly record in our field.

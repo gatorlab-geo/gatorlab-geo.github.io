@@ -6,15 +6,9 @@
     ]
   },
   {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/journal_dashboard/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/ijgi_editor/index.html",
       "/posts/journal_dashboard/index.html",
       "/posts/welcome/index.html"
     ]
@@ -25,6 +19,14 @@
       "/people/levente-juhasz.html",
       "/people/students/template.html",
       "/people/students/corcino.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/ijgi_editor/index.html",
+      "/posts/journal_dashboard/index.html",
+      "/posts/welcome/index.html"
     ]
   }
 ]

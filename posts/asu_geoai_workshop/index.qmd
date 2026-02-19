@@ -1,0 +1,32 @@
+---
+title: "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop"
+description: "Reflections on the high-profile gathering of specialists at Arizona State University to discuss the future of Geospatial AI."
+author: "Levente Juhasz"
+date: "2026-02-19"
+categories: [event]
+image: "/files/images/asu_sparc_logo.jpg"
+---
+
+## Collaborative Momentum in Tempe, AZ
+
+Earlier this month, I had the privilege of participating in the [**Critical Challenges of Geospatial Artificial Intelligence (GeoAI)**](https://sparc.asu.edu/workshops) workshop hosted by the [Spatial Analysis Research Center (SPARC)](https://sparc.asu.edu) at **Arizona State University**. Organized by Prof. Wenwen Li and the SPARC team, the specialist meeting brought together leading scholars from over 20 institutions and government agencies, including NASA and the USGS. 
+
+The timing was ideal as we continue to build out the core infrastructure and culture of the **GATOR Lab** here at the University of Florida.
+
+## Bridging Theory and Application
+
+The workshop featured inspiring keynotes from Michael Goodchild (UCSB), Shashi Shekar (UMN), May Yuan (UT Dallas) and Rahul Ramachandran (NASA), followed by lightning talks focused on computational infrastructure, scientific discovery, and the integration of social science within GeoAI. During the session I presented my position paper (available [here](https://doi.org/10.5281/zenodo.18471033)) titled:
+
+> **"Discrete Global Grid Systems as a Framework for Geometrically Rigorous and Spatially Explicit GeoAI: A Research Agenda"**.
+
+![Levente presenting at the workshop](/files/images/sparc_geoai_levente.JPG "Levente presenting at the workshop.")
+
+Much of the discussions over the two days emphasized the need for sharper integration between machine learning and spatial cognition, as well as the importance of community building to address both short- and long-term forecasting challenges.
+
+## Next Steps: Defining the Future of GeoAI
+
+The energy from the meeting is already being channeled into a major **perspective paper on the future of GeoAI**. We are working to synthesize the collective insights from our discussions into a formal research agend. It was inspiring to see such a strong sense of shared identity emerging from this community.
+
+![Group photo](/files/images/sparc_geoai_group.JPG "Leading US-based GeoAI scholars..")
+
+A big thank you to Wenwen Li, Dylan Connor, Patricia Solis, Heather Baier, Daoqin Tong, Drew Trgovac, Peter Rogerson et al. the entire organizing committee for such a seamless and inspiring forum. I look forward to contributing to the perspective paper and shape the future of GeoAI together.

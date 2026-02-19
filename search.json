@@ -168,18 +168,46 @@
     "text": "Safeguarding Scientific Integrity\nAs an advocate for open science and reproducibility, I am committed to fostering open scientific exchange while maintaining high-quality research standards. My focus will be on ensuring that research is sound and validated, which is essential for reducing research waste and accelerating progress in geospatial analytics. I look forward to working with the editorial team to safeguard the integrity of the scholarly record in our field."
   },
   {
-    "objectID": "projects/sample-project/index.html#abstract",
-    "href": "projects/sample-project/index.html#abstract",
-    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
-    "section": "Abstract",
-    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
+    "objectID": "posts/asu_geoai_workshop/index.html",
+    "href": "posts/asu_geoai_workshop/index.html",
+    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
+    "section": "",
+    "text": "Earlier this month, I had the privilege of participating in the Critical Challenges of Geospatial Artificial Intelligence (GeoAI) workshop hosted by the Spatial Analysis Research Center (SPARC) at Arizona State University. Organized by Prof. Wenwen Li and the SPARC team, the specialist meeting brought together leading scholars from over 20 institutions and government agencies, including NASA and the USGS.\nThe timing was ideal as we continue to build out the core infrastructure and culture of the GATOR Lab here at the University of Florida."
   },
   {
-    "objectID": "projects/sample-project/index.html#funding",
-    "href": "projects/sample-project/index.html#funding",
-    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
-    "section": "Funding",
-    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
+    "objectID": "posts/asu_geoai_workshop/index.html#collaborative-momentum-in-tempe-az",
+    "href": "posts/asu_geoai_workshop/index.html#collaborative-momentum-in-tempe-az",
+    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
+    "section": "",
+    "text": "Earlier this month, I had the privilege of participating in the Critical Challenges of Geospatial Artificial Intelligence (GeoAI) workshop hosted by the Spatial Analysis Research Center (SPARC) at Arizona State University. Organized by Prof. Wenwen Li and the SPARC team, the specialist meeting brought together leading scholars from over 20 institutions and government agencies, including NASA and the USGS.\nThe timing was ideal as we continue to build out the core infrastructure and culture of the GATOR Lab here at the University of Florida."
+  },
+  {
+    "objectID": "posts/asu_geoai_workshop/index.html#bridging-theory-and-application",
+    "href": "posts/asu_geoai_workshop/index.html#bridging-theory-and-application",
+    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
+    "section": "Bridging Theory and Application",
+    "text": "Bridging Theory and Application\nThe workshop featured inspiring keynotes from Michael Goodchild (UCSB), Shashi Shekar (UMN), May Yuan (UT Dallas) and Rahul Ramachandran (NASA), followed by lightning talks focused on computational infrastructure, scientific discovery, and the integration of social science within GeoAI. During the session I presented my position paper (available here) titled:\n\n“Discrete Global Grid Systems as a Framework for Geometrically Rigorous and Spatially Explicit GeoAI: A Research Agenda”.\n\n\n\n\nLevente presenting at the workshop\n\n\nMuch of the discussions over the two days emphasized the need for sharper integration between machine learning and spatial cognition, as well as the importance of community building to address both short- and long-term forecasting challenges."
+  },
+  {
+    "objectID": "posts/asu_geoai_workshop/index.html#next-steps-defining-the-future-of-geoai",
+    "href": "posts/asu_geoai_workshop/index.html#next-steps-defining-the-future-of-geoai",
+    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
+    "section": "Next Steps: Defining the Future of GeoAI",
+    "text": "Next Steps: Defining the Future of GeoAI\nThe energy from the meeting is already being channeled into a major perspective paper on the future of GeoAI. We are working to synthesize the collective insights from our discussions into a formal research agend. It was inspiring to see such a strong sense of shared identity emerging from this community.\n\n\n\nGroup photo\n\n\nA big thank you to Wenwen Li, Dylan Connor, Patricia Solis, Heather Baier, Daoqin Tong, Drew Trgovac, Peter Rogerson et al. the entire organizing committee for such a seamless and inspiring forum. I look forward to contributing to the perspective paper and shape the future of GeoAI together."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "Coming soon…"
   },
   {
     "objectID": "index.html",
@@ -207,21 +235,21 @@
     "href": "index.html#recent-posts",
     "title": "Geospatial Analytics, Technology & Open Research",
     "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nJoining the IJGI Editorial Board\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew dashboard for GIScience journal analysis\n\n\n\nJan 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nDec 31, 2025\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nCritical Challenges in GeoAI: Insights from the 2026 SPARC Workshop\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoining the IJGI Editorial Board\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew dashboard for GIScience journal analysis\n\n\n\nJan 14, 2026\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Coming soon…"
+    "objectID": "projects/sample-project/index.html#abstract",
+    "href": "projects/sample-project/index.html#abstract",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Abstract",
+    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
   },
   {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "Coming soon…"
+    "objectID": "projects/sample-project/index.html#funding",
+    "href": "projects/sample-project/index.html#funding",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Funding",
+    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -326,7 +354,7 @@
     "href": "posts.html",
     "title": "What’s New & Updated",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nJoining the IJGI Editorial Board\n\n\n\nnews\n\neditorial\n\n\n\nDr. Levente Juhász has been appointed to the Editorial Board of the ISPRS International Journal of Geo-Information.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nNew dashboard for GIScience journal analysis\n\n\n\nnews\n\n\n\nThe first resource out of the GATOR Lab is a fun one!\n\n\n\n\n\nJan 14, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nnews\n\n\n\nWe are excited to launch our website.\n\n\n\n\n\nDec 31, 2025\n\n\nLevente Juhasz\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCritical Challenges in GeoAI: Insights from the 2026 SPARC Workshop\n\n\n\nevent\n\n\n\nReflections on the high-profile gathering of specialists at Arizona State University to discuss the future of Geospatial AI.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nJoining the IJGI Editorial Board\n\n\n\nnews\n\neditorial\n\n\n\nDr. Levente Juhász has been appointed to the Editorial Board of the ISPRS International Journal of Geo-Information.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nNew dashboard for GIScience journal analysis\n\n\n\nnews\n\n\n\nThe first resource out of the GATOR Lab is a fun one!\n\n\n\n\n\nJan 14, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nnews\n\n\n\nWe are excited to launch our website.\n\n\n\n\n\nDec 31, 2025\n\n\nLevente Juhasz\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/journals.html",

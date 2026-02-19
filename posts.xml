@@ -19,6 +19,54 @@
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Thu, 19 Feb 2026 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop</title>
+  <dc:creator>Levente Juhasz</dc:creator>
+  <link>https://gatorlab.io/posts/asu_geoai_workshop/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="collaborative-momentum-in-tempe-az" class="level2">
+<h2 class="anchored" data-anchor-id="collaborative-momentum-in-tempe-az">Collaborative Momentum in Tempe, AZ</h2>
+<p>Earlier this month, I had the privilege of participating in the <a href="https://sparc.asu.edu/workshops"><strong>Critical Challenges of Geospatial Artificial Intelligence (GeoAI)</strong></a> workshop hosted by the <a href="https://sparc.asu.edu">Spatial Analysis Research Center (SPARC)</a> at <strong>Arizona State University</strong>. Organized by Prof.&nbsp;Wenwen Li and the SPARC team, the specialist meeting brought together leading scholars from over 20 institutions and government agencies, including NASA and the USGS.</p>
+<p>The timing was ideal as we continue to build out the core infrastructure and culture of the <strong>GATOR Lab</strong> here at the University of Florida.</p>
+</section>
+<section id="bridging-theory-and-application" class="level2">
+<h2 class="anchored" data-anchor-id="bridging-theory-and-application">Bridging Theory and Application</h2>
+<p>The workshop featured inspiring keynotes from Michael Goodchild (UCSB), Shashi Shekar (UMN), May Yuan (UT Dallas) and Rahul Ramachandran (NASA), followed by lightning talks focused on computational infrastructure, scientific discovery, and the integration of social science within GeoAI. During the session I presented my position paper (available <a href="https://doi.org/10.5281/zenodo.18471033">here</a>) titled:</p>
+<blockquote class="blockquote">
+<p><strong>“Discrete Global Grid Systems as a Framework for Geometrically Rigorous and Spatially Explicit GeoAI: A Research Agenda”</strong>.</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/sparc_geoai_levente.JPG" title="Levente presenting at the workshop." class="img-fluid figure-img"></p>
+<figcaption>Levente presenting at the workshop</figcaption>
+</figure>
+</div>
+<p>Much of the discussions over the two days emphasized the need for sharper integration between machine learning and spatial cognition, as well as the importance of community building to address both short- and long-term forecasting challenges.</p>
+</section>
+<section id="next-steps-defining-the-future-of-geoai" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps-defining-the-future-of-geoai">Next Steps: Defining the Future of GeoAI</h2>
+<p>The energy from the meeting is already being channeled into a major <strong>perspective paper on the future of GeoAI</strong>. We are working to synthesize the collective insights from our discussions into a formal research agend. It was inspiring to see such a strong sense of shared identity emerging from this community.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/sparc_geoai_group.JPG" title="Leading US-based GeoAI scholars.." class="img-fluid figure-img"></p>
+<figcaption>Group photo</figcaption>
+</figure>
+</div>
+<p>A big thank you to Wenwen Li, Dylan Connor, Patricia Solis, Heather Baier, Daoqin Tong, Drew Trgovac, Peter Rogerson et al.&nbsp;the entire organizing committee for such a seamless and inspiring forum. I look forward to contributing to the perspective paper and shape the future of GeoAI together.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>event</category>
+  <guid>https://gatorlab.io/posts/asu_geoai_workshop/</guid>
+  <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gatorlab.io/files/images/asu_sparc_logo.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Joining the IJGI Editorial Board</title>
   <dc:creator>Levente Juhasz</dc:creator>
   <link>https://gatorlab.io/posts/ijgi_editor/</link>

@@ -8,6 +8,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/asu_geoai_workshop/index.html",
       "/posts/ijgi_editor/index.html",
       "/posts/journal_dashboard/index.html",
       "/posts/welcome/index.html"
@@ -24,6 +25,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/asu_geoai_workshop/index.html",
       "/posts/ijgi_editor/index.html",
       "/posts/journal_dashboard/index.html",
       "/posts/welcome/index.html"

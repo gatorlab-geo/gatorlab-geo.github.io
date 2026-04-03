@@ -16,8 +16,36 @@
 <height>144</height>
 <width>144</width>
 </image>
-<generator>quarto-1.8.27</generator>
-<lastBuildDate>Thu, 19 Feb 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Fri, 03 Apr 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Top Cited Paper in Transactions in GIS</title>
+  <dc:creator>Levente Juhasz</dc:creator>
+  <link>https://gatorlab.io/posts/tgis_top_cited/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Our paper, <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.13233"><strong>“Correctness Comparison of ChatGPT-4, Gemini, Claude-3, and Copilot for Spatial Tasks”</strong></a>, was recognized by Wiley as one of the top 10 most-cited papers published in <em>Transactions in GIS</em> during 2024.</p>
+<p>This study, a collaboration with <a href="https://flrec.ifas.ufl.edu/faculty/dr-henry-hochmair/">Henry Hochmair</a> from UF Geomatics, assesses the reliability of large language models for geospatial tasks. It establishes foundational baselines for the ongoing research we are building at the <strong>GATOR Lab</strong>.</p>
+<p>Read the paper here: <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.13233">Transactions in GIS</a>. You can also read the preprint version on <a href="https://arxiv.org/abs/2401.02404">arXiv</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/tgis_top_cited_2024.png" class="img-fluid figure-img"></p>
+<figcaption>Transactions in GIS Top Cited Article</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>publication</category>
+  <guid>https://gatorlab.io/posts/tgis_top_cited/</guid>
+  <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gatorlab.io/files/images/tgis_top_cited_2024.png" medium="image" type="image/png" height="91" width="144"/>
+</item>
 <item>
   <title>Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop</title>
   <dc:creator>Levente Juhasz</dc:creator>

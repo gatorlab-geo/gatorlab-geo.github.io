@@ -6,6 +6,7 @@ project:
   resources: 
     - "resources/dashboard/**"
     - "files/**"
+    - "presentations/**"
 
 # Meta
 description-meta: "Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida"

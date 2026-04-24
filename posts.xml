@@ -16,7 +16,7 @@
 <height>144</height>
 <width>144</width>
 </image>
-<generator>quarto-1.9.36</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Fri, 03 Apr 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Top Cited Paper in Transactions in GIS</title>
@@ -45,6 +45,48 @@
   <guid>https://gatorlab.io/posts/tgis_top_cited/</guid>
   <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
   <media:content url="https://gatorlab.io/files/images/tgis_top_cited_2024.png" medium="image" type="image/png" height="91" width="144"/>
+</item>
+<item>
+  <title>Joining the IJGI Editorial Board</title>
+  <dc:creator>Levente Juhasz</dc:creator>
+  <link>https://gatorlab.io/posts/ijgi_editor/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="new-appointment" class="level2">
+<h2 class="anchored" data-anchor-id="new-appointment">New Appointment</h2>
+<p>I am pleased to announce that I have joined the Editorial Board of the <a href="https://www.mdpi.com/journal/ijgi"><strong>ISPRS International Journal of Geo-Information (IJGI)</strong></a>, an open access journal published by MDPI. In this role, I am responsible for manuscript pre-checks, overseeing the peer-review process, and providing final editorial decisions within my field of expertise, which is of course geospatial analytics, spatial data science, GeoAI and fundamental data quality questions, especially user-generated data sources. If you are interested, check out how IJGI performs among other GIScience journals in our <a href="https://gatorlab.io/resources/journals.html">GIScience Journal Assessment Tool</a>.</p>
+</section>
+<section id="a-history-of-collaboration" class="level2">
+<h2 class="anchored" data-anchor-id="a-history-of-collaboration">A History of Collaboration</h2>
+<p>This appointment builds on a long-standing relationship with IJGI. My previous contributions to the journal include:</p>
+<ul>
+<li><a href="https://www.mdpi.com/journal/ijgi/awards/734"><strong>2019 Outstanding Reviewer Award</strong></a>: Recognized for excellence and dedication to the peer-review process.</li>
+<li><strong>April 2020 Cover Story</strong>: My research about Cartographic Vandalism was featured as the <a href="https://www.mdpi.com/2220-9964/9/4">cover story</a> for Volume 9, Issue 4.</li>
+<li><strong>Special Issue Editor</strong>: I have served as a Guest Editor for several collections:
+<ul>
+<li><a href="https://www.mdpi.com/journal/ijgi/special_issues/social_network_analysis">Advances in Social Network Analysis – Spatio-Temporal and Semantic Methods</a></li>
+<li><a href="https://www.mdpi.com/journal/ijgi/special_issues/OpenStreetMap">OpenStreetMap as A Multi-Disciplinary Nexus: Perspectives, Practices and Procedures</a></li>
+<li><a href="https://www.mdpi.com/journal/ijgi/special_issues/AI_geospatial">Advances in AI-Driven Geospatial Analysis and Data Generation</a></li>
+<li><a href="https://www.mdpi.com/journal/ijgi/special_issues/U5667L963I">Advances in AI-Driven Geospatial Analysis and Data Generation (2nd Edition)</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="safeguarding-scientific-integrity" class="level2">
+<h2 class="anchored" data-anchor-id="safeguarding-scientific-integrity">Safeguarding Scientific Integrity</h2>
+<p>As an advocate for open science and reproducibility, I am committed to fostering open scientific exchange while maintaining high-quality research standards. My focus will be on ensuring that research is sound and validated, which is essential for reducing research waste and accelerating progress in geospatial analytics. I look forward to working with the editorial team to safeguard the integrity of the scholarly record in our field.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <category>editorial</category>
+  <guid>https://gatorlab.io/posts/ijgi_editor/</guid>
+  <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gatorlab.io/files/images/ijgi.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop</title>
@@ -93,48 +135,6 @@
   <guid>https://gatorlab.io/posts/asu_geoai_workshop/</guid>
   <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
   <media:content url="https://gatorlab.io/files/images/asu_sparc_logo.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Joining the IJGI Editorial Board</title>
-  <dc:creator>Levente Juhasz</dc:creator>
-  <link>https://gatorlab.io/posts/ijgi_editor/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="new-appointment" class="level2">
-<h2 class="anchored" data-anchor-id="new-appointment">New Appointment</h2>
-<p>I am pleased to announce that I have joined the Editorial Board of the <a href="https://www.mdpi.com/journal/ijgi"><strong>ISPRS International Journal of Geo-Information (IJGI)</strong></a>, an open access journal published by MDPI. In this role, I am responsible for manuscript pre-checks, overseeing the peer-review process, and providing final editorial decisions within my field of expertise, which is of course geospatial analytics, spatial data science, GeoAI and fundamental data quality questions, especially user-generated data sources. If you are interested, check out how IJGI performs among other GIScience journals in our <a href="https://gatorlab.io/resources/journals.html">GIScience Journal Assessment Tool</a>.</p>
-</section>
-<section id="a-history-of-collaboration" class="level2">
-<h2 class="anchored" data-anchor-id="a-history-of-collaboration">A History of Collaboration</h2>
-<p>This appointment builds on a long-standing relationship with IJGI. My previous contributions to the journal include:</p>
-<ul>
-<li><a href="https://www.mdpi.com/journal/ijgi/awards/734"><strong>2019 Outstanding Reviewer Award</strong></a>: Recognized for excellence and dedication to the peer-review process.</li>
-<li><strong>April 2020 Cover Story</strong>: My research about Cartographic Vandalism was featured as the <a href="https://www.mdpi.com/2220-9964/9/4">cover story</a> for Volume 9, Issue 4.</li>
-<li><strong>Special Issue Editor</strong>: I have served as a Guest Editor for several collections:
-<ul>
-<li><a href="https://www.mdpi.com/journal/ijgi/special_issues/social_network_analysis">Advances in Social Network Analysis – Spatio-Temporal and Semantic Methods</a></li>
-<li><a href="https://www.mdpi.com/journal/ijgi/special_issues/OpenStreetMap">OpenStreetMap as A Multi-Disciplinary Nexus: Perspectives, Practices and Procedures</a></li>
-<li><a href="https://www.mdpi.com/journal/ijgi/special_issues/AI_geospatial">Advances in AI-Driven Geospatial Analysis and Data Generation</a></li>
-<li><a href="https://www.mdpi.com/journal/ijgi/special_issues/U5667L963I">Advances in AI-Driven Geospatial Analysis and Data Generation (2nd Edition)</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="safeguarding-scientific-integrity" class="level2">
-<h2 class="anchored" data-anchor-id="safeguarding-scientific-integrity">Safeguarding Scientific Integrity</h2>
-<p>As an advocate for open science and reproducibility, I am committed to fostering open scientific exchange while maintaining high-quality research standards. My focus will be on ensuring that research is sound and validated, which is essential for reducing research waste and accelerating progress in geospatial analytics. I look forward to working with the editorial team to safeguard the integrity of the scholarly record in our field.</p>
-
-
-</section>
-
- ]]></description>
-  <category>news</category>
-  <category>editorial</category>
-  <guid>https://gatorlab.io/posts/ijgi_editor/</guid>
-  <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://gatorlab.io/files/images/ijgi.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>New dashboard for GIScience journal analysis</title>

@@ -1,0 +1,22 @@
+---
+title: "Jorge Corcino"
+subtitle: "Lab Alumni"
+image: "/files/profiles/jorge.jfif"
+started: "2026"
+ended: "2026"
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/
+---
+
+## Biography
+
+Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills.
+
+## Research Interests
+
+Jorge's research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI.
+

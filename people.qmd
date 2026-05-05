@@ -23,10 +23,11 @@ listing:
   - id: alumni
     contents: "alumni.yml" # Keep as YML if they don't need individual pages
     type: table
-    fields: [title, subtitle, started, ended]
+    fields: [title, level, subtitle, started, ended]
     field-display-names: 
       title: "Name"
-      subtitle: "Current Role"
+      level: "Level"
+      subtitle: "Description"
 ---
 <style>{css, echo=FALSE}
 /* This fix stops the "zoomed-in" look and fits the headshot properly */

@@ -1,0 +1,26 @@
+---
+title: "Engaging with the Local Geospatial Community in South Florida"
+description: "A busy April! Speaking at Miami-Dade College's GIS Hour and participating in a high-impact workshop at Florida Atlantic University."
+author: "Levente Juhasz"
+date: "2026-04-26"
+categories: [event]
+image: "/files/images/fau_panel.jpg"
+---
+
+We've had a busy and exciting April engaging with the vibrant local geospatial community here in South Florida.
+
+## GIS Hour at Miami-Dade College
+
+First, on Monday, April 13, I had the pleasure of presenting at the 2026 GIS Hour at Miami-Dade College, an event supported by ASPRS. I spoke about the increasing focus on GeoAI and Geospatial Analytics, and how modern Data Science is becoming more GIS-centered. It was a fantastic opportunity to connect with college students who are eager to explore geospatial careers.
+
+![Presenting at MDC GIS Hour](/files/images/mdc_gis_hour.jpg "Discussing GeoAI and Data Science at Miami-Dade College.")
+
+![Event introduction](/files/images/mdc_gis_hour_intro.jpg "Introduction at the GIS Hour event.")
+
+## Emerging Tech & Policy at Florida Atlantic University
+
+Later in the month, on April 24, I participated in a high-impact workshop hosted by Florida Atlantic University’s Department of Civil, Environmental and Geomatics Engineering (CEGE) at the FAU Jupiter campus. The event, titled *"Industry–Academic Collaboration on Emerging Tech & Policy and the Path to Professional Licensure,"* brought together professionals and academics to discuss the future of the field.
+
+I was honored to join a panel discussion focusing on the role of AI in geospatial contexts, and I also gave a presentation on discrete global grids. You can read more about the workshop and its outcomes [here](https://www.fau.edu/engineering/cege/news/2604-faunceesworkshop/).
+
+![Panel discussion at FAU](/files/images/fau_panel.jpg "Panel discussion on AI in geospatial contexts at FAU.")

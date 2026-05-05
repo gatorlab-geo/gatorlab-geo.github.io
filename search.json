@@ -217,6 +217,27 @@
     "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
   },
   {
+    "objectID": "people/alumni/corcino.html",
+    "href": "people/alumni/corcino.html",
+    "title": "Jorge Corcino",
+    "section": "",
+    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
+  },
+  {
+    "objectID": "people/alumni/corcino.html#biography",
+    "href": "people/alumni/corcino.html#biography",
+    "title": "Jorge Corcino",
+    "section": "",
+    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
+  },
+  {
+    "objectID": "people/alumni/corcino.html#research-interests",
+    "href": "people/alumni/corcino.html#research-interests",
+    "title": "Jorge Corcino",
+    "section": "Research Interests",
+    "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
+  },
+  {
     "objectID": "people/students/template.html",
     "href": "people/students/template.html",
     "title": "Future Student",
@@ -229,27 +250,6 @@
     "title": "Future Student",
     "section": "",
     "text": "We are hiring! Check out what we are looking for in a future PhD student."
-  },
-  {
-    "objectID": "people/students/corcino.html",
-    "href": "people/students/corcino.html",
-    "title": "Jorge Corcino",
-    "section": "",
-    "text": "Jorge is currently a graduate student at Florida International University majoring in Data Science & AI. He is originally from the British Virgin Islands and is currently based in Miami, FL. His backgroud is in Information Systems / Computer Science. While making a pivot towards data science he discovered his passion for geospatial data. At home, he works for the BVI Electricity Corporation, and he expects to utilize his data analytics and GIS skills when he returns."
-  },
-  {
-    "objectID": "people/students/corcino.html#biography",
-    "href": "people/students/corcino.html#biography",
-    "title": "Jorge Corcino",
-    "section": "",
-    "text": "Jorge is currently a graduate student at Florida International University majoring in Data Science & AI. He is originally from the British Virgin Islands and is currently based in Miami, FL. His backgroud is in Information Systems / Computer Science. While making a pivot towards data science he discovered his passion for geospatial data. At home, he works for the BVI Electricity Corporation, and he expects to utilize his data analytics and GIS skills when he returns."
-  },
-  {
-    "objectID": "people/students/corcino.html#research-interests",
-    "href": "people/students/corcino.html#research-interests",
-    "title": "Jorge Corcino",
-    "section": "Research Interests",
-    "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
   },
   {
     "objectID": "people/levente-juhasz.html",
@@ -312,7 +312,14 @@
     "href": "people.html#lab-members",
     "title": "People",
     "section": "Lab Members",
-    "text": "Lab Members\n\n\n\n\n\n\n\n\n\n\nFuture Student\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\nJorge Corcino\n\n\nMS Student (volunteer)\n\n\n\n\n\nNo matching items\n\nOur lab is growing! Check out our open positions."
+    "text": "Lab Members\n\n\n\n\n\n\n\n\n\n\nFuture Student\n\n\nPhD Student\n\n\n\n\n\nNo matching items\n\nOur lab is growing! Check out our open positions."
+  },
+  {
+    "objectID": "people.html#lab-alumni",
+    "href": "people.html#lab-alumni",
+    "title": "People",
+    "section": "Lab Alumni",
+    "text": "Lab Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nLevel\n\n\n\nDescription\n\n\n\nstarted\n\n\n\nended\n\n\n\n\n\n\n\n\nJorge Corcino\n\n\nMS\n\n\nGraduated with MS in Data Science and AI from FIU. Returned to the British Virgin Islands.\n\n\n2026\n\n\n2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts.html",

@@ -17,7 +17,53 @@
 <width>144</width>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Fri, 03 Apr 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Apr 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Engaging with the Local Geospatial Community in South Florida</title>
+  <dc:creator>Levente Juhasz</dc:creator>
+  <link>https://gatorlab.io/posts/local_events_april_2026/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’ve had a busy and exciting April engaging with the vibrant local geospatial community here in South Florida.</p>
+<section id="gis-hour-at-miami-dade-college" class="level2">
+<h2 class="anchored" data-anchor-id="gis-hour-at-miami-dade-college">GIS Hour at Miami-Dade College</h2>
+<p>First, on Monday, April 13, I had the pleasure of presenting at the 2026 GIS Hour at Miami-Dade College, an event supported by ASPRS. I spoke about the increasing focus on GeoAI and Geospatial Analytics, and how modern Data Science is becoming more GIS-centered. It was a fantastic opportunity to connect with college students who are eager to explore geospatial careers.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/mdc_gis_hour.jpg" title="Discussing GeoAI and Data Science at Miami-Dade College." class="img-fluid figure-img"></p>
+<figcaption>Presenting at MDC GIS Hour</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/mdc_gis_hour_intro.jpg" title="Introduction at the GIS Hour event." class="img-fluid figure-img"></p>
+<figcaption>Event introduction</figcaption>
+</figure>
+</div>
+</section>
+<section id="emerging-tech-policy-at-florida-atlantic-university" class="level2">
+<h2 class="anchored" data-anchor-id="emerging-tech-policy-at-florida-atlantic-university">Emerging Tech &amp; Policy at Florida Atlantic University</h2>
+<p>Later in the month, on April 24, I participated in a high-impact workshop hosted by Florida Atlantic University’s Department of Civil, Environmental and Geomatics Engineering (CEGE) at the FAU Jupiter campus. The event, titled <em>“Industry–Academic Collaboration on Emerging Tech &amp; Policy and the Path to Professional Licensure,”</em> brought together professionals and academics to discuss the future of the field.</p>
+<p>I was honored to join a panel discussion focusing on the role of AI in geospatial contexts, and I also gave a presentation on discrete global grids. You can read more about the workshop and its outcomes <a href="https://www.fau.edu/engineering/cege/news/2604-faunceesworkshop/">here</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/fau_panel.jpg" title="Panel discussion on AI in geospatial contexts at FAU." class="img-fluid figure-img"></p>
+<figcaption>Panel discussion at FAU</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>event</category>
+  <guid>https://gatorlab.io/posts/local_events_april_2026/</guid>
+  <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gatorlab.io/files/images/fau_panel.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Top Cited Paper in Transactions in GIS</title>
   <dc:creator>Levente Juhasz</dc:creator>

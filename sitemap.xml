@@ -2,82 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gatorlab.io/publications.html</loc>
-    <lastmod>2026-05-05T14:42:31.835Z</lastmod>
+    <lastmod>2026-05-05T15:40:27.876Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/index.html</loc>
-    <lastmod>2026-05-05T14:42:31.758Z</lastmod>
+    <lastmod>2026-05-05T15:40:27.800Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/posts/ijgi_editor/index.html</loc>
-    <lastmod>2026-05-05T14:42:31.760Z</lastmod>
+    <lastmod>2026-05-05T15:40:27.802Z</lastmod>
   </url>
   <url>
-    <loc>https://gatorlab.io/posts/journal_dashboard/index.html</loc>
-    <lastmod>2026-05-05T14:42:31.760Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/teaching.html</loc>
-    <lastmod>2026-05-05T14:42:32.076Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/posts.html</loc>
-    <lastmod>2026-05-05T14:42:31.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people.html</loc>
-    <lastmod>2026-05-05T14:42:31.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/resources/journals.html</loc>
-    <lastmod>2026-05-05T14:42:32.075Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people/levente-juhasz.html</loc>
-    <lastmod>2026-05-05T14:42:31.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people/students/corcino.html</loc>
-    <lastmod>2026-05-05T14:42:31.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people/students/template.html</loc>
-    <lastmod>2026-05-05T14:42:31.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/resources/data.html</loc>
-    <lastmod>2026-05-05T14:42:32.075Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/projects/sample-project/index.html</loc>
-    <lastmod>2026-05-05T14:42:31.835Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/join.html</loc>
-    <lastmod>2026-05-05T14:42:31.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/research.html</loc>
-    <lastmod>2026-05-05T14:42:31.835Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/projects.html</loc>
-    <lastmod>2026-05-05T14:42:31.834Z</lastmod>
+    <loc>https://gatorlab.io/posts/local_events_april_2026/index.html</loc>
+    <lastmod>2026-05-05T15:40:27.802Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/posts/welcome/index.html</loc>
-    <lastmod>2026-05-05T14:42:31.760Z</lastmod>
+    <lastmod>2026-05-05T15:40:27.802Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/projects.html</loc>
+    <lastmod>2026-05-05T15:40:27.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/research.html</loc>
+    <lastmod>2026-05-05T15:40:27.876Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/join.html</loc>
+    <lastmod>2026-05-05T15:40:27.800Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/projects/sample-project/index.html</loc>
+    <lastmod>2026-05-05T15:40:27.876Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/resources/data.html</loc>
+    <lastmod>2026-05-05T15:40:28.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/people/students/template.html</loc>
+    <lastmod>2026-05-05T15:40:27.802Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/people/students/corcino.html</loc>
+    <lastmod>2026-05-05T15:40:27.801Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/people/levente-juhasz.html</loc>
+    <lastmod>2026-05-05T15:40:27.800Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/resources/journals.html</loc>
+    <lastmod>2026-05-05T15:40:28.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/people.html</loc>
+    <lastmod>2026-05-05T15:40:27.800Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts.html</loc>
+    <lastmod>2026-05-05T15:40:27.802Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/teaching.html</loc>
+    <lastmod>2026-05-05T15:40:28.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/journal_dashboard/index.html</loc>
+    <lastmod>2026-05-05T15:40:27.802Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/posts/tgis_top_cited/index.html</loc>
-    <lastmod>2026-05-05T14:42:31.760Z</lastmod>
+    <lastmod>2026-05-05T15:40:27.802Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/posts/asu_geoai_workshop/index.html</loc>
-    <lastmod>2026-05-05T14:42:31.760Z</lastmod>
+    <lastmod>2026-05-05T15:40:27.802Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/contact.html</loc>
-    <lastmod>2026-05-05T14:42:31.735Z</lastmod>
+    <lastmod>2026-05-05T15:40:27.775Z</lastmod>
   </url>
 </urlset>

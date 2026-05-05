@@ -21,6 +21,9 @@ listing:
     image-height: 200px
 
   - id: alumni
+    # WORKFLOW FOR ALUMNI:
+    # 1. Move their profile from people/students/ to people/alumni/ (e.g., git mv)
+    # 2. Add their info to alumni.yml (use path: "people/alumni/name.qmd" to link their page)
     contents: "alumni.yml" # Keep as YML if they don't need individual pages
     type: table
     fields: [title, level, subtitle, started, ended]

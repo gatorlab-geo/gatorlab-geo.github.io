@@ -46,10 +46,6 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 
 :::{#hero-heading}
 
-::: {.callout-note appearance="simple" icon=false}
-# [💼🧑‍🎓 We are looking for 2 PhD Students to join our team in Fall 2026!](join.qmd)
-:::
-
 Welcome to the **G**eospatial **A**nalytics, **T**echnology and **O**pen **R**esearch (GATOR) Lab at the [University of Florida](https://ufl.edu). We are part of the [Geomatics Program](https://ffgs.ifas.ufl.edu/about/geomatics/) in the [School of Forest, Fisheries and Geomatics Sciences](https://sffgs.ifas.ufl.edu) at [UF/IFAS](https://ifas.ufl.edu).
 
 We are located at the [Fort Lauderdale Research and Education Center](https://flrec.ifas.ufl.edu) within the Miami metropolitan area.

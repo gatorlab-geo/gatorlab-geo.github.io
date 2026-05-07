@@ -1,0 +1,20 @@
+---
+title: "Levente Juhász receives 2026 IJGI Young Investigator Award"
+date: "2026-05-07"
+description: "Institutional and journal recognition for research in GeoAI and GIScience."
+categories: [news, awards]
+image: "/files/images/juhasz_ijgi_award.jpg"
+---
+
+I am honored to be named the winner of the **2026 Young Investigator Award** by the ISPRS *International Journal of Geo-Information (IJGI)*. This award recognizes contributions to Geographic Information Science, specifically regarding spatial data quality, OpenStreetMap, and the development of geometrically rigorous GeoAI.
+
+![IJGI Young Investigator Award 2026 Banner](/files/images/juhasz_ijgi_award.jpg "IJGI Young Investigator Award 2026 Banner")
+
+This recognition coincides with the ongoing mission of the GATOR Lab to advance scalable geospatial technologies and reliable agentic AI workflows. We look forward to continuing this research as we onboard our Fall 2026 graduate cohort.
+
+## Media and Resources
+
+![Interview with Dr. Levente Juhász](/files/images/ijgi_interview_juhasz.jpg "Interview with Dr. Levente Juhász")
+
+* **Official News Release**: [Researcher’s pioneering work in AI and mapping earns international Young Investigator Award](https://blogs.ifas.ufl.edu/news/2026/05/07/researchers-pioneering-work-in-ai-and-mapping-earns-international-young-investigator-award/) (UF/IFAS News)
+* **In-depth Interview**: [Interview with Dr. Levente Juhász (MDPI)](https://www.mdpi.com/journal/ijgi/announcements/16330) — Discussion on the future of generative AI in geospatial contexts and advice for early-career researchers.

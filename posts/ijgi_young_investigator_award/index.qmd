@@ -1,6 +1,7 @@
 ---
 title: "Levente Juhász receives 2026 IJGI Young Investigator Award"
 date: "2026-05-07"
+author: Levente Juhasz
 description: "Institutional and journal recognition for research in GeoAI and GIScience."
 categories: [news, awards]
 image: "/files/images/juhasz_ijgi_award.jpg"
@@ -14,7 +15,7 @@ This recognition coincides with the ongoing mission of the GATOR Lab to advance 
 
 ## Media and Resources
 
-![Interview with Dr. Levente Juhász](/files/images/ijgi_interview_juhasz.jpg "Interview with Dr. Levente Juhász")
+![IJGI posted an in-depth interview with Dr. Levente Juhász](/files/images/ijgi_interview_juhasz.jpg "Interview with Dr. Levente Juhász")
 
 * **Official News Release**: [Researcher’s pioneering work in AI and mapping earns international Young Investigator Award](https://blogs.ifas.ufl.edu/news/2026/05/07/researchers-pioneering-work-in-ai-and-mapping-earns-international-young-investigator-award/) (UF/IFAS News)
 * **In-depth Interview**: [Interview with Dr. Levente Juhász (MDPI)](https://www.mdpi.com/journal/ijgi/announcements/16330) — Discussion on the future of generative AI in geospatial contexts and advice for early-career researchers.

@@ -1,24 +1,12 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/ijgi_young_investigator_award/index.html",
-      "/posts/local_events_april_2026/index.html",
-      "/posts/tgis_top_cited/index.html",
-      "/posts/asu_geoai_workshop/index.html",
-      "/posts/ijgi_editor/index.html",
-      "/posts/journal_dashboard/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/posts.html",
     "items": [
       "/posts/ijgi_young_investigator_award/index.html",
       "/posts/local_events_april_2026/index.html",
       "/posts/tgis_top_cited/index.html",
-      "/posts/ijgi_editor/index.html",
       "/posts/asu_geoai_workshop/index.html",
+      "/posts/ijgi_editor/index.html",
       "/posts/journal_dashboard/index.html",
       "/posts/welcome/index.html"
     ]
@@ -29,6 +17,18 @@
       "/people/levente-juhasz.html",
       "/people/students/template.html",
       "/people/alumni/corcino.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/ijgi_young_investigator_award/index.html",
+      "/posts/local_events_april_2026/index.html",
+      "/posts/tgis_top_cited/index.html",
+      "/posts/asu_geoai_workshop/index.html",
+      "/posts/ijgi_editor/index.html",
+      "/posts/journal_dashboard/index.html",
+      "/posts/welcome/index.html"
     ]
   },
   {

@@ -1,0 +1,226 @@
+---
+pagetitle: "Door Status Control"
+search: false
+listing: false
+robots: noindex, nofollow
+---
+
+```{=html}
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; }
+
+  .status-panel {
+    max-width: 480px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #1a1a2e;
+    border-radius: 16px;
+    color: #eee;
+  }
+
+  .status-panel h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.4rem;
+    color: #fff;
+  }
+
+  .status-panel p.subtitle {
+    margin: 0 0 1.5rem 0;
+    font-size: 0.85rem;
+    color: #888;
+  }
+
+  .btn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .btn-grid button {
+    padding: 16px 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .btn-grid button:active { transform: scale(0.96); }
+  .btn-grid button.active { border-color: #fff; box-shadow: 0 0 12px rgba(255,255,255,0.2); }
+
+  .btn-available { background: #2d6a4f; color: #fff; }
+  .btn-available:hover { background: #40916c; }
+  .btn-teaching  { background: #9d4edd; color: #fff; }
+  .btn-teaching:hover { background: #b07ae8; }
+  .btn-meeting   { background: #e76f51; color: #fff; }
+  .btn-meeting:hover { background: #f4845f; }
+  .btn-busy      { background: #c1121f; color: #fff; }
+  .btn-busy:hover { background: #d63c3c; }
+  .btn-away      { background: #555; color: #fff; }
+  .btn-away:hover { background: #777; }
+
+  .status-msg {
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    text-align: center;
+    min-height: 1.2em;
+  }
+  .status-msg.ok   { background: #2d6a4f33; color: #52b788; }
+  .status-msg.err  { background: #c1121f33; color: #f4845f; }
+  .status-msg.load { background: #ffffff11; color: #aaa; }
+
+  .setup-section {
+    max-width: 480px;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    background: #16213e;
+    border-radius: 12px;
+    color: #ccc;
+    font-size: 0.8rem;
+  }
+  .setup-section summary { cursor: pointer; color: #aaa; }
+  .setup-section input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background: #0f1626;
+    color: #eee;
+    font-family: monospace;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+  }
+  .setup-section button {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #2d6a4f;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+
+  .current-label {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 1rem;
+  }
+  .current-label span {
+    color: #52b788;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+</style>
+
+<div class="status-panel">
+  <h2>🚪 Door Display</h2>
+  <p class="subtitle">Updates your office e-ink display within 2 minutes</p>
+
+  <div class="current-label">Current: <span id="currentStatus">checking...</span></div>
+
+  <div class="btn-grid">
+    <button class="btn-available" onclick="setStatus('available')">✓ Available</button>
+    <button class="btn-teaching"  onclick="setStatus('teaching')">✕ Teaching</button>
+    <button class="btn-meeting"   onclick="setStatus('meeting')">✕ In a Meeting</button>
+    <button class="btn-busy"      onclick="setStatus('busy')">✕ Do Not Disturb</button>
+    <button class="btn-away"      onclick="setStatus('away')">— Away</button>
+  </div>
+
+  <div id="statusMsg" class="status-msg"></div>
+</div>
+
+<div class="setup-section">
+  <details>
+    <summary>⚙ Setup (first time only)</summary>
+    <p>Create a <a href="https://github.com/settings/tokens/new?scopes=gist&description=Door+Display" target="_blank" style="color:#52b788">GitHub token</a> with <code>gist</code> scope, paste it below. It's stored only in your browser.</p>
+    <input type="password" id="tokenInput" placeholder="ghp_xxxxxxxxxxxx">
+    <button onclick="saveToken()">Save token</button>
+  </details>
+</div>
+
+<script>
+const GIST_ID = 'b692a660de04a35fee9018ea6bf4d15e';
+const FILENAME = 'status.txt';
+const RAW_URL = `https://gist.githubusercontent.com/jlevente/${GIST_ID}/raw/${FILENAME}`;
+
+function getToken() {
+  return localStorage.getItem('door_gist_token') || '';
+}
+
+function saveToken() {
+  const t = document.getElementById('tokenInput').value.trim();
+  if (t) {
+    localStorage.setItem('door_gist_token', t);
+    showMsg('Token saved ✓', 'ok');
+    document.querySelector('details').open = false;
+  }
+}
+
+function showMsg(msg, type) {
+  const el = document.getElementById('statusMsg');
+  el.textContent = msg;
+  el.className = 'status-msg ' + type;
+  if (type === 'ok') setTimeout(() => { el.textContent = ''; el.className = 'status-msg'; }, 3000);
+}
+
+function highlightActive(status) {
+  document.querySelectorAll('.btn-grid button').forEach(b => b.classList.remove('active'));
+  const map = { available: 0, teaching: 1, meeting: 2, busy: 3, away: 4 };
+  const idx = map[status];
+  if (idx !== undefined) {
+    document.querySelectorAll('.btn-grid button')[idx].classList.add('active');
+  }
+  document.getElementById('currentStatus').textContent = status || '—';
+}
+
+async function fetchCurrent() {
+  try {
+    const r = await fetch(RAW_URL + '?t=' + Date.now());
+    const s = (await r.text()).trim().toLowerCase();
+    highlightActive(s);
+  } catch(e) {
+    document.getElementById('currentStatus').textContent = 'error';
+  }
+}
+
+async function setStatus(status) {
+  const token = getToken();
+  if (!token) {
+    showMsg('Set up your GitHub token first ↓', 'err');
+    document.querySelector('details').open = true;
+    return;
+  }
+
+  showMsg('Updating...', 'load');
+
+  try {
+    const r = await fetch(`https://api.github.com/gists/${GIST_ID}`, {
+      method: 'PATCH',
+      headers: {
+        'Authorization': `token ${token}`,
+        'Accept': 'application/vnd.github+json'
+      },
+      body: JSON.stringify({ files: { [FILENAME]: { content: status + '\n' } } })
+    });
+
+    if (r.ok) {
+      highlightActive(status);
+      showMsg(`Set to "${status}" ✓ — display updates within 2 min`, 'ok');
+    } else {
+      const d = await r.json();
+      showMsg('Error: ' + (d.message || r.status), 'err');
+    }
+  } catch(e) {
+    showMsg('Network error: ' + e.message, 'err');
+  }
+}
+
+// Check current status on load
+fetchCurrent();
+</script>
+```

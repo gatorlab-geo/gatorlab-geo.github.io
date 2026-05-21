@@ -1,0 +1,20 @@
+name: Reset door status
+
+# Midnight EDT (4:00 UTC) every weekday
+on:
+  schedule:
+    - cron: '0 4 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set gist to "busy"
+        run: |
+          curl -s -X PATCH \
+            -H "Authorization: token ${{ secrets.GIST_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/gists/b692a660de04a35fee9018ea6bf4d15e" \
+            -d '{"files":{"status.txt":{"content":"busy\n"}}}'
+          echo "Done"

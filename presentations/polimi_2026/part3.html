@@ -1,0 +1,137 @@
+<!-- PART III DIVIDER -->
+
+<section data-background-color="#0f172a" data-transition="fade">
+    <div style="text-align: left; padding: 20px;">
+        <p style="font-size: 0.6em; color: #475569; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;">Part II</p>
+        <h2 style="color: #f8fafc; font-size: 2.2em; line-height: 1.1; margin-bottom: 20px;">The Data Pillar:<br><span style="color: #34d399;">Discrete Global Grid Systems</span></h2>
+    </div>
+</section>
+<!-- 10.5 DGGS PREPRINT -->
+<section data-transition="slide">
+    <div class="two-col" style="align-items: center; gap: 30px;">
+        <div>
+            <img src="./assets/media__1779830587373.png" style="width: 100%; max-height: 500px; border: 1px solid var(--border);">
+        </div>
+        <div style="text-align: left;">
+            <p style="font-size: 0.55em; color: var(--muted); font-weight: 700; text-transform: uppercase;">Under Review (ACM TSAS)</p>
+            <h2 style="font-size: 1.2em; line-height: 1.2; margin-bottom: 14px;">How Do Discrete Global Grid Systems Actually Perform? A Systematic Benchmark Across Geometry, Computation and Relational Joins</h2>
+            <p style="font-size: 0.65em; color: var(--muted);"><strong style="color: #0f172a;">Levente Juhász</strong></p>
+            <p style="font-size: 0.62em; color: var(--blue);">eartharxiv.org/repository/view/12855/</p>
+            <p style="font-size: 0.62em; margin-top: 15px;">Today: introducing <strong>dggs-bench</strong> and evaluating 6 grids across 4 experiment families.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 11. PLANAR FALLACY -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">The Planar Fallacy in Global GeoAI</h2>
+    <p style="font-size: 0.7em; margin-bottom: 16px;">Tying AI architectures to flat 2D representations introduces critical geographic biases.</p>
+    
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div style="text-align: left;">
+            <div class="card red" style="padding: 14px; margin-bottom: 12px; border-top: 3px solid var(--red);">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--red); margin-bottom: 4px;">📐 Spatial Sampling Bias</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Every flat map distorts the sphere. Planar grids drastically oversample polar regions while undersampling the equator, feeding biased training data to the model.</p>
+            </div>
+            <div class="card red" style="padding: 14px; border-top: 3px solid var(--red);">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--red); margin-bottom: 4px;">🌐 Fallacy of Planar Adjacency</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Flat representations force hard boundaries (e.g., &plusmn;180&deg; longitude). Models must learn artificial "wraparound" corrections for a problem that simply doesn't exist on a sphere.</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 10px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            <img src="./assets/planar_fallacy_paper.png" style="width: 100%; border-radius: 4px; margin: 0; border: 1px solid var(--border);">
+        </div>
+    </div>
+</section>
+
+<!-- 12. EMPIRICAL EVIDENCE -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Empirical Evidence: The DGGS Advantage</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">Emerging literature demonstrates significant improvements in global GeoAI modeling.</p>
+    
+    <div class="two-col" style="align-items: stretch; gap: 16px;">
+        <div class="card" style="padding: 16px; text-align: left; display: flex; flex-direction: column;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #0f172a; margin-bottom: 6px;">1. Statistical GeoAI (Random Forests)</p>
+            <div style="background: #f8fafc; padding: 10px; border-radius: 6px; margin-bottom: 14px; border-left: 3px solid #94a3b8;">
+                <p style="font-size: 0.52em; font-weight: 700; color: #1e293b; margin-bottom: 4px; line-height: 1.3;">Drivers of global irrigation expansion: the role of discrete global grid choice</p>
+                <p style="font-size: 0.45em; color: var(--muted); margin: 0; line-height: 1.3;">Wagner, S., Stenzel, F., Krueger, T., &amp; de Wiljes, J. (2024). <em>Hydrology and Earth System Sciences (HESS)</em>.</p>
+            </div>
+            <ul style="font-size: 0.55em; line-height: 1.45; margin: 0; padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>28% reduction</strong> in global NRMSE (irrigation modeling) using an ISEA3H geodesic grid compared to a 0.5&deg; grid.</li>
+                <li><strong>Unbiased sampling:</strong> Eliminates high-latitude oversampling, yielding simulated spatial patterns that match observed data perfectly.</li>
+            </ul>
+        </div>
+        <div class="card" style="padding: 16px; text-align: left; display: flex; flex-direction: column;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #0f172a; margin-bottom: 6px;">2. Deep Learning (HexCNNs)</p>
+            <div style="background: #f8fafc; padding: 10px; border-radius: 6px; margin-bottom: 14px; border-left: 3px solid #94a3b8;">
+                <p style="font-size: 0.52em; font-weight: 700; color: #1e293b; margin-bottom: 4px; line-height: 1.3;">Hexagonal discrete global grid system enhances model latitudinal spatial generalization and deep learning capabilities</p>
+                <p style="font-size: 0.45em; color: var(--muted); margin: 0; line-height: 1.3;">Li, K., &amp; Wang, J. (2026). <em>Big Earth Data</em>.</p>
+            </div>
+            <ul style="font-size: 0.55em; line-height: 1.45; margin: 0; padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>Up to 14.1% error reduction</strong> at the poles (80&deg;–90&deg;) for surface parameter inversion.</li>
+                <li><strong>Topology advantage:</strong> Native HexCNN kernel requires only 7 parameters (vs 9 in standard 3&times;3 CNNs) while significantly mitigating cross-latitudinal overfitting.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- 13. BASE SOLIDS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">From Platonic Solids to the Sphere</h2>
+    <p style="font-size: 0.68em; margin-bottom: 10px;">The choice of base solid determines the core design trade-off.</p>
+    <img src="./assets/3D_base_solids.png" style="width: 92%; max-height: 420px; object-fit: contain;">
+    <div class="citation">Icosahedra minimize distortion. Cubes maximize computational regularity. HEALPix maximizes equal-area.</div>
+</section>
+
+<!-- 14. 6 GRIDS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 6px;">Six DGGS Implementations</h2>
+    <p style="font-size: 0.65em; margin-bottom: 8px;">We benchmarked 6 grids across 4 experiment families.</p>
+    <img src="./assets/fig_grid_fragmentation.png" style="width: 90%; max-height: 450px; object-fit: contain;">
+</section>
+
+<!-- 14.5 GEOMETRIC DISTORTION -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Benchmarking Geometric Distortion</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">Comparing areal and angular preservation across the 6 implementations.</p>
+    
+    <div class="two-col" style="gap: 16px; align-items: stretch;">
+        <div class="card" style="padding: 10px; text-align: center; display: flex; flex-direction: column;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #0f172a; margin-bottom: 8px;">Global Area Ratio (Areal)</p>
+            <img src="./assets/areal_distortion.png" style="width: 100%; object-fit: contain; flex-grow: 1; border-radius: 4px;">
+        </div>
+        <div class="card" style="padding: 10px; text-align: center; display: flex; flex-direction: column;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #0f172a; margin-bottom: 8px;">Angular Deviation (Isotropy)</p>
+            <img src="./assets/angular_distortion.png" style="width: 100%; object-fit: contain; flex-grow: 1; border-radius: 4px;">
+        </div>
+    </div>
+</section>
+
+<!-- 15. THROUGHPUT & ENCODING TAX -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Relational Throughput &amp; The Encoding Tax</h2>
+    <p style="font-size: 0.65em; margin-bottom: 10px;">Join-by-index provides massive speedups, but calculating coverings incurs an initial cost.</p>
+    
+    <div class="two-col" style="gap: 16px; align-items: center;">
+        <div style="text-align: left;">
+            <div class="card green" style="padding: 14px; margin-bottom: 12px; border-top: 3px solid var(--green);">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--green); margin-bottom: 4px;">⚡ Join Speedup</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Pre-computed DGGS joins achieve massive speedups over traditional vector <code>ST_Intersects</code> (e.g., S2 achieves up to <strong>325&times; speedup</strong>).</p>
+            </div>
+            <div class="card amber" style="padding: 14px; border-top: 3px solid #d97706;">
+                <p style="font-size: 0.65em; font-weight: 800; color: #d97706; margin-bottom: 4px;">⏳ The Encoding Tax</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Extracting, Transforming, and Loading (ETL) raw vector data into DGGS coverings is highly intensive. It currently represents the primary computational bottleneck for DGGS pipelines.</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 10px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            <div style="text-align: center; width: 100%;">
+                <img src="./assets/throughput_geohash.png" style="width: 100%; border-radius: 6px; margin: 0;">
+                <p style="font-size: 0.45em; color: var(--muted); margin-top: 6px; margin-bottom: 0;">Execution time on log scale (includes Geohash)</p>
+            </div>
+        </div>
+    </div>
+    <div class="citation" style="margin-top: 15px;">Juhász, L., et al. (2025). A Comparative Benchmark of Discrete Global Grid Systems for Geospatial AI.</div>
+</section>
+

@@ -1,5 +1,145 @@
 [
   {
+    "objectID": "projects/sample-project/index.html#abstract",
+    "href": "projects/sample-project/index.html#abstract",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Abstract",
+    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
+  },
+  {
+    "objectID": "projects/sample-project/index.html#funding",
+    "href": "projects/sample-project/index.html#funding",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Funding",
+    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
+  },
+  {
+    "objectID": "people/alumni/corcino.html",
+    "href": "people/alumni/corcino.html",
+    "title": "Jorge Corcino",
+    "section": "",
+    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
+  },
+  {
+    "objectID": "people/alumni/corcino.html#biography",
+    "href": "people/alumni/corcino.html#biography",
+    "title": "Jorge Corcino",
+    "section": "",
+    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
+  },
+  {
+    "objectID": "people/alumni/corcino.html#research-interests",
+    "href": "people/alumni/corcino.html#research-interests",
+    "title": "Jorge Corcino",
+    "section": "Research Interests",
+    "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
+  },
+  {
+    "objectID": "posts/asu_geoai_workshop/index.html",
+    "href": "posts/asu_geoai_workshop/index.html",
+    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
+    "section": "",
+    "text": "Earlier this month, I had the privilege of participating in the Critical Challenges of Geospatial Artificial Intelligence (GeoAI) workshop hosted by the Spatial Analysis Research Center (SPARC) at Arizona State University. Organized by Prof. Wenwen Li and the SPARC team, the specialist meeting brought together leading scholars from over 20 institutions and government agencies, including NASA and the USGS.\nThe timing was ideal as we continue to build out the core infrastructure and culture of the GATOR Lab here at the University of Florida."
+  },
+  {
+    "objectID": "posts/asu_geoai_workshop/index.html#collaborative-momentum-in-tempe-az",
+    "href": "posts/asu_geoai_workshop/index.html#collaborative-momentum-in-tempe-az",
+    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
+    "section": "",
+    "text": "Earlier this month, I had the privilege of participating in the Critical Challenges of Geospatial Artificial Intelligence (GeoAI) workshop hosted by the Spatial Analysis Research Center (SPARC) at Arizona State University. Organized by Prof. Wenwen Li and the SPARC team, the specialist meeting brought together leading scholars from over 20 institutions and government agencies, including NASA and the USGS.\nThe timing was ideal as we continue to build out the core infrastructure and culture of the GATOR Lab here at the University of Florida."
+  },
+  {
+    "objectID": "posts/asu_geoai_workshop/index.html#bridging-theory-and-application",
+    "href": "posts/asu_geoai_workshop/index.html#bridging-theory-and-application",
+    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
+    "section": "Bridging Theory and Application",
+    "text": "Bridging Theory and Application\nThe workshop featured inspiring keynotes from Michael Goodchild (UCSB), Shashi Shekar (UMN), May Yuan (UT Dallas) and Rahul Ramachandran (NASA), followed by lightning talks focused on computational infrastructure, scientific discovery, and the integration of social science within GeoAI. During the session I presented my position paper (available here) titled:\n\n“Discrete Global Grid Systems as a Framework for Geometrically Rigorous and Spatially Explicit GeoAI: A Research Agenda”.\n\n\n\n\nLevente presenting at the workshop\n\n\nMuch of the discussions over the two days emphasized the need for sharper integration between machine learning and spatial cognition, as well as the importance of community building to address both short- and long-term forecasting challenges."
+  },
+  {
+    "objectID": "posts/asu_geoai_workshop/index.html#next-steps-defining-the-future-of-geoai",
+    "href": "posts/asu_geoai_workshop/index.html#next-steps-defining-the-future-of-geoai",
+    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
+    "section": "Next Steps: Defining the Future of GeoAI",
+    "text": "Next Steps: Defining the Future of GeoAI\nThe energy from the meeting is already being channeled into a major perspective paper on the future of GeoAI. We are working to synthesize the collective insights from our discussions into a formal research agend. It was inspiring to see such a strong sense of shared identity emerging from this community.\n\n\n\nGroup photo\n\n\nA big thank you to Wenwen Li, Dylan Connor, Patricia Solis, Heather Baier, Daoqin Tong, Drew Trgovac, Peter Rogerson et al. the entire organizing committee for such a seamless and inspiring forum. I look forward to contributing to the perspective paper and shape the future of GeoAI together."
+  },
+  {
+    "objectID": "posts/journal_dashboard/index.html",
+    "href": "posts/journal_dashboard/index.html",
+    "title": "New dashboard for GIScience journal analysis",
+    "section": "",
+    "text": "Building on the 2024 publication, “Assessing publication trends in selected GIScience journals” in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.\nThe dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).\n\n\n\nInternational collaboration network in GIScience research\n\n\n\n\nSelecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:\n\nMeta Rankings: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.\nOpen Access Trends: Monitor the shift towards OA\nCollaboration Networks: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.\nCost vs. Impact: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.\n\n\n\n\nIn the spirit of open principles, the dashboard is built using Shinylive. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard is a reimplementation and expansion of the 2024 IJGIS article and it was built by Jorge Corcino. Stay tuned as we are releasing the updated dataset and the source code of the dashboard very soon.\n\n\n\nWe want to be clear about our view on using journal metrics to evaluate research impact. Quite frankly, we are not a fan of them. However, we need to be realistic and understand that it is a common practice in the academic community to use them. Think about going up for promotion, demonstrating the impact of your work, or justifying funding applications. Most of these decisions rely on some sort of metrics, and journal metrics are a common choice, so in a sense they are a necessary evil. While we may fundamentally disagree with putting to much emphasis on journal metrics, a lot of us are still at the mercy of them and therefore we are releasing this dashboard to build a better, more holistic understanding of the GIScience journal landscape.\nOn the bright side, better approaches to assess research impact are rapidly emerging, and we hope to see more of them in the future. A good resource to get started is the San Francisco Declaration on Research Assessment that recognizes and formalizes the need to improve the ways in which the outputs of scholarly research are evaluated.\nWith all its flaws, we still hope that our GIScience journal assessment dashboard will serve as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.\nExplore the dashboard here or launch the Full Screen version."
+  },
+  {
+    "objectID": "posts/journal_dashboard/index.html#new-dashboard-for-journal-analysis",
+    "href": "posts/journal_dashboard/index.html#new-dashboard-for-journal-analysis",
+    "title": "New dashboard for GIScience journal analysis",
+    "section": "",
+    "text": "Building on the 2024 publication, “Assessing publication trends in selected GIScience journals” in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.\nThe dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).\n\n\n\nInternational collaboration network in GIScience research\n\n\n\n\nSelecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:\n\nMeta Rankings: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.\nOpen Access Trends: Monitor the shift towards OA\nCollaboration Networks: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.\nCost vs. Impact: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.\n\n\n\n\nIn the spirit of open principles, the dashboard is built using Shinylive. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard is a reimplementation and expansion of the 2024 IJGIS article and it was built by Jorge Corcino. Stay tuned as we are releasing the updated dataset and the source code of the dashboard very soon.\n\n\n\nWe want to be clear about our view on using journal metrics to evaluate research impact. Quite frankly, we are not a fan of them. However, we need to be realistic and understand that it is a common practice in the academic community to use them. Think about going up for promotion, demonstrating the impact of your work, or justifying funding applications. Most of these decisions rely on some sort of metrics, and journal metrics are a common choice, so in a sense they are a necessary evil. While we may fundamentally disagree with putting to much emphasis on journal metrics, a lot of us are still at the mercy of them and therefore we are releasing this dashboard to build a better, more holistic understanding of the GIScience journal landscape.\nOn the bright side, better approaches to assess research impact are rapidly emerging, and we hope to see more of them in the future. A good resource to get started is the San Francisco Declaration on Research Assessment that recognizes and formalizes the need to improve the ways in which the outputs of scholarly research are evaluated.\nWith all its flaws, we still hope that our GIScience journal assessment dashboard will serve as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.\nExplore the dashboard here or launch the Full Screen version."
+  },
+  {
+    "objectID": "posts/ijgi_young_investigator_award/index.html",
+    "href": "posts/ijgi_young_investigator_award/index.html",
+    "title": "Levente Juhász receives 2026 IJGI Young Investigator Award",
+    "section": "",
+    "text": "I am honored to be named the winner of the 2026 Young Investigator Award by the ISPRS International Journal of Geo-Information (IJGI). This award recognizes contributions to Geographic Information Science, specifically regarding spatial data quality, OpenStreetMap, and the development of geometrically rigorous GeoAI.\nThis recognition coincides with the ongoing mission of the GATOR Lab to advance scalable geospatial technologies and reliable agentic AI workflows. We look forward to continuing this research as we onboard our Fall 2026 graduate cohort."
+  },
+  {
+    "objectID": "posts/ijgi_young_investigator_award/index.html#media-and-resources",
+    "href": "posts/ijgi_young_investigator_award/index.html#media-and-resources",
+    "title": "Levente Juhász receives 2026 IJGI Young Investigator Award",
+    "section": "Media and Resources",
+    "text": "Media and Resources\n\n\n\nIJGI posted an in-depth interview with Dr. Levente Juhász\n\n\n\nOfficial News Release: Researcher’s pioneering work in AI and mapping earns international Young Investigator Award (UF/IFAS News)\nIn-depth Interview: Interview with Dr. Levente Juhász (MDPI) — Discussion on the future of generative AI in geospatial contexts and advice for early-career researchers."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+  },
+  {
+    "objectID": "index.html#our-work",
+    "href": "index.html#our-work",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "Broadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges."
+  },
+  {
+    "objectID": "index.html#research-pillars",
+    "href": "index.html#research-pillars",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "Scalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+  },
+  {
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "Recent Posts",
+    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nLevente Juhász receives 2026 IJGI Young Investigator Award\n\n\n\nMay 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEngaging with the Local Geospatial Community in South Florida\n\n\n\nApr 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop Cited Paper in Transactions in GIS\n\n\n\nApr 3, 2026\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
     "objectID": "join.html",
     "href": "join.html",
     "title": "Join the GATOR Lab",
@@ -35,25 +175,39 @@
     "text": "How to Apply\nReview of applications is ongoing. Please email Dr. Levente Juhász (join@gatorlab.io — Note: UF email available Jan 2026) with:\n\nYour CV and a link to your GitHub/Portfolio.\nA Brief Statement of Interest explaining WHY GATOR Lab and HOW you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit. Be creative, authentic, and tell us why want to join the GATOR Lab.\n\n\nJoin us at the University of Florida to build the future of Geospatial Data Science."
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "What’s New & Updated",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research Vision & Infrastructure",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLevente Juhász receives 2026 IJGI Young Investigator Award\n\n\n\nnews\n\nawards\n\n\n\nInstitutional and journal recognition for research in GeoAI and GIScience.\n\n\n\n\n\nMay 7, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nEngaging with the Local Geospatial Community in South Florida\n\n\n\nevent\n\n\n\nA busy April! Speaking at Miami-Dade College’s GIS Hour and participating in a high-impact workshop at Florida Atlantic University.\n\n\n\n\n\nApr 26, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nTop Cited Paper in Transactions in GIS\n\n\n\nnews\n\npublication\n\n\n\nOur paper evaluating LLMs for spatial tasks was recognized as one of the most-cited articles in TGIS in 2024.\n\n\n\n\n\nApr 3, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nCritical Challenges in GeoAI: Insights from the 2026 SPARC Workshop\n\n\n\nevent\n\n\n\nReflections on the high-profile gathering of specialists at Arizona State University to discuss the future of Geospatial AI.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nJoining the IJGI Editorial Board\n\n\n\nnews\n\neditorial\n\n\n\nDr. Levente Juhász has been appointed to the Editorial Board of the ISPRS International Journal of Geo-Information.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nNew dashboard for GIScience journal analysis\n\n\n\nnews\n\n\n\nThe first resource out of the GATOR Lab is a fun one!\n\n\n\n\n\nJan 14, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nnews\n\n\n\nWe are excited to launch our website.\n\n\n\n\n\nDec 31, 2025\n\n\nLevente Juhasz\n\n\n\n\n\nNo matching items"
+    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "research.html#the-geospatial-paradox",
+    "href": "research.html#the-geospatial-paradox",
+    "title": "Research Vision & Infrastructure",
     "section": "",
-    "text": "Coming soon…"
+    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
   },
   {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
+    "objectID": "research.html#our-computing-stack",
+    "href": "research.html#our-computing-stack",
+    "title": "Research Vision & Infrastructure",
+    "section": "Our Computing Stack",
+    "text": "Our Computing Stack\nTo stay at the cutting edge of Scalable Geospatial Data Science, we utilize top-notch infrastructure. We are currently in the process of setting up our core infrastructure which will include:\n\nHiPerGator AI: Direct access to the University of Florida’s supercomputer, the most powerful AI system in U.S. academia.\nIn-Lab AI Workstation: A dedicated high-performance GPU machine for rapid local development and model prototyping.\nCloud-Native Workflows: We specialize in leveraging high-performance computing and cloud-native technologies to overcome spatiotemporal analysis bottlenecks."
+  },
+  {
+    "objectID": "research.html#interdisciplinary-impact",
+    "href": "research.html#interdisciplinary-impact",
+    "title": "Research Vision & Infrastructure",
+    "section": "Interdisciplinary Impact",
+    "text": "Interdisciplinary Impact\nOur work translates modern computing into real-world solutions, for example:\n\nEnvironmental Resilience: Modeling coastal change and climate impacts (e.g., our EPA-funded “Future Shorelines” project).\nSpatial Data Science: Interrogating the integrity and bias of spatial data in human systems.\nPrecision Sensing & Analytics: Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure."
+  },
+  {
+    "objectID": "resources/journals.html",
+    "href": "resources/journals.html",
+    "title": "GIScience Journal Assessment Dashboard",
     "section": "",
-    "text": "Coming soon…"
+    "text": "We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled “Assessing publication trends in selected GIScience journals”.\n\n\n\n\n\n\nTipLaunch Dashboard\n\n\n\nThe dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.\n\n\n\n  \n    \n      Loading...\n    \n    Initializing Dashboard...\n    Downloading engine & data (first run ~30s)\n  \n  \n\n\n\nLaunch Full Screen Dashboard"
   },
   {
     "objectID": "people.html",
@@ -84,139 +238,6 @@
     "text": "Lab Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nLevel\n\n\n\nDescription\n\n\n\nstarted\n\n\n\nended\n\n\n\n\n\n\n\n\nJorge Corcino\n\n\nMS\n\n\nGraduated with MS in Data Science and AI from FIU. Returned to the British Virgin Islands.\n\n\n2026\n\n\n2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/levente-juhasz.html",
-    "href": "people/levente-juhasz.html",
-    "title": "Levente Juhász, PhD",
-    "section": "",
-    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#biography",
-    "href": "people/levente-juhasz.html#biography",
-    "title": "Levente Juhász, PhD",
-    "section": "",
-    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#research-interests",
-    "href": "people/levente-juhasz.html#research-interests",
-    "title": "Levente Juhász, PhD",
-    "section": "Research Interests",
-    "text": "Research Interests\nHis work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Key areas include:\n\nGeoAI: Developing frameworks for geospatial reasoning using Large Language Models (LLMs).\nSpatial Data Integrity: Interrogating the quality, bias, and malicious defacement of crowdsourced data (e.g., VGI and OpenStreetMap).\nClimate Resilience: Building scalable environmental decision support systems, such as the EPA-funded “Future Shorelines” project."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#lab-history",
-    "href": "people/levente-juhasz.html#lab-history",
-    "title": "Levente Juhász, PhD",
-    "section": "Lab History",
-    "text": "Lab History\nFounded in 2026, the GATOR Lab marks Dr. Juhász’s return to the University of Florida to establish a high-performance hub for geospatial data science."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#outside-of-research",
-    "href": "people/levente-juhasz.html#outside-of-research",
-    "title": "Levente Juhász, PhD",
-    "section": "Outside of Research",
-    "text": "Outside of Research\nI enjoy the outdoors and endurance sports. My favorite activities are road cycling, obstacle course racing, and more recently ultra running."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
-  },
-  {
-    "objectID": "index.html#our-work",
-    "href": "index.html#our-work",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "Broadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges."
-  },
-  {
-    "objectID": "index.html#research-pillars",
-    "href": "index.html#research-pillars",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "Scalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nLevente Juhász receives 2026 IJGI Young Investigator Award\n\n\n\nMay 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEngaging with the Local Geospatial Community in South Florida\n\n\n\nApr 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop Cited Paper in Transactions in GIS\n\n\n\nApr 3, 2026\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
-  },
-  {
-    "objectID": "posts/local_events_april_2026/index.html",
-    "href": "posts/local_events_april_2026/index.html",
-    "title": "Engaging with the Local Geospatial Community in South Florida",
-    "section": "",
-    "text": "We’ve had a busy and exciting April engaging with the vibrant local geospatial community here in South Florida."
-  },
-  {
-    "objectID": "posts/local_events_april_2026/index.html#gis-hour-at-miami-dade-college",
-    "href": "posts/local_events_april_2026/index.html#gis-hour-at-miami-dade-college",
-    "title": "Engaging with the Local Geospatial Community in South Florida",
-    "section": "GIS Hour at Miami-Dade College",
-    "text": "GIS Hour at Miami-Dade College\nFirst, on Monday, April 13, I had the pleasure of presenting at the 2026 GIS Hour at Miami-Dade College, an event supported by ASPRS. I spoke about the increasing focus on GeoAI and Geospatial Analytics, and how modern Data Science is becoming more GIS-centered. It was a fantastic opportunity to connect with college students who are eager to explore geospatial careers.\n\n\n\nPresenting at MDC GIS Hour\n\n\n\n\n\nEvent introduction"
-  },
-  {
-    "objectID": "posts/local_events_april_2026/index.html#emerging-tech-policy-at-florida-atlantic-university",
-    "href": "posts/local_events_april_2026/index.html#emerging-tech-policy-at-florida-atlantic-university",
-    "title": "Engaging with the Local Geospatial Community in South Florida",
-    "section": "Emerging Tech & Policy at Florida Atlantic University",
-    "text": "Emerging Tech & Policy at Florida Atlantic University\nLater in the month, on April 24, I participated in a high-impact workshop hosted by Florida Atlantic University’s Department of Civil, Environmental and Geomatics Engineering (CEGE) at the FAU Jupiter campus. The event, titled “Industry–Academic Collaboration on Emerging Tech & Policy and the Path to Professional Licensure,” brought together professionals and academics to discuss the future of the field.\nI was honored to join a panel discussion focusing on the role of AI in geospatial contexts, and I also gave a presentation on discrete global grids. You can read more about the workshop and its outcomes here.\n\n\n\nPanel discussion at FAU"
-  },
-  {
-    "objectID": "posts/tgis_top_cited/index.html",
-    "href": "posts/tgis_top_cited/index.html",
-    "title": "Top Cited Paper in Transactions in GIS",
-    "section": "",
-    "text": "Our paper, “Correctness Comparison of ChatGPT-4, Gemini, Claude-3, and Copilot for Spatial Tasks”, was recognized by Wiley as one of the top 10 most-cited papers published in Transactions in GIS during 2024.\nThis study, a collaboration with Henry Hochmair from UF Geomatics, assesses the reliability of large language models for geospatial tasks. It establishes foundational baselines for the ongoing research we are building at the GATOR Lab.\nRead the paper here: Transactions in GIS. You can also read the preprint version on arXiv.\n\n\n\nTransactions in GIS Top Cited Article"
-  },
-  {
-    "objectID": "posts/journal_dashboard/index.html",
-    "href": "posts/journal_dashboard/index.html",
-    "title": "New dashboard for GIScience journal analysis",
-    "section": "",
-    "text": "Building on the 2024 publication, “Assessing publication trends in selected GIScience journals” in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.\nThe dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).\n\n\n\nInternational collaboration network in GIScience research\n\n\n\n\nSelecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:\n\nMeta Rankings: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.\nOpen Access Trends: Monitor the shift towards OA\nCollaboration Networks: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.\nCost vs. Impact: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.\n\n\n\n\nIn the spirit of open principles, the dashboard is built using Shinylive. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard is a reimplementation and expansion of the 2024 IJGIS article and it was built by Jorge Corcino. Stay tuned as we are releasing the updated dataset and the source code of the dashboard very soon.\n\n\n\nWe want to be clear about our view on using journal metrics to evaluate research impact. Quite frankly, we are not a fan of them. However, we need to be realistic and understand that it is a common practice in the academic community to use them. Think about going up for promotion, demonstrating the impact of your work, or justifying funding applications. Most of these decisions rely on some sort of metrics, and journal metrics are a common choice, so in a sense they are a necessary evil. While we may fundamentally disagree with putting to much emphasis on journal metrics, a lot of us are still at the mercy of them and therefore we are releasing this dashboard to build a better, more holistic understanding of the GIScience journal landscape.\nOn the bright side, better approaches to assess research impact are rapidly emerging, and we hope to see more of them in the future. A good resource to get started is the San Francisco Declaration on Research Assessment that recognizes and formalizes the need to improve the ways in which the outputs of scholarly research are evaluated.\nWith all its flaws, we still hope that our GIScience journal assessment dashboard will serve as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.\nExplore the dashboard here or launch the Full Screen version."
-  },
-  {
-    "objectID": "posts/journal_dashboard/index.html#new-dashboard-for-journal-analysis",
-    "href": "posts/journal_dashboard/index.html#new-dashboard-for-journal-analysis",
-    "title": "New dashboard for GIScience journal analysis",
-    "section": "",
-    "text": "Building on the 2024 publication, “Assessing publication trends in selected GIScience journals” in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.\nThe dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).\n\n\n\nInternational collaboration network in GIScience research\n\n\n\n\nSelecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:\n\nMeta Rankings: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.\nOpen Access Trends: Monitor the shift towards OA\nCollaboration Networks: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.\nCost vs. Impact: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.\n\n\n\n\nIn the spirit of open principles, the dashboard is built using Shinylive. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard is a reimplementation and expansion of the 2024 IJGIS article and it was built by Jorge Corcino. Stay tuned as we are releasing the updated dataset and the source code of the dashboard very soon.\n\n\n\nWe want to be clear about our view on using journal metrics to evaluate research impact. Quite frankly, we are not a fan of them. However, we need to be realistic and understand that it is a common practice in the academic community to use them. Think about going up for promotion, demonstrating the impact of your work, or justifying funding applications. Most of these decisions rely on some sort of metrics, and journal metrics are a common choice, so in a sense they are a necessary evil. While we may fundamentally disagree with putting to much emphasis on journal metrics, a lot of us are still at the mercy of them and therefore we are releasing this dashboard to build a better, more holistic understanding of the GIScience journal landscape.\nOn the bright side, better approaches to assess research impact are rapidly emerging, and we hope to see more of them in the future. A good resource to get started is the San Francisco Declaration on Research Assessment that recognizes and formalizes the need to improve the ways in which the outputs of scholarly research are evaluated.\nWith all its flaws, we still hope that our GIScience journal assessment dashboard will serve as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.\nExplore the dashboard here or launch the Full Screen version."
-  },
-  {
-    "objectID": "posts/asu_geoai_workshop/index.html",
-    "href": "posts/asu_geoai_workshop/index.html",
-    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
-    "section": "",
-    "text": "Earlier this month, I had the privilege of participating in the Critical Challenges of Geospatial Artificial Intelligence (GeoAI) workshop hosted by the Spatial Analysis Research Center (SPARC) at Arizona State University. Organized by Prof. Wenwen Li and the SPARC team, the specialist meeting brought together leading scholars from over 20 institutions and government agencies, including NASA and the USGS.\nThe timing was ideal as we continue to build out the core infrastructure and culture of the GATOR Lab here at the University of Florida."
-  },
-  {
-    "objectID": "posts/asu_geoai_workshop/index.html#collaborative-momentum-in-tempe-az",
-    "href": "posts/asu_geoai_workshop/index.html#collaborative-momentum-in-tempe-az",
-    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
-    "section": "",
-    "text": "Earlier this month, I had the privilege of participating in the Critical Challenges of Geospatial Artificial Intelligence (GeoAI) workshop hosted by the Spatial Analysis Research Center (SPARC) at Arizona State University. Organized by Prof. Wenwen Li and the SPARC team, the specialist meeting brought together leading scholars from over 20 institutions and government agencies, including NASA and the USGS.\nThe timing was ideal as we continue to build out the core infrastructure and culture of the GATOR Lab here at the University of Florida."
-  },
-  {
-    "objectID": "posts/asu_geoai_workshop/index.html#bridging-theory-and-application",
-    "href": "posts/asu_geoai_workshop/index.html#bridging-theory-and-application",
-    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
-    "section": "Bridging Theory and Application",
-    "text": "Bridging Theory and Application\nThe workshop featured inspiring keynotes from Michael Goodchild (UCSB), Shashi Shekar (UMN), May Yuan (UT Dallas) and Rahul Ramachandran (NASA), followed by lightning talks focused on computational infrastructure, scientific discovery, and the integration of social science within GeoAI. During the session I presented my position paper (available here) titled:\n\n“Discrete Global Grid Systems as a Framework for Geometrically Rigorous and Spatially Explicit GeoAI: A Research Agenda”.\n\n\n\n\nLevente presenting at the workshop\n\n\nMuch of the discussions over the two days emphasized the need for sharper integration between machine learning and spatial cognition, as well as the importance of community building to address both short- and long-term forecasting challenges."
-  },
-  {
-    "objectID": "posts/asu_geoai_workshop/index.html#next-steps-defining-the-future-of-geoai",
-    "href": "posts/asu_geoai_workshop/index.html#next-steps-defining-the-future-of-geoai",
-    "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
-    "section": "Next Steps: Defining the Future of GeoAI",
-    "text": "Next Steps: Defining the Future of GeoAI\nThe energy from the meeting is already being channeled into a major perspective paper on the future of GeoAI. We are working to synthesize the collective insights from our discussions into a formal research agend. It was inspiring to see such a strong sense of shared identity emerging from this community.\n\n\n\nGroup photo\n\n\nA big thank you to Wenwen Li, Dylan Connor, Patricia Solis, Heather Baier, Daoqin Tong, Drew Trgovac, Peter Rogerson et al. the entire organizing committee for such a seamless and inspiring forum. I look forward to contributing to the perspective paper and shape the future of GeoAI together."
-  },
-  {
     "objectID": "resources/data.html",
     "href": "resources/data.html",
     "title": "Open Data & Tools",
@@ -238,25 +259,39 @@
     "text": "Juhász, L. (2026). Discrete global grid systems as a framework for geometrically rigorous and spatially explicit GeoAI: A research agenda. In Workshop on critical challenges of GeoAI, arizona state university. Tempe, AZ. DOI: https://doi.org/10.5281/zenodo.18471033. files/papers/JUHASZ_GeoAI_DGGS_Position_Paper.pdf\n\n\nJuhász, L. (2024). Assessing publication trends in selected GIScience journals. International Journal of Geographical Information Science. DOI: https://doi.org/10.1080/13658816.2024.2347306. files/papers/Juhasz_GIScience_publicaion_trends.pdf"
   },
   {
-    "objectID": "resources/journals.html",
-    "href": "resources/journals.html",
-    "title": "GIScience Journal Assessment Dashboard",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled “Assessing publication trends in selected GIScience journals”.\n\n\n\n\n\n\nTipLaunch Dashboard\n\n\n\nThe dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.\n\n\n\n  \n    \n      Loading...\n    \n    Initializing Dashboard...\n    Downloading engine & data (first run ~30s)\n  \n  \n\n\n\nLaunch Full Screen Dashboard"
+    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
   },
   {
-    "objectID": "posts/ijgi_young_investigator_award/index.html",
-    "href": "posts/ijgi_young_investigator_award/index.html",
-    "title": "Levente Juhász receives 2026 IJGI Young Investigator Award",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
     "section": "",
-    "text": "I am honored to be named the winner of the 2026 Young Investigator Award by the ISPRS International Journal of Geo-Information (IJGI). This award recognizes contributions to Geographic Information Science, specifically regarding spatial data quality, OpenStreetMap, and the development of geometrically rigorous GeoAI.\nThis recognition coincides with the ongoing mission of the GATOR Lab to advance scalable geospatial technologies and reliable agentic AI workflows. We look forward to continuing this research as we onboard our Fall 2026 graduate cohort."
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLevente Juhász receives 2026 IJGI Young Investigator Award\n\n\n\nnews\n\nawards\n\n\n\nInstitutional and journal recognition for research in GeoAI and GIScience.\n\n\n\n\n\nMay 7, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nEngaging with the Local Geospatial Community in South Florida\n\n\n\nevent\n\n\n\nA busy April! Speaking at Miami-Dade College’s GIS Hour and participating in a high-impact workshop at Florida Atlantic University.\n\n\n\n\n\nApr 26, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nTop Cited Paper in Transactions in GIS\n\n\n\nnews\n\npublication\n\n\n\nOur paper evaluating LLMs for spatial tasks was recognized as one of the most-cited articles in TGIS in 2024.\n\n\n\n\n\nApr 3, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nJoining the IJGI Editorial Board\n\n\n\nnews\n\neditorial\n\n\n\nDr. Levente Juhász has been appointed to the Editorial Board of the ISPRS International Journal of Geo-Information.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nCritical Challenges in GeoAI: Insights from the 2026 SPARC Workshop\n\n\n\nevent\n\n\n\nReflections on the high-profile gathering of specialists at Arizona State University to discuss the future of Geospatial AI.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nNew dashboard for GIScience journal analysis\n\n\n\nnews\n\n\n\nThe first resource out of the GATOR Lab is a fun one!\n\n\n\n\n\nJan 14, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nnews\n\n\n\nWe are excited to launch our website.\n\n\n\n\n\nDec 31, 2025\n\n\nLevente Juhasz\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/ijgi_young_investigator_award/index.html#media-and-resources",
-    "href": "posts/ijgi_young_investigator_award/index.html#media-and-resources",
-    "title": "Levente Juhász receives 2026 IJGI Young Investigator Award",
-    "section": "Media and Resources",
-    "text": "Media and Resources\n\n\n\nIJGI posted an in-depth interview with Dr. Levente Juhász\n\n\n\nOfficial News Release: Researcher’s pioneering work in AI and mapping earns international Young Investigator Award (UF/IFAS News)\nIn-depth Interview: Interview with Dr. Levente Juhász (MDPI) — Discussion on the future of generative AI in geospatial contexts and advice for early-career researchers."
+    "objectID": "posts/local_events_april_2026/index.html",
+    "href": "posts/local_events_april_2026/index.html",
+    "title": "Engaging with the Local Geospatial Community in South Florida",
+    "section": "",
+    "text": "We’ve had a busy and exciting April engaging with the vibrant local geospatial community here in South Florida."
+  },
+  {
+    "objectID": "posts/local_events_april_2026/index.html#gis-hour-at-miami-dade-college",
+    "href": "posts/local_events_april_2026/index.html#gis-hour-at-miami-dade-college",
+    "title": "Engaging with the Local Geospatial Community in South Florida",
+    "section": "GIS Hour at Miami-Dade College",
+    "text": "GIS Hour at Miami-Dade College\nFirst, on Monday, April 13, I had the pleasure of presenting at the 2026 GIS Hour at Miami-Dade College, an event supported by ASPRS. I spoke about the increasing focus on GeoAI and Geospatial Analytics, and how modern Data Science is becoming more GIS-centered. It was a fantastic opportunity to connect with college students who are eager to explore geospatial careers.\n\n\n\nPresenting at MDC GIS Hour\n\n\n\n\n\nEvent introduction"
+  },
+  {
+    "objectID": "posts/local_events_april_2026/index.html#emerging-tech-policy-at-florida-atlantic-university",
+    "href": "posts/local_events_april_2026/index.html#emerging-tech-policy-at-florida-atlantic-university",
+    "title": "Engaging with the Local Geospatial Community in South Florida",
+    "section": "Emerging Tech & Policy at Florida Atlantic University",
+    "text": "Emerging Tech & Policy at Florida Atlantic University\nLater in the month, on April 24, I participated in a high-impact workshop hosted by Florida Atlantic University’s Department of Civil, Environmental and Geomatics Engineering (CEGE) at the FAU Jupiter campus. The event, titled “Industry–Academic Collaboration on Emerging Tech & Policy and the Path to Professional Licensure,” brought together professionals and academics to discuss the future of the field.\nI was honored to join a panel discussion focusing on the role of AI in geospatial contexts, and I also gave a presentation on discrete global grids. You can read more about the workshop and its outcomes here.\n\n\n\nPanel discussion at FAU"
   },
   {
     "objectID": "posts/ijgi_editor/index.html",
@@ -285,6 +320,13 @@
     "title": "Joining the IJGI Editorial Board",
     "section": "Safeguarding Scientific Integrity",
     "text": "Safeguarding Scientific Integrity\nAs an advocate for open science and reproducibility, I am committed to fostering open scientific exchange while maintaining high-quality research standards. My focus will be on ensuring that research is sound and validated, which is essential for reducing research waste and accelerating progress in geospatial analytics. I look forward to working with the editorial team to safeguard the integrity of the scholarly record in our field."
+  },
+  {
+    "objectID": "posts/tgis_top_cited/index.html",
+    "href": "posts/tgis_top_cited/index.html",
+    "title": "Top Cited Paper in Transactions in GIS",
+    "section": "",
+    "text": "Our paper, “Correctness Comparison of ChatGPT-4, Gemini, Claude-3, and Copilot for Spatial Tasks”, was recognized by Wiley as one of the top 10 most-cited papers published in Transactions in GIS during 2024.\nThis study, a collaboration with Henry Hochmair from UF Geomatics, assesses the reliability of large language models for geospatial tasks. It establishes foundational baselines for the ongoing research we are building at the GATOR Lab.\nRead the paper here: Transactions in GIS. You can also read the preprint version on arXiv.\n\n\n\nTransactions in GIS Top Cited Article"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -322,39 +364,39 @@
     "text": "Where are we located?\nWe are located in sunny South Florida, at the Fort Lauderdale Research & Education Center. While not being located in Gainesville may seem unusual, it is a great location for research and collaboration. South Florida (Miami - Ft. Lauderdale - West Palm Beach) is a vibrant metropolitan area. It is a great place to be, and it also provides a great environment for research and collaboration: it is a hub of innovation and creativity, with a diverse population and a rich cultural heritage. It also lies at the forefront of man-made and environmental challenges waiting to be solved by science."
   },
   {
-    "objectID": "projects/sample-project/index.html#abstract",
-    "href": "projects/sample-project/index.html#abstract",
-    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
-    "section": "Abstract",
-    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
-  },
-  {
-    "objectID": "projects/sample-project/index.html#funding",
-    "href": "projects/sample-project/index.html#funding",
-    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
-    "section": "Funding",
-    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
-  },
-  {
-    "objectID": "people/alumni/corcino.html",
-    "href": "people/alumni/corcino.html",
-    "title": "Jorge Corcino",
+    "objectID": "people/levente-juhasz.html",
+    "href": "people/levente-juhasz.html",
+    "title": "Levente Juhász, PhD",
     "section": "",
-    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
+    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
   },
   {
-    "objectID": "people/alumni/corcino.html#biography",
-    "href": "people/alumni/corcino.html#biography",
-    "title": "Jorge Corcino",
+    "objectID": "people/levente-juhasz.html#biography",
+    "href": "people/levente-juhasz.html#biography",
+    "title": "Levente Juhász, PhD",
     "section": "",
-    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
+    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
   },
   {
-    "objectID": "people/alumni/corcino.html#research-interests",
-    "href": "people/alumni/corcino.html#research-interests",
-    "title": "Jorge Corcino",
+    "objectID": "people/levente-juhasz.html#research-interests",
+    "href": "people/levente-juhasz.html#research-interests",
+    "title": "Levente Juhász, PhD",
     "section": "Research Interests",
-    "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
+    "text": "Research Interests\nHis work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Key areas include:\n\nGeoAI: Developing frameworks for geospatial reasoning using Large Language Models (LLMs).\nSpatial Data Integrity: Interrogating the quality, bias, and malicious defacement of crowdsourced data (e.g., VGI and OpenStreetMap).\nClimate Resilience: Building scalable environmental decision support systems, such as the EPA-funded “Future Shorelines” project."
+  },
+  {
+    "objectID": "people/levente-juhasz.html#lab-history",
+    "href": "people/levente-juhasz.html#lab-history",
+    "title": "Levente Juhász, PhD",
+    "section": "Lab History",
+    "text": "Lab History\nFounded in 2026, the GATOR Lab marks Dr. Juhász’s return to the University of Florida to establish a high-performance hub for geospatial data science."
+  },
+  {
+    "objectID": "people/levente-juhasz.html#outside-of-research",
+    "href": "people/levente-juhasz.html#outside-of-research",
+    "title": "Levente Juhász, PhD",
+    "section": "Outside of Research",
+    "text": "Outside of Research\nI enjoy the outdoors and endurance sports. My favorite activities are road cycling, obstacle course racing, and more recently ultra running."
   },
   {
     "objectID": "people/students/template.html",
@@ -369,47 +411,5 @@
     "title": "Future Student",
     "section": "",
     "text": "We are hiring! Check out what we are looking for in a future PhD student."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research Vision & Infrastructure",
-    "section": "",
-    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
-  },
-  {
-    "objectID": "research.html#the-geospatial-paradox",
-    "href": "research.html#the-geospatial-paradox",
-    "title": "Research Vision & Infrastructure",
-    "section": "",
-    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
-  },
-  {
-    "objectID": "research.html#our-computing-stack",
-    "href": "research.html#our-computing-stack",
-    "title": "Research Vision & Infrastructure",
-    "section": "Our Computing Stack",
-    "text": "Our Computing Stack\nTo stay at the cutting edge of Scalable Geospatial Data Science, we utilize top-notch infrastructure. We are currently in the process of setting up our core infrastructure which will include:\n\nHiPerGator AI: Direct access to the University of Florida’s supercomputer, the most powerful AI system in U.S. academia.\nIn-Lab AI Workstation: A dedicated high-performance GPU machine for rapid local development and model prototyping.\nCloud-Native Workflows: We specialize in leveraging high-performance computing and cloud-native technologies to overcome spatiotemporal analysis bottlenecks."
-  },
-  {
-    "objectID": "research.html#interdisciplinary-impact",
-    "href": "research.html#interdisciplinary-impact",
-    "title": "Research Vision & Infrastructure",
-    "section": "Interdisciplinary Impact",
-    "text": "Interdisciplinary Impact\nOur work translates modern computing into real-world solutions, for example:\n\nEnvironmental Resilience: Modeling coastal change and climate impacts (e.g., our EPA-funded “Future Shorelines” project).\nSpatial Data Science: Interrogating the integrity and bias of spatial data in human systems.\nPrecision Sensing & Analytics: Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure."
   }
 ]

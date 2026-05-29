@@ -1,6 +1,12 @@
 [
   {
-    "listing": "/posts.html",
+    "listing": "/projects.html",
+    "items": [
+      "/projects/sample-project/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/posts/ijgi_young_investigator_award/index.html",
       "/posts/local_events_april_2026/index.html",
@@ -20,21 +26,15 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
       "/posts/ijgi_young_investigator_award/index.html",
       "/posts/local_events_april_2026/index.html",
       "/posts/tgis_top_cited/index.html",
-      "/posts/asu_geoai_workshop/index.html",
       "/posts/ijgi_editor/index.html",
+      "/posts/asu_geoai_workshop/index.html",
       "/posts/journal_dashboard/index.html",
       "/posts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/sample-project/index.html"
     ]
   }
 ]

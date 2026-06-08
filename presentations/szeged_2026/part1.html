@@ -1,0 +1,186 @@
+<!-- 1. TITLE -->
+<section data-transition="fade">
+    <div class="two-col" style="align-items: center;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.55em; color: var(--muted); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px;">University of Szeged | Szegedi Tudományegyetem · 2026</p>
+            <h2 style="font-size: 1.85em; line-height: 1.1; margin-bottom: 14px;">Toward Autonomous Spatial Intelligence</h2>
+            <p style="font-size: 0.85em; color: var(--muted); font-weight: 400; line-height: 1.4; margin-bottom: 24px;">From Agentic Governance to Discrete Global Grids</p>
+            <div style="border-left: 3px solid var(--border); padding-left: 14px;">
+                <p style="font-size: 0.75em; font-weight: 700; color: #0f172a; margin: 0; margin-bottom: 6px;">Levente Juhász, Ph.D.</p>
+                <p style="font-size: 0.55em; color: var(--muted); margin: 0 0 12px 0; line-height: 1.3;">Geospatial Analytics, Technology and Open Research (GATOR) Lab<br>University of Florida</p>
+                <img src="./assets/gator_logo.png" alt="GATOR Lab Logo" style="width: 220px; max-height: 80px; object-fit: contain; margin: 0 0 8px 0; box-shadow: none;">
+                <p style="font-size: 0.6em; color: var(--blue); margin: 0; font-weight: 600;">gatorlab.io</p>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/geoai_brain_earth_1779817988074.png" alt="GeoAI" style="width: 100%; max-height: 480px; object-fit: contain;">
+        </div>
+    </div>
+</section>
+
+<!-- 2. GIS EVOLUTION -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 10px;">The Evolution of GIS</h2>
+    <p style="font-size: 0.8em; margin-bottom: 0px;">We are moving from analytical tools to autonomous agents.</p>
+    <img src="./assets/autonomous_gis_evolution.png" style="width: 85%; margin-top: 10px; max-height: 490px; object-fit: contain;">
+    <div class="citation">Li, Z., Ning, H., et al. (2025). GIScience in the era of Artificial Intelligence: a research agenda towards Autonomous GIS. <em>Annals of GIS</em>. https://doi.org/10.1080/19475683.2025.2552161</div>
+</section>
+
+<!-- 3. LLMs & TOKENS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">The Reasoning Engine: LLMs & Tokens</h2>
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.65em;">Large Language Models are <strong>next-token prediction engines</strong>. They do not process words, numbers, or geometry &mdash; they process discrete <em>tokens</em>.</p>
+            <div class="card blue" style="margin-bottom: 15px; padding: 12px; background: #eff6ff;">
+                <p style="font-size: 0.6em; color: #1e40af; margin-bottom: 8px;">"Geospatial Analysis" &rarr; broken into discrete chunks:</p>
+                <p style="font-size: 0.8em; margin: 0; display: flex; gap: 6px;"><span class="chip chip-blue">Geo</span> <span class="chip chip-blue">spatial</span> <span class="chip chip-blue">_Analysis</span></p>
+            </div>
+            <p style="font-size: 0.6em; color: var(--slate);">Semantics emerge from the probabilistic co-occurrence of tokens &mdash; <strong>not from any explicit mathematical representation</strong>.</p>
+        </div>
+        <div class="card fragment" style="border: 2px solid var(--blue); padding: 20px; text-align: left;">
+            <p style="font-size: 0.7em; font-weight: 800; color: #0f172a; margin-bottom: 14px;">Key implications for GeoAI:</p>
+            <ul style="font-size: 0.65em; padding-left: 20px;">
+                <li style="margin-bottom: 12px;">LLMs have no built-in spatial awareness &mdash; geography must be encoded structurally.</li>
+                <li style="margin-bottom: 12px;">Code generation works well because programming languages have a consistent token grammar.</li>
+                <li>Continuous geographic data (floats) breaks this grammar.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="citation">Vaswani, A., et al. (2017). Attention Is All You Need. <em>NeurIPS</em>. | Mai, G., et al. (2022). Towards a Foundation Model for GeoAI. <em>ACM SIGSPATIAL</em>.</div>
+</section>
+
+<!-- 3b. CONTEXT & CONTEXT WINDOW -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">Context & The Context Window</h2>
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.7em; margin-bottom: 16px;">A <strong>Context Window</strong> is the working memory of an LLM. It defines the maximum number of tokens an AI can process and remember at one time.</p>
+            <div class="card blue fragment" style="padding: 16px; background: #eff6ff;">
+                <p style="font-size: 0.65em; font-weight: 700; color: #1e40af; margin-bottom: 10px;">What fills the Context Window?</p>
+                <ul style="font-size: 0.6em; padding-left: 20px; line-height: 1.5; margin: 0; color: var(--slate);">
+                    <li style="margin-bottom: 6px;"><strong>System Instructions:</strong> Governance and tools</li>
+                    <li style="margin-bottom: 6px;"><strong>Conversation History:</strong> Prior reasoning steps</li>
+                    <li><strong>Data & Geometries:</strong> Inputs and tool outputs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card fragment" style="border: 2px solid var(--red); padding: 20px; text-align: left;">
+            <p style="font-size: 0.7em; font-weight: 800; color: var(--red); margin-bottom: 14px; text-transform: uppercase; letter-spacing: 1px;">The Geospatial Bottleneck</p>
+            <p style="font-size: 0.6em; margin-bottom: 12px; line-height: 1.4;">Geospatial data is highly verbose. A single detailed <strong>GeoJSON polygon</strong> can consume tens of thousands of tokens.</p>
+            <ul style="font-size: 0.6em; padding-left: 20px; line-height: 1.4;">
+                <li style="margin-bottom: 8px;"><strong>Lost in the Middle:</strong> Massive geometries flush out the agent's reasoning context.</li>
+                <li><strong>Token Limits:</strong> Exceeding the window causes task failure.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- 4. AGENTIC AI -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px; font-size: 1.7em;">Beyond Chatbots: Agentic AI</h2>
+    <p style="font-size: 0.7em; margin-bottom: 15px; text-align: center;">A standard LLM generates text and stops. An <strong>agent</strong> operates in a goal-directed <em>control loop</em> &mdash; enabling it to use external tools, read results, and self-correct.</p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; margin-bottom: 20px;">
+        <div class="card blue fragment" style="text-align: center; padding: 12px;">
+            <p style="font-size: 1.2em; margin-bottom: 4px;">💡</p>
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 4px; text-transform: uppercase;">Think</p>
+            <p style="font-size: 0.5em; margin: 0; color: var(--muted);">Decompose the problem into sub-tasks</p>
+        </div>
+        <div class="card blue fragment" style="text-align: center; padding: 12px;">
+            <p style="font-size: 1.2em; margin-bottom: 4px;">⚙️</p>
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 4px; text-transform: uppercase;">Act</p>
+            <p style="font-size: 0.5em; margin: 0; color: var(--muted);">Execute a tool (Python, DuckDB, API)</p>
+        </div>
+        <div class="card blue fragment" style="text-align: center; padding: 12px;">
+            <p style="font-size: 1.2em; margin-bottom: 4px;">👁️</p>
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 4px; text-transform: uppercase;">Observe</p>
+            <p style="font-size: 0.5em; margin: 0; color: var(--muted);">Read the result or error output</p>
+        </div>
+        <div class="card blue fragment" style="text-align: center; padding: 12px;">
+            <p style="font-size: 1.2em; margin-bottom: 4px;">🔄</p>
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 4px; text-transform: uppercase;">Update</p>
+            <p style="font-size: 0.5em; margin: 0; color: var(--muted);">Self-correct and plan the next step</p>
+        </div>
+    </div>
+
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div class="card fragment" style="padding: 10px; display: flex; justify-content: center; box-shadow: none;">
+            <img src="./assets/agent_react_loop.png" style="width: 100%; border-radius: 8px; box-shadow: none;">
+        </div>
+        <div class="fragment" style="text-align: left;">
+            <p style="font-size: 0.7em; font-weight: 700; color: #0f172a; margin-bottom: 10px;">Applied to geospatial tasks, this means an agent can:</p>
+            <ul style="font-size: 0.65em; padding-left: 20px; line-height: 1.5;">
+                <li style="margin-bottom: 8px;">Write a spatial join in Python or DuckDB SQL</li>
+                <li style="margin-bottom: 8px;">Execute it against a real dataset</li>
+                <li style="margin-bottom: 8px;">Detect errors (null geometries, CRS mismatches)</li>
+                <li>Self-correct and re-run &mdash; autonomously</li>
+            </ul>
+        </div>
+    </div>
+    <div class="citation">Yao, S., et al. (2022). ReAct: Synergizing Reasoning and Acting in Language Models. <em>ICLR 2023</em>.</div>
+</section>
+
+<!-- 5. TWO BOTTLENECKS (Stakes up front) -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px;">Two Bottlenecks for Autonomous GeoAI</h2>
+    <p style="font-size: 0.78em; text-align: center; margin-bottom: 20px;">Achieving Autonomous GIS requires solving two fundamentally different problems simultaneously.</p>
+    <div class="two-col">
+        <div class="card red">
+            <p style="font-size: 0.65em; font-weight: 700; color: var(--red); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Problem 1 · The Agent</p>
+            <h3 style="font-size: 1.1em; color: #0f172a; margin-bottom: 14px;">Unreliable Execution</h3>
+            <p style="font-size: 0.75em;">Unguided agents hallucinate code, lose spatial context, and violate geographic data contracts. Scaling the model does not fix this.</p>
+        </div>
+        <div class="card amber fragment">
+            <p style="font-size: 0.65em; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Problem 2 · The Data</p>
+            <h3 style="font-size: 1.1em; color: #0f172a; margin-bottom: 14px;">Incompatible Formats</h3>
+            <p style="font-size: 0.75em;">Continuous coordinates and planar geometry lack the discrete, hierarchical structure agents need to reason reliably.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 6. LLMS & COORDINATE TOKENS (Merged) -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Why Coordinates Break AI Reasoning</h2>
+    <p style="font-size: 0.7em; margin-bottom: 10px;">LLMs are <strong>next-token prediction engines</strong>. They have no number sense. Continuous coordinates break their token grammar.</p>
+    <div class="two-col" style="align-items: start; gap: 16px;">
+        <div style="text-align: left;">
+            <div class="card red fragment" style="margin-bottom: 10px;">
+                <p style="font-size: 0.65em; margin-bottom: 5px; font-weight: 700;">Two points 22 m apart (crossing a digit boundary):</p>
+                <p style="font-size: 0.62em; margin-bottom: 3px;"><code>40.9999</code> &rarr; <span class="chip chip-red">40</span><span class="chip chip-red">.99</span><span class="chip chip-red">99</span></p>
+                <p style="font-size: 0.62em; margin-bottom: 6px;"><code>41.0001</code> &rarr; <span class="chip chip-blue">41</span><span class="chip chip-blue">.00</span><span class="chip chip-blue">01</span></p>
+                <p style="font-size: 0.58em; color: #991b1b;">Zero shared tokens. The model sees these as completely unrelated.</p>
+            </div>
+            <div class="card blue fragment">
+                <p style="font-size: 0.72em; margin-bottom: 8px; font-weight: 700;">Same points as H3 cell IDs:</p>
+                <div style="margin-bottom: 6px;">
+                    <span class="chip chip-blue" style="font-size:0.7em">8a2a1072b59ffff</span> vs <span class="chip chip-blue" style="font-size:0.7em">8a2a1072b59fffc</span>
+                </div>
+                <p style="font-size: 0.6em; color: #1e40af;"><strong>Spatial proximity is explicitly encoded in the token structure.</strong></p>
+            </div>
+        </div>
+        <div class="fragment" style="fragment display:flex; align-items:center; justify-content:center;">
+            <img src="./assets/h3_cells_map.png" style="fragment width: 100%; max-height: 340px; object-fit: contain; border-radius: 8px;">
+        </div>
+    </div>
+</section>
+
+<!-- 7. ARCHITECTURE PILLARS (Transition to next part) -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">My Recent Work: Two Pillars</h2>
+    <p style="font-size: 0.75em; text-align: center; margin-bottom: 24px;">Two foundational components, one coherent vision for the Automated Geospatial Scientist.</p>
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div class="card blue" style="display: flex; flex-direction: column; padding: 20px;">
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Pillar I &middot; The Reasoning Engine</p>
+            <h3 style="font-size: 1.25em; color: #0f172a; margin-bottom: 12px; font-weight: 800; text-transform: none;">Dual-Helix Governance</h3>
+            <p style="font-size: 0.65em; flex-grow: 1; margin-bottom: 16px;">A structured agentic framework (Knowledge, Behavior, Skills) that eliminates drift and enforces reproducibility in geospatial code generation.</p>
+            <p style="font-size: 0.55em; color: var(--muted); margin: 0;">&rarr; Presented in Part I</p>
+        </div>
+        <div class="card green fragment" style="display: flex; flex-direction: column; padding: 20px;">
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--green); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Pillar II &middot; The Standardized Substrate</p>
+            <h3 style="font-size: 1.25em; color: #0f172a; margin-bottom: 12px; font-weight: 800; text-transform: none;">Discrete Global Grid Systems</h3>
+            <p style="font-size: 0.65em; flex-grow: 1; margin-bottom: 16px;">A mathematically rigorous tessellation of the Earth into discrete, hierarchical cells &mdash; a native, AI-compatible vocabulary for the planet.</p>
+            <p style="font-size: 0.55em; color: var(--muted); margin: 0;">&rarr; Presented in Part II</p>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,52 @@
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+    Reveal.initialize({
+        hash: true,
+        transition: 'slide',
+        backgroundTransition: 'fade',
+        center: true,
+        controls: true,
+        controlsLayout: 'bottom-right',
+        progress: true,
+        slideNumber: 'c/t',
+        width: 1280,
+        height: 800,
+        margin: 0.08,
+        minScale: 0.2,
+        maxScale: 2.0
+    });
+
+    Reveal.on('ready', () => {
+        const ctx = document.getElementById('ablationChart');
+        if (!ctx) return;
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Baseline', '− Skills', '− Behaviors', '− Knowledge', 'Full AgentLoom'],
+                datasets: [{
+                    label: 'Avg. Score (%)',
+                    data: [40, 53.5, 70, 80, 83.5],
+                    backgroundColor: ['#fca5a5', '#fcd34d', '#fcd34d', '#fcd34d', '#6ee7b7'],
+                    borderColor: ['#dc2626', '#d97706', '#d97706', '#d97706', '#059669'],
+                    borderWidth: 2,
+                    borderRadius: 6,
+                }]
+            },
+            options: {
+                animation: false,
+                indexAxis: 'y',
+                responsive: false,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { min: 0, max: 100, ticks: { font: { size: 11 }, stepSize: 20 }, title: { display: true, text: 'Average Score (%)', font: { size: 11 } } },
+                    y: { ticks: { font: { size: 11, weight: '600' } } }
+                }
+            }
+        });
+    });
+</script>
+</body></html>

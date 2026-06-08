@@ -1,0 +1,1039 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Toward Autonomous Spatial Intelligence — Szeged 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css">
+    <style>
+        :root { --blue: #2563eb; --blue-light: #dbeafe; --green: #059669; --red: #dc2626; --amber: #d97706; --purple: #7c3aed; --slate: #334155; --muted: #64748b; --border: #e2e8f0; }
+        body { background-color: #f8fafc; }
+        .reveal { font-family: 'Inter', sans-serif; font-size: 34px; }
+        .reveal h1, .reveal h2, .reveal h3 { color: #0f172a; font-family: 'Inter', sans-serif; text-transform: none; font-weight: 800; letter-spacing: -0.5px; line-height: 1.2; }
+        .reveal p, .reveal li { color: var(--slate); font-family: 'Inter', sans-serif; line-height: 1.45; margin: 0 0 6px 0; }
+        .accent { color: var(--blue); font-weight: 800; }
+        .card { background: #fff; border-radius: 10px; padding: 16px 18px; box-shadow: 0 4px 18px rgba(0,0,0,0.06); text-align: left; }
+        .card.blue { border-top: 4px solid var(--blue); }
+        .card.green { border-top: 4px solid var(--green); }
+        .card.red { border-top: 4px solid var(--red); }
+        .card.amber { border-top: 4px solid var(--amber); }
+        .callout { background: var(--blue-light); border-left: 5px solid var(--blue); border-radius: 8px; padding: 12px 16px; text-align: left; margin: 10px 0; }
+        .callout p { color: #1e40af; margin: 0; }
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+        .citation { font-size: 0.44em; color: var(--muted); margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--border); text-align: left; }
+        .chip { display: inline-block; padding: 6px 12px; border-radius: 6px; font-family: monospace; font-weight: 700; font-size: 0.9em; margin: 3px; }
+        .chip-blue { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+        .chip-red { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+        .reveal img { border-radius: 12px; box-shadow: 0 12px 32px rgba(0,0,0,0.09); }
+    </style>
+</head>
+<body>
+<div class="reveal"><div class="slides">
+
+<!-- 1. TITLE -->
+<section data-transition="fade">
+    <div class="two-col" style="align-items: center;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.55em; color: var(--muted); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px;">University of Szeged | Szegedi Tudományegyetem · 2026</p>
+            <h2 style="font-size: 1.85em; line-height: 1.1; margin-bottom: 14px;">Toward Autonomous Spatial Intelligence</h2>
+            <p style="font-size: 0.85em; color: var(--muted); font-weight: 400; line-height: 1.4; margin-bottom: 24px;">From Agentic Governance to Discrete Global Grids</p>
+            <div style="border-left: 3px solid var(--border); padding-left: 14px;">
+                <p style="font-size: 0.75em; font-weight: 700; color: #0f172a; margin: 0; margin-bottom: 6px;">Levente Juhász, Ph.D.</p>
+                <p style="font-size: 0.55em; color: var(--muted); margin: 0 0 12px 0; line-height: 1.3;">Geospatial Analytics, Technology and Open Research (GATOR) Lab<br>University of Florida</p>
+                <img src="./assets/gator_logo.png" alt="GATOR Lab Logo" style="width: 220px; max-height: 80px; object-fit: contain; margin: 0 0 8px 0; box-shadow: none;">
+                <p style="font-size: 0.6em; color: var(--blue); margin: 0; font-weight: 600;">gatorlab.io</p>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/geoai_brain_earth_1779817988074.png" alt="GeoAI" style="width: 100%; max-height: 480px; object-fit: contain;">
+        </div>
+    </div>
+</section>
+
+<!-- 2. GIS EVOLUTION -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 10px;">The Evolution of GIS</h2>
+    <p style="font-size: 0.8em; margin-bottom: 0px;">We are moving from analytical tools to autonomous agents.</p>
+    <img src="./assets/autonomous_gis_evolution.png" style="width: 85%; margin-top: 10px; max-height: 490px; object-fit: contain;">
+    <div class="citation">Li, Z., Ning, H., et al. (2025). GIScience in the era of Artificial Intelligence: a research agenda towards Autonomous GIS. <em>Annals of GIS</em>. https://doi.org/10.1080/19475683.2025.2552161</div>
+</section>
+
+<!-- 3. LLMs & TOKENS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">The Reasoning Engine: LLMs & Tokens</h2>
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.65em;">Large Language Models are <strong>next-token prediction engines</strong>. They do not process words, numbers, or geometry &mdash; they process discrete <em>tokens</em>.</p>
+            <div class="card blue" style="margin-bottom: 15px; padding: 12px; background: #eff6ff;">
+                <p style="font-size: 0.6em; color: #1e40af; margin-bottom: 8px;">"Geospatial Analysis" &rarr; broken into discrete chunks:</p>
+                <p style="font-size: 0.8em; margin: 0; display: flex; gap: 6px;"><span class="chip chip-blue">Geo</span> <span class="chip chip-blue">spatial</span> <span class="chip chip-blue">_Analysis</span></p>
+            </div>
+            <p style="font-size: 0.6em; color: var(--slate);">Semantics emerge from the probabilistic co-occurrence of tokens &mdash; <strong>not from any explicit mathematical representation</strong>.</p>
+        </div>
+        <div class="card fragment" style="border: 2px solid var(--blue); padding: 20px; text-align: left;">
+            <p style="font-size: 0.7em; font-weight: 800; color: #0f172a; margin-bottom: 14px;">Key implications for GeoAI:</p>
+            <ul style="font-size: 0.65em; padding-left: 20px;">
+                <li style="margin-bottom: 12px;">LLMs have no built-in spatial awareness &mdash; geography must be encoded structurally.</li>
+                <li style="margin-bottom: 12px;">Code generation works well because programming languages have a consistent token grammar.</li>
+                <li>Continuous geographic data (floats) breaks this grammar.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="citation">Vaswani, A., et al. (2017). Attention Is All You Need. <em>NeurIPS</em>. | Mai, G., et al. (2022). Towards a Foundation Model for GeoAI. <em>ACM SIGSPATIAL</em>.</div>
+</section>
+
+<!-- 3b. CONTEXT & CONTEXT WINDOW -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">Context & The Context Window</h2>
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.7em; margin-bottom: 16px;">A <strong>Context Window</strong> is the working memory of an LLM. It defines the maximum number of tokens an AI can process and remember at one time.</p>
+            <div class="card blue fragment" style="padding: 16px; background: #eff6ff;">
+                <p style="font-size: 0.65em; font-weight: 700; color: #1e40af; margin-bottom: 10px;">What fills the Context Window?</p>
+                <ul style="font-size: 0.6em; padding-left: 20px; line-height: 1.5; margin: 0; color: var(--slate);">
+                    <li style="margin-bottom: 6px;"><strong>System Instructions:</strong> Governance and tools</li>
+                    <li style="margin-bottom: 6px;"><strong>Conversation History:</strong> Prior reasoning steps</li>
+                    <li><strong>Data & Geometries:</strong> Inputs and tool outputs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card fragment" style="border: 2px solid var(--red); padding: 20px; text-align: left;">
+            <p style="font-size: 0.7em; font-weight: 800; color: var(--red); margin-bottom: 14px; text-transform: uppercase; letter-spacing: 1px;">The Geospatial Bottleneck</p>
+            <p style="font-size: 0.6em; margin-bottom: 12px; line-height: 1.4;">Geospatial data is highly verbose. A single detailed <strong>GeoJSON polygon</strong> can consume tens of thousands of tokens.</p>
+            <ul style="font-size: 0.6em; padding-left: 20px; line-height: 1.4;">
+                <li style="margin-bottom: 8px;"><strong>Lost in the Middle:</strong> Massive geometries flush out the agent's reasoning context.</li>
+                <li><strong>Token Limits:</strong> Exceeding the window causes task failure.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- 4. AGENTIC AI -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px; font-size: 1.7em;">Beyond Chatbots: Agentic AI</h2>
+    <p style="font-size: 0.7em; margin-bottom: 15px; text-align: center;">A standard LLM generates text and stops. An <strong>agent</strong> operates in a goal-directed <em>control loop</em> &mdash; enabling it to use external tools, read results, and self-correct.</p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; margin-bottom: 20px;">
+        <div class="card blue fragment" style="text-align: center; padding: 12px;">
+            <p style="font-size: 1.2em; margin-bottom: 4px;">💡</p>
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 4px; text-transform: uppercase;">Think</p>
+            <p style="font-size: 0.5em; margin: 0; color: var(--muted);">Decompose the problem into sub-tasks</p>
+        </div>
+        <div class="card blue fragment" style="text-align: center; padding: 12px;">
+            <p style="font-size: 1.2em; margin-bottom: 4px;">⚙️</p>
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 4px; text-transform: uppercase;">Act</p>
+            <p style="font-size: 0.5em; margin: 0; color: var(--muted);">Execute a tool (Python, DuckDB, API)</p>
+        </div>
+        <div class="card blue fragment" style="text-align: center; padding: 12px;">
+            <p style="font-size: 1.2em; margin-bottom: 4px;">👁️</p>
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 4px; text-transform: uppercase;">Observe</p>
+            <p style="font-size: 0.5em; margin: 0; color: var(--muted);">Read the result or error output</p>
+        </div>
+        <div class="card blue fragment" style="text-align: center; padding: 12px;">
+            <p style="font-size: 1.2em; margin-bottom: 4px;">🔄</p>
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 4px; text-transform: uppercase;">Update</p>
+            <p style="font-size: 0.5em; margin: 0; color: var(--muted);">Self-correct and plan the next step</p>
+        </div>
+    </div>
+
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div class="card fragment" style="padding: 10px; display: flex; justify-content: center; box-shadow: none;">
+            <img src="./assets/agent_react_loop.png" style="width: 100%; border-radius: 8px; box-shadow: none;">
+        </div>
+        <div class="fragment" style="text-align: left;">
+            <p style="font-size: 0.7em; font-weight: 700; color: #0f172a; margin-bottom: 10px;">Applied to geospatial tasks, this means an agent can:</p>
+            <ul style="font-size: 0.65em; padding-left: 20px; line-height: 1.5;">
+                <li style="margin-bottom: 8px;">Write a spatial join in Python or DuckDB SQL</li>
+                <li style="margin-bottom: 8px;">Execute it against a real dataset</li>
+                <li style="margin-bottom: 8px;">Detect errors (null geometries, CRS mismatches)</li>
+                <li>Self-correct and re-run &mdash; autonomously</li>
+            </ul>
+        </div>
+    </div>
+    <div class="citation">Yao, S., et al. (2022). ReAct: Synergizing Reasoning and Acting in Language Models. <em>ICLR 2023</em>.</div>
+</section>
+
+<!-- 5. TWO BOTTLENECKS (Stakes up front) -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px;">Two Bottlenecks for Autonomous GeoAI</h2>
+    <p style="font-size: 0.78em; text-align: center; margin-bottom: 20px;">Achieving Autonomous GIS requires solving two fundamentally different problems simultaneously.</p>
+    <div class="two-col">
+        <div class="card red">
+            <p style="font-size: 0.65em; font-weight: 700; color: var(--red); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Problem 1 · The Agent</p>
+            <h3 style="font-size: 1.1em; color: #0f172a; margin-bottom: 14px;">Unreliable Execution</h3>
+            <p style="font-size: 0.75em;">Unguided agents hallucinate code, lose spatial context, and violate geographic data contracts. Scaling the model does not fix this.</p>
+        </div>
+        <div class="card amber fragment">
+            <p style="font-size: 0.65em; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Problem 2 · The Data</p>
+            <h3 style="font-size: 1.1em; color: #0f172a; margin-bottom: 14px;">Incompatible Formats</h3>
+            <p style="font-size: 0.75em;">Continuous coordinates and planar geometry lack the discrete, hierarchical structure agents need to reason reliably.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 6. LLMS & COORDINATE TOKENS (Merged) -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Why Coordinates Break AI Reasoning</h2>
+    <p style="font-size: 0.7em; margin-bottom: 10px;">LLMs are <strong>next-token prediction engines</strong>. They have no number sense. Continuous coordinates break their token grammar.</p>
+    <div class="two-col" style="align-items: start; gap: 16px;">
+        <div style="text-align: left;">
+            <div class="card red fragment" style="margin-bottom: 10px;">
+                <p style="font-size: 0.65em; margin-bottom: 5px; font-weight: 700;">Two points 22 m apart (crossing a digit boundary):</p>
+                <p style="font-size: 0.62em; margin-bottom: 3px;"><code>40.9999</code> &rarr; <span class="chip chip-red">40</span><span class="chip chip-red">.99</span><span class="chip chip-red">99</span></p>
+                <p style="font-size: 0.62em; margin-bottom: 6px;"><code>41.0001</code> &rarr; <span class="chip chip-blue">41</span><span class="chip chip-blue">.00</span><span class="chip chip-blue">01</span></p>
+                <p style="font-size: 0.58em; color: #991b1b;">Zero shared tokens. The model sees these as completely unrelated.</p>
+            </div>
+            <div class="card blue fragment">
+                <p style="font-size: 0.72em; margin-bottom: 8px; font-weight: 700;">Same points as H3 cell IDs:</p>
+                <div style="margin-bottom: 6px;">
+                    <span class="chip chip-blue" style="font-size:0.7em">8a2a1072b59ffff</span> vs <span class="chip chip-blue" style="font-size:0.7em">8a2a1072b59fffc</span>
+                </div>
+                <p style="font-size: 0.6em; color: #1e40af;"><strong>Spatial proximity is explicitly encoded in the token structure.</strong></p>
+            </div>
+        </div>
+        <div class="fragment" style="fragment display:flex; align-items:center; justify-content:center;">
+            <img src="./assets/h3_cells_map.png" style="fragment width: 100%; max-height: 340px; object-fit: contain; border-radius: 8px;">
+        </div>
+    </div>
+</section>
+
+<!-- 7. ARCHITECTURE PILLARS (Transition to next part) -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">My Recent Work: Two Pillars</h2>
+    <p style="font-size: 0.75em; text-align: center; margin-bottom: 24px;">Two foundational components, one coherent vision for the Automated Geospatial Scientist.</p>
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div class="card blue" style="display: flex; flex-direction: column; padding: 20px;">
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Pillar I &middot; The Reasoning Engine</p>
+            <h3 style="font-size: 1.25em; color: #0f172a; margin-bottom: 12px; font-weight: 800; text-transform: none;">Dual-Helix Governance</h3>
+            <p style="font-size: 0.65em; flex-grow: 1; margin-bottom: 16px;">A structured agentic framework (Knowledge, Behavior, Skills) that eliminates drift and enforces reproducibility in geospatial code generation.</p>
+            <p style="font-size: 0.55em; color: var(--muted); margin: 0;">&rarr; Presented in Part I</p>
+        </div>
+        <div class="card green fragment" style="display: flex; flex-direction: column; padding: 20px;">
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--green); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Pillar II &middot; The Standardized Substrate</p>
+            <h3 style="font-size: 1.25em; color: #0f172a; margin-bottom: 12px; font-weight: 800; text-transform: none;">Discrete Global Grid Systems</h3>
+            <p style="font-size: 0.65em; flex-grow: 1; margin-bottom: 16px;">A mathematically rigorous tessellation of the Earth into discrete, hierarchical cells &mdash; a native, AI-compatible vocabulary for the planet.</p>
+            <p style="font-size: 0.55em; color: var(--muted); margin: 0;">&rarr; Presented in Part II</p>
+        </div>
+    </div>
+</section>
+
+<!-- PART II DIVIDER -->
+<section data-background-color="#1e293b" data-transition="fade">
+    <div style="text-align: left; padding: 20px;">
+        <p style="font-size: 0.6em; color: #64748b; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;">Part I</p>
+        <h2 style="color: #f8fafc; font-size: 2.2em; line-height: 1.1; margin-bottom: 20px;">The Reasoning Pillar:<br><span style="color: #60a5fa;">Dual-Helix Governance</span></h2>
+    </div>
+</section>
+
+<!-- 5. PREPRINT (Moved to start of Part II) -->
+<section data-transition="slide">
+    <div class="two-col" style="align-items: center; gap: 30px;">
+        <div>
+            <img src="./assets/media__1779821238219.png" style="width: 100%; max-height: 500px; border: 1px solid var(--border); box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+        </div>
+        <div style="text-align: left;">
+            <p style="font-size: 0.55em; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Work in Progress &middot; Under Review</p>
+            <h2 style="font-size: 1.4em; line-height: 1.15; margin-bottom: 14px;">A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development</h2>
+            <p style="font-size: 0.65em; color: #0f172a; font-weight: 800; margin-bottom: 2px;">Boyuan Guan, Wencong Cui, Levente Juhász</p>
+            <p style="font-size: 0.6em; color: var(--muted); margin-bottom: 16px;">FIU GIS Center &amp; GATOR Lab, University of Florida</p>
+            
+            <div class="callout" style="margin-bottom: 16px;">
+                <p style="font-size: 0.65em;">Submitted to <strong>Transactions in GIS</strong> &middot; Preprint: <br><span style="color: #3b82f6;">arxiv.org/abs/2603.04390</span></p>
+            </div>
+            
+            <ul style="font-size: 0.65em; padding-left: 20px; line-height: 1.5; color: var(--slate);">
+                <li style="margin-bottom: 8px;">Open-source toolkit: <strong>AgentLoom</strong></li>
+                <li style="margin-bottom: 8px;">Implemented in a resource-constrained academic lab</li>
+                <li>This talk presents the framework + new ablation evidence</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- 6. 5 FAILURE MODES -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px; font-size: 1.6em;">Five Structural Failure Modes of LLMs</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">LLM failures in geospatial engineering are not random &mdash; they are predictable, structural, and cannot be solved by scaling alone.</p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; text-align: left;">
+        <div class="card red fragment" style="padding: 12px; border-top: 3px solid var(--red);">
+            <p style="font-size: 0.6em; font-weight: 800; color: var(--red); margin-bottom: 6px;">&target; Context Constraints</p>
+            <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Long geospatial workflows exceed the model's context window, causing earlier task specifications to be silently dropped.</p>
+        </div>
+        <div class="card red fragment" style="padding: 12px; border-top: 3px solid var(--red);">
+            <p style="font-size: 0.6em; font-weight: 800; color: var(--red); margin-bottom: 6px;">&target; Cross-Session Forgetting</p>
+            <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Every new conversation starts with zero memory. Domain knowledge, conventions, and past decisions must be re-established each time.</p>
+        </div>
+        <div class="card red fragment" style="padding: 12px; border-top: 3px solid var(--red);">
+            <p style="font-size: 0.6em; font-weight: 800; color: var(--red); margin-bottom: 6px;">&target; Stochasticity</p>
+            <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">The same prompt can produce different (and incompatible) code on every run &mdash; making reproducibility impossible without external constraints.</p>
+        </div>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: left;">
+        <div class="card red fragment" style="padding: 12px; border-top: 3px solid var(--red);">
+            <p style="font-size: 0.6em; font-weight: 800; color: var(--red); margin-bottom: 6px;">&target; Instruction Failure</p>
+            <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Complex, multi-step GIS task instructions are partially followed, silently truncated, or reinterpreted in ways that break data pipelines.</p>
+        </div>
+        <div class="card red fragment" style="padding: 12px; border-top: 3px solid var(--red);">
+            <p style="font-size: 0.6em; font-weight: 800; color: var(--red); margin-bottom: 6px;">&target; Adaptation Rigidity</p>
+            <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Models cannot accumulate project-specific knowledge over time. Every session is a blank slate &mdash; there is no learning from past errors.</p>
+        </div>
+    </div>
+    <div class="citation" style="margin-top: 14px;">Guan, B., Cui, W., Juhász, L. (2025). A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development. arXiv:2603.04390.</div>
+</section>
+
+<!-- 7. WORKAROUNDS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px; font-size: 1.7em;">Existing Workarounds &amp; Their Limits</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">The community has developed partial mitigations, but none address the root structural problem.</p>
+    
+    <div class="two-col" style="gap: 16px; align-items: stretch; text-align: left;">
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div class="card amber" style="padding: 14px; border-top: 3px solid var(--amber);">
+                <p style="font-size: 0.62em; font-weight: 800; color: var(--amber); margin-bottom: 6px;">✍️ Prompt Engineering</p>
+                <p style="font-size: 0.55em; margin-bottom: 6px;"><strong>What it does:</strong> Carefully crafts instructions to constrain model behavior for a specific task.</p>
+                <p style="font-size: 0.55em; color: #991b1b; margin: 0;">&#9888; <strong>Limit:</strong> Fragile, session-scoped, and non-transferable. Prompts do not persist across sessions and must be re-written for every task variant.</p>
+            </div>
+            <div class="card amber fragment" style="padding: 14px; border-top: 3px solid var(--amber);">
+                <p style="font-size: 0.62em; font-weight: 800; color: var(--amber); margin-bottom: 6px;">📚 Retrieval-Augmented Generation (RAG)</p>
+                <p style="font-size: 0.55em; margin-bottom: 6px;"><strong>What it does:</strong> Fetches relevant documents at query time and injects them into the context window.</p>
+                <p style="font-size: 0.55em; color: #991b1b; margin: 0;">&#9888; <strong>Limit:</strong> Only addresses knowledge retrieval &mdash; does not enforce behavioral constraints or skill protocols. The agent can still hallucinate, forget task scope, or produce unreproducible outputs.</p>
+            </div>
+        </div>
+        <div class="card blue fragment" style="padding: 18px; border-top: 3px solid var(--blue); display: flex; flex-direction: column; justify-content: center;">
+            <p style="font-size: 0.7em; font-weight: 800; color: var(--blue); margin-bottom: 10px;">🎯 Our Argument</p>
+            <p style="font-size: 0.6em; margin-bottom: 12px; line-height: 1.45;">These approaches treat symptoms. The five failure modes are <strong>structural governance problems</strong> &mdash; they require an architectural solution, not better prompts or larger retrieval indices.</p>
+            <p style="font-size: 0.6em; margin-bottom: 12px; line-height: 1.45;">The distinction: RAG retrieves <em>facts</em>. Governance enforces <em>contracts</em> &mdash; what the agent is allowed to know, do, and how it must behave.</p>
+            <p style="font-size: 0.6em; font-weight: 800; color: var(--blue); margin: 0;">&rarr; We propose the Dual-Helix Framework</p>
+        </div>
+    </div>
+</section>
+
+<!-- 8. DUAL-HELIX ARCHITECTURE & TRACKS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 16px;">The Dual-Helix Architecture</h2>
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div style="text-align: center;">
+            <img src="./assets/dual_helix_architecture_v2_1779822934592.png" style="width: 100%; max-height: 520px; object-fit: contain; box-shadow: none;">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 12px; text-align: left;">
+            <div class="card blue" style="padding: 14px;">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--blue); margin-bottom: 4px;">🧠 Knowledge Track</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Persistent graph of domain facts and project conventions. Solves forgetting.</p>
+            </div>
+            <div class="card" style="border-top: 4px solid #0d9488; padding: 14px;">
+                <p style="font-size: 0.65em; font-weight: 800; color: #0d9488; margin-bottom: 4px;">📋 Behavior Track</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Executable protocols defining role-based constraints. Solves instruction failure.</p>
+            </div>
+            <div class="card green" style="padding: 14px;">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--green); margin-bottom: 4px;">🛠 Skills Track</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Domain-specific tool libraries (e.g., precise CRS handling). Ensures correct methodology.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 9.5 CASE STUDY I -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Case Study I: FutureShorelines WebGIS</h2>
+    <p style="font-size: 0.65em; margin-bottom: 20px;">A real-world refactoring task &mdash; transforming a monolithic codebase into production-ready modular architecture.</p>
+    
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div style="display: flex; flex-direction: column; gap: 16px; text-align: left;">
+            <div class="card" style="padding: 16px; border-top: 3px solid #64748b;">
+                <p style="font-size: 0.65em; font-weight: 800; color: #0f172a; margin-bottom: 8px;">📋 The Task</p>
+                <p style="font-size: 0.55em; line-height: 1.45; margin: 0;">Refactor a 2,265-line monolithic JavaScript codebase for a sea-level rise visualization tool into modular ES6 components. Three conditions: Zero-Shot, Static Context, Full AgentLoom.</p>
+            </div>
+            <div class="card" style="padding: 16px; border-top: 3px solid #64748b;">
+                <p style="font-size: 0.65em; font-weight: 800; color: #0f172a; margin-bottom: 8px;">🏛 The Lab Context</p>
+                <p style="font-size: 0.55em; line-height: 1.45; margin: 0;">Resource-constrained academic lab. No dedicated ML engineering team. The framework is designed to let a small team achieve production-grade reliability.</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 10px; display: flex; justify-content: center; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+            <img src="./assets/futureshorelines_app.png" style="width: 100%; border-radius: 8px; margin: 0;">
+        </div>
+    </div>
+    <div class="citation" style="margin-top: 15px;">Guan, B., et al. (2025). arXiv:2603.04390.</div>
+</section>
+
+<!-- 9.6 KNOWLEDGE GRAPH SAMPLE -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">Inside the Graph: Connecting the Nodes</h2>
+    <p style="font-size: 0.65em; margin-bottom: 20px;">How a specific requirement propagates from a static fact to an executable skill.</p>
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin: 40px auto; width: 95%;">
+        
+        <!-- Background connecting line -->
+        <div style="position: absolute; top: 50%; left: 10%; right: 10%; height: 4px; background: linear-gradient(to right, var(--blue), #0d9488, var(--green)); z-index: -1;"></div>
+
+        <!-- Knowledge Node -->
+        <div class="card blue fragment" style="width: 270px; padding: 20px; text-align: left; background: #eff6ff; border: 3px solid var(--blue); position: relative; z-index: 1;">
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--blue); margin-bottom: 6px; text-transform: uppercase;">1. Knowledge Node</p>
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin-bottom: 8px;">Target CRS = EPSG:3857</p>
+            <p style="font-size: 0.55em; line-height: 1.3; margin: 0; color: var(--slate);">The WebGIS platform requires all geometries to be in Web Mercator.</p>
+            <div style="margin-top: 12px; padding: 4px 8px; background: rgba(30, 64, 175, 0.1); border-radius: 4px; font-family: monospace; font-size: 0.5em; color: var(--blue); display: inline-block;">ID: K-CRS-001</div>
+        </div>
+
+        <!-- Behavior Node -->
+        <div class="card fragment" style="width: 270px; padding: 20px; text-align: left; background: #f0fdf4; border: 3px solid #0d9488; position: relative; z-index: 1;">
+            <p style="font-size: 0.55em; font-weight: 800; color: #0d9488; margin-bottom: 6px; text-transform: uppercase;">2. Behavior Node</p>
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin-bottom: 8px;">Enforce Reprojection</p>
+            <p style="font-size: 0.55em; line-height: 1.3; margin: 0; color: var(--slate);">Always check the CRS of inputs. If not EPSG:3857, reproject before any spatial join.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px; font-family: monospace; font-size: 0.5em; color: #0d9488;">
+                <span style="padding: 4px 8px; background: rgba(13, 148, 136, 0.1); border-radius: 4px;">ID: B-CRS-001</span>
+                <span style="font-weight: bold;">&larr; K-CRS-001</span>
+            </div>
+        </div>
+
+        <!-- Skill Node -->
+        <div class="card green fragment" style="width: 270px; padding: 20px; text-align: left; background: #ecfdf5; border: 3px solid var(--green); position: relative; z-index: 1;">
+            <p style="font-size: 0.55em; font-weight: 800; color: var(--green); margin-bottom: 6px; text-transform: uppercase;">3. Skill Node</p>
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin-bottom: 8px;">reproject_gdf()</p>
+            <p style="font-size: 0.55em; line-height: 1.3; margin: 0; color: var(--slate);">An executable Python tool that safely transforms GeoDataFrames using pyproj.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px; font-family: monospace; font-size: 0.5em; color: var(--green);">
+                <span style="padding: 4px 8px; background: rgba(5, 150, 105, 0.1); border-radius: 4px;">ID: S-CRS-001</span>
+                <span style="font-weight: bold;">&larr; B-CRS-001</span>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="fragment" style="margin-top: 30px;">
+        <p style="font-size: 0.65em; font-weight: 600; color: #0f172a;">Result: The agent <strong style="color: var(--blue);">knows the rule</strong>, <strong style="color: #0d9488;">is instructed to follow it</strong>, and <strong style="color: var(--green);">has the code to execute it</strong>.</p>
+    </div>
+</section>
+
+<!-- 9.75 CASE STUDY I: RESULTS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Governance Drives Code Quality</h2>
+    <p style="font-size: 0.7em; margin-bottom: 16px;">Structural constraints significantly improve both maintainability and consistency.</p>
+    
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div style="display: flex; flex-direction: column; gap: 12px; text-align: left;">
+            <div class="card green" style="padding: 16px;">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--green); margin-bottom: 8px; text-transform: uppercase;">Cyclomatic Complexity</p>
+                <p style="font-size: 1.4em; font-weight: 800; color: #0f172a; margin: 0; line-height: 1;">&darr; 51% <span style="font-size: 0.4em; color: var(--slate); font-weight: 400; vertical-align: middle;">reduction</span></p>
+            </div>
+            <div class="card green" style="padding: 16px;">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--green); margin-bottom: 8px; text-transform: uppercase;">Maintainability Index</p>
+                <p style="font-size: 1.4em; font-weight: 800; color: #0f172a; margin: 0; line-height: 1;">&uarr; 7 <span style="font-size: 0.4em; color: var(--slate); font-weight: 400; vertical-align: middle;">points</span></p>
+            </div>
+            <div class="card blue fragment" style="padding: 16px;">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--blue); margin-bottom: 6px;">Consistency Guarantee</p>
+                <p style="font-size: 0.55em; line-height: 1.4; margin: 0;">Variance reduction is statistically significant (<em>p</em> = 0.047 vs. Zero-Shot baseline). This is empirical evidence that <strong>structural governance, not model scale, drives reliability.</strong></p>
+            </div>
+        </div>
+        <div class="fragment" style="text-align: center;">
+            <img src="./assets/variance_boxplot.png" style="width: 100%; max-height: 440px; border-radius: 6px;">
+            <p style="font-size: 0.5em; color: var(--muted); margin-top: 8px;">Fig 8: Trial-level consistency across conditions (gpt-5.2).</p>
+        </div>
+    </div>
+</section>
+
+<!-- 10. CASE STUDY II -->
+<!-- 10. CASE STUDY II -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Case Study II: COVID-19 Risk Mapping</h2>
+    <p style="font-size: 0.65em; margin-bottom: 20px;">Ablation study on spatial join and normalization workflows.</p>
+    
+    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 16px;">
+        <div class="card red fragment" style="padding: 12px; background: #fee2e2;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #b91c1c; margin-bottom: 4px;">Baseline</p>
+            <p style="font-size: 0.45em; color: #991b1b; margin: 0; line-height: 1.3;">Unguided Agentic AI<br>(without AgentLoom)</p>
+        </div>
+        <div class="card amber fragment" style="padding: 12px; background: #fef3c7;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #d97706; margin-bottom: 4px;">&minus; Skills</p>
+            <p style="font-size: 0.5em; color: #b45309; margin: 0; line-height: 1.3;">Knowledge + Behavior only</p>
+        </div>
+        <div class="card amber fragment" style="padding: 12px; background: #fef3c7;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #d97706; margin-bottom: 4px;">&minus; Behaviors</p>
+            <p style="font-size: 0.5em; color: #b45309; margin: 0; line-height: 1.3;">Knowledge + Skills only</p>
+        </div>
+        <div class="card amber fragment" style="padding: 12px; background: #fef3c7;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #d97706; margin-bottom: 4px;">&minus; Knowledge</p>
+            <p style="font-size: 0.5em; color: #b45309; margin: 0; line-height: 1.3;">Behavior + Skills only</p>
+        </div>
+        <div class="card green fragment" style="padding: 12px; background: #d1fae5;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #047857; margin-bottom: 4px;">Full AgentLoom</p>
+            <p style="font-size: 0.5em; color: #065f46; margin: 0; line-height: 1.3;">All three tracks active</p>
+        </div>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: 2.2fr 1fr; gap: 16px; align-items: stretch; text-align: left;">
+        <div class="card blue" style="padding: 16px; border-left: 4px solid var(--blue); border-top: none; background: #f8fafc;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #0f172a; margin-bottom: 12px;">📍 The Task: Miami-Dade COVID-19 Risk Mapping</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
+                <div>
+                    <p style="font-size: 0.55em; margin: 0; line-height: 1.4;"><strong style="color:#1e40af;">Input:</strong><br>32,264 COVID-19 case points + 1,583 census block groups</p>
+                </div>
+                <div>
+                    <p style="font-size: 0.55em; margin: 0; line-height: 1.4;"><strong style="color:#1e40af;">Task:</strong><br>Spatial join &rarr; normalize rates &rarr; build interactive WebGIS dashboard</p>
+                </div>
+                <div>
+                    <p style="font-size: 0.55em; margin: 0; line-height: 1.4;"><strong style="color:#1e40af;">Evaluation:</strong><br>5-criterion rubric (0–2 per criterion) across 3 independent evaluator runs</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="padding: 6px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            <img src="./assets/covid_map.png" style="width: 100%; border-radius: 4px; margin: 0;">
+        </div>
+    </div>
+
+    <div class="citation" style="margin-top: 15px;">Mooney, P., Juhász, L. (2020). Mapping COVID-19: How web-based maps contribute to the infodemic. <em>Dialogues in Human Geography</em>.</div>
+</section>
+
+<!-- 11. ABLATION RESULTS (Merged Rubric & Chart) -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Ablation: Skills are the Load-Bearing Column</h2>
+    <p style="font-size: 0.65em; margin-bottom: 12px;">Task: Miami-Dade COVID-19 Risk Mapping. Scored on 5 rigorous GIS criteria (0-2 scale).</p>
+    <div class="two-col" style="gap: 20px; align-items: start;">
+        <div style="width: 600px; height: 340px;">
+            <canvas id="ablationChart" width="600" height="340"></canvas>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px; text-align: left;">
+            <div class="card green" style="padding: 12px;">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--green); margin-bottom: 4px;">Governance IMPROVES Quality</p>
+                <p style="font-size: 0.6em; margin: 0;">Full AgentLoom (83%) vs Baseline (40%).</p>
+            </div>
+            <div class="card amber" style="padding: 12px;">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--amber); margin-bottom: 4px;">Skills = Critical Element</p>
+                <p style="font-size: 0.6em; margin: 0;">Removing Skills caused the largest drop — executable spatial protocols matter most.</p>
+            </div>
+            <div class="card blue" style="padding: 12px;">
+                <p style="font-size: 0.6em; margin: 0;">Only Full AgentLoom consistently handled spatial uncertainty (MAUP, low-pop suppression).</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PART III DIVIDER -->
+
+<section data-background-color="#0f172a" data-transition="fade">
+    <div style="text-align: left; padding: 20px;">
+        <p style="font-size: 0.6em; color: #475569; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;">Part II</p>
+        <h2 style="color: #f8fafc; font-size: 2.2em; line-height: 1.1; margin-bottom: 20px;">The Data Pillar:<br><span style="color: #34d399;">Discrete Global Grid Systems</span></h2>
+    </div>
+</section>
+<!-- 10.5 DGGS PREPRINT -->
+<section data-transition="slide">
+    <div class="two-col" style="align-items: center; gap: 30px;">
+        <div>
+            <img src="./assets/media__1779830587373.png" style="width: 100%; max-height: 500px; border: 1px solid var(--border);">
+        </div>
+        <div style="text-align: left;">
+            <p style="font-size: 0.55em; color: var(--muted); font-weight: 700; text-transform: uppercase;">Under Review (ACM TSAS)</p>
+            <h2 style="font-size: 1.2em; line-height: 1.2; margin-bottom: 14px;">How Do Discrete Global Grid Systems Actually Perform? A Systematic Benchmark Across Geometry, Computation and Relational Joins</h2>
+            <p style="font-size: 0.65em; color: var(--muted);"><strong style="color: #0f172a;">Levente Juhász</strong></p>
+            <p style="font-size: 0.62em; color: var(--blue);">eartharxiv.org/repository/view/12855/</p>
+            <p style="font-size: 0.62em; margin-top: 15px;">Today: introducing <strong>dggs-bench</strong> and evaluating 6 grids across 4 experiment families.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 11. PLANAR FALLACY -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">The Planar Fallacy in Global GeoAI</h2>
+    <p style="font-size: 0.7em; margin-bottom: 16px;">Tying AI architectures to flat 2D representations introduces critical geographic biases.</p>
+    
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div style="text-align: left;">
+            <div class="card red" style="padding: 14px; margin-bottom: 12px; border-top: 3px solid var(--red);">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--red); margin-bottom: 4px;">📐 Spatial Sampling Bias</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Every flat map distorts the sphere. Planar grids drastically oversample polar regions while undersampling the equator, feeding biased training data to the model.</p>
+            </div>
+            <div class="card red" style="padding: 14px; border-top: 3px solid var(--red);">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--red); margin-bottom: 4px;">🌐 Fallacy of Planar Adjacency</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Flat representations force hard boundaries (e.g., &plusmn;180&deg; longitude). Models must learn artificial "wraparound" corrections for a problem that simply doesn't exist on a sphere.</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 10px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            <img src="./assets/planar_fallacy_paper.png" style="width: 100%; border-radius: 4px; margin: 0; border: 1px solid var(--border);">
+        </div>
+    </div>
+</section>
+
+<!-- 11.5 TECHNICAL LEGACY -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">A Technical Legacy, Not a Scientific Truth</h2>
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.7em; margin-bottom: 16px;">Our reliance on 2D planar maps is an artifact of <strong>historical constraints</strong>, not geographic accuracy.</p>
+            <div class="card amber" style="padding: 16px; border-top: 3px solid var(--amber);">
+                <p style="font-size: 0.65em; font-weight: 800; color: #b45309; margin-bottom: 8px;">The Analog Era Constraints</p>
+                <ul style="font-size: 0.6em; line-height: 1.5; margin: 0; padding-left: 20px; color: var(--slate);">
+                    <li style="margin-bottom: 6px;">Maps had to be printed on flat sheets of paper.</li>
+                    <li style="margin-bottom: 6px;">Cartesian coordinates (X, Y) were mathematically simpler to calculate by hand than spherical trigonometry.</li>
+                    <li>These analog constraints were hard-coded into early GIS architectures in the 1960s.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card blue fragment" style="border: 2px solid var(--blue); padding: 20px; text-align: left; display: flex; flex-direction: column; justify-content: center;">
+            <p style="font-size: 0.7em; font-weight: 800; color: var(--blue); margin-bottom: 14px;">The Opportunity for GeoAI</p>
+            <p style="font-size: 0.6em; margin-bottom: 12px; line-height: 1.5; color: var(--slate);">Machine learning models do not need paper maps. They do not require math to be optimized for human calculation.</p>
+            <p style="font-size: 0.6em; margin: 0; line-height: 1.5; font-weight: bold; color: #0f172a;">We finally have the computational capability to abandon the planar fallacy and rebuild spatial reasoning on a scientifically rigorous foundation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 12. EMPIRICAL EVIDENCE -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Empirical Evidence: The DGGS Advantage</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">Emerging literature demonstrates significant improvements in global GeoAI modeling.</p>
+    
+    <div class="two-col" style="align-items: stretch; gap: 16px;">
+        <div class="card" style="padding: 16px; text-align: left; display: flex; flex-direction: column;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #0f172a; margin-bottom: 6px;">1. Statistical GeoAI (Random Forests)</p>
+            <div style="background: #f8fafc; padding: 10px; border-radius: 6px; margin-bottom: 14px; border-left: 3px solid #94a3b8;">
+                <p style="font-size: 0.52em; font-weight: 700; color: #1e293b; margin-bottom: 4px; line-height: 1.3;">Drivers of global irrigation expansion: the role of discrete global grid choice</p>
+                <p style="font-size: 0.45em; color: var(--muted); margin: 0; line-height: 1.3;">Wagner, S., Stenzel, F., Krueger, T., &amp; de Wiljes, J. (2024). <em>Hydrology and Earth System Sciences (HESS)</em>.</p>
+            </div>
+            <ul style="font-size: 0.55em; line-height: 1.45; margin: 0; padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>28% reduction</strong> in global NRMSE (irrigation modeling) using an ISEA3H geodesic grid compared to a 0.5&deg; grid.</li>
+                <li><strong>Unbiased sampling:</strong> Eliminates high-latitude oversampling, yielding simulated spatial patterns that match observed data perfectly.</li>
+            </ul>
+        </div>
+        <div class="card" style="padding: 16px; text-align: left; display: flex; flex-direction: column;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #0f172a; margin-bottom: 6px;">2. Deep Learning (HexCNNs)</p>
+            <div style="background: #f8fafc; padding: 10px; border-radius: 6px; margin-bottom: 14px; border-left: 3px solid #94a3b8;">
+                <p style="font-size: 0.52em; font-weight: 700; color: #1e293b; margin-bottom: 4px; line-height: 1.3;">Hexagonal discrete global grid system enhances model latitudinal spatial generalization and deep learning capabilities</p>
+                <p style="font-size: 0.45em; color: var(--muted); margin: 0; line-height: 1.3;">Li, K., &amp; Wang, J. (2026). <em>Big Earth Data</em>.</p>
+            </div>
+            <ul style="font-size: 0.55em; line-height: 1.45; margin: 0; padding-left: 20px;">
+                <li style="margin-bottom: 6px;"><strong>Up to 14.1% error reduction</strong> at the poles (80&deg;–90&deg;) for surface parameter inversion.</li>
+                <li><strong>Topology advantage:</strong> Native HexCNN kernel requires only 7 parameters (vs 9 in standard 3&times;3 CNNs) while significantly mitigating cross-latitudinal overfitting.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- 13. BASE SOLIDS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">From Platonic Solids to the Sphere</h2>
+    <p style="font-size: 0.68em; margin-bottom: 10px;">The choice of base solid determines the core design trade-off.</p>
+    <img src="./assets/3D_base_solids.png" style="width: 92%; max-height: 420px; object-fit: contain;">
+    <div class="citation">Icosahedra minimize distortion. Cubes maximize computational regularity. HEALPix maximizes equal-area.</div>
+</section>
+
+<!-- 14. 6 GRIDS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 6px;">Six DGGS Implementations</h2>
+    <p style="font-size: 0.65em; margin-bottom: 8px;">We benchmarked 6 grids across 4 experiment families.</p>
+    <img src="./assets/fig_grid_fragmentation.png" style="width: 90%; max-height: 450px; object-fit: contain;">
+</section>
+
+<!-- 14.5 GEOMETRIC DISTORTION -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Benchmarking Geometric Distortion</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">Comparing areal and angular preservation across the 6 implementations.</p>
+    
+    <div class="two-col" style="gap: 16px; align-items: stretch;">
+        <div class="card" style="padding: 10px; text-align: center; display: flex; flex-direction: column;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #0f172a; margin-bottom: 8px;">Global Area Ratio (Areal)</p>
+            <img src="./assets/areal_distortion.png" style="width: 100%; object-fit: contain; flex-grow: 1; border-radius: 4px;">
+        </div>
+        <div class="card" style="padding: 10px; text-align: center; display: flex; flex-direction: column;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #0f172a; margin-bottom: 8px;">Angular Deviation (Isotropy)</p>
+            <img src="./assets/angular_distortion.png" style="width: 100%; object-fit: contain; flex-grow: 1; border-radius: 4px;">
+        </div>
+    </div>
+</section>
+
+<!-- 15. THROUGHPUT & ENCODING TAX -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px;">Relational Throughput &amp; The Encoding Tax</h2>
+    <p style="font-size: 0.65em; margin-bottom: 10px;">Join-by-index provides massive speedups, but calculating coverings incurs an initial cost.</p>
+    
+    <div class="two-col" style="gap: 16px; align-items: center;">
+        <div style="text-align: left;">
+            <div class="card green" style="padding: 14px; margin-bottom: 12px; border-top: 3px solid var(--green);">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--green); margin-bottom: 4px;">⚡ Join Speedup</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Pre-computed DGGS joins achieve massive speedups over traditional vector <code>ST_Intersects</code> (e.g., S2 achieves up to <strong>325&times; speedup</strong>).</p>
+            </div>
+            <div class="card amber" style="padding: 14px; border-top: 3px solid #d97706;">
+                <p style="font-size: 0.65em; font-weight: 800; color: #d97706; margin-bottom: 4px;">⏳ The Encoding Tax</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4;">Extracting, Transforming, and Loading (ETL) raw vector data into DGGS coverings is highly intensive. It currently represents the primary computational bottleneck for DGGS pipelines.</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 10px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            <div style="text-align: center; width: 100%;">
+                <img src="./assets/throughput_geohash.png" style="width: 100%; border-radius: 6px; margin: 0;">
+                <p style="font-size: 0.45em; color: var(--muted); margin-top: 6px; margin-bottom: 0;">Execution time on log scale (includes Geohash)</p>
+            </div>
+        </div>
+    </div>
+    <div class="citation" style="margin-top: 15px;">Juhász, L., et al. (2025). A Comparative Benchmark of Discrete Global Grid Systems for Geospatial AI.</div>
+</section>
+
+<!-- 16. POTENTIAL BENEFITS & INDUSTRY -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">Why Invest in DGGS? The Core Benefits</h2>
+    <p style="font-size: 0.65em; margin-bottom: 20px;">Discrete Global Grid Systems offer a radically different paradigm for spatial reasoning.</p>
+    
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div style="display: flex; flex-direction: column; gap: 10px; text-align: left;">
+            <div class="card green fragment" style="padding: 14px; border-left: 4px solid var(--green);">
+                <p style="font-size: 0.6em; font-weight: 800; color: #0f172a; margin-bottom: 4px;">1. Scientific Rigor</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4; color: var(--slate);">They can be <strong>true equal-area</strong> across the globe, completely eliminating spatial sampling bias.</p>
+            </div>
+            <div class="card green fragment" style="padding: 14px; border-left: 4px solid var(--green);">
+                <p style="font-size: 0.6em; font-weight: 800; color: #0f172a; margin-bottom: 4px;">2. Structural Hierarchy</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4; color: var(--slate);">Multi-resolution hierarchy allows seamless scaling from local streets to planetary phenomena.</p>
+            </div>
+            <div class="card green fragment" style="padding: 14px; border-left: 4px solid var(--green);">
+                <p style="font-size: 0.6em; font-weight: 800; color: #0f172a; margin-bottom: 4px;">3. Persistence</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4; color: var(--slate);">Cells are <strong>spatially and temporally persistent</strong>, acting as static bins for time-series modeling.</p>
+            </div>
+            <div class="card green fragment" style="padding: 14px; border-left: 4px solid var(--green);">
+                <p style="font-size: 0.6em; font-weight: 800; color: #0f172a; margin-bottom: 4px;">4. Computational Speed</p>
+                <p style="font-size: 0.55em; margin: 0; line-height: 1.4; color: var(--slate);">Transforms complex geometric <em>spatial joins</em> into ultra-fast 1D <em>relational hash joins</em>.</p>
+            </div>
+        </div>
+        
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+            <div class="card blue fragment" style="padding: 20px; text-align: left; border: 2px solid var(--blue);">
+                <p style="font-size: 0.65em; font-weight: 800; color: var(--blue); margin-bottom: 10px; text-transform: uppercase;">The Industry Signal</p>
+                <p style="font-size: 0.55em; line-height: 1.5; margin-bottom: 12px; color: var(--slate);">Technology giants traditionally outside the "geospatial" domain are investing heavily in this infrastructure:</p>
+                <ul style="font-size: 0.55em; line-height: 1.5; margin-bottom: 16px; padding-left: 20px;">
+                    <li style="margin-bottom: 8px;"><strong>Uber</strong> created <strong>H3</strong> to manage dynamic global logistics.</li>
+                    <li style="margin-bottom: 8px;"><strong>Google</strong> created <strong>S2</strong> to power planetary-scale indexing.</li>
+                </ul>
+                <p style="font-size: 0.55em; font-weight: 800; color: #0f172a; margin: 0; line-height: 1.5; padding: 12px; background: rgba(30, 64, 175, 0.05); border-radius: 6px; border-left: 3px solid var(--blue);">
+                    They invest heavily for a reason. It's time for GIScience to rigorously evaluate how we can leverage this native AI architecture.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- PART IV DIVIDER / VISION -->
+
+<section data-background-color="#1e1b4b" data-transition="fade">
+    <div style="text-align: left; padding: 20px;">
+        <p style="font-size: 0.6em; color: #6366f1; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;">Part III</p>
+        <h2 style="color: #f8fafc; font-size: 2.2em; line-height: 1.1; margin-bottom: 20px;">Synthesis &amp;<br><span style="color: #a5b4fc;">Take Home Messages</span></h2>
+    </div>
+</section>
+
+<!-- 17. TAKEAWAYS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 10px;">Key Takeaways</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 12px; text-align: left;">
+        <div class="card" style="border-top: 4px solid #6366f1; padding: 16px;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #4f46e5; margin-bottom: 8px;">1. Agentic AI is Rapidly Emerging</p>
+            <p style="font-size: 0.58em; margin: 0; line-height: 1.4;">Beyond chatbots, autonomous agents can execute complex, long-horizon geospatial workflows by reasoning and acting iteratively, but we need governance structures to make them reliable.</p>
+        </div>
+        <div class="card" style="border-top: 4px solid var(--red); padding: 16px;">
+            <p style="font-size: 0.65em; font-weight: 800; color: var(--red); margin-bottom: 8px;">2. The Planar Fallacy</p>
+            <p style="font-size: 0.58em; margin: 0; line-height: 1.4;">Conventional 2D coordinate systems inject massive distortion and edge artifacts, fundamentally limiting global-scale machine learning models.</p>
+        </div>
+        <div class="card" style="border-top: 4px solid var(--green); padding: 16px;">
+            <p style="font-size: 0.65em; font-weight: 800; color: var(--green); margin-bottom: 8px;">3. DGGS as the Data Pillar</p>
+            <p style="font-size: 0.58em; margin: 0; line-height: 1.4;">Discrete Global Grids eliminate spatial sampling bias and provide up to a 325&times; throughput speedup, despite an initial ETL encoding tax.</p>
+        </div>
+        <div class="card" style="border-top: 4px solid #8b5cf6; padding: 16px;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #7c3aed; margin-bottom: 8px;">4. DGGS as the Shared Substrate</p>
+            <p style="font-size: 0.58em; margin: 0; line-height: 1.4;">Discrete grids offer a unified foundation: they eliminate planar distortion for analytical GeoAI (e.g., Random Forests, CNNs) while providing a fast, reliable execution mechanism for autonomous agents.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 18. THE FULL STACK -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 10px;">The Full Stack</h2>
+    <div style="display: grid; grid-template-columns: 1fr; gap: 0; max-width: 780px; margin: 0 auto; text-align: left;">
+        <div style="background: #dbeafe; border-radius: 10px 10px 0 0; padding: 14px 20px; border: 2px solid #93c5fd; border-bottom: none;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #1e40af; margin: 0;">Layer 3 · Application</p>
+            <p style="font-size: 0.6em; color: #1e40af; margin: 3px 0 0;">Climate monitoring, urban risk, epidemiology</p>
+        </div>
+        <div style="background: #ede9fe; padding: 14px 20px; border: 2px solid #c4b5fd; border-bottom: none;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #5b21b6; margin: 0;">Layer 2 · Governance (AgentLoom)</p>
+            <p style="font-size: 0.6em; color: #5b21b6; margin: 3px 0 0;">Reliable agentic execution across long-horizon workflows</p>
+        </div>
+        <div style="background: #fdf4ff; padding: 14px 20px; border: 2px solid #f0abfc; border-bottom: none;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #a21caf; margin: 0;">Layer 1 · Execution & Analytical Engine</p>
+            <p style="font-size: 0.6em; color: #a21caf; margin: 3px 0 0;">Fast relational joins for agents and unbiased structures for analytical GeoAI</p>
+        </div>
+        <div style="background: #f1f5f9; border-radius: 0 0 10px 10px; padding: 14px 20px; border: 2px solid #cbd5e1;">
+            <p style="font-size: 0.65em; font-weight: 800; color: #334155; margin: 0;">Layer 0 · Data Substrate (DGGS Benchmark)</p>
+            <p style="font-size: 0.6em; color: #64748b; margin: 3px 0 0;">Discrete, hierarchical, equal-area tessellation</p>
+        </div>
+    </div>
+</section>
+
+<!-- 19. FINAL -->
+<section data-background-color="#f8fafc" data-transition="fade">
+    <div style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="font-size: 0.55em; color: #64748b; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 16px;">University of Szeged | Szegedi Tudományegyetem · 2026</p>
+        <h2 style="color: #0f172a; font-size: 1.9em; line-height: 1.2; margin-bottom: 20px;">Toward Autonomous Spatial Intelligence</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 680px; margin-bottom: 28px; text-align: left;">
+            <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 14px;">
+                <p style="font-size: 0.62em; color: #1e40af; font-weight: 700; margin-bottom: 4px;">Dual Helix Paper</p>
+                <p style="font-size: 0.58em; color: #3b82f6; margin: 0; font-weight: 600;">arxiv.org/abs/2603.04390</p>
+            </div>
+            <div style="background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 10px; padding: 14px;">
+                <p style="font-size: 0.62em; color: #065f46; font-weight: 700; margin-bottom: 4px;">DGGS Benchmark</p>
+                <p style="font-size: 0.58em; color: #10b981; margin: 0; font-weight: 600;">github.com/gatorlab-geo/dggs-bench</p>
+            </div>
+        </div>
+        <div style="border-top: 1px solid #cbd5e1; padding-top: 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <img src="./assets/gator_logo.png" alt="GATOR Lab Logo" style="width: 400px; max-height: 150px; object-fit: contain; margin: 0 0 12px 0; box-shadow: none; border: none;">
+            <p style="font-size: 0.7em; color: #0f172a; font-weight: 700; margin-bottom: 4px;">Levente Juhász, Ph.D.</p>
+            <p style="font-size: 0.6em">Univesity of Florida/IFAS SFFGS | FLREC</p>
+            <p style="font-size: 0.6em; color: #2563eb;">levente.juhasz@ufl.edu &nbsp;·&nbsp; gatorlab.io</p>
+        </div>
+    </div>
+</section>
+
+<!-- PART V DIVIDER / ROUNDTABLE -->
+<section data-background-color="#1e293b" data-transition="fade">
+    <div style="text-align: left; padding: 20px;">
+        <p style="font-size: 0.6em; color: #94a3b8; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;">V. Rész</p>
+        <h2 style="color: #f8fafc; font-size: 2.2em; line-height: 1.1; margin-bottom: 20px;">Szakmai Kerekasztal:<br><span style="color: #38bdf8;">Térinformatika, Oktatás és Kutatási Irányok</span></h2>
+        <p style="font-size: 0.8em; color: #94a3b8;">A hivatkozásokon túl: Mi számít "sikeres" kutatásnak?</p>
+    </div>
+</section>
+
+<!-- THE CITATION PARADOX -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">A "Hivatkozás-paradoxon"</h2>
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.7em; margin-bottom: 16px;">A kutatások sikerességét ma nagyrészt az idézettségben mérik (h-index, impakt faktor). De vajon ez a teljes kép?</p>
+            <div class="card blue" style="padding: 16px; border-top: 3px solid var(--blue);">
+                <p style="font-size: 0.65em; font-weight: 800; color: #1e40af; margin-bottom: 8px;">A Valós Tapasztalat</p>
+                <p style="font-size: 0.6em; line-height: 1.5; margin: 0; color: var(--slate);">A legizgalmasabb, leginkább jutalmazó projektek (amelyek a legnagyobb érdeklődést váltják ki a társadalomból vagy a médiából) sokszor alig kapnak formális hivatkozást a hagyományos értelemben.</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center; height: 340px; background: #f8fafc; border: 2px solid #cbd5e1; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <svg viewBox="0 0 400 300" style="width: 100%; height: 100%; font-family: sans-serif;">
+                <defs>
+                    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                        <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+                    </marker>
+                </defs>
+
+                <!-- Fragment 1: The ideal upper-right quadrant -->
+                <g class="fragment">
+                    <rect x="210" y="20" width="170" height="120" fill="rgba(34, 197, 94, 0.15)" stroke="#166534" stroke-width="1" rx="4" stroke-dasharray="4,4"/>
+                    <text x="295" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">Az "Ideális" Eset</text>
+                    <text x="295" y="90" text-anchor="middle" font-size="11" fill="#166534">(Magas idézettség,</text>
+                    <text x="295" y="105" text-anchor="middle" font-size="11" fill="#166534">magas hatás)</text>
+                </g>
+
+                <!-- Diagonal line -->
+                <line x1="40" y1="260" x2="380" y2="20" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6,6" />
+
+                <!-- Axes -->
+                <line x1="40" y1="260" x2="40" y2="20" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+                <line x1="40" y1="260" x2="380" y2="260" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+                <!-- Axis Labels -->
+                <text x="210" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Hivatkozások száma &rarr;</text>
+                <text x="15" y="140" transform="rotate(-90 15,140)" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Társadalmi Haszon / Érdeklődés &rarr;</text>
+
+                <!-- Fragment 2: Null Island -->
+                <g class="fragment">
+                    <circle cx="60" cy="50" r="7" fill="#ef4444" stroke="#7f1d1d" stroke-width="2"/>
+                    <text x="75" y="48" font-size="15" font-weight="bold" fill="#b91c1c">Null-sziget</text>
+                    <text x="75" y="64" font-size="11" fill="#7f1d1d">(Hatalmas médiaérdeklődés)</text>
+                </g>
+
+                <!-- Fragment 3: GIScience Trends -->
+                <g class="fragment">
+                    <circle cx="70" cy="130" r="7" fill="#f59e0b" stroke="#b45309" stroke-width="2"/>
+                    <text x="85" y="128" font-size="15" font-weight="bold" fill="#b45309">GIScience Trendek</text>
+                    <text x="85" y="144" font-size="11" fill="#78350f">(Közösségi / szakmai hatás)</text>
+                </g>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<!-- NULL ISLAND -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px; font-size: 1.6em;">Null-sziget: Egy Adathibából Lett Jelenség</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">2022-es publikáció &middot; 6 hivatkozás &middot; Hatalmas médiaérdeklődés (Bloomberg, CNN)</p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; align-items: start;">
+        <!-- Column 1 -->
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_paper.png" alt="IEEE Access Paper" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_cnn.png" alt="CNN Article" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+        </div>
+        <!-- Column 2 -->
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_globe.png" alt="Null Island Globe" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_covid.png" alt="Johns Hopkins COVID Map" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+        </div>
+        <!-- Column 3 -->
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_flight.png" alt="Airplane Tracker" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_heatmap.png" alt="Heatmap" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PUBLICATION TRENDS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px; font-size: 1.6em;">GIScience Publikációs Trendek (2024)</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">6 hivatkozás, de kritikus fontosságú meta-kutatás a közösségünk számára.</p>
+    
+    <div class="two-col" style="align-items: stretch; gap: 16px;">
+        <div style="text-align: left; display: flex; flex-direction: column; gap: 12px; justify-content: center;">
+            <div class="card amber" style="padding: 14px; border-top: 3px solid var(--amber);">
+                <p style="font-size: 0.6em; font-weight: 800; color: #b45309; margin-bottom: 8px;">Az Átláthatóság Eszköze</p>
+                <p style="font-size: 0.55em; line-height: 1.4; margin: 0; color: var(--slate);">Több tízezer cikk elemzése alapján egy nyílt, interaktív dashboardot készítettünk, amellyel bárki transzparensen értékelheti a térinformatikai folyóiratokat.</p>
+            </div>
+            
+            <div style="display: flex; gap: 12px; align-items: center; padding: 12px; background: #eff6ff; border-radius: 6px; border: 1px solid #bfdbfe;">
+                <img src="./assets/qr_journals.png" alt="QR Code" style="width: 80px; height: 80px; margin: 0; border-radius: 4px;">
+                <div>
+                    <p style="font-size: 0.6em; color: #1e40af; font-weight: bold; margin-bottom: 4px;">Próbáld ki élőben:</p>
+                    <p style="font-size: 0.55em; margin: 0; font-family: monospace; color: #3b82f6;">gatorlab.io/resources/journals.html</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; gap: 10px;">
+            <div class="card" style="padding: 8px; display: flex; align-items: center; justify-content: center; grid-row: span 2;">
+                <img src="./assets/giscience_paper.png" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 8px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/giscience_ranking.png" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 8px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/giscience_chart.png" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CEE DATA DEEP DIVE -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">Az Adatok Mögött: KKE a Globális Térképen</h2>
+
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div class="card" style="padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #fff;">
+            <p style="font-size: 0.5em; font-weight: bold; margin-bottom: 6px; color: #334155;">Publikációs Aktivitás Lakosságszámhoz Képest</p>
+            <img src="./assets/cee_bar.png" alt="Publication by Population Bar Chart" style="width: 100%; max-height: 480px; object-fit: contain; margin: 0;">
+        </div>
+        <div class="card" style="padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #fff;">
+            <p style="font-size: 0.5em; font-weight: bold; margin-bottom: 6px; color: #334155;">GDP és Publikációs Aktivitás Összefüggése</p>
+            <img src="./assets/cee_scatter.png" alt="GDP vs Publication Scatter Plot" style="width: 100%; max-height: 480px; object-fit: contain; margin: 0;">
+        </div>
+    </div>
+</section>
+
+<!-- CEE GAP & SPECIAL ISSUE -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">Közép-Kelet-Európa Publikációs Súlya</h2>
+    
+    <div style="display: flex; flex-direction: column; gap: 16px; max-width: 900px; margin: 0 auto; text-align: left;">
+        <div class="card red" style="padding: 16px; border-left: 4px solid var(--red);">
+            <p style="font-size: 0.65em; font-weight: 800; color: var(--red); margin-bottom: 8px;">A Felismerés</p>
+            <p style="font-size: 0.55em; line-height: 1.5; margin: 0; color: var(--slate);">A publikációs trendek elemzése kimutatta: Közép-Kelet-Európa (beleértve Magyarországot) le van maradva a nemzetközi publikációk számában, illetve a nemzetközi ko-publikációs hálózatokban kevesebbet vesz részt. A kutatási teljesítmény nemzetközi láthatósága a gazdasági és demográfiai potenciálhoz mérten alulreprezentált.</p>
+        </div>
+        
+        <div class="card green fragment" style="padding: 20px; border: 2px solid var(--green); background: #f0fdf4;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #166534; margin-bottom: 8px; text-transform: uppercase;">A Válaszlépés: Készülő ISPRS IJGI Különszám</p>
+            <p style="font-size: 0.8em; font-weight: 800; color: var(--green); margin-bottom: 14px; line-height: 1.2;">"Frontiers in GIScience and Geospatial Data Science in Central-Eastern Europe"</p>
+            <p style="font-size: 0.6em; margin: 0; color: #166534;"><strong>Cél:</strong> Dedikált, fókuszált platform biztosítása a régió térinformatikai kutatásainak.</p>
+            <p style="font-size: 0.6em; margin: 8px 0 0 0; color: #166534;"><strong>Vendégszerkesztők:</strong> Dr. Juhász Levente &amp; <strong>Dr. Szatmári József</strong>, ...</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- OPEN DISCUSSION -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 30px; font-size: 1.8em; color: var(--blue);">Beszélgetésindító Kérdések</h2>
+    
+    <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+        <div class="card" style="padding: 20px; border-left: 4px solid var(--blue); margin-bottom: 16px; background: #f8fafc;">
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin: 0;">1. Merre tart a GIScience? Magyarországon? USA-ban? Globálisan?</p>
+        </div>
+        
+        <div class="card" style="padding: 20px; border-left: 4px solid #0d9488; margin-bottom: 16px; background: #f8fafc;">
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin: 0;">2. Mik az egyetemi oktatás jelenlegi legnagyobb kihívásai?</p>
+            <p style="font-size: 0.6em; color: var(--slate); margin: 8px 0 0 0;">(Például az AI integrálása vagy a hallgatók felkészítése az új eszközökre)</p>
+        </div>
+        
+        <div class="card" style="padding: 20px; border-left: 4px solid var(--green); background: #f8fafc;">
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin: 0;">3. Hogyan tudjuk jobban bevonni a hazai kutatókat a nemzetközi vérkeringésbe?</p>
+        </div>
+    </div>
+</section>
+
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+    Reveal.initialize({
+        hash: true,
+        transition: 'slide',
+        backgroundTransition: 'fade',
+        center: true,
+        controls: true,
+        controlsLayout: 'bottom-right',
+        progress: true,
+        slideNumber: 'c/t',
+        width: 1280,
+        height: 800,
+        margin: 0.08,
+        minScale: 0.2,
+        maxScale: 2.0
+    });
+
+    Reveal.on('ready', () => {
+        const ctx = document.getElementById('ablationChart');
+        if (!ctx) return;
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Baseline', '− Skills', '− Behaviors', '− Knowledge', 'Full AgentLoom'],
+                datasets: [{
+                    label: 'Avg. Score (%)',
+                    data: [40, 53.5, 70, 80, 83.5],
+                    backgroundColor: ['#fca5a5', '#fcd34d', '#fcd34d', '#fcd34d', '#6ee7b7'],
+                    borderColor: ['#dc2626', '#d97706', '#d97706', '#d97706', '#059669'],
+                    borderWidth: 2,
+                    borderRadius: 6,
+                }]
+            },
+            options: {
+                animation: false,
+                indexAxis: 'y',
+                responsive: false,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { min: 0, max: 100, ticks: { font: { size: 11 }, stepSize: 20 }, title: { display: true, text: 'Average Score (%)', font: { size: 11 } } },
+                    y: { ticks: { font: { size: 11, weight: '600' } } }
+                }
+            }
+        });
+    });
+</script>
+</body></html>
+

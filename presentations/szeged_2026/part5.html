@@ -1,0 +1,191 @@
+<!-- PART V DIVIDER / ROUNDTABLE -->
+<section data-background-color="#1e293b" data-transition="fade">
+    <div style="text-align: left; padding: 20px;">
+        <p style="font-size: 0.6em; color: #94a3b8; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;">V. Rész</p>
+        <h2 style="color: #f8fafc; font-size: 2.2em; line-height: 1.1; margin-bottom: 20px;">Szakmai Kerekasztal:<br><span style="color: #38bdf8;">Térinformatika, Oktatás és Kutatási Irányok</span></h2>
+        <p style="font-size: 0.8em; color: #94a3b8;">A hivatkozásokon túl: Mi számít "sikeres" kutatásnak?</p>
+    </div>
+</section>
+
+<!-- THE CITATION PARADOX -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">A "Hivatkozás-paradoxon"</h2>
+    <div class="two-col" style="align-items: center; gap: 20px;">
+        <div style="text-align: left;">
+            <p style="font-size: 0.7em; margin-bottom: 16px;">A kutatások sikerességét ma nagyrészt az idézettségben mérik (h-index, impakt faktor). De vajon ez a teljes kép?</p>
+            <div class="card blue" style="padding: 16px; border-top: 3px solid var(--blue);">
+                <p style="font-size: 0.65em; font-weight: 800; color: #1e40af; margin-bottom: 8px;">A Valós Tapasztalat</p>
+                <p style="font-size: 0.6em; line-height: 1.5; margin: 0; color: var(--slate);">A legizgalmasabb, leginkább jutalmazó projektek (amelyek a legnagyobb érdeklődést váltják ki a társadalomból vagy a médiából) sokszor alig kapnak formális hivatkozást a hagyományos értelemben.</p>
+            </div>
+        </div>
+        <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center; height: 340px; background: #f8fafc; border: 2px solid #cbd5e1; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <svg viewBox="0 0 400 300" style="width: 100%; height: 100%; font-family: sans-serif;">
+                <defs>
+                    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                        <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+                    </marker>
+                </defs>
+
+                <!-- Fragment 1: The ideal upper-right quadrant -->
+                <g class="fragment">
+                    <rect x="210" y="20" width="170" height="120" fill="rgba(34, 197, 94, 0.15)" stroke="#166534" stroke-width="1" rx="4" stroke-dasharray="4,4"/>
+                    <text x="295" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">Az "Ideális" Eset</text>
+                    <text x="295" y="90" text-anchor="middle" font-size="11" fill="#166534">(Magas idézettség,</text>
+                    <text x="295" y="105" text-anchor="middle" font-size="11" fill="#166534">magas hatás)</text>
+                </g>
+
+                <!-- Diagonal line -->
+                <line x1="40" y1="260" x2="380" y2="20" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6,6" />
+
+                <!-- Axes -->
+                <line x1="40" y1="260" x2="40" y2="20" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+                <line x1="40" y1="260" x2="380" y2="260" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+                <!-- Axis Labels -->
+                <text x="210" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Hivatkozások száma &rarr;</text>
+                <text x="15" y="140" transform="rotate(-90 15,140)" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Társadalmi Haszon / Érdeklődés &rarr;</text>
+
+                <!-- Fragment 2: Null Island -->
+                <g class="fragment">
+                    <circle cx="60" cy="50" r="7" fill="#ef4444" stroke="#7f1d1d" stroke-width="2"/>
+                    <text x="75" y="48" font-size="15" font-weight="bold" fill="#b91c1c">Null-sziget</text>
+                    <text x="75" y="64" font-size="11" fill="#7f1d1d">(Hatalmas médiaérdeklődés)</text>
+                </g>
+
+                <!-- Fragment 3: GIScience Trends -->
+                <g class="fragment">
+                    <circle cx="70" cy="130" r="7" fill="#f59e0b" stroke="#b45309" stroke-width="2"/>
+                    <text x="85" y="128" font-size="15" font-weight="bold" fill="#b45309">GIScience Trendek</text>
+                    <text x="85" y="144" font-size="11" fill="#78350f">(Közösségi / szakmai hatás)</text>
+                </g>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<!-- NULL ISLAND -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px; font-size: 1.6em;">Null-sziget: Egy Adathibából Lett Jelenség</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">2022-es publikáció &middot; 6 hivatkozás &middot; Hatalmas médiaérdeklődés (Bloomberg, CNN)</p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; align-items: start;">
+        <!-- Column 1 -->
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_paper.png" alt="IEEE Access Paper" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_cnn.png" alt="CNN Article" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+        </div>
+        <!-- Column 2 -->
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_globe.png" alt="Null Island Globe" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_covid.png" alt="Johns Hopkins COVID Map" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+        </div>
+        <!-- Column 3 -->
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_flight.png" alt="Airplane Tracker" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/null_island_heatmap.png" alt="Heatmap" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; min-height: 80px; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PUBLICATION TRENDS -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 8px; font-size: 1.6em;">GIScience Publikációs Trendek (2024)</h2>
+    <p style="font-size: 0.65em; margin-bottom: 16px;">6 hivatkozás, de kritikus fontosságú meta-kutatás a közösségünk számára.</p>
+    
+    <div class="two-col" style="align-items: stretch; gap: 16px;">
+        <div style="text-align: left; display: flex; flex-direction: column; gap: 12px; justify-content: center;">
+            <div class="card amber" style="padding: 14px; border-top: 3px solid var(--amber);">
+                <p style="font-size: 0.6em; font-weight: 800; color: #b45309; margin-bottom: 8px;">Az Átláthatóság Eszköze</p>
+                <p style="font-size: 0.55em; line-height: 1.4; margin: 0; color: var(--slate);">Több tízezer cikk elemzése alapján egy nyílt, interaktív dashboardot készítettünk, amellyel bárki transzparensen értékelheti a térinformatikai folyóiratokat.</p>
+            </div>
+            
+            <div style="display: flex; gap: 12px; align-items: center; padding: 12px; background: #eff6ff; border-radius: 6px; border: 1px solid #bfdbfe;">
+                <img src="./assets/qr_journals.png" alt="QR Code" style="width: 80px; height: 80px; margin: 0; border-radius: 4px;">
+                <div>
+                    <p style="font-size: 0.6em; color: #1e40af; font-weight: bold; margin-bottom: 4px;">Próbáld ki élőben:</p>
+                    <p style="font-size: 0.55em; margin: 0; font-family: monospace; color: #3b82f6;">gatorlab.io/resources/journals.html</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; gap: 10px;">
+            <div class="card" style="padding: 8px; display: flex; align-items: center; justify-content: center; grid-row: span 2;">
+                <img src="./assets/giscience_paper.png" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 8px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/giscience_ranking.png" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; object-fit: contain;">
+            </div>
+            <div class="card" style="padding: 8px; display: flex; align-items: center; justify-content: center;">
+                <img src="./assets/giscience_chart.png" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CEE DATA DEEP DIVE -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">Az Adatok Mögött: KKE a Globális Térképen</h2>
+
+    <div class="two-col" style="align-items: stretch; gap: 20px;">
+        <div class="card" style="padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #fff;">
+            <p style="font-size: 0.5em; font-weight: bold; margin-bottom: 6px; color: #334155;">Publikációs Aktivitás Lakosságszámhoz Képest</p>
+            <img src="./assets/cee_bar.png" alt="Publication by Population Bar Chart" style="width: 100%; max-height: 480px; object-fit: contain; margin: 0;">
+        </div>
+        <div class="card" style="padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #fff;">
+            <p style="font-size: 0.5em; font-weight: bold; margin-bottom: 6px; color: #334155;">GDP és Publikációs Aktivitás Összefüggése</p>
+            <img src="./assets/cee_scatter.png" alt="GDP vs Publication Scatter Plot" style="width: 100%; max-height: 480px; object-fit: contain; margin: 0;">
+        </div>
+    </div>
+</section>
+
+<!-- CEE GAP & SPECIAL ISSUE -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 12px; font-size: 1.6em;">Közép-Kelet-Európa Publikációs Súlya</h2>
+    
+    <div style="display: flex; flex-direction: column; gap: 16px; max-width: 900px; margin: 0 auto; text-align: left;">
+        <div class="card red" style="padding: 16px; border-left: 4px solid var(--red);">
+            <p style="font-size: 0.65em; font-weight: 800; color: var(--red); margin-bottom: 8px;">A Felismerés</p>
+            <p style="font-size: 0.55em; line-height: 1.5; margin: 0; color: var(--slate);">A publikációs trendek elemzése kimutatta: Közép-Kelet-Európa (beleértve Magyarországot) le van maradva a nemzetközi publikációk számában, illetve a nemzetközi ko-publikációs hálózatokban kevesebbet vesz részt. A kutatási teljesítmény nemzetközi láthatósága a gazdasági és demográfiai potenciálhoz mérten alulreprezentált.</p>
+        </div>
+        
+        <div class="card green fragment" style="padding: 20px; border: 2px solid var(--green); background: #f0fdf4;">
+            <p style="font-size: 0.6em; font-weight: 800; color: #166534; margin-bottom: 8px; text-transform: uppercase;">A Válaszlépés: Készülő ISPRS IJGI Különszám</p>
+            <p style="font-size: 0.8em; font-weight: 800; color: var(--green); margin-bottom: 14px; line-height: 1.2;">"Frontiers in GIScience and Geospatial Data Science in Central-Eastern Europe"</p>
+            <p style="font-size: 0.6em; margin: 0; color: #166534;"><strong>Cél:</strong> Dedikált, fókuszált platform biztosítása a régió térinformatikai kutatásainak.</p>
+            <p style="font-size: 0.6em; margin: 8px 0 0 0; color: #166534;"><strong>Vendégszerkesztők:</strong> Dr. Juhász Levente &amp; <strong>Dr. Szatmári József</strong>, ...</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- OPEN DISCUSSION -->
+<section data-transition="slide">
+    <h2 style="margin-bottom: 30px; font-size: 1.8em; color: var(--blue);">Beszélgetésindító Kérdések</h2>
+    
+    <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+        <div class="card" style="padding: 20px; border-left: 4px solid var(--blue); margin-bottom: 16px; background: #f8fafc;">
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin: 0;">1. Merre tart a GIScience? Magyarországon? USA-ban? Globálisan?</p>
+        </div>
+        
+        <div class="card" style="padding: 20px; border-left: 4px solid #0d9488; margin-bottom: 16px; background: #f8fafc;">
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin: 0;">2. Mik az egyetemi oktatás jelenlegi legnagyobb kihívásai?</p>
+            <p style="font-size: 0.6em; color: var(--slate); margin: 8px 0 0 0;">(Például az AI integrálása vagy a hallgatók felkészítése az új eszközökre)</p>
+        </div>
+        
+        <div class="card" style="padding: 20px; border-left: 4px solid var(--green); background: #f8fafc;">
+            <p style="font-size: 0.8em; font-weight: bold; color: #0f172a; margin: 0;">3. Hogyan tudjuk jobban bevonni a hazai kutatókat a nemzetközi vérkeringésbe?</p>
+        </div>
+    </div>
+</section>

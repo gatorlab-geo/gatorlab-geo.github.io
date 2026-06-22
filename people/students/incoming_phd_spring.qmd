@@ -1,0 +1,9 @@
+---
+title: "TBD"
+subtitle: "Graduate Research Assistant"
+image: "/files/images/gator-logo-square.png"
+started: "Spring 2027"
+---
+
+## Biography
+This incoming graduate student will be joining the GATOR Lab in Spring 2027.

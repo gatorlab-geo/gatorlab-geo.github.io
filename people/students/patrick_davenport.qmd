@@ -1,0 +1,9 @@
+---
+title: "Patrick Davenport"
+subtitle: "Graduate Research Assistant"
+image: "/files/images/gator-logo-square.png"
+started: "Fall 2026"
+---
+
+## Biography
+Patrick Davenport will be joining the GATOR Lab in Fall 2026. More details are coming...

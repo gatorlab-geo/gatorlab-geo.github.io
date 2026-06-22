@@ -61,6 +61,8 @@ Broadly speaking, we are interested in harnessing the latest technological and m
 
 - **GeoAI and Responsible Automation**: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.
 
+- **Discrete Global Grid Systems (DGGS)**: Exploring DGGS as a foundational data substrate in geospatial applications and GeoAI.
+
 - **Open Source, Open Data, and Societal Impact**: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products.
 
 

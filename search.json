@@ -18,7 +18,7 @@
     "href": "people.html#lab-members",
     "title": "People",
     "section": "Lab Members",
-    "text": "Lab Members\n\n\n\n\n\n\n\n\n\n\nFuture Student\n\n\nPhD Student\n\n\n\n\n\nNo matching items\n\nOur lab is growing! Check out our open positions."
+    "text": "Lab Members\n\n\n\n\n\n\n\n\n\n\nMichael Floreal\n\n\nUndergraduate Intern\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Davenport\n\n\nGraduate Research Assistant\n\n\n\n\n\n\n\n\n\n\n\n\nPurna Saud\n\n\nGraduate Research Assistant\n\n\n\n\n\n\n\n\n\n\n\n\nTBD\n\n\nGraduate Research Assistant\n\n\n\n\n\nNo matching items\n\nOur lab is growing! Check out our open positions."
   },
   {
     "objectID": "people.html#lab-alumni",
@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Geospatial Analytics, Technology & Open Research",
     "section": "",
-    "text": "GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+    "text": "GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nDiscrete Global Grid Systems (DGGS): Exploring DGGS as a foundational data substrate in geospatial applications and GeoAI.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
   },
   {
     "objectID": "index.html#our-work",
@@ -46,7 +46,7 @@
     "href": "index.html#research-pillars",
     "title": "Geospatial Analytics, Technology & Open Research",
     "section": "",
-    "text": "Scalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+    "text": "Scalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nDiscrete Global Grid Systems (DGGS): Exploring DGGS as a foundational data substrate in geospatial applications and GeoAI.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
   },
   {
     "objectID": "index.html#recent-posts",
@@ -74,14 +74,14 @@
     "href": "join.html",
     "title": "Join the GATOR Lab",
     "section": "",
-    "text": "We are currently seeking two fully funded PhD students to join our team.\n\n\nFocus on cloud-native workflows, Large Language Models (LLMs) for geospatial reasoning and and scalable geospatial data science.\n\n\n\nPrimarily work on the “Future Shorelines” project to model sea-level rise and coastal change, and bring cutting-edge computing to solve an environmental problem.\nWe also welcome original research proposals that align with the lab’s core mission and expertise."
+    "text": "There are currently no funded, open positions available in the GATOR Lab.\nHowever, we are always interested in connecting with passionate researchers. I am open to discussing opportunities with:\n\nCurrent UF Students looking to conduct undergraduate or graduate research.\nProspective Students and Postdocs who have secured or are planning to apply for their own funding (e.g., external fellowships, scholarships, or grants).\n\nIf you fall into one of these categories and your research interests align with the lab’s core mission and expertise, we welcome your inquiry."
   },
   {
-    "objectID": "join.html#open-positions-fall-2026",
-    "href": "join.html#open-positions-fall-2026",
+    "objectID": "join.html#openings-opportunities",
+    "href": "join.html#openings-opportunities",
     "title": "Join the GATOR Lab",
     "section": "",
-    "text": "We are currently seeking two fully funded PhD students to join our team.\n\n\nFocus on cloud-native workflows, Large Language Models (LLMs) for geospatial reasoning and and scalable geospatial data science.\n\n\n\nPrimarily work on the “Future Shorelines” project to model sea-level rise and coastal change, and bring cutting-edge computing to solve an environmental problem.\nWe also welcome original research proposals that align with the lab’s core mission and expertise."
+    "text": "There are currently no funded, open positions available in the GATOR Lab.\nHowever, we are always interested in connecting with passionate researchers. I am open to discussing opportunities with:\n\nCurrent UF Students looking to conduct undergraduate or graduate research.\nProspective Students and Postdocs who have secured or are planning to apply for their own funding (e.g., external fellowships, scholarships, or grants).\n\nIf you fall into one of these categories and your research interests align with the lab’s core mission and expertise, we welcome your inquiry."
   },
   {
     "objectID": "join.html#what-we-value",
@@ -91,18 +91,11 @@
     "text": "What We Value\nAbove all, we value intellectual curiosity and a critical mindset. We are looking for researchers who don’t just apply tools, but interrogate them. We are not afraid to ask interesting but difficult questions, and engage with challenging problems. You will thrive here if you are passionate about open science and eager to solve complex spatial problems through a data-science lens."
   },
   {
-    "objectID": "join.html#requirements",
-    "href": "join.html#requirements",
+    "objectID": "join.html#how-to-inquire",
+    "href": "join.html#how-to-inquire",
     "title": "Join the GATOR Lab",
-    "section": "Requirements",
-    "text": "Requirements\n\nMS degree: We are looking for candidates with a masters degree or equivalent in GIScience, Computer Science, Statistics, Data Science, Geography or a related field.\nResearch: Peer-reviewed publications are not a hard requirement but we expect candidates to have a track record of research.\nSatisfying all UF graduate admission requirements if an offer is made."
-  },
-  {
-    "objectID": "join.html#how-to-apply",
-    "href": "join.html#how-to-apply",
-    "title": "Join the GATOR Lab",
-    "section": "How to Apply",
-    "text": "How to Apply\nReview of applications is ongoing. Please email Dr. Levente Juhász (join@gatorlab.io — Note: UF email available Jan 2026) with:\n\nYour CV and a link to your GitHub/Portfolio.\nA Brief Statement of Interest explaining WHY GATOR Lab and HOW you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit. Be creative, authentic, and tell us why want to join the GATOR Lab.\n\n\nJoin us at the University of Florida to build the future of Geospatial Data Science."
+    "section": "How to Inquire",
+    "text": "How to Inquire\nIf you are interested in joining the lab under the aforementioned opportunities, please email Dr. Levente Juhász (join@gatorlab.io) with:\n\nYour CV and a link to your GitHub/Portfolio.\nA Brief Statement of Interest explaining WHY GATOR Lab and HOW you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit. Be creative, authentic, and tell us why you want to join the GATOR Lab.\n\n\nJoin us at the University of Florida to build the future of Geospatial Data Science."
   },
   {
     "objectID": "posts/ijgi_editor/index.html",
@@ -210,53 +203,32 @@
     "text": "Next Steps: Defining the Future of GeoAI\nThe energy from the meeting is already being channeled into a major perspective paper on the future of GeoAI. We are working to synthesize the collective insights from our discussions into a formal research agend. It was inspiring to see such a strong sense of shared identity emerging from this community.\n\n\n\nGroup photo\n\n\nA big thank you to Wenwen Li, Dylan Connor, Patricia Solis, Heather Baier, Daoqin Tong, Drew Trgovac, Peter Rogerson et al. the entire organizing committee for such a seamless and inspiring forum. I look forward to contributing to the perspective paper and shape the future of GeoAI together."
   },
   {
-    "objectID": "people/students/template.html",
-    "href": "people/students/template.html",
-    "title": "Future Student",
+    "objectID": "people/students/incoming_phd_spring.html",
+    "href": "people/students/incoming_phd_spring.html",
+    "title": "TBD",
     "section": "",
-    "text": "We are hiring! Check out what we are looking for in a future PhD student."
+    "text": "This incoming graduate student will be joining the GATOR Lab in Spring 2027."
   },
   {
-    "objectID": "people/students/template.html#biography",
-    "href": "people/students/template.html#biography",
-    "title": "Future Student",
+    "objectID": "people/students/incoming_phd_spring.html#biography",
+    "href": "people/students/incoming_phd_spring.html#biography",
+    "title": "TBD",
     "section": "",
-    "text": "We are hiring! Check out what we are looking for in a future PhD student."
+    "text": "This incoming graduate student will be joining the GATOR Lab in Spring 2027."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "people/students/patrick_davenport.html",
+    "href": "people/students/patrick_davenport.html",
+    "title": "Patrick Davenport",
     "section": "",
-    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
+    "text": "Patrick Davenport will be joining the GATOR Lab in Fall 2026. More details are coming…"
   },
   {
-    "objectID": "resources/journals.html",
-    "href": "resources/journals.html",
-    "title": "GIScience Journal Assessment Dashboard",
+    "objectID": "people/students/patrick_davenport.html#biography",
+    "href": "people/students/patrick_davenport.html#biography",
+    "title": "Patrick Davenport",
     "section": "",
-    "text": "We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled “Assessing publication trends in selected GIScience journals”.\n\n\n\n\n\n\nTipLaunch Dashboard\n\n\n\nThe dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.\n\n\n\n  \n    \n      Loading...\n    \n    Initializing Dashboard...\n    Downloading engine & data (first run ~30s)\n  \n  \n\n\n\nLaunch Full Screen Dashboard"
-  },
-  {
-    "objectID": "resources/data.html",
-    "href": "resources/data.html",
-    "title": "Open Data & Tools",
-    "section": "",
-    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
-  },
-  {
-    "objectID": "resources/data.html#open-science",
-    "href": "resources/data.html#open-science",
-    "title": "Open Data & Tools",
-    "section": "",
-    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
+    "text": "Patrick Davenport will be joining the GATOR Lab in Fall 2026. More details are coming…"
   },
   {
     "objectID": "people/alumni/corcino.html",
@@ -278,6 +250,76 @@
     "title": "Jorge Corcino",
     "section": "Research Interests",
     "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/data.html",
+    "href": "resources/data.html",
+    "title": "Open Data & Tools",
+    "section": "",
+    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
+  },
+  {
+    "objectID": "resources/data.html#open-science",
+    "href": "resources/data.html#open-science",
+    "title": "Open Data & Tools",
+    "section": "",
+    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
+  },
+  {
+    "objectID": "resources/journals.html",
+    "href": "resources/journals.html",
+    "title": "GIScience Journal Assessment Dashboard",
+    "section": "",
+    "text": "We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled “Assessing publication trends in selected GIScience journals”.\n\n\n\n\n\n\nTipLaunch Dashboard\n\n\n\nThe dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.\n\n\n\n  \n    \n      Loading...\n    \n    Initializing Dashboard...\n    Downloading engine & data (first run ~30s)\n  \n  \n\n\n\nLaunch Full Screen Dashboard"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
+  },
+  {
+    "objectID": "people/students/michael_floreal.html",
+    "href": "people/students/michael_floreal.html",
+    "title": "Michael Floreal",
+    "section": "",
+    "text": "Michael Floreal is a student intern from Miami Dade College (MDC), where he is enrolled in the Biopharmaceuticals program. He expects to graduate with his BSc in 2027 and plans to transfer to a university such as USF or UF to pursue further studies in pharmacy.\nWith a strong interest in biology, ecology, and chemistry, Michael has engaged in multiple research projects. He previously worked on grafting methyl methacrylate onto corn pulp to evaluate its effectiveness as an adsorption material, and he also investigated the effects of the herbicide glyphosate on the growth of fungal species such as Fusarium, Ganoderma, and Thielaviopsis. Currently, he is exploring GIS through an MDC-funded summer internship program."
+  },
+  {
+    "objectID": "people/students/michael_floreal.html#biography",
+    "href": "people/students/michael_floreal.html#biography",
+    "title": "Michael Floreal",
+    "section": "",
+    "text": "Michael Floreal is a student intern from Miami Dade College (MDC), where he is enrolled in the Biopharmaceuticals program. He expects to graduate with his BSc in 2027 and plans to transfer to a university such as USF or UF to pursue further studies in pharmacy.\nWith a strong interest in biology, ecology, and chemistry, Michael has engaged in multiple research projects. He previously worked on grafting methyl methacrylate onto corn pulp to evaluate its effectiveness as an adsorption material, and he also investigated the effects of the herbicide glyphosate on the growth of fungal species such as Fusarium, Ganoderma, and Thielaviopsis. Currently, he is exploring GIS through an MDC-funded summer internship program."
+  },
+  {
+    "objectID": "people/students/michael_floreal.html#project",
+    "href": "people/students/michael_floreal.html#project",
+    "title": "Michael Floreal",
+    "section": "Project",
+    "text": "Project\nThe Global Pixel Bias Objective: Map the discrepancy between “Planimetric Area” (what the computer sees) and “Ellipsoidal Area” (real world) across different grid systems (e.g. Web Mercator vs. H3 vs. S2)."
+  },
+  {
+    "objectID": "people/students/purna_saud.html",
+    "href": "people/students/purna_saud.html",
+    "title": "Purna Saud",
+    "section": "",
+    "text": "Purna Saud will be joining the GATOR Lab in Fall 2026. More details are coming…"
+  },
+  {
+    "objectID": "people/students/purna_saud.html#biography",
+    "href": "people/students/purna_saud.html#biography",
+    "title": "Purna Saud",
+    "section": "",
+    "text": "Purna Saud will be joining the GATOR Lab in Fall 2026. More details are coming…"
   },
   {
     "objectID": "people/levente-juhasz.html",

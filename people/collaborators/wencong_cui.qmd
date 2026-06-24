@@ -1,0 +1,15 @@
+---
+title: "Wencong 'Vincent' Cui"
+subtitle: "Geospatial Developer | Florida International University"
+image: "/files/profiles/vincent_cui.jpg"
+about:
+  template: trestles
+  links:
+    - text: "{{< ai google-scholar >}} Scholar"
+      href: https://scholar.google.com/citations?user=C7RUGzMAAAAJ
+---
+
+## Biography
+Wencong “Vincent” Cui is a geospatial researcher and application developer at the FIU GIS Center. His work sits at the intersection of WebGIS, spatial data infrastructure, GeoAI, and agentic AI, with a focus on developing reliable AI-assisted geospatial systems for urban and environmental applications. He holds a Ph.D. in Geography from Texas A&M University, an M.S. in Computer Science from Georgia Tech, and a Master of Urban and Environmental Planning from Arizona State University. His recent projects examine agentic AI governance for WebGIS development and street-view-based spatial retrieval-augmented generation for urban analysis.
+
+Vincent frequently works with us on evaluating Large Language Models (LLMs) in geographic contexts.

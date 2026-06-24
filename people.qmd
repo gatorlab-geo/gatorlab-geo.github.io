@@ -20,6 +20,15 @@ listing:
     grid-columns: 3
     image-height: 200px
 
+  - id: collaborators
+    contents: 
+      - "people/collaborators/*.qmd"
+    type: grid
+    fields: [image, title, subtitle]
+    grid-item-align: center
+    grid-columns: 3
+    image-height: 200px
+
   - id: alumni
     # WORKFLOW FOR ALUMNI:
     # 1. Move their profile from people/students/ to people/alumni/ (e.g., git mv)
@@ -56,6 +65,10 @@ listing:
 :::
 
 Our lab is growing! Check out our [open positions](join.qmd).
+
+## Collaborators
+:::{#collaborators}
+:::
 
 ## Lab Alumni
 :::{#alumni}

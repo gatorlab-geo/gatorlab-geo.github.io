@@ -135,6 +135,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-collaborators .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-collaborators'] = new List('listing-collaborators', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-alumni .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -369,6 +397,7 @@ window.Quarto = {
   <ul>
   <li><a href="#faculty" id="toc-faculty" class="nav-link active" data-scroll-target="#faculty">Faculty</a></li>
   <li><a href="#lab-members" id="toc-lab-members" class="nav-link" data-scroll-target="#lab-members">Lab Members</a></li>
+  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators">Collaborators</a></li>
   <li><a href="#lab-alumni" id="toc-lab-alumni" class="nav-link" data-scroll-target="#lab-alumni">Lab Alumni</a></li>
   </ul>
 </nav>
@@ -414,7 +443,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="faculty">Faculty</h2>
 <div id="listing-faculty" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1782144857829" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1782310257203" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
 <a href="./people/levente-juhasz.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -438,7 +467,7 @@ Assistant Professor of Geospatial Analytics | Director of GATOR Lab
 <h2 class="anchored" data-anchor-id="lab-members">Lab Members</h2>
 <div id="listing-lab-members" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1782144857829" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1782310257203" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
 <a href="./people/students/michael_floreal.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -454,7 +483,7 @@ Undergraduate Intern
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1782144857829" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1782310257203" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <a href="./people/students/patrick_davenport.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -470,7 +499,7 @@ Graduate Research Assistant
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1782144857829" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1782310257203" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <a href="./people/students/purna_saud.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -486,7 +515,7 @@ Graduate Research Assistant
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1782144857829" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1782310257203" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./people/students/incoming_phd_spring.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -506,6 +535,30 @@ Graduate Research Assistant
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <p>Our lab is growing! Check out our <a href="./join.html">open positions</a>.</p>
+</section>
+<section id="collaborators" class="level2">
+<h2 class="anchored" data-anchor-id="collaborators">Collaborators</h2>
+<div id="listing-collaborators" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1782310257203" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
+<a href="./people/collaborators/wencong_cui.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/profiles/vincent_cui.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Wencong ‘Vincent’ Cui
+</h5>
+<div class="card-subtitle listing-subtitle">
+Geospatial Developer | Florida International University
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="lab-alumni" class="level2">
 <h2 class="anchored" data-anchor-id="lab-alumni">Lab Alumni</h2>
@@ -554,7 +607,7 @@ ended
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1782144857829" data-listing-reading-time-sort="1" data-listing-word-count-sort="110" data-listing-title-sort="Jorge Corcino" data-listing-filename-sort="corcino.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1782310257203" data-listing-reading-time-sort="1" data-listing-word-count-sort="110" data-listing-title-sort="Jorge Corcino" data-listing-filename-sort="corcino.qmd">
 <td>
 <a href="./people/alumni/corcino.html" class="title listing-title">Jorge Corcino</a>
 </td>

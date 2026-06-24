@@ -21,6 +21,13 @@
     "text": "Lab Members\n\n\n\n\n\n\n\n\n\n\nMichael Floreal\n\n\nUndergraduate Intern\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Davenport\n\n\nGraduate Research Assistant\n\n\n\n\n\n\n\n\n\n\n\n\nPurna Saud\n\n\nGraduate Research Assistant\n\n\n\n\n\n\n\n\n\n\n\n\nTBD\n\n\nGraduate Research Assistant\n\n\n\n\n\nNo matching items\n\nOur lab is growing! Check out our open positions."
   },
   {
+    "objectID": "people.html#collaborators",
+    "href": "people.html#collaborators",
+    "title": "People",
+    "section": "Collaborators",
+    "text": "Collaborators\n\n\n\n\n\n\n\n\n\n\nWencong ‘Vincent’ Cui\n\n\nGeospatial Developer | Florida International University\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "people.html#lab-alumni",
     "href": "people.html#lab-alumni",
     "title": "People",
@@ -252,11 +259,18 @@
     "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
+    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
+  },
+  {
+    "objectID": "resources/journals.html",
+    "href": "resources/journals.html",
+    "title": "GIScience Journal Assessment Dashboard",
+    "section": "",
+    "text": "We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled “Assessing publication trends in selected GIScience journals”.\n\n\n\n\n\n\nTipLaunch Dashboard\n\n\n\nThe dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.\n\n\n\n  \n    \n      Loading...\n    \n    Initializing Dashboard...\n    Downloading engine & data (first run ~30s)\n  \n  \n\n\n\nLaunch Full Screen Dashboard"
   },
   {
     "objectID": "resources/data.html",
@@ -273,18 +287,25 @@
     "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
   },
   {
-    "objectID": "resources/journals.html",
-    "href": "resources/journals.html",
-    "title": "GIScience Journal Assessment Dashboard",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled “Assessing publication trends in selected GIScience journals”.\n\n\n\n\n\n\nTipLaunch Dashboard\n\n\n\nThe dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.\n\n\n\n  \n    \n      Loading...\n    \n    Initializing Dashboard...\n    Downloading engine & data (first run ~30s)\n  \n  \n\n\n\nLaunch Full Screen Dashboard"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "people/collaborators/wencong_cui.html",
+    "href": "people/collaborators/wencong_cui.html",
+    "title": "Wencong ‘Vincent’ Cui",
     "section": "",
-    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
+    "text": "Wencong “Vincent” Cui is a geospatial researcher and application developer at the FIU GIS Center. His work sits at the intersection of WebGIS, spatial data infrastructure, GeoAI, and agentic AI, with a focus on developing reliable AI-assisted geospatial systems for urban and environmental applications. He holds a Ph.D. in Geography from Texas A&M University, an M.S. in Computer Science from Georgia Tech, and a Master of Urban and Environmental Planning from Arizona State University. His recent projects examine agentic AI governance for WebGIS development and street-view-based spatial retrieval-augmented generation for urban analysis.\nVincent frequently works with us on evaluating Large Language Models (LLMs) in geographic contexts."
+  },
+  {
+    "objectID": "people/collaborators/wencong_cui.html#biography",
+    "href": "people/collaborators/wencong_cui.html#biography",
+    "title": "Wencong ‘Vincent’ Cui",
+    "section": "",
+    "text": "Wencong “Vincent” Cui is a geospatial researcher and application developer at the FIU GIS Center. His work sits at the intersection of WebGIS, spatial data infrastructure, GeoAI, and agentic AI, with a focus on developing reliable AI-assisted geospatial systems for urban and environmental applications. He holds a Ph.D. in Geography from Texas A&M University, an M.S. in Computer Science from Georgia Tech, and a Master of Urban and Environmental Planning from Arizona State University. His recent projects examine agentic AI governance for WebGIS development and street-view-based spatial retrieval-augmented generation for urban analysis.\nVincent frequently works with us on evaluating Large Language Models (LLMs) in geographic contexts."
   },
   {
     "objectID": "people/students/michael_floreal.html",

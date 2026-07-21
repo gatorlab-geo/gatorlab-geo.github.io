@@ -3,6 +3,8 @@ title: "Purna Saud"
 subtitle: "Graduate Research Assistant"
 image: "/files/images/gator-logo-square.png"
 started: "Fall 2026"
+about:
+  template: trestles
 ---
 
 ## Biography

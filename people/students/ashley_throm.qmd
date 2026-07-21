@@ -1,0 +1,11 @@
+---
+title: "Ashley Throm"
+subtitle: "MS Student"
+image: "/files/profiles/ashley_throm.jpg"
+started: "2026"
+about:
+  template: trestles
+---
+
+## Biography
+Ashley is a graduate student in the School of Forest, Fisheries, and Geomatics Sciences at the University of Florida. She graduated with her BS in Biology from the University of Central Florida, focusing on ecological, evolutionary, and conservation sciences. Her professional background includes engineering, biology, field research, and environmental policy. Her interests in coastal and wetland ecological research and management have led her to UF to study advanced geospatial technologies, which will aid in extending her insight in the field of topographical analysis and its related applications.

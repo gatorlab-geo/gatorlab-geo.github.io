@@ -3,6 +3,8 @@ title: "Michael Floreal"
 subtitle: "Undergraduate Intern"
 image: "/files/images/gator-logo-square.png"
 started: "2026"
+about:
+  template: trestles
 ---
 
 ## Biography

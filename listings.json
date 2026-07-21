@@ -1,18 +1,6 @@
 [
   {
-    "listing": "/people.html",
-    "items": [
-      "/people/levente-juhasz.html",
-      "/people/students/michael_floreal.html",
-      "/people/students/patrick_davenport.html",
-      "/people/students/purna_saud.html",
-      "/people/students/incoming_phd_spring.html",
-      "/people/collaborators/wencong_cui.html",
-      "/people/alumni/corcino.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
       "/posts/ijgi_young_investigator_award/index.html",
       "/posts/local_events_april_2026/index.html",
@@ -24,13 +12,26 @@
     ]
   },
   {
+    "listing": "/people.html",
+    "items": [
+      "/people/levente-juhasz.html",
+      "/people/students/ashley_throm.html",
+      "/people/students/michael_floreal.html",
+      "/people/students/patrick_davenport.html",
+      "/people/students/purna_saud.html",
+      "/people/students/incoming_phd_spring.html",
+      "/people/collaborators/wencong_cui.html",
+      "/people/alumni/corcino.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": [
       "/projects/sample-project/index.html"
     ]
   },
   {
-    "listing": "/posts.html",
+    "listing": "/index.html",
     "items": [
       "/posts/ijgi_young_investigator_award/index.html",
       "/posts/local_events_april_2026/index.html",

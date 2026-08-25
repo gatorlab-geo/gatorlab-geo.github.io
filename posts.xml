@@ -27,7 +27,7 @@
 
 
 
-<p>The publication pipeline set into motion with the founding of the GATOR Lab is beginning to mature. Over the last couple of days, two papers have been accepted for publication — one in a leading journal, one at a flagship conference — with several other manuscripts under review and nearing a decision. Both papers sit at the forefront of what this lab is all about.</p>
+<p>The publication pipeline set into motion with the founding of the GATOR Lab is beginning to mature. Over the last couple of days, two papers have been accepted for publication — one journal article, anone at a flagship conference — with several other manuscripts under review and nearing a decision. Both papers sit at the forefront of what this lab is all about.</p>
 <section id="paper-1-dual-helix-governance-for-agentic-ai-in-webgis" class="level2">
 <h2 class="anchored" data-anchor-id="paper-1-dual-helix-governance-for-agentic-ai-in-webgis">Paper 1 — Dual-Helix Governance for Agentic AI in WebGIS</h2>
 <p><strong>“A Dual-Helix Governance Approach Towards Reliable Agentic Artificial Intelligence for WebGIS Development”</strong><br>
@@ -64,7 +64,7 @@ Accepted at <strong>ACM SIGSPATIAL 2026</strong>, Riverside, CA · <a href="http
 </section>
 <section id="a-maturing-research-agenda" class="level2">
 <h2 class="anchored" data-anchor-id="a-maturing-research-agenda">A Maturing Research Agenda</h2>
-<p>These two acceptances are not coincidental — they represent the two most exciting frontiers in modern GIScience, and both are core to what the GATOR Lab is building. Discrete Global Grid Systems are reshaping how we think about spatial data infrastructure at planetary scale, replacing expensive geometric predicates with algebraic elegance. Agentic AI is redefining what it means to build geospatial software, raising fundamental questions about reliability, governance, and trust. That the lab has papers landing in <em>Transactions in GIS</em> and at <em>ACM SIGSPATIAL</em> simultaneously — with more under review — is a sign that the research agenda is gaining traction. Stay tuned.</p>
+<p>These two acceptances are not coincidental. They represent the two most exciting frontiers in modern GIScience (well, at least to us), and both are core to what the GATOR Lab is building. Discrete Global Grid Systems are reshaping how we think about spatial data infrastructure at planetary scale, replacing expensive geometric predicates with algebraic efficiency, among other benefits. Agentic AI is redefining what it means to build geospatial software, raising fundamental questions about reliability, governance, and trust. We are just gettings tarted. Stay tuned.</p>
 
 
 </section>
@@ -74,7 +74,7 @@ Accepted at <strong>ACM SIGSPATIAL 2026</strong>, Riverside, CA · <a href="http
   <category>publications</category>
   <guid>https://gatorlab.io/posts/papers_accepted_aug2026/</guid>
   <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://gatorlab.io/files/images/papers_dual_helix.png" medium="image" type="image/png" height="102" width="144"/>
+  <media:content url="https://gatorlab.io/files/images/papers_dggs_pipeline.png" medium="image" type="image/png" height="80" width="144"/>
 </item>
 <item>
   <title>A Summer of Geospatial: Conferences, Workshops, and Community</title>

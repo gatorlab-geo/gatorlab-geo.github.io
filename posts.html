@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -44,10 +47,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c39b0427456ed10ed5bc992e71b86bf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9eb50f6b295c6b27b91ff4ce94631ca3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -136,7 +139,7 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -168,11 +171,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="GATOR Lab @ UF" href="posts.xml" data-external="1"><meta property="og:title" content="What’s New &amp; Updated – GATOR Lab @ UF">
 <meta property="og:description" content="Posts about papers, events, news, and more">
-<meta property="og:image" content="https://gatorlab.io/files/images/juhasz_ijgi_award.jpg">
+<meta property="og:image" content="https://gatorlab.io/files/images/summer26_ghent_geoai.jpg">
 <meta property="og:site_name" content="GATOR Lab @ UF">
 <meta name="twitter:title" content="What’s New &amp; Updated – GATOR Lab @ UF">
 <meta name="twitter:description" content="Posts about papers, events, news, and more">
-<meta name="twitter:image" content="https://gatorlab.io/files/images/juhasz_ijgi_award.jpg">
+<meta name="twitter:image" content="https://gatorlab.io/files/images/summer26_ghent_geoai.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -308,7 +311,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="YXdhcmRz">awards <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWRpdG9yaWFs">editorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXZlbnQ=">event <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cHVibGljYXRpb24=">publication <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="YXdhcmRz">awards <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWRpdG9yaWFs">editorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXZlbnQ=">event <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(6)</span></div><div class="category" data-category="cHVibGljYXRpb24=">publication <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -366,7 +369,39 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2F3YXJkcw==" data-listing-date-sort="1778112000000" data-listing-file-modified-sort="1784644355615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="quarto-post image-right" data-index="0" data-categories="ZXZlbnQlMkNuZXdz" data-listing-date-sort="1787616000000" data-listing-file-modified-sort="1787672167007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1059">
+<div class="thumbnail"><a href="./posts/summer_2026_recap/index.html" class="no-external">
+
+<img loading="lazy" src="./files/images/summer26_ghent_geoai.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/summer_2026_recap/index.html" class="no-external">A Summer of Geospatial: Conferences, Workshops, and Community</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZXZlbnQ='); return false;">event</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/summer_2026_recap/index.html" class="no-external">
+<p>From research talks in Europe to workshops in Maryland and Florida — a packed summer of geospatial activity for the GATOR Lab.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/summer_2026_recap/index.html" class="no-external">
+<div class="listing-date">
+Aug 25, 2026
+</div>
+<div class="listing-author">
+Levente Juhasz
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ2F3YXJkcw==" data-listing-date-sort="1778112000000" data-listing-file-modified-sort="1787672167007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
 <div class="thumbnail"><a href="./posts/ijgi_young_investigator_award/index.html" class="no-external">
 
 <img loading="lazy" src="./files/images/juhasz_ijgi_award.jpg" class="thumbnail-image">
@@ -398,7 +433,7 @@ Levente Juhasz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZXZlbnQ=" data-listing-date-sort="1777161600000" data-listing-file-modified-sort="1784644355615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
+<div class="quarto-post image-right" data-index="2" data-categories="ZXZlbnQ=" data-listing-date-sort="1777161600000" data-listing-file-modified-sort="1787672167007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
 <div class="thumbnail"><a href="./posts/local_events_april_2026/index.html" class="no-external">
 
 <img loading="lazy" src="./files/images/fau_panel.jpg" class="thumbnail-image">
@@ -428,7 +463,7 @@ Levente Juhasz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="bmV3cyUyQ3B1YmxpY2F0aW9u" data-listing-date-sort="1775174400000" data-listing-file-modified-sort="1784644355615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="quarto-post image-right" data-index="3" data-categories="bmV3cyUyQ3B1YmxpY2F0aW9u" data-listing-date-sort="1775174400000" data-listing-file-modified-sort="1787672167007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <div class="thumbnail"><a href="./posts/tgis_top_cited/index.html" class="no-external">
 
 <img loading="lazy" src="./files/images/tgis_top_cited_2024.png" class="thumbnail-image">
@@ -460,7 +495,7 @@ Levente Juhasz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZXZlbnQ=" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1784644355615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
+<div class="quarto-post image-right" data-index="4" data-categories="ZXZlbnQ=" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1787672167007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
 <div class="thumbnail"><a href="./posts/asu_geoai_workshop/index.html" class="no-external">
 
 <img loading="lazy" src="./files/images/asu_sparc_logo.jpg" class="thumbnail-image">
@@ -490,7 +525,7 @@ Levente Juhasz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="bmV3cyUyQ2VkaXRvcmlhbA==" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1784644355615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
+<div class="quarto-post image-right" data-index="5" data-categories="bmV3cyUyQ2VkaXRvcmlhbA==" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1787672167007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
 <div class="thumbnail"><a href="./posts/ijgi_editor/index.html" class="no-external">
 
 <img loading="lazy" src="./files/images/ijgi.jpeg" class="thumbnail-image">
@@ -522,7 +557,7 @@ Levente Juhasz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="bmV3cw==" data-listing-date-sort="1768348800000" data-listing-file-modified-sort="1784644355615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="515">
+<div class="quarto-post image-right" data-index="6" data-categories="bmV3cw==" data-listing-date-sort="1768348800000" data-listing-file-modified-sort="1787672167007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="515">
 <div class="thumbnail"><a href="./posts/journal_dashboard/index.html" class="no-external">
 
 <img loading="lazy" src="./files/images/giscience_journal_ranking_plot.png" class="thumbnail-image">
@@ -552,7 +587,7 @@ Levente Juhasz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="bmV3cw==" data-listing-date-sort="1767139200000" data-listing-file-modified-sort="1784644355615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="546">
+<div class="quarto-post image-right" data-index="7" data-categories="bmV3cw==" data-listing-date-sort="1767139200000" data-listing-file-modified-sort="1787672167007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="546">
 <div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
 
 <img loading="lazy" src="./files/images/gator-logo-square.png" class="thumbnail-image">

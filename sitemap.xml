@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gatorlab.io/posts.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people/students/incoming_phd_spring.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people/students/ashley_throm.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people/students/purna_saud.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people/alumni/corcino.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/join.html</loc>
-    <lastmod>2026-07-21T14:32:35.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/resources/data.html</loc>
-    <lastmod>2026-07-21T14:32:36.184Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/status.html</loc>
-    <lastmod>2026-07-21T14:32:36.184Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/posts/welcome/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/posts/ijgi_editor/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/posts/local_events_april_2026/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.615Z</lastmod>
+    <loc>https://gatorlab.io/people.html</loc>
+    <lastmod>2026-08-25T15:36:07.005Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/research.html</loc>
-    <lastmod>2026-07-21T14:32:35.924Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/contact.html</loc>
-    <lastmod>2026-07-21T14:32:35.581Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/people.html</loc>
-    <lastmod>2026-07-21T14:32:35.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/projects/sample-project/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.924Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/projects.html</loc>
-    <lastmod>2026-07-21T14:32:35.923Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/publications.html</loc>
-    <lastmod>2026-07-21T14:32:35.924Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/posts/asu_geoai_workshop/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/posts/tgis_top_cited/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/posts/ijgi_young_investigator_award/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/posts/journal_dashboard/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gatorlab.io/resources/journals.html</loc>
-    <lastmod>2026-07-21T14:32:36.184Z</lastmod>
+    <lastmod>2026-08-25T15:36:07.310Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/teaching.html</loc>
-    <lastmod>2026-07-21T14:32:36.184Z</lastmod>
+    <lastmod>2026-08-25T15:36:07.565Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/people/collaborators/wencong_cui.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
   </url>
   <url>
-    <loc>https://gatorlab.io/people/levente-juhasz.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
+    <loc>https://gatorlab.io/people/alumni/corcino.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/people/students/patrick_davenport.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
   </url>
   <url>
-    <loc>https://gatorlab.io/people/students/michael_floreal.html</loc>
-    <lastmod>2026-07-21T14:32:35.614Z</lastmod>
+    <loc>https://gatorlab.io/people/students/incoming_phd_spring.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/projects/sample-project/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/resources/data.html</loc>
+    <lastmod>2026-08-25T15:36:07.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/contact.html</loc>
+    <lastmod>2026-08-25T15:36:06.960Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/local_events_april_2026/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/tgis_top_cited/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/summer_2026_recap/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/ijgi_young_investigator_award/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/projects.html</loc>
+    <lastmod>2026-08-25T15:36:07.309Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/journal_dashboard/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/asu_geoai_workshop/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/welcome/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts/ijgi_editor/index.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/resources/journals.html</loc>
+    <lastmod>2026-08-25T15:36:07.564Z</lastmod>
   </url>
   <url>
     <loc>https://gatorlab.io/index.html</loc>
-    <lastmod>2026-07-21T14:32:35.613Z</lastmod>
+    <lastmod>2026-08-25T15:36:07.005Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/posts.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/people/students/ashley_throm.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/people/alumni/michael_floreal.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/people/levente-juhasz.html</loc>
+    <lastmod>2026-08-25T15:36:07.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/status.html</loc>
+    <lastmod>2026-08-25T15:36:07.565Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/join.html</loc>
+    <lastmod>2026-08-25T15:36:07.005Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gatorlab.io/publications.html</loc>
+    <lastmod>2026-08-25T15:36:07.310Z</lastmod>
   </url>
 </urlset>

@@ -16,8 +16,88 @@
 <height>144</height>
 <width>144</width>
 </image>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 07 May 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Tue, 25 Aug 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>A Summer of Geospatial: Conferences, Workshops, and Community</title>
+  <dc:creator>Levente Juhasz</dc:creator>
+  <link>https://gatorlab.io/posts/summer_2026_recap/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Summer 2026 has been one of the most geographically and intellectually dynamic periods since the founding of the GATOR Lab. From invited research talks in Italy and Hungary, to great conferences in Belgium and Maryland, to a webinar organized by IJGI, and hands-on community workshops in Florida — it has been a busy and rewarding few months. Here’s a look back.</p>
+<section id="invited-talks-in-europe-milano-and-szeged" class="level2">
+<h2 class="anchored" data-anchor-id="invited-talks-in-europe-milano-and-szeged">Invited Talks in Europe — Milano and Szeged</h2>
+<p>The summer kicked off with a trip to Europe in June for two invited research talks.</p>
+<p>At the <strong>Politecnico di Milano</strong> in Italy, I had the opportunity visit <a href="https://www.gisgeolab.polimi.it/index.html">GEOlab (Geomatics and Earth Observation laboratory)</a> led by Prof.&nbsp;Maria Antonia Brovelli to present our ongoing work on autonomous spatial intelligence. Founded in 1863, the Politecnico is one of the premier technical universities in Europe. I have been long following the work of Prof Brovelli’s group and meeting them in person was very rewarding. Thank you for the hospitality!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/summer26_polimi.jpg" title="Politecnico di Milano, founded 1863." class="img-fluid figure-img"></p>
+<figcaption>The historic Politecnico di Milano campus in the heart of the city.</figcaption>
+</figure>
+</div>
+<p>From Italy, the trip continued to <strong>Szeged, Hungary</strong>, where I was invited to speak at the <strong>University of Szeged (Szegedi Tudományegyetem)</strong>. This was a full circle moment as my geospatial career started at the University of Szeged with degrees in Physical Geography and Geoinformatics! Both talks centered on the same theme — <em>“Toward Autonomous Spatial Intelligence”</em> — exploring how the convergence of large language models, discrete global grid systems, and agentic AI is reshaping the geospatial landscape.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/summer26_szeged_talk.png" title="Explaining DGGS geometry — from Platonic solids to the sphere — at the University of Szeged." class="img-fluid figure-img"></p>
+<figcaption>Presenting on Discrete Global Grid Systems at the University of Szeged.</figcaption>
+</figure>
+</div>
+<p>These European visits were a great reminder of how broadly this research community spans, and how much appetite there is internationally for rigorous GeoAI research. Meeting new friend and collaborators, and reconnecting with old friends was definitely worth the travel.</p>
+</section>
+<section id="the-first-geoai-international-conference-ghent-belgium" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-geoai-international-conference-ghent-belgium">The First GeoAI International Conference — Ghent, Belgium</h2>
+<p>One of the highlights of the summer was attending and presenting at the inaugural <a href="https://geoaiconference.org"><strong>GeoAI 2026 Conference</strong></a> in <strong>Ghent, Belgium</strong> in early June. As the first dedicated international conference for Geospatial Artificial Intelligence, it brought together researchers and industry professionals working at the frontier of spatial data science, LLMs, and autonomous GIS from around the world.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/summer26_ghent_geoai.jpg" title="Levente Juhász at the inaugural GeoAI 2026 Conference, Ghent — Belgium." class="img-fluid figure-img"></p>
+<figcaption>At the GeoAI 2026 Conference in Ghent, Belgium.</figcaption>
+</figure>
+</div>
+<p>I presented a joint study on <strong>LLM spatial data generation</strong>, which I co-authored with Paddy Gorry and Peter Mooney from Maynooth Univesity Ireland. This paper builds on Paddy’s PhD work and investigates how well large language models can generate geographic data — and where they fall short. Read the paper in the <a href="https://doi.org/10.5281/zenodo.20287050">proceedings here</a>. Being part of the launch of GeoAI as a recognized conference venue feels significant. This is a community coming into its own, and the enthusiam of the attendees was real. I look forward to future editions of this conference.</p>
+</section>
+<section id="ijgi-webinar-geoai-prospects-and-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="ijgi-webinar-geoai-prospects-and-challenges">IJGI Webinar: GeoAI — Prospects and Challenges</h2>
+<p>On June 30, I had the pleasure of participating in a webinar organized by the <strong>ISPRS International Journal of Geo-Information (IJGI)</strong>, titled <a href="https://www.mdpi.com/about/announcements/16976"><em>“GeoAI – Prospects and Challenges.”</em></a>. The was created to bring together experts to discuss the latest developments, applications, and future directions of Geospatial AI. It was a fitting venue — given my recent recognition as the <a href="https://gatorlab.io/posts/ijgi_young_investigator_award/">2026 IJGI Young Investigator</a> — to engage directly with the journal’s community. The session was small, and only featured one other talk by <a href="https://www.junghwankim.org/">Junghwan Kim</a>, Director of the Smart Cities for Good Lab at Virginia Tech whose doing some great work in the GeoAI domain.</p>
+</section>
+<section id="ucgis-symposium-college-park-maryland" class="level2">
+<h2 class="anchored" data-anchor-id="ucgis-symposium-college-park-maryland">UCGIS Symposium — College Park, Maryland</h2>
+<p>Later in the summer, I attended the <strong>UCGIS Symposium</strong> in <strong>College Park, Maryland</strong>, the annual gathering of the University Consortium for Geographic Information Science. This is a community I value deeply for its commitment to advancing GIScience education and research in the USA.</p>
+<p>In addition to attending, I had the opportunity to <strong>co-host a hands-on workshop</strong> at the Symposium. The session titled <a href="https://ucgissymposium2026.sched.com/event/2KN6G/from-prompts-to-protocols-governing-agentic-ai-for-reliable-geospatial-programming">“From Prompts to Protocols: Govering Agentic AI for Reliable Geospatial Programming”</a> focused on geospatial web development using governed agents. This workshops was co-hosted with my long-time collaborators from <a href="https://maps.fiu.edu">Florida International University</a>, Dr.&nbsp;Boyuan Guan and Dr.&nbsp;Wencong Cui, and was based on our joint publication titled “<a href="https://arxiv.org/abs/2603.04390">A Dual-Helix Governance Approach Towards Reliable Agentic Artificial Intelligence for WebGIS Development</a>”, which was just accepted for publication (literally today) in <em>Transactions in GIS</em> so stay tuned for the final publication! ]https://arxiv.org/abs/2603.04390</p>
+</section>
+<section id="south-florida-gis-expo-workshop-west-palm-beach" class="level2">
+<h2 class="anchored" data-anchor-id="south-florida-gis-expo-workshop-west-palm-beach">South Florida GIS Expo Workshop — West Palm Beach</h2>
+<p>Back in Florida, I led a <strong>pre-expo training workshop</strong> at the <a href="https://south-florida-gis-expo-pbcgisforum.hub.arcgis.com/"><strong>South Florida GIS Expo</strong></a> in <strong>West Palm Beach</strong> on August 19. The session, <em>“AI’s Impact on the Future of GIS,”</em> was a two-hour hands-on experience for GIS practitioners, with live demonstrations using a Google Colab notebook, applying semantic place classification to real data from the West Palm Beach area using LLM-powered tools built on top of the UF NaviGator Toolkit API.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gatorlab.io/files/images/summer26_sfgis_expo.jpg" title="Ready for workshop day at the 2026 South Florida GIS Expo, West Palm Beach — August 19th." class="img-fluid figure-img"></p>
+<figcaption>At the 2026 South Florida GIS Expo, where the GATOR Lab led an opening workshop.</figcaption>
+</figure>
+</div>
+<p>It was a practical, applied session — the kind of event I find particularly rewarding because it connects academic research directly to the professional geospatial community. In turn, I get to learn about what GIS folks are interested in these days, which is always a useful input for training the next generation of GIS professionals. The South Florida GIS community is active and engaged, and the Expo is always a great venue for that kind of dialogue.</p>
+</section>
+<section id="fsms-event-miami" class="level2">
+<h2 class="anchored" data-anchor-id="fsms-event-miami">FSMS Event — Miami</h2>
+<p>Rounding out the summer closer to home, I also participated in an event organized by the <strong>Florida Surveying and Mapping Society (FSMS)</strong> in <strong>Miami</strong>, presenting at the Miami-Dade chapter meeting hosted at Miami Dade College. These local engagements are important — they keep the lab connected to the broader Florida geospatial profession and create pathways for students and practitioners to engage with cutting-edge research.</p>
+<hr>
+</section>
+<section id="looking-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
+<p>It has been a genuinely full summer. Across all of these events, a few themes kept surfacing: the growing recognition of GeoAI as a distinct and important subfield, the critical importance of spatial data quality, and the need for infrastructure — both technical and conceptual — that makes geospatial AI geometrically rigorous rather than geometrically naive.</p>
+<p>The GATOR Lab is heading into Fall 2026 with new students, active manuscripts, and a lot of momentum. More to come soon.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>event</category>
+  <category>news</category>
+  <guid>https://gatorlab.io/posts/summer_2026_recap/</guid>
+  <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gatorlab.io/files/images/summer26_ghent_geoai.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Levente Juhász receives 2026 IJGI Young Investigator Award</title>
   <dc:creator>Levente Juhasz</dc:creator>

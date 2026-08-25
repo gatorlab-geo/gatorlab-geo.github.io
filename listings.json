@@ -1,27 +1,14 @@
 [
   {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/ijgi_young_investigator_award/index.html",
-      "/posts/local_events_april_2026/index.html",
-      "/posts/tgis_top_cited/index.html",
-      "/posts/asu_geoai_workshop/index.html",
-      "/posts/ijgi_editor/index.html",
-      "/posts/journal_dashboard/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/levente-juhasz.html",
       "/people/students/ashley_throm.html",
-      "/people/students/michael_floreal.html",
       "/people/students/patrick_davenport.html",
-      "/people/students/purna_saud.html",
       "/people/students/incoming_phd_spring.html",
       "/people/collaborators/wencong_cui.html",
-      "/people/alumni/corcino.html"
+      "/people/alumni/corcino.html",
+      "/people/alumni/michael_floreal.html"
     ]
   },
   {
@@ -33,6 +20,20 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/summer_2026_recap/index.html",
+      "/posts/ijgi_young_investigator_award/index.html",
+      "/posts/local_events_april_2026/index.html",
+      "/posts/tgis_top_cited/index.html",
+      "/posts/asu_geoai_workshop/index.html",
+      "/posts/ijgi_editor/index.html",
+      "/posts/journal_dashboard/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/summer_2026_recap/index.html",
       "/posts/ijgi_young_investigator_award/index.html",
       "/posts/local_events_april_2026/index.html",
       "/posts/tgis_top_cited/index.html",

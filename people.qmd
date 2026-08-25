@@ -13,7 +13,9 @@ listing:
 
   - id: lab-members
     contents: 
-      - "people/students/*.qmd" # Future students go in a subfolder
+      - "people/students/patrick_davenport.qmd"
+      - "people/students/ashley_throm.qmd"
+      - "people/students/incoming_phd_spring.qmd"
     type: grid
     fields: [image, title, subtitle]
     grid-item-align: center

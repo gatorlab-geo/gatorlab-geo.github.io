@@ -21,6 +21,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/summer_2026_recap/index.html",
+      "/posts/papers_accepted_aug2026/index.html",
       "/posts/ijgi_young_investigator_award/index.html",
       "/posts/local_events_april_2026/index.html",
       "/posts/tgis_top_cited/index.html",
@@ -33,6 +34,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/papers_accepted_aug2026/index.html",
       "/posts/summer_2026_recap/index.html",
       "/posts/ijgi_young_investigator_award/index.html",
       "/posts/local_events_april_2026/index.html",

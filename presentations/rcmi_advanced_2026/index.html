@@ -9,7 +9,7 @@
 <meta name="author" content="Dr.&nbsp;Levente Juhasz">
 <meta name="description" content="Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida">
 
-<title>Patrick Davenport – GATOR Lab @ UF</title>
+<title>Interactive Tools — GIS &amp; Spatial Analysis for Public Health – GATOR Lab @ UF</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -43,6 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -108,13 +109,13 @@ https://badge.dimensions.ai/
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Patrick Davenport – GATOR Lab @ UF">
-<meta property="og:description" content="Graduate Research Assistant">
-<meta property="og:image" content="https://gatorlab.io/files/profiles/patrick.jpg">
+<meta property="og:title" content="Interactive Tools — GIS &amp; Spatial Analysis for Public Health – GATOR Lab @ UF">
+<meta property="og:description" content="RCMI Advanced Workshop 2026 · GATOR Lab @ UF">
+<meta property="og:image" content="https://gatorlab.io/presentations/rcmi_advanced_2026/files/images/gator-logo-square-bg.png">
 <meta property="og:site_name" content="GATOR Lab @ UF">
-<meta name="twitter:title" content="Patrick Davenport – GATOR Lab @ UF">
-<meta name="twitter:description" content="Graduate Research Assistant">
-<meta name="twitter:image" content="https://gatorlab.io/files/profiles/patrick.jpg">
+<meta name="twitter:title" content="Interactive Tools — GIS &amp; Spatial Analysis for Public Health – GATOR Lab @ UF">
+<meta name="twitter:description" content="RCMI Advanced Workshop 2026 · GATOR Lab @ UF">
+<meta name="twitter:image" content="https://gatorlab.io/presentations/rcmi_advanced_2026/files/images/gator-logo-square-bg.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -245,65 +246,244 @@ https://badge.dimensions.ai/
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#biography" id="toc-biography" class="nav-link active" data-scroll-target="#biography">Biography</a></li>
-  <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research Interests</a></li>
-  <li><a href="#outside-of-research" id="toc-outside-of-research" class="nav-link" data-scroll-target="#outside-of-research">Outside of Research</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="/files/profiles/patrick.jpg" class="about-image
-  rounded " style="width: 20em;">
+<main class="content column-page" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Patrick Davenport</h1>
-<p class="subtitle lead">Graduate Research Assistant</p>
+<h1 class="title">Interactive Tools — GIS &amp; Spatial Analysis for Public Health</h1>
+<p class="subtitle lead">RCMI Advanced Workshop 2026 · GATOR Lab @ UF</p>
 </div>
-<div class="quarto-title-meta">
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/monochromatrick" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-</div>
+
+
+<style>
+  .tools-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem 0 2rem;
+  }
+  .tool-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s;
+  }
+  .tool-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  }
+  .tool-card-header {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .tool-card-header h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .tool-card-header p {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .tool-card-body {
+    position: relative;
+    background: #f1f5f9;
+  }
+  .tool-card-body iframe {
+    width: 100%;
+    height: 480px;
+    border: none;
+    display: block;
+  }
+  .tool-card-footer {
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid #e2e8f0;
+  }
+  .btn-launch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1.25rem;
+    background: #2563eb;
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-decoration: none !important;
+    transition: background 0.15s;
+  }
+  .btn-launch:hover {
+    background: #1d4ed8;
+    color: #fff !important;
+  }
+  .badge-tag {
+    display: inline-block;
+    padding: 0.2rem 0.65rem;
+    background: #dbeafe;
+    color: #2563eb;
+    border-radius: 99px;
+    font-size: 0.72rem;
+    font-weight: 600;
+  }
+  .resources-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem 3rem;
+  }
+  .resources-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+  }
+  .resource-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .resource-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .resource-list li:last-child {
+    border-bottom: none;
+  }
+  .resource-icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+  .resource-list a {
+    font-weight: 600;
+  }
+  .resource-list .desc {
+    color: #64748b;
+    font-size: 0.85rem;
+  }
+</style>
+
+<div class="tools-grid">
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <h3 class="anchored">🎨 Choropleth Classification Explorer</h3>
+      <p>See how the same data tells different stories depending on the classification method. Compare Quantile, Equal Interval, Natural Breaks, and Standard Deviation classifications on real public health data from Florida.</p>
+    </div>
+    <div class="tool-card-body">
+      <iframe src="classification_explorer.html" loading="lazy" title="Choropleth Classification Explorer"></iframe>
+    </div>
+    <div class="tool-card-footer">
+      <a class="btn-launch" href="classification_explorer.html" target="_blank">Launch Full Screen ↗</a>
+      <span class="badge-tag">Choropleth</span>
+      <span class="badge-tag">Classification</span>
+    </div>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<section id="biography" class="level2">
-<h2 data-anchor-id="biography">Biography</h2>
-<p>Patrick Davenport is a research assistant pursuing his PhD in Geomatics at the University of Florida. A non-traditional scholar, he graduated summa cum laude with his Bachelor’s degree in Information Technology from Florida International University in 2026 following a twenty-year career in the beauty industry. He is driven by the belief that geospatial data science can be a tool for meaningful impact, with a particular interest in humanitarian applications and resource allocation.</p>
-</section>
-<section id="research-interests" class="level2">
-<h2 data-anchor-id="research-interests">Research Interests</h2>
-<p>His research focuses on the intersection of human and natural systems, particularly within geographic regions that are often underrepresented in spatial datasets.</p>
-<ul>
-<li><strong>GeoAI</strong>: Utilizing geospatial artificial intelligence to enhance decision-making processes in humanitarian and environmental domains.</li>
-<li><strong>Climate Resilience</strong>: Investigating the use of geospatial technologies to guide adaptation strategies for communities vulnerable to climate change.</li>
-<li><strong>Volunteered Geographic Information</strong>: Assessing the utility and constraints of crowdsourced spatial data across underrepresented areas.</li>
-</ul>
-</section>
-<section id="outside-of-research" class="level2">
-<h2 data-anchor-id="outside-of-research">Outside of Research</h2>
-<p>In his free time, Patrick enjoys stepping away from city life through outdoor activities like kayaking, camping, hiking, and mountain biking, whether in his local area or while traveling. When at home, he likes to spend his time cooking, reading, and watching films.</p>
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <h3 class="anchored">📍 Point Pattern Explorer</h3>
+      <p>Explore how spatial point patterns are analyzed. Generate random, clustered, or dispersed patterns and examine them with Nearest Neighbor Index, Quadrat Analysis, and Ripley's K function.</p>
+    </div>
+    <div class="tool-card-body">
+      <iframe src="pointpattern-explorer.html" loading="lazy" title="Point Pattern Explorer"></iframe>
+    </div>
+    <div class="tool-card-footer">
+      <a class="btn-launch" href="pointpattern-explorer.html" target="_blank">Launch Full Screen ↗</a>
+      <span class="badge-tag">Point Patterns</span>
+      <span class="badge-tag">NNI</span>
+    </div>
+  </div>
 
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <h3 class="anchored">🗺️ Spatial Neighborhood Explorer</h3>
+      <p>Visualize how spatial neighborhoods are defined. Click any cell to see its neighbors under Queen, Rook, KNN, and distance-band definitions across regular, hexagonal, and irregular grids.</p>
+    </div>
+    <div class="tool-card-body">
+      <iframe src="neighborhood-explorer.html" loading="lazy" title="Spatial Neighborhood Explorer"></iframe>
+    </div>
+    <div class="tool-card-footer">
+      <a class="btn-launch" href="neighborhood-explorer.html" target="_blank">Launch Full Screen ↗</a>
+      <span class="badge-tag">Spatial Weights</span>
+      <span class="badge-tag">Contiguity</span>
+    </div>
+  </div>
 
-</section>
-</main></div>
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <h3 class="anchored">🖌️ Spatial Autocorrelation Painter</h3>
+      <p>Paint values onto a grid and watch Moran's I update in real time. Build intuition for positive and negative spatial autocorrelation with preset patterns or your own custom arrangements.</p>
+    </div>
+    <div class="tool-card-body">
+      <iframe src="spatial_autocorrelation_painter.html" loading="lazy" title="Spatial Autocorrelation Painter"></iframe>
+    </div>
+    <div class="tool-card-footer">
+      <a class="btn-launch" href="spatial_autocorrelation_painter.html" target="_blank">Launch Full Screen ↗</a>
+      <span class="badge-tag">Moran's I</span>
+      <span class="badge-tag">Autocorrelation</span>
+    </div>
+  </div>
+
 </div>
- <!-- /main -->
+
+<div class="resources-section">
+  <h2 class="anchored">📑 Workshop Materials</h2>
+  <ul class="resource-list">
+    <li>
+      <span class="resource-icon">🎞️</span>
+      <div>
+        <a href="FIU_RCMI_Advanced_Spatial_Analysis_Workshop_2026.pdf" download="">Slide Deck (PDF) ⬇</a>
+        <div class="desc">FIU RCMI Advanced Spatial Analysis Workshop 2026</div>
+      </div>
+    </li>
+    <li>
+      <span class="resource-icon">📓</span>
+      <div>
+        <a href="#" target="_blank">Workshop Notebook (Google Colab) ↗</a>
+        <div class="desc">Hands-on spatial analysis with Python — link coming soon</div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

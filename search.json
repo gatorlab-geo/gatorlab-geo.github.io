@@ -1,5 +1,271 @@
 [
   {
+    "objectID": "posts/tgis_top_cited/index.html",
+    "href": "posts/tgis_top_cited/index.html",
+    "title": "Top Cited Paper in Transactions in GIS",
+    "section": "",
+    "text": "Our paper, “Correctness Comparison of ChatGPT-4, Gemini, Claude-3, and Copilot for Spatial Tasks”, was recognized by Wiley as one of the top 10 most-cited papers published in Transactions in GIS during 2024.\nThis study, a collaboration with Henry Hochmair from UF Geomatics, assesses the reliability of large language models for geospatial tasks. It establishes foundational baselines for the ongoing research we are building at the GATOR Lab.\nRead the paper here: Transactions in GIS. You can also read the preprint version on arXiv.\n\n\n\nTransactions in GIS Top Cited Article"
+  },
+  {
+    "objectID": "posts/ijgi_editor/index.html",
+    "href": "posts/ijgi_editor/index.html",
+    "title": "Joining the IJGI Editorial Board",
+    "section": "",
+    "text": "I am pleased to announce that I have joined the Editorial Board of the ISPRS International Journal of Geo-Information (IJGI), an open access journal published by MDPI. In this role, I am responsible for manuscript pre-checks, overseeing the peer-review process, and providing final editorial decisions within my field of expertise, which is of course geospatial analytics, spatial data science, GeoAI and fundamental data quality questions, especially user-generated data sources. If you are interested, check out how IJGI performs among other GIScience journals in our GIScience Journal Assessment Tool."
+  },
+  {
+    "objectID": "posts/ijgi_editor/index.html#new-appointment",
+    "href": "posts/ijgi_editor/index.html#new-appointment",
+    "title": "Joining the IJGI Editorial Board",
+    "section": "",
+    "text": "I am pleased to announce that I have joined the Editorial Board of the ISPRS International Journal of Geo-Information (IJGI), an open access journal published by MDPI. In this role, I am responsible for manuscript pre-checks, overseeing the peer-review process, and providing final editorial decisions within my field of expertise, which is of course geospatial analytics, spatial data science, GeoAI and fundamental data quality questions, especially user-generated data sources. If you are interested, check out how IJGI performs among other GIScience journals in our GIScience Journal Assessment Tool."
+  },
+  {
+    "objectID": "posts/ijgi_editor/index.html#a-history-of-collaboration",
+    "href": "posts/ijgi_editor/index.html#a-history-of-collaboration",
+    "title": "Joining the IJGI Editorial Board",
+    "section": "A History of Collaboration",
+    "text": "A History of Collaboration\nThis appointment builds on a long-standing relationship with IJGI. My previous contributions to the journal include:\n\n2019 Outstanding Reviewer Award: Recognized for excellence and dedication to the peer-review process.\nApril 2020 Cover Story: My research about Cartographic Vandalism was featured as the cover story for Volume 9, Issue 4.\nSpecial Issue Editor: I have served as a Guest Editor for several collections:\n\nAdvances in Social Network Analysis – Spatio-Temporal and Semantic Methods\nOpenStreetMap as A Multi-Disciplinary Nexus: Perspectives, Practices and Procedures\nAdvances in AI-Driven Geospatial Analysis and Data Generation\nAdvances in AI-Driven Geospatial Analysis and Data Generation (2nd Edition)"
+  },
+  {
+    "objectID": "posts/ijgi_editor/index.html#safeguarding-scientific-integrity",
+    "href": "posts/ijgi_editor/index.html#safeguarding-scientific-integrity",
+    "title": "Joining the IJGI Editorial Board",
+    "section": "Safeguarding Scientific Integrity",
+    "text": "Safeguarding Scientific Integrity\nAs an advocate for open science and reproducibility, I am committed to fostering open scientific exchange while maintaining high-quality research standards. My focus will be on ensuring that research is sound and validated, which is essential for reducing research waste and accelerating progress in geospatial analytics. I look forward to working with the editorial team to safeguard the integrity of the scholarly record in our field."
+  },
+  {
+    "objectID": "posts/local_events_april_2026/index.html",
+    "href": "posts/local_events_april_2026/index.html",
+    "title": "Engaging with the Local Geospatial Community in South Florida",
+    "section": "",
+    "text": "We’ve had a busy and exciting April engaging with the vibrant local geospatial community here in South Florida."
+  },
+  {
+    "objectID": "posts/local_events_april_2026/index.html#gis-hour-at-miami-dade-college",
+    "href": "posts/local_events_april_2026/index.html#gis-hour-at-miami-dade-college",
+    "title": "Engaging with the Local Geospatial Community in South Florida",
+    "section": "GIS Hour at Miami-Dade College",
+    "text": "GIS Hour at Miami-Dade College\nFirst, on Monday, April 13, I had the pleasure of presenting at the 2026 GIS Hour at Miami-Dade College, an event supported by ASPRS. I spoke about the increasing focus on GeoAI and Geospatial Analytics, and how modern Data Science is becoming more GIS-centered. It was a fantastic opportunity to connect with college students who are eager to explore geospatial careers.\n\n\n\nPresenting at MDC GIS Hour\n\n\n\n\n\nEvent introduction"
+  },
+  {
+    "objectID": "posts/local_events_april_2026/index.html#emerging-tech-policy-at-florida-atlantic-university",
+    "href": "posts/local_events_april_2026/index.html#emerging-tech-policy-at-florida-atlantic-university",
+    "title": "Engaging with the Local Geospatial Community in South Florida",
+    "section": "Emerging Tech & Policy at Florida Atlantic University",
+    "text": "Emerging Tech & Policy at Florida Atlantic University\nLater in the month, on April 24, I participated in a high-impact workshop hosted by Florida Atlantic University’s Department of Civil, Environmental and Geomatics Engineering (CEGE) at the FAU Jupiter campus. The event, titled “Industry–Academic Collaboration on Emerging Tech & Policy and the Path to Professional Licensure,” brought together professionals and academics to discuss the future of the field.\nI was honored to join a panel discussion focusing on the role of AI in geospatial contexts, and I also gave a presentation on discrete global grids. You can read more about the workshop and its outcomes here.\n\n\n\nPanel discussion at FAU"
+  },
+  {
+    "objectID": "posts/ijgi_young_investigator_award/index.html",
+    "href": "posts/ijgi_young_investigator_award/index.html",
+    "title": "Levente Juhász receives 2026 IJGI Young Investigator Award",
+    "section": "",
+    "text": "I am honored to be named the winner of the 2026 Young Investigator Award by the ISPRS International Journal of Geo-Information (IJGI). This award recognizes contributions to Geographic Information Science, specifically regarding spatial data quality, OpenStreetMap, and the development of geometrically rigorous GeoAI.\nThis recognition coincides with the ongoing mission of the GATOR Lab to advance scalable geospatial technologies and reliable agentic AI workflows. We look forward to continuing this research as we onboard our Fall 2026 graduate cohort."
+  },
+  {
+    "objectID": "posts/ijgi_young_investigator_award/index.html#media-and-resources",
+    "href": "posts/ijgi_young_investigator_award/index.html#media-and-resources",
+    "title": "Levente Juhász receives 2026 IJGI Young Investigator Award",
+    "section": "Media and Resources",
+    "text": "Media and Resources\n\n\n\nIJGI posted an in-depth interview with Dr. Levente Juhász\n\n\n\nOfficial News Release: Researcher’s pioneering work in AI and mapping earns international Young Investigator Award (UF/IFAS News)\nIn-depth Interview: Interview with Dr. Levente Juhász (MDPI) — Discussion on the future of generative AI in geospatial contexts and advice for early-career researchers."
+  },
+  {
+    "objectID": "posts/journal_dashboard/index.html",
+    "href": "posts/journal_dashboard/index.html",
+    "title": "New dashboard for GIScience journal analysis",
+    "section": "",
+    "text": "Building on the 2024 publication, “Assessing publication trends in selected GIScience journals” in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.\nThe dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).\n\n\n\nInternational collaboration network in GIScience research\n\n\n\n\nSelecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:\n\nMeta Rankings: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.\nOpen Access Trends: Monitor the shift towards OA\nCollaboration Networks: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.\nCost vs. Impact: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.\n\n\n\n\nIn the spirit of open principles, the dashboard is built using Shinylive. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard is a reimplementation and expansion of the 2024 IJGIS article and it was built by Jorge Corcino. Stay tuned as we are releasing the updated dataset and the source code of the dashboard very soon.\n\n\n\nWe want to be clear about our view on using journal metrics to evaluate research impact. Quite frankly, we are not a fan of them. However, we need to be realistic and understand that it is a common practice in the academic community to use them. Think about going up for promotion, demonstrating the impact of your work, or justifying funding applications. Most of these decisions rely on some sort of metrics, and journal metrics are a common choice, so in a sense they are a necessary evil. While we may fundamentally disagree with putting to much emphasis on journal metrics, a lot of us are still at the mercy of them and therefore we are releasing this dashboard to build a better, more holistic understanding of the GIScience journal landscape.\nOn the bright side, better approaches to assess research impact are rapidly emerging, and we hope to see more of them in the future. A good resource to get started is the San Francisco Declaration on Research Assessment that recognizes and formalizes the need to improve the ways in which the outputs of scholarly research are evaluated.\nWith all its flaws, we still hope that our GIScience journal assessment dashboard will serve as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.\nExplore the dashboard here or launch the Full Screen version."
+  },
+  {
+    "objectID": "posts/journal_dashboard/index.html#new-dashboard-for-journal-analysis",
+    "href": "posts/journal_dashboard/index.html#new-dashboard-for-journal-analysis",
+    "title": "New dashboard for GIScience journal analysis",
+    "section": "",
+    "text": "Building on the 2024 publication, “Assessing publication trends in selected GIScience journals” in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.\nThe dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).\n\n\n\nInternational collaboration network in GIScience research\n\n\n\n\nSelecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:\n\nMeta Rankings: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.\nOpen Access Trends: Monitor the shift towards OA\nCollaboration Networks: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.\nCost vs. Impact: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.\n\n\n\n\nIn the spirit of open principles, the dashboard is built using Shinylive. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard is a reimplementation and expansion of the 2024 IJGIS article and it was built by Jorge Corcino. Stay tuned as we are releasing the updated dataset and the source code of the dashboard very soon.\n\n\n\nWe want to be clear about our view on using journal metrics to evaluate research impact. Quite frankly, we are not a fan of them. However, we need to be realistic and understand that it is a common practice in the academic community to use them. Think about going up for promotion, demonstrating the impact of your work, or justifying funding applications. Most of these decisions rely on some sort of metrics, and journal metrics are a common choice, so in a sense they are a necessary evil. While we may fundamentally disagree with putting to much emphasis on journal metrics, a lot of us are still at the mercy of them and therefore we are releasing this dashboard to build a better, more holistic understanding of the GIScience journal landscape.\nOn the bright side, better approaches to assess research impact are rapidly emerging, and we hope to see more of them in the future. A good resource to get started is the San Francisco Declaration on Research Assessment that recognizes and formalizes the need to improve the ways in which the outputs of scholarly research are evaluated.\nWith all its flaws, we still hope that our GIScience journal assessment dashboard will serve as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.\nExplore the dashboard here or launch the Full Screen version."
+  },
+  {
+    "objectID": "people/alumni/michael_floreal.html",
+    "href": "people/alumni/michael_floreal.html",
+    "title": "Michael Floreal",
+    "section": "",
+    "text": "Michael Floreal is a student from Miami Dade College (MDC), where he is enrolled in the Biopharmaceuticals program. He expects to graduate with his BSc in 2027 and plans to transfer to a university such as USF or UF to pursue further studies in pharmacy.\nWith a strong interest in biology, ecology, and chemistry, Michael has engaged in multiple research projects. He previously worked on grafting methyl methacrylate onto corn pulp to evaluate its effectiveness as an adsorption material, and he also investigated the effects of the herbicide glyphosate on the growth of fungal species such as Fusarium, Ganoderma, and Thielaviopsis. He completed a summer research internship with the GATOR Lab in 2026."
+  },
+  {
+    "objectID": "people/alumni/michael_floreal.html#biography",
+    "href": "people/alumni/michael_floreal.html#biography",
+    "title": "Michael Floreal",
+    "section": "",
+    "text": "Michael Floreal is a student from Miami Dade College (MDC), where he is enrolled in the Biopharmaceuticals program. He expects to graduate with his BSc in 2027 and plans to transfer to a university such as USF or UF to pursue further studies in pharmacy.\nWith a strong interest in biology, ecology, and chemistry, Michael has engaged in multiple research projects. He previously worked on grafting methyl methacrylate onto corn pulp to evaluate its effectiveness as an adsorption material, and he also investigated the effects of the herbicide glyphosate on the growth of fungal species such as Fusarium, Ganoderma, and Thielaviopsis. He completed a summer research internship with the GATOR Lab in 2026."
+  },
+  {
+    "objectID": "people/alumni/michael_floreal.html#project",
+    "href": "people/alumni/michael_floreal.html#project",
+    "title": "Michael Floreal",
+    "section": "Project",
+    "text": "Project\nThe Global Pixel Bias Objective: Map the discrepancy between “Planimetric Area” (what the computer sees) and “Ellipsoidal Area” (real world) across different grid systems (e.g. Web Mercator vs. H3 vs. S2)."
+  },
+  {
+    "objectID": "people/students/ashley_throm.html",
+    "href": "people/students/ashley_throm.html",
+    "title": "Ashley Throm",
+    "section": "",
+    "text": "Ashley is a graduate student in the School of Forest, Fisheries, and Geomatics Sciences at the University of Florida. She graduated with her BS in Biology from the University of Central Florida, focusing on ecological, evolutionary, and conservation sciences. Her professional background includes engineering, biology, field research, and environmental policy. Her interests in coastal and wetland ecological research and management have led her to UF to study advanced geospatial technologies, which will aid in extending her insight in the field of topographical analysis and its related applications."
+  },
+  {
+    "objectID": "people/students/ashley_throm.html#biography",
+    "href": "people/students/ashley_throm.html#biography",
+    "title": "Ashley Throm",
+    "section": "",
+    "text": "Ashley is a graduate student in the School of Forest, Fisheries, and Geomatics Sciences at the University of Florida. She graduated with her BS in Biology from the University of Central Florida, focusing on ecological, evolutionary, and conservation sciences. Her professional background includes engineering, biology, field research, and environmental policy. Her interests in coastal and wetland ecological research and management have led her to UF to study advanced geospatial technologies, which will aid in extending her insight in the field of topographical analysis and its related applications."
+  },
+  {
+    "objectID": "people/students/incoming_phd_spring.html",
+    "href": "people/students/incoming_phd_spring.html",
+    "title": "TBD",
+    "section": "",
+    "text": "This incoming graduate student will be joining the GATOR Lab in Spring 2027."
+  },
+  {
+    "objectID": "people/students/incoming_phd_spring.html#biography",
+    "href": "people/students/incoming_phd_spring.html#biography",
+    "title": "TBD",
+    "section": "",
+    "text": "This incoming graduate student will be joining the GATOR Lab in Spring 2027."
+  },
+  {
+    "objectID": "presentations/rcmi_advanced_2026/workshop_spatial_analysis.html",
+    "href": "presentations/rcmi_advanced_2026/workshop_spatial_analysis.html",
+    "title": "Section 0: Setup & Install",
+    "section": "",
+    "text": "Run the following cell to install and load the necessary spatial packages for this workshop. Note: Google Colab does not pre-install these R spatial packages, so this might take a few minutes.\n\ninstall.packages(c('sf', 'spdep', 'tmap', 'MASS', 'spmoran', 'ggplot2', 'dplyr', 'RColorBrewer'))\nlibrary(sf); library(spdep); library(tmap); library(MASS); library(ggplot2); library(dplyr)\ntmap_mode('plot')\n\n\nSection 1: Load & Explore Data\nDownload the Miami-Dade COVID-19 dataset from OSF and read it into an sf (Simple Features) object. We use GEOM_POSSIBLE_NAMES=geom so sf automatically identifies the WKT geometry column.\n\ndownload.file('https://files.osf.io/v1/resources/tjcny/providers/osfstorage/685441a5f40bd63220a1c9a3?view_only=e598d81c1c5447c2a4df998a25f58825', 'MiamiDade_UDB_CBG_covid.csv')\n\n# Read data and filter out block groups with 0 population to avoid calculation errors\ndata_sf &lt;- st_read('MiamiDade_UDB_CBG_covid.csv', options = 'GEOM_POSSIBLE_NAMES=geom')\ndata_sf &lt;- data_sf %&gt;% filter(total_pop &gt; 0)\n\nLet’s look at the structure and dimensions of our spatial dataframe:\n\ndim(data_sf)\nnames(data_sf)\nsummary(data_sf[, c('total_pop', 'median_household_income', 'pct_below_poverty', 'pct_hispanic_or_latino')])\n\n\nBasic Exploratory Data Analysis\nLet’s visualize the statistical distribution of cases before we map them.\n\nggplot(data_sf, aes(x = case_period3)) +\n  geom_histogram(fill = 'steelblue', color = 'black', bins=30) +\n  theme_minimal() +\n  labs(title = 'Histogram of COVID-19 Cases (Period 3: Sep-Dec 2020)')\n\n# Boxplot of rates across a few periods\nboxplot(data_sf$rate_period1, data_sf$rate_period3, data_sf$rate_period5, names=c('Period 1', 'Period 3', 'Period 5'), main='Infection Rates by Pandemic Phase')\n\n\n\n\nSection 2: Thematic Mapping\nLet’s map the COVID-19 smoothed rates for Period 3 (Fall 2020) along with some key predictors.\n\nDiscussion: Do you visually notice spatial correlations? Are the highest COVID-19 rates in the same neighborhoods as the lowest incomes?\n\n\ntm_shape(data_sf) +\n  tm_polygons('smoothed_rate_period3', style='quantile', palette='Reds', title='Smoothed Rate P3') +\n  tm_layout(legend.outside = TRUE, title = 'COVID-19 Rates - Fall 2020')\n\n\n# YOUR TURN: Try changing variables to other demographics like 'pct_black_or_african_american' or 'pct_below_poverty'\ntm_shape(data_sf) +\n  tm_polygons(c('pct_hispanic_or_latino', 'median_household_income'), style='quantile', title=c('% Hispanic/Latino', 'Median HH Income')) +\n  tm_layout(legend.outside = TRUE)\n\n\n\nSection 3: Spatial Weights Matrix\nTo run spatial statistics, we need to define ‘neighbors’. We’ll use Queen contiguity (sharing borders or corners).\n\nnb &lt;- poly2nb(data_sf, queen=TRUE)\nsummary(nb)\n\nLet’s visualize the connectivity graph overlaid on the census block groups.\n\ncoords &lt;- st_coordinates(st_centroid(st_geometry(data_sf)))\nplot(st_geometry(data_sf), border='lightgrey')\nplot(nb, coords, add=TRUE, col='red', lwd=0.5)\ntitle('Queen Contiguity Neighborhood Graph')\n\nRow-standardize the weights. We use zero.policy=TRUE to gracefully handle ‘islands’ that have no neighbors.\n\nlistw &lt;- nb2listw(nb, style='W', zero.policy=TRUE)\nsummary(listw, zero.policy=TRUE)\n\n\n\nSection 4: Global Spatial Autocorrelation\nCalculate Global Moran’s I to test for spatial clustering of COVID-19 rates across the entire county.\n\nmoran_test &lt;- moran.test(data_sf$smoothed_rate_period3, listw, zero.policy=TRUE)\nprint(moran_test)\n\nThe Moran Scatterplot plots the standardized variable against its spatial lag (the average of its neighbors). The slope of the regression line is Moran’s I.\n\nmoran.plot(data_sf$smoothed_rate_period3, listw, zero.policy=TRUE, pch=20, col='darkblue')\n\n# General G statistic to test clustering of High vs Low values\nglobalG.test(data_sf$smoothed_rate_period3, listw, zero.policy=TRUE)\n\n\n\nSection 5: Local Spatial Autocorrelation — LISA\nWhile Global Moran’s I tells us if there is clustering, Local Indicators of Spatial Association (LISA) tell us where the clusters are.\n\nHigh-High: High rate surrounded by high rates (Hotspots)\nLow-Low: Low rate surrounded by low rates (Coldspots)\nHigh-Low / Low-High: Spatial outliers\n\n\nlisa &lt;- localmoran(data_sf$smoothed_rate_period3, listw, zero.policy=TRUE)\nsignif &lt;- lisa[, 5] &lt; 0.05\nz_val &lt;- scale(data_sf$smoothed_rate_period3)\nlag_z_val &lt;- lag.listw(listw, z_val, zero.policy=TRUE)\n\nquad &lt;- rep('Not Significant', length(z_val))\nquad[z_val &gt; 0 & lag_z_val &gt; 0 & signif] &lt;- 'High-High'\nquad[z_val &lt; 0 & lag_z_val &lt; 0 & signif] &lt;- 'Low-Low'\nquad[z_val &gt; 0 & lag_z_val &lt; 0 & signif] &lt;- 'High-Low'\nquad[z_val &lt; 0 & lag_z_val &gt; 0 & signif] &lt;- 'Low-High'\n\ndata_sf$lisa_cluster &lt;- factor(quad, levels=c('High-High', 'Low-Low', 'High-Low', 'Low-High', 'Not Significant'))\n\nMap the LISA clusters to locate precise neighborhood dynamics.\n\ntm_shape(data_sf) +\n  tm_polygons('lisa_cluster', palette=c('red', 'blue', 'pink', 'lightblue', 'grey90')) +\n  tm_layout(legend.outside = TRUE, title='LISA Clusters Period 3')\n\n\n\nSection 6: Hot Spot Analysis — Getis-Ord Gi*\nGetis-Ord Gi* specifically identifies statistically significant Hot and Cold Spots based on z-scores.\n\n# Gi* requires weights that include the self-neighbor\nnb_self &lt;- include.self(nb)\nlistw_self &lt;- nb2listw(nb_self, style='W', zero.policy=TRUE)\n\ngi_star &lt;- localG(data_sf$smoothed_rate_period3, listw_self, zero.policy=TRUE)\ndata_sf$gi_star_z &lt;- as.numeric(gi_star)\n\nMap the calculated Gi* z-scores (Values &gt; 1.96 or &lt; -1.96 are significant at p &lt; 0.05).\n\ntm_shape(data_sf) +\n  tm_polygons('gi_star_z', style='cont', midpoint=0, palette='-RdBu', title='Gi* Z-Score') +\n  tm_layout(legend.outside=TRUE, title='Getis-Ord Gi* Z-Scores')\n\nCompare our computed result with the pre-computed Gi* clusters.\n\nObservation: Notice the strong cold spots running through the urban core along the I-95 corridor.\n\n\ntm_shape(data_sf) +\n  tm_polygons('gi_star_cluster_type_period3', palette=c('High'='red', 'Low'='blue', 'Not Significant'='grey90')) +\n  tm_layout(legend.outside=TRUE, title='Pre-computed Gi* Clusters')\n\n\n\nSection 7: Negative Binomial Regression\nWe model the case counts adjusting for socioeconomic factors. Since case data is count-based with overdispersion, Negative Binomial is preferred over Poisson. We use offset(log(total_pop)) to properly model rates instead of raw counts.\n\nnbm_model &lt;- glm.nb(\n  case_period3 ~ offset(log(total_pop)) + \n    pct_hispanic_or_latino + \n    pct_black_or_african_american + \n    pct_below_poverty + \n    pct_no_health_insurance + \n    median_household_income + \n    pct_no_high_school + \n    pct_2_01_or_more_occupants_per_room + \n    pop_dens, \n  data = data_sf\n)\nsummary(nbm_model)\n\nExponentiate the coefficients to calculate Incidence Rate Ratios (IRRs) for easier interpretation.\n\nirr_table &lt;- data.frame(\n  IRR = exp(coef(nbm_model)),\n  Lower_CI = suppressWarnings(exp(confint(nbm_model)[,1])),\n  Upper_CI = suppressWarnings(exp(confint(nbm_model)[,2]))\n)\nprint(round(irr_table, 3))\n\nAre the residuals spatially autocorrelated? If so, the standard model violates the assumption of independent errors, leading to biased significance tests.\n\ndata_sf$nbm_resid &lt;- residuals(nbm_model, type='deviance')\n\n# Test residuals with Moran's I\nmoran_test_resid &lt;- moran.test(data_sf$nbm_resid, listw, zero.policy=TRUE)\nprint(moran_test_resid)\n\n# Map residuals to visually check for spatial patterns\ntm_shape(data_sf) +\n  tm_polygons('nbm_resid', style='quantile', palette='-RdBu', midpoint=0, title='Deviance Residuals') +\n  tm_layout(legend.outside=TRUE, title='NBM Residual Pattern')\n\n\n\nSection 8: Spatial Eigenvector Filtering (SEF)\nOur residuals showed significant spatial clustering, which means the model violates the assumption of independent errors. This can lead to biased significance tests and unreliable coefficient estimates.\nSpatial Eigenvector Filtering addresses this by: 1. Decomposing the spatial weights matrix into eigenvectors that represent distinct spatial patterns 2. Selecting a parsimonious subset of eigenvectors via stepwise AIC (to avoid overfitting) 3. Including them as additional predictors to absorb the spatial structure in the residuals\nThis is conceptually similar to adding ‘spatial control variables’ — the eigenvectors capture latent spatial processes that our substantive predictors missed.\nStep 1: Compute eigenvectors from the centered spatial weights matrix.\n\n# Build binary weights matrix and center it\nW &lt;- nb2mat(nb, style='B', zero.policy=TRUE)\nn &lt;- nrow(W)\nMCM &lt;- diag(n) - matrix(1/n, n, n)  # Centering matrix\nMWM &lt;- MCM %*% W %*% MCM\n\n# Eigendecomposition — this may take a moment for large datasets\ncat('Computing eigendecomposition of', n, 'x', n, 'matrix...\\n')\neig &lt;- eigen(MWM, symmetric=TRUE)\n\n# Keep candidate eigenvectors with positive eigenvalues\n# (these represent positive spatial autocorrelation patterns)\npos_idx &lt;- which(eig$values &gt; 0.001)\nn_candidates &lt;- min(50, length(pos_idx))\nEV &lt;- eig$vectors[, pos_idx[1:n_candidates]]\ncolnames(EV) &lt;- paste0('EV', 1:n_candidates)\n\ncat(sprintf('Candidate pool: %d eigenvectors with positive spatial autocorrelation\\n', n_candidates))\n\n# Add candidates to the dataset\ndata_sf &lt;- cbind(data_sf, EV)\n\nStep 2: Use stepwise AIC selection to find the most parsimonious set of eigenvectors.\nRather than blindly including all eigenvectors (which would overfit), we let AIC decide which ones meaningfully improve the model. AIC penalizes each additional parameter, so only eigenvectors that capture substantial spatial structure will be retained.\n\n# Start from the full model with all 50 candidates and let stepwise AIC prune\nbase_form &lt;- 'case_period3 ~ offset(log(total_pop)) + pct_hispanic_or_latino + pct_black_or_african_american + pct_below_poverty + pct_no_health_insurance + median_household_income + pct_no_high_school + pct_2_01_or_more_occupants_per_room + pop_dens'\nev_terms &lt;- paste0('EV', 1:n_candidates, collapse=' + ')\nfull_form &lt;- as.formula(paste(base_form, '+', ev_terms))\n\ncat('Fitting full model with all candidate eigenvectors...\\n')\nfull_model &lt;- glm.nb(full_form, data=data_sf, control=glm.control(maxit=100))\n\ncat('Running stepwise AIC selection (this may take a minute)...\\n')\nsef_model &lt;- step(full_model, direction='both', trace=0)\n\n# How many eigenvectors were retained?\nretained_evs &lt;- grep('^EV', names(coef(sef_model)), value=TRUE)\ncat(sprintf('\\nStepwise retained %d of %d candidate eigenvectors: %s\\n', \n    length(retained_evs), n_candidates, paste(retained_evs, collapse=', ')))\n\ncat(sprintf('\\nBaseline NBM AIC: %.1f\\n', AIC(nbm_model)))\ncat(sprintf('SEF Model AIC:    %.1f  (improvement: %.1f)\\n', AIC(sef_model), AIC(nbm_model) - AIC(sef_model)))\n\nStep 3: Check if SEF reduced the spatial autocorrelation in the residuals.\n\ndata_sf$sef_resid &lt;- residuals(sef_model, type='deviance')\n\n# Compare Moran's I before and after SEF\nmoran_after &lt;- moran.test(data_sf$sef_resid, listw, zero.policy=TRUE)\n\ncat('=== Before SEF ===\\n')\ncat(sprintf('Moran I = %.4f, p = %s\\n\\n', moran_test_resid$estimate[1], format.pval(moran_test_resid$p.value, digits=3)))\ncat('=== After SEF ===\\n')\ncat(sprintf('Moran I = %.4f, p = %s\\n\\n', moran_after$estimate[1], format.pval(moran_after$p.value, digits=3)))\ncat(sprintf('Reduction in Moran I: %.1f%%\\n', \n    (1 - moran_after$estimate[1]/moran_test_resid$estimate[1]) * 100))\n\nStep 4: Map the residuals side by side.\n\nm1 &lt;- tm_shape(data_sf) +\n  tm_polygons('nbm_resid', style='quantile', palette='-RdBu', midpoint=0, title='Residuals') +\n  tm_layout(legend.outside=TRUE, title='Before SEF')\n\nm2 &lt;- tm_shape(data_sf) +\n  tm_polygons('sef_resid', style='quantile', palette='-RdBu', midpoint=0, title='Residuals') +\n  tm_layout(legend.outside=TRUE, title='After SEF')\n\ntmap_arrange(m1, m2, ncol=2)\n\n\nA note on statistical vs. practical significance\nYou will likely notice that the Moran’s I p-value is still statistically significant after SEF. Is that a problem?\nNot necessarily. With ~1,600 spatial units, even very small Moran’s I values (e.g., 0.03) will be statistically significant due to high statistical power. What matters more is:\n\nThe magnitude of reduction — a 50%+ drop in Moran’s I is substantial\nModel parsimony — we achieved this with only ~8-15 eigenvectors, not hundreds\nAIC improvement — lower AIC confirms the spatial terms genuinely improve fit\nVisual comparison — the residual maps should show noticeably less spatial clustering\n\n\nKey takeaway: With large spatial datasets, focus on the magnitude of spatial autocorrelation (Moran’s I value), not just the p-value. This distinction between statistical and practical significance becomes increasingly important as sample sizes grow.\n\n\n\n\nSection 9: Summary & Discussion\n\nKey Findings\n\nSpatial autocorrelation in residuals confirms that standard regression models miss important spatial processes in disease data.\nSEF with stepwise AIC selection provides a principled, parsimonious way to account for spatial dependence without overfitting.\nInterpreting spatial patterns in residuals can reveal structural inequities — areas where the model consistently over- or under-predicts may reflect unmeasured access barriers.\n\n\n\nThe Bigger Picture\nSpatial analysis is not just a statistical correction — it is a lens for understanding where and why health outcomes vary geographically. Methods like hot spot analysis, LISA, and spatial regression help us move from ‘what happened’ to ‘where should we intervene’.\nThank you for completing the workshop! Check out more interactive tools at GatorLab-Geo."
+  },
+  {
+    "objectID": "presentations/rcmi_advanced_2026/index.html",
+    "href": "presentations/rcmi_advanced_2026/index.html",
+    "title": "Interactive Tools — GIS & Spatial Analysis for Public Health",
+    "section": "",
+    "text": "🎨 Choropleth Classification Explorer\n      See how the same data tells different stories depending on the classification method. Compare Quantile, Equal Interval, Natural Breaks, and Standard Deviation classifications on real public health data from Florida.\n    \n    \n      \n    \n    \n      Launch Full Screen ↗\n      Choropleth\n      Classification\n    \n  \n\n  \n    \n      📍 Point Pattern Explorer\n      Explore how spatial point patterns are analyzed. Generate random, clustered, or dispersed patterns and examine them with Nearest Neighbor Index, Quadrat Analysis, and Ripley's K function.\n    \n    \n      \n    \n    \n      Launch Full Screen ↗\n      Point Patterns\n      NNI\n    \n  \n\n  \n    \n      🗺️ Spatial Neighborhood Explorer\n      Visualize how spatial neighborhoods are defined. Click any cell to see its neighbors under Queen, Rook, KNN, and distance-band definitions across regular, hexagonal, and irregular grids.\n    \n    \n      \n    \n    \n      Launch Full Screen ↗\n      Spatial Weights\n      Contiguity\n    \n  \n\n  \n    \n      🖌️ Spatial Autocorrelation Painter\n      Paint values onto a grid and watch Moran's I update in real time. Build intuition for positive and negative spatial autocorrelation with preset patterns or your own custom arrangements.\n    \n    \n      \n    \n    \n      Launch Full Screen ↗\n      Moran's I\n      Autocorrelation\n    \n  \n\n\n\n\n  📑 Workshop Materials\n  \n    \n      🎞️\n      \n        Slide Deck (PDF) ⬇\n        FIU RCMI Advanced Spatial Analysis Workshop 2026\n      \n    \n    \n      📓\n      \n        Workshop Notebook (Google Colab) ↗\n        Hands-on spatial analysis with Python — link coming soon"
+  },
+  {
+    "objectID": "resources/journals.html",
+    "href": "resources/journals.html",
+    "title": "GIScience Journal Assessment Dashboard",
+    "section": "",
+    "text": "We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled “Assessing publication trends in selected GIScience journals”.\n\n\n\n\n\n\nTipLaunch Dashboard\n\n\n\nThe dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.\n\n\n\n  \n    \n      Loading...\n    \n    Initializing Dashboard...\n    Downloading engine & data (first run ~30s)\n  \n  \n\n\n\nLaunch Full Screen Dashboard"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research Vision & Infrastructure",
+    "section": "",
+    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
+  },
+  {
+    "objectID": "research.html#the-geospatial-paradox",
+    "href": "research.html#the-geospatial-paradox",
+    "title": "Research Vision & Infrastructure",
+    "section": "",
+    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
+  },
+  {
+    "objectID": "research.html#our-computing-stack",
+    "href": "research.html#our-computing-stack",
+    "title": "Research Vision & Infrastructure",
+    "section": "Our Computing Stack",
+    "text": "Our Computing Stack\nTo stay at the cutting edge of Scalable Geospatial Data Science, we utilize top-notch infrastructure. We are currently in the process of setting up our core infrastructure which will include:\n\nHiPerGator AI: Direct access to the University of Florida’s supercomputer, the most powerful AI system in U.S. academia.\nIn-Lab AI Workstation: A dedicated high-performance GPU machine for rapid local development and model prototyping.\nCloud-Native Workflows: We specialize in leveraging high-performance computing and cloud-native technologies to overcome spatiotemporal analysis bottlenecks."
+  },
+  {
+    "objectID": "research.html#interdisciplinary-impact",
+    "href": "research.html#interdisciplinary-impact",
+    "title": "Research Vision & Infrastructure",
+    "section": "Interdisciplinary Impact",
+    "text": "Interdisciplinary Impact\nOur work translates modern computing into real-world solutions, for example:\n\nEnvironmental Resilience: Modeling coastal change and climate impacts (e.g., our EPA-funded “Future Shorelines” project).\nSpatial Data Science: Interrogating the integrity and bias of spatial data in human systems.\nPrecision Sensing & Analytics: Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure."
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join the GATOR Lab",
+    "section": "",
+    "text": "There are currently no funded, open positions available in the GATOR Lab.\nHowever, we are always interested in connecting with passionate researchers. I am open to discussing opportunities with:\n\nCurrent UF Students looking to conduct undergraduate or graduate research.\nProspective Students and Postdocs who have secured or are planning to apply for their own funding (e.g., external fellowships, scholarships, or grants).\n\nIf you fall into one of these categories and your research interests align with the lab’s core mission and expertise, we welcome your inquiry."
+  },
+  {
+    "objectID": "join.html#openings-opportunities",
+    "href": "join.html#openings-opportunities",
+    "title": "Join the GATOR Lab",
+    "section": "",
+    "text": "There are currently no funded, open positions available in the GATOR Lab.\nHowever, we are always interested in connecting with passionate researchers. I am open to discussing opportunities with:\n\nCurrent UF Students looking to conduct undergraduate or graduate research.\nProspective Students and Postdocs who have secured or are planning to apply for their own funding (e.g., external fellowships, scholarships, or grants).\n\nIf you fall into one of these categories and your research interests align with the lab’s core mission and expertise, we welcome your inquiry."
+  },
+  {
+    "objectID": "join.html#what-we-value",
+    "href": "join.html#what-we-value",
+    "title": "Join the GATOR Lab",
+    "section": "What We Value",
+    "text": "What We Value\nAbove all, we value intellectual curiosity and a critical mindset. We are looking for researchers who don’t just apply tools, but interrogate them. We are not afraid to ask interesting but difficult questions, and engage with challenging problems. You will thrive here if you are passionate about open science and eager to solve complex spatial problems through a data-science lens."
+  },
+  {
+    "objectID": "join.html#how-to-inquire",
+    "href": "join.html#how-to-inquire",
+    "title": "Join the GATOR Lab",
+    "section": "How to Inquire",
+    "text": "How to Inquire\nIf you are interested in joining the lab under the aforementioned opportunities, please email Dr. Levente Juhász (join@gatorlab.io) with:\n\nYour CV and a link to your GitHub/Portfolio.\nA Brief Statement of Interest explaining WHY GATOR Lab and HOW you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit. Be creative, authentic, and tell us why you want to join the GATOR Lab.\n\n\nJoin us at the University of Florida to build the future of Geospatial Data Science."
+  },
+  {
+    "objectID": "projects/sample-project/index.html#abstract",
+    "href": "projects/sample-project/index.html#abstract",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Abstract",
+    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
+  },
+  {
+    "objectID": "projects/sample-project/index.html#funding",
+    "href": "projects/sample-project/index.html#funding",
+    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
+    "section": "Funding",
+    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA Summer of Geospatial: Conferences, Workshops, and Community\n\n\n\nevent\n\nnews\n\n\n\nFrom research talks in Europe to workshops in Maryland and Florida — a packed summer of geospatial activity for the GATOR Lab.\n\n\n\n\n\nAug 25, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nTwo Papers Accepted: DGGS and Agentic AI\n\n\n\nnews\n\npublications\n\n\n\nThe GATOR Lab’s publication pipeline is maturing — two papers accepted in the last few days, with several more under review.\n\n\n\n\n\nAug 25, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nLevente Juhász receives 2026 IJGI Young Investigator Award\n\n\n\nnews\n\nawards\n\n\n\nInstitutional and journal recognition for research in GeoAI and GIScience.\n\n\n\n\n\nMay 7, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nEngaging with the Local Geospatial Community in South Florida\n\n\n\nevent\n\n\n\nA busy April! Speaking at Miami-Dade College’s GIS Hour and participating in a high-impact workshop at Florida Atlantic University.\n\n\n\n\n\nApr 26, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nTop Cited Paper in Transactions in GIS\n\n\n\nnews\n\npublication\n\n\n\nOur paper evaluating LLMs for spatial tasks was recognized as one of the most-cited articles in TGIS in 2024.\n\n\n\n\n\nApr 3, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nCritical Challenges in GeoAI: Insights from the 2026 SPARC Workshop\n\n\n\nevent\n\n\n\nReflections on the high-profile gathering of specialists at Arizona State University to discuss the future of Geospatial AI.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nJoining the IJGI Editorial Board\n\n\n\nnews\n\neditorial\n\n\n\nDr. Levente Juhász has been appointed to the Editorial Board of the ISPRS International Journal of Geo-Information.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nNew dashboard for GIScience journal analysis\n\n\n\nnews\n\n\n\nThe first resource out of the GATOR Lab is a fun one!\n\n\n\n\n\nJan 14, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nnews\n\n\n\nWe are excited to launch our website.\n\n\n\n\n\nDec 31, 2025\n\n\nLevente Juhasz\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nDiscrete Global Grid Systems (DGGS): Exploring DGGS as a foundational data substrate in geospatial applications and GeoAI.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+  },
+  {
+    "objectID": "index.html#our-work",
+    "href": "index.html#our-work",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "Broadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges."
+  },
+  {
+    "objectID": "index.html#research-pillars",
+    "href": "index.html#research-pillars",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "",
+    "text": "Scalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nDiscrete Global Grid Systems (DGGS): Exploring DGGS as a foundational data substrate in geospatial applications and GeoAI.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
+  },
+  {
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Geospatial Analytics, Technology & Open Research",
+    "section": "Recent Posts",
+    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nA Summer of Geospatial: Conferences, Workshops, and Community\n\n\n\nAug 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTwo Papers Accepted: DGGS and Agentic AI\n\n\n\nAug 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevente Juhász receives 2026 IJGI Young Investigator Award\n\n\n\nMay 7, 2026\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+  },
+  {
     "objectID": "people.html",
     "href": "people.html",
     "title": "People",
@@ -35,32 +301,11 @@
     "text": "Lab Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nLevel\n\n\n\nDescription\n\n\n\nstarted\n\n\n\nended\n\n\n\n\n\n\n\n\nJorge Corcino\n\n\nMS\n\n\nGraduated with MS in Data Science and AI from FIU. Returned to the British Virgin Islands.\n\n\n2026\n\n\n2026\n\n\n\n\n\n\nMichael Floreal\n\n\nBS\n\n\nCompleted a summer research internship and examined map distortions at the global scale.\n\n\n2026\n\n\n2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research Vision & Infrastructure",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
-  },
-  {
-    "objectID": "research.html#the-geospatial-paradox",
-    "href": "research.html#the-geospatial-paradox",
-    "title": "Research Vision & Infrastructure",
-    "section": "",
-    "text": "We are in a new era of geospatial science defined by cloud platforms, massive sensor networks, and the rise of GeoAI. The GATOR Lab addresses the critical bottleneck where our ability to collect data has outpaced our ability to analyze it."
-  },
-  {
-    "objectID": "research.html#our-computing-stack",
-    "href": "research.html#our-computing-stack",
-    "title": "Research Vision & Infrastructure",
-    "section": "Our Computing Stack",
-    "text": "Our Computing Stack\nTo stay at the cutting edge of Scalable Geospatial Data Science, we utilize top-notch infrastructure. We are currently in the process of setting up our core infrastructure which will include:\n\nHiPerGator AI: Direct access to the University of Florida’s supercomputer, the most powerful AI system in U.S. academia.\nIn-Lab AI Workstation: A dedicated high-performance GPU machine for rapid local development and model prototyping.\nCloud-Native Workflows: We specialize in leveraging high-performance computing and cloud-native technologies to overcome spatiotemporal analysis bottlenecks."
-  },
-  {
-    "objectID": "research.html#interdisciplinary-impact",
-    "href": "research.html#interdisciplinary-impact",
-    "title": "Research Vision & Infrastructure",
-    "section": "Interdisciplinary Impact",
-    "text": "Interdisciplinary Impact\nOur work translates modern computing into real-world solutions, for example:\n\nEnvironmental Resilience: Modeling coastal change and climate impacts (e.g., our EPA-funded “Future Shorelines” project).\nSpatial Data Science: Interrogating the integrity and bias of spatial data in human systems.\nPrecision Sensing & Analytics: Integrating traditional geomatics (including surveying, photogrammetry, and remote sensing) with modern data science to enhance the accuracy and reliability of spatial infrastructure."
+    "text": "Juhász, L. (2026a). Accelerating point-in-polygon predicates via algebraic hash-joins and discrete global grids at scale: An interactive benchmark. In Proceedings of the 34th ACM SIGSPATIAL international conference on advances in geographic information systems. Riverside, CA. DOI: https://doi.org/10.48550/arXiv.2607.08956. https://arxiv.org/abs/2607.08956\n\n\nJuhász, L. (2026b). Discrete global grid systems as a framework for geometrically rigorous and spatially explicit GeoAI: A research agenda. In Workshop on critical challenges of GeoAI, arizona state university. Tempe, AZ. DOI: https://doi.org/10.5281/zenodo.18471033. files/papers/JUHASZ_GeoAI_DGGS_Position_Paper.pdf\n\n\nJuhász, L., Guan, B., & Cui, W. (2026). A dual-helix governance approach towards reliable agentic artificial intelligence for WebGIS development. Transactions in GIS. DOI: https://doi.org/10.48550/arXiv.2603.04390. https://arxiv.org/abs/2603.04390\n\n\nJuhász, L., Hochmair, H. H., & Li, H. (2026). Continued advances in AI-driven geospatial analysis and data generation (editorial). ISPRS International Journal of Geo-Information, 15(9), 389. DOI: https://doi.org/10.3390/ijgi15090389. https://doi.org/10.3390/ijgi15090389\n\n\nMooney, P., Gorry, P., & Juhász, L. (2026). Integrating LLM-based workflows into GIS classroom learning activities. In H. Huang & N. Van de Weghe (Eds.), Proceedings of the 1st international conference on geospatial artificial intelligence (GeoAI 2026). Ghent, Belgium. DOI: https://doi.org/10.5281/zenodo.20287050. files/papers/GeoAI__Gorry___Mooney___Juhasz2.pdf\n\n\nJuhász, L. (2024). Assessing publication trends in selected GIScience journals. International Journal of Geographical Information Science. DOI: https://doi.org/10.1080/13658816.2024.2347306. files/papers/Juhasz_GIScience_publicaion_trends.pdf"
   },
   {
     "objectID": "teaching.html",
@@ -77,6 +322,41 @@
     "text": "Coming soon…"
   },
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/data.html",
+    "href": "resources/data.html",
+    "title": "Open Data & Tools",
+    "section": "",
+    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
+  },
+  {
+    "objectID": "resources/data.html#open-science",
+    "href": "resources/data.html#open-science",
+    "title": "Open Data & Tools",
+    "section": "",
+    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
+  },
+  {
+    "objectID": "presentations/rcmi_advanced_2026/workshop_gi_star.html",
+    "href": "presentations/rcmi_advanced_2026/workshop_gi_star.html",
+    "title": "Getis-Ord Gi* Hot Spot Analysis",
+    "section": "",
+    "text": "This notebook is designed for the RCMI 2026 workshop on spatial epidemiology. It focuses on identifying and analyzing hot and cold spots using the Getis-Ord Gi* statistic across multiple time periods.\n\n\nFirst, we will install and load the necessary packages.\n\n# Install packages (Colab doesn't have these pre-installed for R)\ninstall.packages(c(\"sf\", \"spdep\", \"tmap\", \"dplyr\", \"ggplot2\", \"RColorBrewer\", \"tidyr\"), repos=\"http://cran.us.r-project.org\")\n\n\n# Load libraries\nlibrary(sf)\nlibrary(spdep)\nlibrary(tmap)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(RColorBrewer)\nlibrary(tidyr)\n\n# Download dataset\nif(!file.exists('MiamiDade_UDB_CBG_covid.csv')) {\n  download.file('https://files.osf.io/v1/resources/tjcny/providers/osfstorage/685441a5f40bd63220a1c9a3?view_only=e598d81c1c5447c2a4df998a25f58825', 'MiamiDade_UDB_CBG_covid.csv')\n}\n\n# Read CSV and convert to spatial (sf) object\ndf &lt;- read.csv('MiamiDade_UDB_CBG_covid.csv')\ncbg_sf &lt;- st_as_sf(df, wkt = \"geom\", crs = 4326)\n\n# Drop empty geometries or 0 population\ncbg_sf &lt;- cbg_sf %&gt;% filter(!st_is_empty(geom), total_pop &gt; 0)\n\nprint(paste(\"Number of valid CBGs:\", nrow(cbg_sf)))\n\n\n\n\nThe Getis-Ord Gi* statistic identifies statistically significant spatial clusters of high values (hot spots) and low values (cold spots). It looks at each feature within the context of neighboring features.\nFormula Overview: The local sum for a feature and its neighbors is compared proportionally to the sum of all features; when the local sum is very different from the expected local sum, and that difference is too large to be the result of random chance, a statistically significant z-score results.\n\nPositive Gi* z-score → hot spot (high values surrounded by high values)\nNegative Gi* z-score → cold spot (low values surrounded by low values)\n\nSignificance is typically assessed at 90%, 95%, or 99% confidence levels.\n\n\n\nTo compute Gi*, we first need to define “neighbors.” We’ll use Queen contiguity (sharing boundaries or vertices).\n**Crucial Note for Gi*:** Unlike the \\(G_i\\) statistic, the \\(G_i^*\\) statistic includes the feature itself in its own neighbor list. This means we must add self-loops to our neighbor graph.\n\n# 1. Queen contiguity neighbors\nnb &lt;- poly2nb(cbg_sf, queen = TRUE)\n\n# 2. Include self (crucial for Gi*)\nnb_self &lt;- include.self(nb)\n\n# 3. Create spatial weights\nlw_self &lt;- nb2listw(nb_self, style = \"W\", zero.policy = TRUE)\n\n# Let's verify that self is included\nprint(nb[[1]])\nprint(nb_self[[1]])\n\n\n\n\nLet’s compute the Gi* statistic for the raw COVID-19 rates in Period 3 (Sep-Dec 2020, fall wave).\n\n# Compute Gi* (using localG from spdep)\n# localG returns z-scores\ncbg_sf$gi_star_z_p3 &lt;- localG(cbg_sf$rate_period3, lw_self)\ncbg_sf$gi_star_z_p3 &lt;- as.numeric(cbg_sf$gi_star_z_p3) # convert to standard numeric\n\n# Classify based on z-score\n# Z-score thresholds for significance (approx):\n# 99%: &gt; 2.58 or &lt; -2.58\n# 95%: &gt; 1.96 or &lt; -1.96\n# 90%: &gt; 1.645 or &lt; -1.645\n\ncbg_sf &lt;- cbg_sf %&gt;%\n  mutate(\n    gi_class_p3 = case_when(\n      gi_star_z_p3 &gt; 2.58 ~ \"Hot Spot (99%)\",\n      gi_star_z_p3 &gt; 1.96 ~ \"Hot Spot (95%)\",\n      gi_star_z_p3 &gt; 1.645 ~ \"Hot Spot (90%)\",\n      gi_star_z_p3 &lt; -2.58 ~ \"Cold Spot (99%)\",\n      gi_star_z_p3 &lt; -1.96 ~ \"Cold Spot (95%)\",\n      gi_star_z_p3 &lt; -1.645 ~ \"Cold Spot (90%)\",\n      TRUE ~ \"Not Significant\"\n    )\n  )\n\n# Set factor levels for plotting\ngi_levels &lt;- c(\"Cold Spot (99%)\", \"Cold Spot (95%)\", \"Cold Spot (90%)\", \n               \"Not Significant\", \n               \"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")\ncbg_sf$gi_class_p3 &lt;- factor(cbg_sf$gi_class_p3, levels = gi_levels)\n\n# Plot Z-scores\ntm_shape(cbg_sf) +\n  tm_polygons(\"gi_star_z_p3\", \n              style = \"cont\", \n              midpoint = 0, \n              palette = \"-RdBu\", \n              title = \"Gi* Z-Score (Period 3)\", border.col = \"transparent\")\n\n\n# Map the classified spots\ngi_colors &lt;- c(\"#4575b4\", \"#91bfdb\", \"#e0f3f8\", \"#ffffbf\", \"#fee090\", \"#fc8d59\", \"#d73027\")\n\ntm_shape(cbg_sf) +\n  tm_polygons(\"gi_class_p3\", \n              palette = gi_colors, \n              title = \"Gi* Classification\",\n              border.col = \"transparent\")\n\n\n\n\nThe dataset already includes a column gi_star_cluster_type_period3. Let’s compare our manual classification with the pre-computed one.\n\ntable(Our_Classification = cbg_sf$gi_class_p3, Pre_computed = cbg_sf$gi_star_cluster_type_period3)\n\n# Notice any differences? They might stem from different spatial weights matrices (e.g., k-nearest neighbors vs queen contiguity) or handling of edge cases (e.g., zero policy).\n\n\n\n\nHow did hot spots shift over time? Let’s compute Gi* for all 5 periods. - Period 1: Mar-May 2020 - Period 2: Jun-Aug 2020 - Period 3: Sep-Dec 2020 - Period 4: Jan-May 2021 - Period 5: Jun-Sep 2021\n\n# Loop over periods to compute Gi*\nfor(i in 1:5) {\n  rate_col &lt;- paste0(\"rate_period\", i)\n  z_col &lt;- paste0(\"gi_z_p\", i)\n  class_col &lt;- paste0(\"gi_class_p\", i)\n  \n  # Compute Z-score\n  cbg_sf[[z_col]] &lt;- as.numeric(localG(cbg_sf[[rate_col]], lw_self))\n  \n  # Classify\n  cbg_sf[[class_col]] &lt;- case_when(\n    cbg_sf[[z_col]] &gt; 2.58 ~ \"Hot Spot (99%)\",\n    cbg_sf[[z_col]] &gt; 1.96 ~ \"Hot Spot (95%)\",\n    cbg_sf[[z_col]] &gt; 1.645 ~ \"Hot Spot (90%)\",\n    cbg_sf[[z_col]] &lt; -2.58 ~ \"Cold Spot (99%)\",\n    cbg_sf[[z_col]] &lt; -1.96 ~ \"Cold Spot (95%)\",\n    cbg_sf[[z_col]] &lt; -1.645 ~ \"Cold Spot (90%)\",\n    TRUE ~ \"Not Significant\"\n  )\n  cbg_sf[[class_col]] &lt;- factor(cbg_sf[[class_col]], levels = gi_levels)\n}\n\n\n# Create faceted maps\nmaps &lt;- list()\nfor(i in 1:5) {\n  class_col &lt;- paste0(\"gi_class_p\", i)\n  maps[[i]] &lt;- tm_shape(cbg_sf) +\n    tm_polygons(class_col, palette = gi_colors, border.col = \"transparent\", legend.show = (i == 5)) +\n    tm_layout(title = paste(\"Period\", i), title.position = c(\"left\", \"top\"))\n}\n\ntmap_arrange(maps[[1]], maps[[2]], maps[[3]], maps[[4]], maps[[5]], ncol = 3)\n\n\n\n\n\nEarly periods (1-2): Hot spots often clustered in specific dense, lower-income areas.\nLater periods (4-5): Patterns shift. As vaccines rolled out (Period 4) and Delta emerged (Period 5), hot spots may shift towards areas with lower vaccination rates or different demographics.\nPersistent cold spots: You may notice persistent cold spots in areas like Liberty City, Little Haiti, and Opa-Locka. However, due to structural barriers, this could represent a “detection paradox” where low testing artificially depresses case counts.\n\n\n\n\nLet’s look at the demographics of these clusters in Period 3.\n\n# Summarize demographics by cluster type\nsummary_p3 &lt;- cbg_sf %&gt;%\n  st_drop_geometry() %&gt;%\n  group_by(gi_class_p3) %&gt;%\n  summarize(\n    count = n(),\n    med_income = mean(median_household_income, na.rm = TRUE),\n    pct_black = mean(pct_black_or_african_american, na.rm = TRUE),\n    pct_hispanic = mean(pct_hispanic_or_latino, na.rm = TRUE),\n    pct_uninsured = mean(pct_no_health_insurance, na.rm = TRUE)\n  )\n\nprint(summary_p3)\n\n\n# Boxplot comparing % Black by cluster type\nggplot(cbg_sf, aes(x = gi_class_p3, y = pct_black_or_african_american, fill = gi_class_p3)) +\n  geom_boxplot() +\n  scale_fill_manual(values = gi_colors) +\n  theme_minimal() +\n  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +\n  labs(title = \"Percentage of Black/African American Population by Cluster Type (Period 3)\",\n       x = \"Cluster Type\", y = \"% Black / African American\")\n\n\n\n\nWe can classify areas based on their temporal behavior across the 5 periods. - Persistent Hot Spot: Hot in 4 or 5 periods - Persistent Cold Spot: Cold in 4 or 5 periods\n\n# Count how many times an area was hot or cold\ncbg_sf &lt;- cbg_sf %&gt;%\n  mutate(\n    hot_count = (gi_class_p1 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")) +\n                (gi_class_p2 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")) +\n                (gi_class_p3 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")) +\n                (gi_class_p4 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")) +\n                (gi_class_p5 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")),\n                \n    cold_count = (gi_class_p1 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\")) +\n                 (gi_class_p2 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\")) +\n                 (gi_class_p3 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\")) +\n                 (gi_class_p4 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\")) +\n                 (gi_class_p5 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\"))\n  ) %&gt;%\n  mutate(\n    temporal_class = case_when(\n      hot_count &gt;= 4 ~ \"Persistent Hot Spot\",\n      cold_count &gt;= 4 ~ \"Persistent Cold Spot\",\n      hot_count &gt; 0 & cold_count &gt; 0 ~ \"Oscillating\",\n      TRUE ~ \"Other / Transient\"\n    )\n  )\n\ntable(cbg_sf$temporal_class)\n\ntm_shape(cbg_sf) +\n  tm_polygons(\"temporal_class\", \n              palette = c(\"Oscillating\" = \"purple\", \"Other / Transient\" = \"gray90\", \n                          \"Persistent Cold Spot\" = \"blue\", \"Persistent Hot Spot\" = \"red\"),\n              border.col = \"transparent\", title = \"Temporal Pattern\")\n\n\n\n\n\nThe Detection Paradox: Persistent cold spots in predominantly Black/African American neighborhoods (like Liberty City) often reflect severe barriers to testing access, rather than true low transmission. This shows why spatial statistics must be interpreted alongside socioeconomic context.\nDynamic Shifts: The Oscillating category highlights how the pandemic’s geography was not static. Surges hit different communities at different times.\nInteractive Tools: To explore these metrics further, refer to the workshop’s interactive Shiny applications!"
+  },
+  {
+    "objectID": "presentations/rcmi_advanced_2026/workshop_gi_star.html#spatiotemporal-trends-in-covid-19-cases",
+    "href": "presentations/rcmi_advanced_2026/workshop_gi_star.html#spatiotemporal-trends-in-covid-19-cases",
+    "title": "Getis-Ord Gi* Hot Spot Analysis",
+    "section": "",
+    "text": "This notebook is designed for the RCMI 2026 workshop on spatial epidemiology. It focuses on identifying and analyzing hot and cold spots using the Getis-Ord Gi* statistic across multiple time periods.\n\n\nFirst, we will install and load the necessary packages.\n\n# Install packages (Colab doesn't have these pre-installed for R)\ninstall.packages(c(\"sf\", \"spdep\", \"tmap\", \"dplyr\", \"ggplot2\", \"RColorBrewer\", \"tidyr\"), repos=\"http://cran.us.r-project.org\")\n\n\n# Load libraries\nlibrary(sf)\nlibrary(spdep)\nlibrary(tmap)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(RColorBrewer)\nlibrary(tidyr)\n\n# Download dataset\nif(!file.exists('MiamiDade_UDB_CBG_covid.csv')) {\n  download.file('https://files.osf.io/v1/resources/tjcny/providers/osfstorage/685441a5f40bd63220a1c9a3?view_only=e598d81c1c5447c2a4df998a25f58825', 'MiamiDade_UDB_CBG_covid.csv')\n}\n\n# Read CSV and convert to spatial (sf) object\ndf &lt;- read.csv('MiamiDade_UDB_CBG_covid.csv')\ncbg_sf &lt;- st_as_sf(df, wkt = \"geom\", crs = 4326)\n\n# Drop empty geometries or 0 population\ncbg_sf &lt;- cbg_sf %&gt;% filter(!st_is_empty(geom), total_pop &gt; 0)\n\nprint(paste(\"Number of valid CBGs:\", nrow(cbg_sf)))\n\n\n\n\nThe Getis-Ord Gi* statistic identifies statistically significant spatial clusters of high values (hot spots) and low values (cold spots). It looks at each feature within the context of neighboring features.\nFormula Overview: The local sum for a feature and its neighbors is compared proportionally to the sum of all features; when the local sum is very different from the expected local sum, and that difference is too large to be the result of random chance, a statistically significant z-score results.\n\nPositive Gi* z-score → hot spot (high values surrounded by high values)\nNegative Gi* z-score → cold spot (low values surrounded by low values)\n\nSignificance is typically assessed at 90%, 95%, or 99% confidence levels.\n\n\n\nTo compute Gi*, we first need to define “neighbors.” We’ll use Queen contiguity (sharing boundaries or vertices).\n**Crucial Note for Gi*:** Unlike the \\(G_i\\) statistic, the \\(G_i^*\\) statistic includes the feature itself in its own neighbor list. This means we must add self-loops to our neighbor graph.\n\n# 1. Queen contiguity neighbors\nnb &lt;- poly2nb(cbg_sf, queen = TRUE)\n\n# 2. Include self (crucial for Gi*)\nnb_self &lt;- include.self(nb)\n\n# 3. Create spatial weights\nlw_self &lt;- nb2listw(nb_self, style = \"W\", zero.policy = TRUE)\n\n# Let's verify that self is included\nprint(nb[[1]])\nprint(nb_self[[1]])\n\n\n\n\nLet’s compute the Gi* statistic for the raw COVID-19 rates in Period 3 (Sep-Dec 2020, fall wave).\n\n# Compute Gi* (using localG from spdep)\n# localG returns z-scores\ncbg_sf$gi_star_z_p3 &lt;- localG(cbg_sf$rate_period3, lw_self)\ncbg_sf$gi_star_z_p3 &lt;- as.numeric(cbg_sf$gi_star_z_p3) # convert to standard numeric\n\n# Classify based on z-score\n# Z-score thresholds for significance (approx):\n# 99%: &gt; 2.58 or &lt; -2.58\n# 95%: &gt; 1.96 or &lt; -1.96\n# 90%: &gt; 1.645 or &lt; -1.645\n\ncbg_sf &lt;- cbg_sf %&gt;%\n  mutate(\n    gi_class_p3 = case_when(\n      gi_star_z_p3 &gt; 2.58 ~ \"Hot Spot (99%)\",\n      gi_star_z_p3 &gt; 1.96 ~ \"Hot Spot (95%)\",\n      gi_star_z_p3 &gt; 1.645 ~ \"Hot Spot (90%)\",\n      gi_star_z_p3 &lt; -2.58 ~ \"Cold Spot (99%)\",\n      gi_star_z_p3 &lt; -1.96 ~ \"Cold Spot (95%)\",\n      gi_star_z_p3 &lt; -1.645 ~ \"Cold Spot (90%)\",\n      TRUE ~ \"Not Significant\"\n    )\n  )\n\n# Set factor levels for plotting\ngi_levels &lt;- c(\"Cold Spot (99%)\", \"Cold Spot (95%)\", \"Cold Spot (90%)\", \n               \"Not Significant\", \n               \"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")\ncbg_sf$gi_class_p3 &lt;- factor(cbg_sf$gi_class_p3, levels = gi_levels)\n\n# Plot Z-scores\ntm_shape(cbg_sf) +\n  tm_polygons(\"gi_star_z_p3\", \n              style = \"cont\", \n              midpoint = 0, \n              palette = \"-RdBu\", \n              title = \"Gi* Z-Score (Period 3)\", border.col = \"transparent\")\n\n\n# Map the classified spots\ngi_colors &lt;- c(\"#4575b4\", \"#91bfdb\", \"#e0f3f8\", \"#ffffbf\", \"#fee090\", \"#fc8d59\", \"#d73027\")\n\ntm_shape(cbg_sf) +\n  tm_polygons(\"gi_class_p3\", \n              palette = gi_colors, \n              title = \"Gi* Classification\",\n              border.col = \"transparent\")\n\n\n\n\nThe dataset already includes a column gi_star_cluster_type_period3. Let’s compare our manual classification with the pre-computed one.\n\ntable(Our_Classification = cbg_sf$gi_class_p3, Pre_computed = cbg_sf$gi_star_cluster_type_period3)\n\n# Notice any differences? They might stem from different spatial weights matrices (e.g., k-nearest neighbors vs queen contiguity) or handling of edge cases (e.g., zero policy).\n\n\n\n\nHow did hot spots shift over time? Let’s compute Gi* for all 5 periods. - Period 1: Mar-May 2020 - Period 2: Jun-Aug 2020 - Period 3: Sep-Dec 2020 - Period 4: Jan-May 2021 - Period 5: Jun-Sep 2021\n\n# Loop over periods to compute Gi*\nfor(i in 1:5) {\n  rate_col &lt;- paste0(\"rate_period\", i)\n  z_col &lt;- paste0(\"gi_z_p\", i)\n  class_col &lt;- paste0(\"gi_class_p\", i)\n  \n  # Compute Z-score\n  cbg_sf[[z_col]] &lt;- as.numeric(localG(cbg_sf[[rate_col]], lw_self))\n  \n  # Classify\n  cbg_sf[[class_col]] &lt;- case_when(\n    cbg_sf[[z_col]] &gt; 2.58 ~ \"Hot Spot (99%)\",\n    cbg_sf[[z_col]] &gt; 1.96 ~ \"Hot Spot (95%)\",\n    cbg_sf[[z_col]] &gt; 1.645 ~ \"Hot Spot (90%)\",\n    cbg_sf[[z_col]] &lt; -2.58 ~ \"Cold Spot (99%)\",\n    cbg_sf[[z_col]] &lt; -1.96 ~ \"Cold Spot (95%)\",\n    cbg_sf[[z_col]] &lt; -1.645 ~ \"Cold Spot (90%)\",\n    TRUE ~ \"Not Significant\"\n  )\n  cbg_sf[[class_col]] &lt;- factor(cbg_sf[[class_col]], levels = gi_levels)\n}\n\n\n# Create faceted maps\nmaps &lt;- list()\nfor(i in 1:5) {\n  class_col &lt;- paste0(\"gi_class_p\", i)\n  maps[[i]] &lt;- tm_shape(cbg_sf) +\n    tm_polygons(class_col, palette = gi_colors, border.col = \"transparent\", legend.show = (i == 5)) +\n    tm_layout(title = paste(\"Period\", i), title.position = c(\"left\", \"top\"))\n}\n\ntmap_arrange(maps[[1]], maps[[2]], maps[[3]], maps[[4]], maps[[5]], ncol = 3)\n\n\n\n\n\nEarly periods (1-2): Hot spots often clustered in specific dense, lower-income areas.\nLater periods (4-5): Patterns shift. As vaccines rolled out (Period 4) and Delta emerged (Period 5), hot spots may shift towards areas with lower vaccination rates or different demographics.\nPersistent cold spots: You may notice persistent cold spots in areas like Liberty City, Little Haiti, and Opa-Locka. However, due to structural barriers, this could represent a “detection paradox” where low testing artificially depresses case counts.\n\n\n\n\nLet’s look at the demographics of these clusters in Period 3.\n\n# Summarize demographics by cluster type\nsummary_p3 &lt;- cbg_sf %&gt;%\n  st_drop_geometry() %&gt;%\n  group_by(gi_class_p3) %&gt;%\n  summarize(\n    count = n(),\n    med_income = mean(median_household_income, na.rm = TRUE),\n    pct_black = mean(pct_black_or_african_american, na.rm = TRUE),\n    pct_hispanic = mean(pct_hispanic_or_latino, na.rm = TRUE),\n    pct_uninsured = mean(pct_no_health_insurance, na.rm = TRUE)\n  )\n\nprint(summary_p3)\n\n\n# Boxplot comparing % Black by cluster type\nggplot(cbg_sf, aes(x = gi_class_p3, y = pct_black_or_african_american, fill = gi_class_p3)) +\n  geom_boxplot() +\n  scale_fill_manual(values = gi_colors) +\n  theme_minimal() +\n  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +\n  labs(title = \"Percentage of Black/African American Population by Cluster Type (Period 3)\",\n       x = \"Cluster Type\", y = \"% Black / African American\")\n\n\n\n\nWe can classify areas based on their temporal behavior across the 5 periods. - Persistent Hot Spot: Hot in 4 or 5 periods - Persistent Cold Spot: Cold in 4 or 5 periods\n\n# Count how many times an area was hot or cold\ncbg_sf &lt;- cbg_sf %&gt;%\n  mutate(\n    hot_count = (gi_class_p1 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")) +\n                (gi_class_p2 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")) +\n                (gi_class_p3 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")) +\n                (gi_class_p4 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")) +\n                (gi_class_p5 %in% c(\"Hot Spot (90%)\", \"Hot Spot (95%)\", \"Hot Spot (99%)\")),\n                \n    cold_count = (gi_class_p1 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\")) +\n                 (gi_class_p2 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\")) +\n                 (gi_class_p3 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\")) +\n                 (gi_class_p4 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\")) +\n                 (gi_class_p5 %in% c(\"Cold Spot (90%)\", \"Cold Spot (95%)\", \"Cold Spot (99%)\"))\n  ) %&gt;%\n  mutate(\n    temporal_class = case_when(\n      hot_count &gt;= 4 ~ \"Persistent Hot Spot\",\n      cold_count &gt;= 4 ~ \"Persistent Cold Spot\",\n      hot_count &gt; 0 & cold_count &gt; 0 ~ \"Oscillating\",\n      TRUE ~ \"Other / Transient\"\n    )\n  )\n\ntable(cbg_sf$temporal_class)\n\ntm_shape(cbg_sf) +\n  tm_polygons(\"temporal_class\", \n              palette = c(\"Oscillating\" = \"purple\", \"Other / Transient\" = \"gray90\", \n                          \"Persistent Cold Spot\" = \"blue\", \"Persistent Hot Spot\" = \"red\"),\n              border.col = \"transparent\", title = \"Temporal Pattern\")\n\n\n\n\n\nThe Detection Paradox: Persistent cold spots in predominantly Black/African American neighborhoods (like Liberty City) often reflect severe barriers to testing access, rather than true low transmission. This shows why spatial statistics must be interpreted alongside socioeconomic context.\nDynamic Shifts: The Oscillating category highlights how the pandemic’s geography was not static. Surges hit different communities at different times.\nInteractive Tools: To explore these metrics further, refer to the workshop’s interactive Shiny applications!"
+  },
+  {
     "objectID": "people/collaborators/wencong_cui.html",
     "href": "people/collaborators/wencong_cui.html",
     "title": "Wencong ‘Vincent’ Cui",
@@ -89,27 +369,6 @@
     "title": "Wencong ‘Vincent’ Cui",
     "section": "",
     "text": "Wencong “Vincent” Cui is a geospatial researcher and application developer at the FIU GIS Center. His work sits at the intersection of WebGIS, spatial data infrastructure, GeoAI, and agentic AI, with a focus on developing reliable AI-assisted geospatial systems for urban and environmental applications. He holds a Ph.D. in Geography from Texas A&M University, an M.S. in Computer Science from Georgia Tech, and a Master of Urban and Environmental Planning from Arizona State University. His recent projects examine agentic AI governance for WebGIS development and street-view-based spatial retrieval-augmented generation for urban analysis.\nVincent frequently works with us on evaluating Large Language Models (LLMs) in geographic contexts."
-  },
-  {
-    "objectID": "people/alumni/corcino.html",
-    "href": "people/alumni/corcino.html",
-    "title": "Jorge Corcino",
-    "section": "",
-    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
-  },
-  {
-    "objectID": "people/alumni/corcino.html#biography",
-    "href": "people/alumni/corcino.html#biography",
-    "title": "Jorge Corcino",
-    "section": "",
-    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
-  },
-  {
-    "objectID": "people/alumni/corcino.html#research-interests",
-    "href": "people/alumni/corcino.html#research-interests",
-    "title": "Jorge Corcino",
-    "section": "Research Interests",
-    "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
   },
   {
     "objectID": "people/students/patrick_davenport.html",
@@ -140,81 +399,95 @@
     "text": "Outside of Research\nIn his free time, Patrick enjoys stepping away from city life through outdoor activities like kayaking, camping, hiking, and mountain biking, whether in his local area or while traveling. When at home, he likes to spend his time cooking, reading, and watching films."
   },
   {
-    "objectID": "people/students/incoming_phd_spring.html",
-    "href": "people/students/incoming_phd_spring.html",
-    "title": "TBD",
+    "objectID": "people/alumni/corcino.html",
+    "href": "people/alumni/corcino.html",
+    "title": "Jorge Corcino",
     "section": "",
-    "text": "This incoming graduate student will be joining the GATOR Lab in Spring 2027."
+    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
   },
   {
-    "objectID": "people/students/incoming_phd_spring.html#biography",
-    "href": "people/students/incoming_phd_spring.html#biography",
-    "title": "TBD",
+    "objectID": "people/alumni/corcino.html#biography",
+    "href": "people/alumni/corcino.html#biography",
+    "title": "Jorge Corcino",
     "section": "",
-    "text": "This incoming graduate student will be joining the GATOR Lab in Spring 2027."
+    "text": "Jorge graduated with an MS in Data Science and AI from Florida International University. Originally from the British Virgin Islands, he worked with us in 2026 before moving back to the BVI. His background is in Information Systems / Computer Science, and he discovered his passion for geospatial data while making a pivot towards data science. At home, he works for the BVI Electricity Corporation, where he utilizes his data analytics and GIS skills."
   },
   {
-    "objectID": "projects/sample-project/index.html#abstract",
-    "href": "projects/sample-project/index.html#abstract",
-    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
-    "section": "Abstract",
-    "text": "Abstract\nThis project expands and enhances Future Shorelines, a geospatial decision support tool designed to increase the climate resiliency of nature-based solutions in South Florida. By integrating high-resolution topographic and bathymetric data with NOAA sea-level rise trajectories, the tool provides parcel-level visualizations and cross-sections to assist practitioners in siting and designing living shorelines. This phase upgrades the database with novel attributes—including seagrass coverage and sediment type—and extends geographic coverage across Martin and Palm Beach Counties, as well as implements functionality improvements, such as dynamic profiling. Supported by a growing network of 23 partners, the project leverages stakeholder input to streamline permitting and improve coastal adaptation planning."
+    "objectID": "people/alumni/corcino.html#research-interests",
+    "href": "people/alumni/corcino.html#research-interests",
+    "title": "Jorge Corcino",
+    "section": "Research Interests",
+    "text": "Research Interests\nJorge’s research interests include blending traditional data science with geography and environmental sciences. He is working on developing decision support systems for coastal resilience. More recently, he is also exploring the potential of Agentic AI."
   },
   {
-    "objectID": "projects/sample-project/index.html#funding",
-    "href": "projects/sample-project/index.html#funding",
-    "title": "Geographic Expansion and Improvements of the Future Shorelines Tool",
-    "section": "Funding",
-    "text": "Funding\nOriginal funding was provided by theEnvironmental Protection Agency to Florida International University. Since Dr. Juhász joined the University of Florida the GATOR Lab participates through a sub-award from FIU."
-  },
-  {
-    "objectID": "resources/data.html",
-    "href": "resources/data.html",
-    "title": "Open Data & Tools",
+    "objectID": "people/levente-juhasz.html",
+    "href": "people/levente-juhasz.html",
+    "title": "Levente Juhász, PhD",
     "section": "",
-    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
+    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
   },
   {
-    "objectID": "resources/data.html#open-science",
-    "href": "resources/data.html#open-science",
-    "title": "Open Data & Tools",
+    "objectID": "people/levente-juhasz.html#biography",
+    "href": "people/levente-juhasz.html#biography",
+    "title": "Levente Juhász, PhD",
     "section": "",
-    "text": "We are committed to open science and will release data and tools generated from our research here.\nStatus: In preparation. Coming soon."
+    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "people/levente-juhasz.html#research-interests",
+    "href": "people/levente-juhasz.html#research-interests",
+    "title": "Levente Juhász, PhD",
+    "section": "Research Interests",
+    "text": "Research Interests\nHis work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Key areas include:\n\nGeoAI: Developing frameworks for geospatial reasoning using Large Language Models (LLMs).\nDiscrete Global Grid Systems (DGGS): Advancing standardized spatial frameworks for planetary-scale geospatial analytics.\nSpatial Data Integrity: Interrogating the quality, bias, and malicious defacement of crowdsourced data (e.g., VGI and OpenStreetMap).\nClimate Resilience: Building scalable environmental decision support systems, such as the EPA-funded “Future Shorelines” project."
+  },
+  {
+    "objectID": "people/levente-juhasz.html#lab-history",
+    "href": "people/levente-juhasz.html#lab-history",
+    "title": "Levente Juhász, PhD",
+    "section": "Lab History",
+    "text": "Lab History\nFounded in 2026, the GATOR Lab marks Dr. Juhász’s return to the University of Florida to establish a high-performance hub for geospatial data science."
+  },
+  {
+    "objectID": "people/levente-juhasz.html#outside-of-research",
+    "href": "people/levente-juhasz.html#outside-of-research",
+    "title": "Levente Juhász, PhD",
+    "section": "Outside of Research",
+    "text": "Outside of Research\nI enjoy the outdoors and endurance sports. My favorite activities are road cycling, obstacle course racing, and more recently ultra running."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to the GATOR Lab!",
     "section": "",
-    "text": "Levente Juhász, PhD\nFt. Lauderdale Research and Education Center\nSchool of Forest, Fisheries and Geomatics Sciences\nUniversity of Florida/IFAS\n🏢 3205 College Ave\nDavie, FL 33313\nUSA\n📧: levente.juhasz@ufl.edu 📧: join@gatorlab.io"
+    "text": "I am excited to announce the launch of the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. I accepted a position of Assistant Professor of Geospatial Analytics in Geomatics from the Spring 2026 semester. This marks my return to UF after a 7-year spell at Florida International University as research faculty. I am beyond excited to be back at UF and to continue my research in geospatial analytics, technology and open research."
   },
   {
-    "objectID": "posts/local_events_april_2026/index.html",
-    "href": "posts/local_events_april_2026/index.html",
-    "title": "Engaging with the Local Geospatial Community in South Florida",
+    "objectID": "posts/welcome/index.html#hello-welcome",
+    "href": "posts/welcome/index.html#hello-welcome",
+    "title": "Welcome to the GATOR Lab!",
     "section": "",
-    "text": "We’ve had a busy and exciting April engaging with the vibrant local geospatial community here in South Florida."
+    "text": "I am excited to announce the launch of the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. I accepted a position of Assistant Professor of Geospatial Analytics in Geomatics from the Spring 2026 semester. This marks my return to UF after a 7-year spell at Florida International University as research faculty. I am beyond excited to be back at UF and to continue my research in geospatial analytics, technology and open research."
   },
   {
-    "objectID": "posts/local_events_april_2026/index.html#gis-hour-at-miami-dade-college",
-    "href": "posts/local_events_april_2026/index.html#gis-hour-at-miami-dade-college",
-    "title": "Engaging with the Local Geospatial Community in South Florida",
-    "section": "GIS Hour at Miami-Dade College",
-    "text": "GIS Hour at Miami-Dade College\nFirst, on Monday, April 13, I had the pleasure of presenting at the 2026 GIS Hour at Miami-Dade College, an event supported by ASPRS. I spoke about the increasing focus on GeoAI and Geospatial Analytics, and how modern Data Science is becoming more GIS-centered. It was a fantastic opportunity to connect with college students who are eager to explore geospatial careers.\n\n\n\nPresenting at MDC GIS Hour\n\n\n\n\n\nEvent introduction"
+    "objectID": "posts/welcome/index.html#why-gator",
+    "href": "posts/welcome/index.html#why-gator",
+    "title": "Welcome to the GATOR Lab!",
+    "section": "Why GATOR?",
+    "text": "Why GATOR?\nThe GATOR acronym is a play on words. It stands for Geospatial Analytics, Technology and Open Research. It represents the Geospatial (or Geomatics), Analytics, Technology and Open Research pillars of my research. As an alumnus, and now faculty member I also found it important to pay tribute to the Florida Gators🐊, and ground our lab’s mission within The Gator Nation."
   },
   {
-    "objectID": "posts/local_events_april_2026/index.html#emerging-tech-policy-at-florida-atlantic-university",
-    "href": "posts/local_events_april_2026/index.html#emerging-tech-policy-at-florida-atlantic-university",
-    "title": "Engaging with the Local Geospatial Community in South Florida",
-    "section": "Emerging Tech & Policy at Florida Atlantic University",
-    "text": "Emerging Tech & Policy at Florida Atlantic University\nLater in the month, on April 24, I participated in a high-impact workshop hosted by Florida Atlantic University’s Department of Civil, Environmental and Geomatics Engineering (CEGE) at the FAU Jupiter campus. The event, titled “Industry–Academic Collaboration on Emerging Tech & Policy and the Path to Professional Licensure,” brought together professionals and academics to discuss the future of the field.\nI was honored to join a panel discussion focusing on the role of AI in geospatial contexts, and I also gave a presentation on discrete global grids. You can read more about the workshop and its outcomes here.\n\n\n\nPanel discussion at FAU"
+    "objectID": "posts/welcome/index.html#whats-ahead",
+    "href": "posts/welcome/index.html#whats-ahead",
+    "title": "Welcome to the GATOR Lab!",
+    "section": "What’s ahead?",
+    "text": "What’s ahead?\nI am currently in the process of setting up our core infrastructure. The next and ongoing major step is to recruit. I am currently seeking two fully funded PhD students to join the lab. This is an exciting opportunity not only for me, but for the first few lab members, who will be an important part of establishing the lab’s culture and direction. I am not just looking for the usual candidates, but for people who are passionate about open science and eager to solve complex spatial problems through a data-science lens. While an excellent academic background is important, I am more interested in your intellectual curiosity and a critical mindset. I can’t stress the importance of this enough. Finding a mutual fit will make or break this experience. Committing to a long PhD program is a major decision. I want to commit to your future success as much as the success of the GATOR Lab, therefore, I am very intentional and selective about who I recruit. I expect you to be the same with making sure that the GATOR Lab and my mentorship are a good fit for you. With that being said, I am interested in the person behind the CV, and I am open to discussing your interests and aspirations. If you are interested in joining the lab, please consult the join page for more information.\nIt is my hope that the lab will extend beyond PhD students. In the future, I plan to recruit postdocs, visiting scholars, and collaborators to push the boundaries of geospatial science. I am also interested in working with industry partners, and I am open to discussing potential collaborations, which will benefit the lab in many ways: it will inform our research, teaching, and help us stay at the cutting edge of geospatial analytics and technology."
   },
   {
-    "objectID": "posts/tgis_top_cited/index.html",
-    "href": "posts/tgis_top_cited/index.html",
-    "title": "Top Cited Paper in Transactions in GIS",
-    "section": "",
-    "text": "Our paper, “Correctness Comparison of ChatGPT-4, Gemini, Claude-3, and Copilot for Spatial Tasks”, was recognized by Wiley as one of the top 10 most-cited papers published in Transactions in GIS during 2024.\nThis study, a collaboration with Henry Hochmair from UF Geomatics, assesses the reliability of large language models for geospatial tasks. It establishes foundational baselines for the ongoing research we are building at the GATOR Lab.\nRead the paper here: Transactions in GIS. You can also read the preprint version on arXiv.\n\n\n\nTransactions in GIS Top Cited Article"
+    "objectID": "posts/welcome/index.html#where-are-we-located",
+    "href": "posts/welcome/index.html#where-are-we-located",
+    "title": "Welcome to the GATOR Lab!",
+    "section": "Where are we located?",
+    "text": "Where are we located?\nWe are located in sunny South Florida, at the Fort Lauderdale Research & Education Center. While not being located in Gainesville may seem unusual, it is a great location for research and collaboration. South Florida (Miami - Ft. Lauderdale - West Palm Beach) is a vibrant metropolitan area. It is a great place to be, and it also provides a great environment for research and collaboration: it is a hub of innovation and creativity, with a diverse population and a rich cultural heritage. It also lies at the forefront of man-made and environmental challenges waiting to be solved by science."
   },
   {
     "objectID": "posts/summer_2026_recap/index.html",
@@ -273,69 +546,6 @@
     "text": "Looking Ahead\nIt has been a genuinely full summer. Across all of these events, a few themes kept surfacing: the growing recognition of GeoAI as a distinct and important subfield, the critical importance of spatial data quality, and the need for infrastructure — both technical and conceptual — that makes geospatial AI geometrically rigorous rather than geometrically naive.\nThe GATOR Lab is heading into Fall 2026 with new students, active manuscripts, and a lot of momentum. More to come soon."
   },
   {
-    "objectID": "posts/ijgi_young_investigator_award/index.html",
-    "href": "posts/ijgi_young_investigator_award/index.html",
-    "title": "Levente Juhász receives 2026 IJGI Young Investigator Award",
-    "section": "",
-    "text": "I am honored to be named the winner of the 2026 Young Investigator Award by the ISPRS International Journal of Geo-Information (IJGI). This award recognizes contributions to Geographic Information Science, specifically regarding spatial data quality, OpenStreetMap, and the development of geometrically rigorous GeoAI.\nThis recognition coincides with the ongoing mission of the GATOR Lab to advance scalable geospatial technologies and reliable agentic AI workflows. We look forward to continuing this research as we onboard our Fall 2026 graduate cohort."
-  },
-  {
-    "objectID": "posts/ijgi_young_investigator_award/index.html#media-and-resources",
-    "href": "posts/ijgi_young_investigator_award/index.html#media-and-resources",
-    "title": "Levente Juhász receives 2026 IJGI Young Investigator Award",
-    "section": "Media and Resources",
-    "text": "Media and Resources\n\n\n\nIJGI posted an in-depth interview with Dr. Levente Juhász\n\n\n\nOfficial News Release: Researcher’s pioneering work in AI and mapping earns international Young Investigator Award (UF/IFAS News)\nIn-depth Interview: Interview with Dr. Levente Juhász (MDPI) — Discussion on the future of generative AI in geospatial contexts and advice for early-career researchers."
-  },
-  {
-    "objectID": "posts/journal_dashboard/index.html",
-    "href": "posts/journal_dashboard/index.html",
-    "title": "New dashboard for GIScience journal analysis",
-    "section": "",
-    "text": "Building on the 2024 publication, “Assessing publication trends in selected GIScience journals” in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.\nThe dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).\n\n\n\nInternational collaboration network in GIScience research\n\n\n\n\nSelecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:\n\nMeta Rankings: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.\nOpen Access Trends: Monitor the shift towards OA\nCollaboration Networks: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.\nCost vs. Impact: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.\n\n\n\n\nIn the spirit of open principles, the dashboard is built using Shinylive. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard is a reimplementation and expansion of the 2024 IJGIS article and it was built by Jorge Corcino. Stay tuned as we are releasing the updated dataset and the source code of the dashboard very soon.\n\n\n\nWe want to be clear about our view on using journal metrics to evaluate research impact. Quite frankly, we are not a fan of them. However, we need to be realistic and understand that it is a common practice in the academic community to use them. Think about going up for promotion, demonstrating the impact of your work, or justifying funding applications. Most of these decisions rely on some sort of metrics, and journal metrics are a common choice, so in a sense they are a necessary evil. While we may fundamentally disagree with putting to much emphasis on journal metrics, a lot of us are still at the mercy of them and therefore we are releasing this dashboard to build a better, more holistic understanding of the GIScience journal landscape.\nOn the bright side, better approaches to assess research impact are rapidly emerging, and we hope to see more of them in the future. A good resource to get started is the San Francisco Declaration on Research Assessment that recognizes and formalizes the need to improve the ways in which the outputs of scholarly research are evaluated.\nWith all its flaws, we still hope that our GIScience journal assessment dashboard will serve as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.\nExplore the dashboard here or launch the Full Screen version."
-  },
-  {
-    "objectID": "posts/journal_dashboard/index.html#new-dashboard-for-journal-analysis",
-    "href": "posts/journal_dashboard/index.html#new-dashboard-for-journal-analysis",
-    "title": "New dashboard for GIScience journal analysis",
-    "section": "",
-    "text": "Building on the 2024 publication, “Assessing publication trends in selected GIScience journals” in IJGIS, the GATOR Lab is excited to release an interactive companion dashboard. This tool is designed to help the community navigate the evolving landscape of our field.\nThe dashboard provides a quantitative look at 24 core GIScience venues, tracking their evolution from 2018 through 2024 (with ongoing data updates in the future).\n\n\n\nInternational collaboration network in GIScience research\n\n\n\n\nSelecting a publication venue is often based on “gut feeling” or a single metric like Impact Factor. This tool allows for a more refined, multi-dimensional assessment of the field:\n\nMeta Rankings: Compare journals using a composite index of eight different metrics (IF, CiteScore, SJR, SNIP, etc.) to see a more stable picture of “prestige”.\nOpen Access Trends: Monitor the shift towards OA\nCollaboration Networks: Interactively explore how jurisdictions (countries) collaborate. Our data shows that while the field is growing, the Global South remains underrepresented… a gap we hope to highlight and help close to build an inclusive community.\nCost vs. Impact: View the relationship between Article Processing Charges (APCs) and journal rankings to find the best “value” for your research.\n\n\n\n\nIn the spirit of open principles, the dashboard is built using Shinylive. This means it runs entirely in your web browser via WebAssembly, which in turn requires no backend server or 3rd party resources. It is private, and permanently accessible. The initial Shiny dashboard is a reimplementation and expansion of the 2024 IJGIS article and it was built by Jorge Corcino. Stay tuned as we are releasing the updated dataset and the source code of the dashboard very soon.\n\n\n\nWe want to be clear about our view on using journal metrics to evaluate research impact. Quite frankly, we are not a fan of them. However, we need to be realistic and understand that it is a common practice in the academic community to use them. Think about going up for promotion, demonstrating the impact of your work, or justifying funding applications. Most of these decisions rely on some sort of metrics, and journal metrics are a common choice, so in a sense they are a necessary evil. While we may fundamentally disagree with putting to much emphasis on journal metrics, a lot of us are still at the mercy of them and therefore we are releasing this dashboard to build a better, more holistic understanding of the GIScience journal landscape.\nOn the bright side, better approaches to assess research impact are rapidly emerging, and we hope to see more of them in the future. A good resource to get started is the San Francisco Declaration on Research Assessment that recognizes and formalizes the need to improve the ways in which the outputs of scholarly research are evaluated.\nWith all its flaws, we still hope that our GIScience journal assessment dashboard will serve as a useful resource for everyone from students selecting their first submission venue to senior researchers optimizing publication strategies to maximize the impact of their work.\nExplore the dashboard here or launch the Full Screen version."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Team\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nGeographic Expansion and Improvements of the Future Shorelines Tool\n\n\nGATOR Lab\n\n\nEnvironmental Protection Agency (sub-award from FIU)\n\n\nProject website\n\n\n$750,000\n\n\n2026\n\n\nFuture\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/papers_accepted_aug2026/index.html",
-    "href": "posts/papers_accepted_aug2026/index.html",
-    "title": "Two Papers Accepted: DGGS and Agentic AI",
-    "section": "",
-    "text": "The publication pipeline set into motion with the founding of the GATOR Lab is beginning to mature. Over the last couple of days, two papers have been accepted for publication — one journal article, anone at a flagship conference — with several other manuscripts under review and nearing a decision. Both papers sit at the forefront of what this lab is all about."
-  },
-  {
-    "objectID": "posts/papers_accepted_aug2026/index.html#paper-1-dual-helix-governance-for-agentic-ai-in-webgis",
-    "href": "posts/papers_accepted_aug2026/index.html#paper-1-dual-helix-governance-for-agentic-ai-in-webgis",
-    "title": "Two Papers Accepted: DGGS and Agentic AI",
-    "section": "Paper 1 — Dual-Helix Governance for Agentic AI in WebGIS",
-    "text": "Paper 1 — Dual-Helix Governance for Agentic AI in WebGIS\n“A Dual-Helix Governance Approach Towards Reliable Agentic Artificial Intelligence for WebGIS Development”\nLevente Juhász, Boyuan Guan & Wencong Cui\nAccepted in Transactions in GIS · ArXiv preprint\nThis paper is co-authored with Boyuan Guan and Wencong Cui, former colleagues from the FIU GIS Center, and represents a significant step forward in making agentic AI systems reliable enough for production geospatial engineering.\n\n\n\nThe dual-helix governance framework: Knowledge Externalization and Behavioral Enforcement as two interlocking strands stabilizing Agentic AI.\n\n\n\nWebGIS development requires consistency, yet agentic AI often fails due to LLM context constraints, forgetting, stochasticity, instruction failure, and adaptation rigidity. We propose a dual-helix governance framework reframing these as structural problems rather than capacity deficits. Using a 3-track architecture (Knowledge, Behavior, Skills) and a persistent knowledge graph, it stabilizes execution by externalizing facts and enforcing protocols. Validation shows a governed agent successfully refactored a legacy WebGIS codebase (reducing cyclomatic complexity and improving maintainability), roughly halved trial-to-trial output variance relative to static prompting in a controlled experiment, and prevented common infodemic mapping errors in a 5-condition COVID-19 cartography ablation study. Operationalized via the open-source AgentLoom toolkit, this externalized governance provides the stability necessary for production-level geospatial engineering."
-  },
-  {
-    "objectID": "posts/papers_accepted_aug2026/index.html#paper-2-dggs-hash-joins-at-scale-acm-sigspatial-26",
-    "href": "posts/papers_accepted_aug2026/index.html#paper-2-dggs-hash-joins-at-scale-acm-sigspatial-26",
-    "title": "Two Papers Accepted: DGGS and Agentic AI",
-    "section": "Paper 2 — DGGS Hash-Joins at Scale (ACM SIGSPATIAL ’26)",
-    "text": "Paper 2 — DGGS Hash-Joins at Scale (ACM SIGSPATIAL ’26)\n“Accelerating Point-in-Polygon Predicates via Algebraic Hash-Joins and Discrete Global Grids at Scale: An Interactive Benchmark”\nLevente Juhász\nAccepted at ACM SIGSPATIAL 2026, Riverside, CA · ArXiv preprint\nThis solo-author paper will be presented at ACM SIGSPATIAL ’26 later this year, one of the premier venues for spatial computing research.\n\n\n\nVector-based vs. algebraic (DGGS) point-in-polygon pipelines: complex geometric predicates replaced by a simple equality join on cell IDs.\n\n\n\nTraditional vector-based point-in-polygon queries rely on computationally expensive geometric predicates that scale poorly for massive datasets, even when accelerated by spatial indices. Discrete Global Grid Systems (DGGS) offer a scalable alternative by discretizing geometries into hierarchical cells, transforming complex spatial relations into constant-time relational hash-joins. However, adopting a DGGS introduces an overhead to encode data, and current grid implementations exhibit a significant performance “tooling gap.” In this demonstration, we present an interactive dashboard that empirically evaluates these computational tradeoffs across four DGGS implementations (H3, S2, A5, and ISEA4H) using DuckDB. Through progressive scenarios, the platform visualizes the overhead of on-the-fly encoding and demonstrates how pre-indexing spatial datasets eliminates this overhead. Ultimately, the demo proves that when data is pre-indexed, all DGGS regardless of their mathematical complexity or tooling converge to sub-second join latencies, unlocking the throughput of modern vectorized execution engines."
-  },
-  {
-    "objectID": "posts/papers_accepted_aug2026/index.html#a-maturing-research-agenda",
-    "href": "posts/papers_accepted_aug2026/index.html#a-maturing-research-agenda",
-    "title": "Two Papers Accepted: DGGS and Agentic AI",
-    "section": "A Maturing Research Agenda",
-    "text": "A Maturing Research Agenda\nThese two acceptances are not coincidental. They represent the two most exciting frontiers in modern GIScience (well, at least to us), and both are core to what the GATOR Lab is building. Discrete Global Grid Systems are reshaping how we think about spatial data infrastructure at planetary scale, replacing expensive geometric predicates with algebraic efficiency, among other benefits. Agentic AI is redefining what it means to build geospatial software, raising fundamental questions about reliability, governance, and trust. We are just gettings tarted. Stay tuned."
-  },
-  {
     "objectID": "posts/asu_geoai_workshop/index.html",
     "href": "posts/asu_geoai_workshop/index.html",
     "title": "Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop",
@@ -364,213 +574,31 @@
     "text": "Next Steps: Defining the Future of GeoAI\nThe energy from the meeting is already being channeled into a major perspective paper on the future of GeoAI. We are working to synthesize the collective insights from our discussions into a formal research agend. It was inspiring to see such a strong sense of shared identity emerging from this community.\n\n\n\nGroup photo\n\n\nA big thank you to Wenwen Li, Dylan Connor, Patricia Solis, Heather Baier, Daoqin Tong, Drew Trgovac, Peter Rogerson et al. the entire organizing committee for such a seamless and inspiring forum. I look forward to contributing to the perspective paper and shape the future of GeoAI together."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome to the GATOR Lab!",
+    "objectID": "posts/papers_accepted_aug2026/index.html",
+    "href": "posts/papers_accepted_aug2026/index.html",
+    "title": "Two Papers Accepted: DGGS and Agentic AI",
     "section": "",
-    "text": "I am excited to announce the launch of the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. I accepted a position of Assistant Professor of Geospatial Analytics in Geomatics from the Spring 2026 semester. This marks my return to UF after a 7-year spell at Florida International University as research faculty. I am beyond excited to be back at UF and to continue my research in geospatial analytics, technology and open research."
+    "text": "The publication pipeline set into motion with the founding of the GATOR Lab is beginning to mature. Over the last couple of days, two papers have been accepted for publication — one journal article, anone at a flagship conference — with several other manuscripts under review and nearing a decision. Both papers sit at the forefront of what this lab is all about."
   },
   {
-    "objectID": "posts/welcome/index.html#hello-welcome",
-    "href": "posts/welcome/index.html#hello-welcome",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "",
-    "text": "I am excited to announce the launch of the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. I accepted a position of Assistant Professor of Geospatial Analytics in Geomatics from the Spring 2026 semester. This marks my return to UF after a 7-year spell at Florida International University as research faculty. I am beyond excited to be back at UF and to continue my research in geospatial analytics, technology and open research."
+    "objectID": "posts/papers_accepted_aug2026/index.html#paper-1-dual-helix-governance-for-agentic-ai-in-webgis",
+    "href": "posts/papers_accepted_aug2026/index.html#paper-1-dual-helix-governance-for-agentic-ai-in-webgis",
+    "title": "Two Papers Accepted: DGGS and Agentic AI",
+    "section": "Paper 1 — Dual-Helix Governance for Agentic AI in WebGIS",
+    "text": "Paper 1 — Dual-Helix Governance for Agentic AI in WebGIS\n“A Dual-Helix Governance Approach Towards Reliable Agentic Artificial Intelligence for WebGIS Development”\nLevente Juhász, Boyuan Guan & Wencong Cui\nAccepted in Transactions in GIS · ArXiv preprint\nThis paper is co-authored with Boyuan Guan and Wencong Cui, former colleagues from the FIU GIS Center, and represents a significant step forward in making agentic AI systems reliable enough for production geospatial engineering.\n\n\n\nThe dual-helix governance framework: Knowledge Externalization and Behavioral Enforcement as two interlocking strands stabilizing Agentic AI.\n\n\n\nWebGIS development requires consistency, yet agentic AI often fails due to LLM context constraints, forgetting, stochasticity, instruction failure, and adaptation rigidity. We propose a dual-helix governance framework reframing these as structural problems rather than capacity deficits. Using a 3-track architecture (Knowledge, Behavior, Skills) and a persistent knowledge graph, it stabilizes execution by externalizing facts and enforcing protocols. Validation shows a governed agent successfully refactored a legacy WebGIS codebase (reducing cyclomatic complexity and improving maintainability), roughly halved trial-to-trial output variance relative to static prompting in a controlled experiment, and prevented common infodemic mapping errors in a 5-condition COVID-19 cartography ablation study. Operationalized via the open-source AgentLoom toolkit, this externalized governance provides the stability necessary for production-level geospatial engineering."
   },
   {
-    "objectID": "posts/welcome/index.html#why-gator",
-    "href": "posts/welcome/index.html#why-gator",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "Why GATOR?",
-    "text": "Why GATOR?\nThe GATOR acronym is a play on words. It stands for Geospatial Analytics, Technology and Open Research. It represents the Geospatial (or Geomatics), Analytics, Technology and Open Research pillars of my research. As an alumnus, and now faculty member I also found it important to pay tribute to the Florida Gators🐊, and ground our lab’s mission within The Gator Nation."
+    "objectID": "posts/papers_accepted_aug2026/index.html#paper-2-dggs-hash-joins-at-scale-acm-sigspatial-26",
+    "href": "posts/papers_accepted_aug2026/index.html#paper-2-dggs-hash-joins-at-scale-acm-sigspatial-26",
+    "title": "Two Papers Accepted: DGGS and Agentic AI",
+    "section": "Paper 2 — DGGS Hash-Joins at Scale (ACM SIGSPATIAL ’26)",
+    "text": "Paper 2 — DGGS Hash-Joins at Scale (ACM SIGSPATIAL ’26)\n“Accelerating Point-in-Polygon Predicates via Algebraic Hash-Joins and Discrete Global Grids at Scale: An Interactive Benchmark”\nLevente Juhász\nAccepted at ACM SIGSPATIAL 2026, Riverside, CA · ArXiv preprint\nThis solo-author paper will be presented at ACM SIGSPATIAL ’26 later this year, one of the premier venues for spatial computing research.\n\n\n\nVector-based vs. algebraic (DGGS) point-in-polygon pipelines: complex geometric predicates replaced by a simple equality join on cell IDs.\n\n\n\nTraditional vector-based point-in-polygon queries rely on computationally expensive geometric predicates that scale poorly for massive datasets, even when accelerated by spatial indices. Discrete Global Grid Systems (DGGS) offer a scalable alternative by discretizing geometries into hierarchical cells, transforming complex spatial relations into constant-time relational hash-joins. However, adopting a DGGS introduces an overhead to encode data, and current grid implementations exhibit a significant performance “tooling gap.” In this demonstration, we present an interactive dashboard that empirically evaluates these computational tradeoffs across four DGGS implementations (H3, S2, A5, and ISEA4H) using DuckDB. Through progressive scenarios, the platform visualizes the overhead of on-the-fly encoding and demonstrates how pre-indexing spatial datasets eliminates this overhead. Ultimately, the demo proves that when data is pre-indexed, all DGGS regardless of their mathematical complexity or tooling converge to sub-second join latencies, unlocking the throughput of modern vectorized execution engines."
   },
   {
-    "objectID": "posts/welcome/index.html#whats-ahead",
-    "href": "posts/welcome/index.html#whats-ahead",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "What’s ahead?",
-    "text": "What’s ahead?\nI am currently in the process of setting up our core infrastructure. The next and ongoing major step is to recruit. I am currently seeking two fully funded PhD students to join the lab. This is an exciting opportunity not only for me, but for the first few lab members, who will be an important part of establishing the lab’s culture and direction. I am not just looking for the usual candidates, but for people who are passionate about open science and eager to solve complex spatial problems through a data-science lens. While an excellent academic background is important, I am more interested in your intellectual curiosity and a critical mindset. I can’t stress the importance of this enough. Finding a mutual fit will make or break this experience. Committing to a long PhD program is a major decision. I want to commit to your future success as much as the success of the GATOR Lab, therefore, I am very intentional and selective about who I recruit. I expect you to be the same with making sure that the GATOR Lab and my mentorship are a good fit for you. With that being said, I am interested in the person behind the CV, and I am open to discussing your interests and aspirations. If you are interested in joining the lab, please consult the join page for more information.\nIt is my hope that the lab will extend beyond PhD students. In the future, I plan to recruit postdocs, visiting scholars, and collaborators to push the boundaries of geospatial science. I am also interested in working with industry partners, and I am open to discussing potential collaborations, which will benefit the lab in many ways: it will inform our research, teaching, and help us stay at the cutting edge of geospatial analytics and technology."
-  },
-  {
-    "objectID": "posts/welcome/index.html#where-are-we-located",
-    "href": "posts/welcome/index.html#where-are-we-located",
-    "title": "Welcome to the GATOR Lab!",
-    "section": "Where are we located?",
-    "text": "Where are we located?\nWe are located in sunny South Florida, at the Fort Lauderdale Research & Education Center. While not being located in Gainesville may seem unusual, it is a great location for research and collaboration. South Florida (Miami - Ft. Lauderdale - West Palm Beach) is a vibrant metropolitan area. It is a great place to be, and it also provides a great environment for research and collaboration: it is a hub of innovation and creativity, with a diverse population and a rich cultural heritage. It also lies at the forefront of man-made and environmental challenges waiting to be solved by science."
-  },
-  {
-    "objectID": "posts/ijgi_editor/index.html",
-    "href": "posts/ijgi_editor/index.html",
-    "title": "Joining the IJGI Editorial Board",
-    "section": "",
-    "text": "I am pleased to announce that I have joined the Editorial Board of the ISPRS International Journal of Geo-Information (IJGI), an open access journal published by MDPI. In this role, I am responsible for manuscript pre-checks, overseeing the peer-review process, and providing final editorial decisions within my field of expertise, which is of course geospatial analytics, spatial data science, GeoAI and fundamental data quality questions, especially user-generated data sources. If you are interested, check out how IJGI performs among other GIScience journals in our GIScience Journal Assessment Tool."
-  },
-  {
-    "objectID": "posts/ijgi_editor/index.html#new-appointment",
-    "href": "posts/ijgi_editor/index.html#new-appointment",
-    "title": "Joining the IJGI Editorial Board",
-    "section": "",
-    "text": "I am pleased to announce that I have joined the Editorial Board of the ISPRS International Journal of Geo-Information (IJGI), an open access journal published by MDPI. In this role, I am responsible for manuscript pre-checks, overseeing the peer-review process, and providing final editorial decisions within my field of expertise, which is of course geospatial analytics, spatial data science, GeoAI and fundamental data quality questions, especially user-generated data sources. If you are interested, check out how IJGI performs among other GIScience journals in our GIScience Journal Assessment Tool."
-  },
-  {
-    "objectID": "posts/ijgi_editor/index.html#a-history-of-collaboration",
-    "href": "posts/ijgi_editor/index.html#a-history-of-collaboration",
-    "title": "Joining the IJGI Editorial Board",
-    "section": "A History of Collaboration",
-    "text": "A History of Collaboration\nThis appointment builds on a long-standing relationship with IJGI. My previous contributions to the journal include:\n\n2019 Outstanding Reviewer Award: Recognized for excellence and dedication to the peer-review process.\nApril 2020 Cover Story: My research about Cartographic Vandalism was featured as the cover story for Volume 9, Issue 4.\nSpecial Issue Editor: I have served as a Guest Editor for several collections:\n\nAdvances in Social Network Analysis – Spatio-Temporal and Semantic Methods\nOpenStreetMap as A Multi-Disciplinary Nexus: Perspectives, Practices and Procedures\nAdvances in AI-Driven Geospatial Analysis and Data Generation\nAdvances in AI-Driven Geospatial Analysis and Data Generation (2nd Edition)"
-  },
-  {
-    "objectID": "posts/ijgi_editor/index.html#safeguarding-scientific-integrity",
-    "href": "posts/ijgi_editor/index.html#safeguarding-scientific-integrity",
-    "title": "Joining the IJGI Editorial Board",
-    "section": "Safeguarding Scientific Integrity",
-    "text": "Safeguarding Scientific Integrity\nAs an advocate for open science and reproducibility, I am committed to fostering open scientific exchange while maintaining high-quality research standards. My focus will be on ensuring that research is sound and validated, which is essential for reducing research waste and accelerating progress in geospatial analytics. I look forward to working with the editorial team to safeguard the integrity of the scholarly record in our field."
-  },
-  {
-    "objectID": "resources/journals.html",
-    "href": "resources/journals.html",
-    "title": "GIScience Journal Assessment Dashboard",
-    "section": "",
-    "text": "We monitor key geographic information science (GIScience) journals to track the evolution of the field as well as to provide a resource for researchers in the GIScience community and related fields to optimize their publication strategies. The dashboard is based on the paper titled “Assessing publication trends in selected GIScience journals”.\n\n\n\n\n\n\nTipLaunch Dashboard\n\n\n\nThe dashboard is built with shinylive and it runs completely in your browser using WebAssembly. It may take a minute or so to load the R packages and data initially. Sinylive caches these resources efficiently so once everything is loaded, the dashboard should be responsive even during subsequent interactions.\n\n\n\n  \n    \n      Loading...\n    \n    Initializing Dashboard...\n    Downloading engine & data (first run ~30s)\n  \n  \n\n\n\nLaunch Full Screen Dashboard"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nWelcome to the Geospatial Analytics, Technology and Open Research (GATOR) Lab at the University of Florida. We are part of the Geomatics Program in the School of Forest, Fisheries and Geomatics Sciences at UF/IFAS.\nWe are located at the Fort Lauderdale Research and Education Center within the Miami metropolitan area.\n\n\nBroadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges.\n\n\n\n\nScalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nDiscrete Global Grid Systems (DGGS): Exploring DGGS as a foundational data substrate in geospatial applications and GeoAI.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
-  },
-  {
-    "objectID": "index.html#our-work",
-    "href": "index.html#our-work",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "Broadly speaking, we are interested in harnessing the latest technological and methodological advancements in geographic information science. Our work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Our research develops scientifically rigorous and scalable frameworks to transform massive geospatial datasets into actionable insights for environmental and societal challenges."
-  },
-  {
-    "objectID": "index.html#research-pillars",
-    "href": "index.html#research-pillars",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "",
-    "text": "Scalable Geospatial Data Science & Analytics: Leveraging high-performance computing and cloud-native technologies to overcome the analysis bottleneck of massive spatiotemporal datasets.\nGeoAI and Responsible Automation: Harnessing Large Language Models (LLMs) and agentic AI for geospatial reasoning, while establishing safeguards against geographic bias and misinformation.\nDiscrete Global Grid Systems (DGGS): Exploring DGGS as a foundational data substrate in geospatial applications and GeoAI.\nOpen Source, Open Data, and Societal Impact: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products."
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Geospatial Analytics, Technology & Open Research",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nA Summer of Geospatial: Conferences, Workshops, and Community\n\n\n\nAug 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTwo Papers Accepted: DGGS and Agentic AI\n\n\n\nAug 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevente Juhász receives 2026 IJGI Young Investigator Award\n\n\n\nMay 7, 2026\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "What’s New & Updated",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTwo Papers Accepted: DGGS and Agentic AI\n\n\n\nnews\n\npublications\n\n\n\nThe GATOR Lab’s publication pipeline is maturing — two papers accepted in the last few days, with several more under review.\n\n\n\n\n\nAug 25, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nA Summer of Geospatial: Conferences, Workshops, and Community\n\n\n\nevent\n\nnews\n\n\n\nFrom research talks in Europe to workshops in Maryland and Florida — a packed summer of geospatial activity for the GATOR Lab.\n\n\n\n\n\nAug 25, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nLevente Juhász receives 2026 IJGI Young Investigator Award\n\n\n\nnews\n\nawards\n\n\n\nInstitutional and journal recognition for research in GeoAI and GIScience.\n\n\n\n\n\nMay 7, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nEngaging with the Local Geospatial Community in South Florida\n\n\n\nevent\n\n\n\nA busy April! Speaking at Miami-Dade College’s GIS Hour and participating in a high-impact workshop at Florida Atlantic University.\n\n\n\n\n\nApr 26, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nTop Cited Paper in Transactions in GIS\n\n\n\nnews\n\npublication\n\n\n\nOur paper evaluating LLMs for spatial tasks was recognized as one of the most-cited articles in TGIS in 2024.\n\n\n\n\n\nApr 3, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nCritical Challenges in GeoAI: Insights from the 2026 SPARC Workshop\n\n\n\nevent\n\n\n\nReflections on the high-profile gathering of specialists at Arizona State University to discuss the future of Geospatial AI.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nJoining the IJGI Editorial Board\n\n\n\nnews\n\neditorial\n\n\n\nDr. Levente Juhász has been appointed to the Editorial Board of the ISPRS International Journal of Geo-Information.\n\n\n\n\n\nFeb 19, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nNew dashboard for GIScience journal analysis\n\n\n\nnews\n\n\n\nThe first resource out of the GATOR Lab is a fun one!\n\n\n\n\n\nJan 14, 2026\n\n\nLevente Juhasz\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the GATOR Lab!\n\n\n\nnews\n\n\n\nWe are excited to launch our website.\n\n\n\n\n\nDec 31, 2025\n\n\nLevente Juhasz\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/students/ashley_throm.html",
-    "href": "people/students/ashley_throm.html",
-    "title": "Ashley Throm",
-    "section": "",
-    "text": "Ashley is a graduate student in the School of Forest, Fisheries, and Geomatics Sciences at the University of Florida. She graduated with her BS in Biology from the University of Central Florida, focusing on ecological, evolutionary, and conservation sciences. Her professional background includes engineering, biology, field research, and environmental policy. Her interests in coastal and wetland ecological research and management have led her to UF to study advanced geospatial technologies, which will aid in extending her insight in the field of topographical analysis and its related applications."
-  },
-  {
-    "objectID": "people/students/ashley_throm.html#biography",
-    "href": "people/students/ashley_throm.html#biography",
-    "title": "Ashley Throm",
-    "section": "",
-    "text": "Ashley is a graduate student in the School of Forest, Fisheries, and Geomatics Sciences at the University of Florida. She graduated with her BS in Biology from the University of Central Florida, focusing on ecological, evolutionary, and conservation sciences. Her professional background includes engineering, biology, field research, and environmental policy. Her interests in coastal and wetland ecological research and management have led her to UF to study advanced geospatial technologies, which will aid in extending her insight in the field of topographical analysis and its related applications."
-  },
-  {
-    "objectID": "people/alumni/michael_floreal.html",
-    "href": "people/alumni/michael_floreal.html",
-    "title": "Michael Floreal",
-    "section": "",
-    "text": "Michael Floreal is a student from Miami Dade College (MDC), where he is enrolled in the Biopharmaceuticals program. He expects to graduate with his BSc in 2027 and plans to transfer to a university such as USF or UF to pursue further studies in pharmacy.\nWith a strong interest in biology, ecology, and chemistry, Michael has engaged in multiple research projects. He previously worked on grafting methyl methacrylate onto corn pulp to evaluate its effectiveness as an adsorption material, and he also investigated the effects of the herbicide glyphosate on the growth of fungal species such as Fusarium, Ganoderma, and Thielaviopsis. He completed a summer research internship with the GATOR Lab in 2026."
-  },
-  {
-    "objectID": "people/alumni/michael_floreal.html#biography",
-    "href": "people/alumni/michael_floreal.html#biography",
-    "title": "Michael Floreal",
-    "section": "",
-    "text": "Michael Floreal is a student from Miami Dade College (MDC), where he is enrolled in the Biopharmaceuticals program. He expects to graduate with his BSc in 2027 and plans to transfer to a university such as USF or UF to pursue further studies in pharmacy.\nWith a strong interest in biology, ecology, and chemistry, Michael has engaged in multiple research projects. He previously worked on grafting methyl methacrylate onto corn pulp to evaluate its effectiveness as an adsorption material, and he also investigated the effects of the herbicide glyphosate on the growth of fungal species such as Fusarium, Ganoderma, and Thielaviopsis. He completed a summer research internship with the GATOR Lab in 2026."
-  },
-  {
-    "objectID": "people/alumni/michael_floreal.html#project",
-    "href": "people/alumni/michael_floreal.html#project",
-    "title": "Michael Floreal",
-    "section": "Project",
-    "text": "Project\nThe Global Pixel Bias Objective: Map the discrepancy between “Planimetric Area” (what the computer sees) and “Ellipsoidal Area” (real world) across different grid systems (e.g. Web Mercator vs. H3 vs. S2)."
-  },
-  {
-    "objectID": "people/levente-juhasz.html",
-    "href": "people/levente-juhasz.html",
-    "title": "Levente Juhász, PhD",
-    "section": "",
-    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#biography",
-    "href": "people/levente-juhasz.html#biography",
-    "title": "Levente Juhász, PhD",
-    "section": "",
-    "text": "Dr. Levente Juhász is an Assistant Professor in the Geomatics program at the University of Florida. He earned his PhD in Geomatics from UF in 2018 before serving as a Research Associate Professor at Florida International University. His career is dedicated to pushing the boundaries of geospatial analytics through innovation, interdisciplinarity, and community-driven open science."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#research-interests",
-    "href": "people/levente-juhasz.html#research-interests",
-    "title": "Levente Juhász, PhD",
-    "section": "Research Interests",
-    "text": "Research Interests\nHis work focuses on the convergence of geospatial science, artificial intelligence, and scalable computing. Key areas include:\n\nGeoAI: Developing frameworks for geospatial reasoning using Large Language Models (LLMs).\nDiscrete Global Grid Systems (DGGS): Advancing standardized spatial frameworks for planetary-scale geospatial analytics.\nSpatial Data Integrity: Interrogating the quality, bias, and malicious defacement of crowdsourced data (e.g., VGI and OpenStreetMap).\nClimate Resilience: Building scalable environmental decision support systems, such as the EPA-funded “Future Shorelines” project."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#lab-history",
-    "href": "people/levente-juhasz.html#lab-history",
-    "title": "Levente Juhász, PhD",
-    "section": "Lab History",
-    "text": "Lab History\nFounded in 2026, the GATOR Lab marks Dr. Juhász’s return to the University of Florida to establish a high-performance hub for geospatial data science."
-  },
-  {
-    "objectID": "people/levente-juhasz.html#outside-of-research",
-    "href": "people/levente-juhasz.html#outside-of-research",
-    "title": "Levente Juhász, PhD",
-    "section": "Outside of Research",
-    "text": "Outside of Research\nI enjoy the outdoors and endurance sports. My favorite activities are road cycling, obstacle course racing, and more recently ultra running."
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join the GATOR Lab",
-    "section": "",
-    "text": "There are currently no funded, open positions available in the GATOR Lab.\nHowever, we are always interested in connecting with passionate researchers. I am open to discussing opportunities with:\n\nCurrent UF Students looking to conduct undergraduate or graduate research.\nProspective Students and Postdocs who have secured or are planning to apply for their own funding (e.g., external fellowships, scholarships, or grants).\n\nIf you fall into one of these categories and your research interests align with the lab’s core mission and expertise, we welcome your inquiry."
-  },
-  {
-    "objectID": "join.html#openings-opportunities",
-    "href": "join.html#openings-opportunities",
-    "title": "Join the GATOR Lab",
-    "section": "",
-    "text": "There are currently no funded, open positions available in the GATOR Lab.\nHowever, we are always interested in connecting with passionate researchers. I am open to discussing opportunities with:\n\nCurrent UF Students looking to conduct undergraduate or graduate research.\nProspective Students and Postdocs who have secured or are planning to apply for their own funding (e.g., external fellowships, scholarships, or grants).\n\nIf you fall into one of these categories and your research interests align with the lab’s core mission and expertise, we welcome your inquiry."
-  },
-  {
-    "objectID": "join.html#what-we-value",
-    "href": "join.html#what-we-value",
-    "title": "Join the GATOR Lab",
-    "section": "What We Value",
-    "text": "What We Value\nAbove all, we value intellectual curiosity and a critical mindset. We are looking for researchers who don’t just apply tools, but interrogate them. We are not afraid to ask interesting but difficult questions, and engage with challenging problems. You will thrive here if you are passionate about open science and eager to solve complex spatial problems through a data-science lens."
-  },
-  {
-    "objectID": "join.html#how-to-inquire",
-    "href": "join.html#how-to-inquire",
-    "title": "Join the GATOR Lab",
-    "section": "How to Inquire",
-    "text": "How to Inquire\nIf you are interested in joining the lab under the aforementioned opportunities, please email Dr. Levente Juhász (join@gatorlab.io) with:\n\nYour CV and a link to your GitHub/Portfolio.\nA Brief Statement of Interest explaining WHY GATOR Lab and HOW you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit. Be creative, authentic, and tell us why you want to join the GATOR Lab.\n\n\nJoin us at the University of Florida to build the future of Geospatial Data Science."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Juhász, L. (2026a). Accelerating point-in-polygon predicates via algebraic hash-joins and discrete global grids at scale: An interactive benchmark. In Proceedings of the 34th ACM SIGSPATIAL international conference on advances in geographic information systems. Riverside, CA. DOI: https://doi.org/10.48550/arXiv.2607.08956. https://arxiv.org/abs/2607.08956\n\n\nJuhász, L. (2026b). Discrete global grid systems as a framework for geometrically rigorous and spatially explicit GeoAI: A research agenda. In Workshop on critical challenges of GeoAI, arizona state university. Tempe, AZ. DOI: https://doi.org/10.5281/zenodo.18471033. files/papers/JUHASZ_GeoAI_DGGS_Position_Paper.pdf\n\n\nJuhász, L., Guan, B., & Cui, W. (2026). A dual-helix governance approach towards reliable agentic artificial intelligence for WebGIS development. Transactions in GIS. DOI: https://doi.org/10.48550/arXiv.2603.04390. https://arxiv.org/abs/2603.04390\n\n\nJuhász, L., Hochmair, H. H., & Li, H. (2026). Continued advances in AI-driven geospatial analysis and data generation (editorial). ISPRS International Journal of Geo-Information, 15(9), 389. DOI: https://doi.org/10.3390/ijgi15090389. https://doi.org/10.3390/ijgi15090389\n\n\nMooney, P., Gorry, P., & Juhász, L. (2026). Integrating LLM-based workflows into GIS classroom learning activities. In H. Huang & N. Van de Weghe (Eds.), Proceedings of the 1st international conference on geospatial artificial intelligence (GeoAI 2026). Ghent, Belgium. DOI: https://doi.org/10.5281/zenodo.20287050. files/papers/GeoAI__Gorry___Mooney___Juhasz2.pdf\n\n\nJuhász, L. (2024). Assessing publication trends in selected GIScience journals. International Journal of Geographical Information Science. DOI: https://doi.org/10.1080/13658816.2024.2347306. files/papers/Juhasz_GIScience_publicaion_trends.pdf"
+    "objectID": "posts/papers_accepted_aug2026/index.html#a-maturing-research-agenda",
+    "href": "posts/papers_accepted_aug2026/index.html#a-maturing-research-agenda",
+    "title": "Two Papers Accepted: DGGS and Agentic AI",
+    "section": "A Maturing Research Agenda",
+    "text": "A Maturing Research Agenda\nThese two acceptances are not coincidental. They represent the two most exciting frontiers in modern GIScience (well, at least to us), and both are core to what the GATOR Lab is building. Discrete Global Grid Systems are reshaping how we think about spatial data infrastructure at planetary scale, replacing expensive geometric predicates with algebraic efficiency, among other benefits. Agentic AI is redefining what it means to build geospatial software, raising fundamental questions about reliability, governance, and trust. We are just gettings tarted. Stay tuned."
   }
 ]

@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Point Pattern Explorer — GATOR Lab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --blue:#2563eb; --blue-light:#dbeafe; --blue-dark:#1e3a5f;
+      --green:#059669; --orange:#f97316; --red:#dc2626;
+      --slate:#334155; --muted:#64748b; --border:#e2e8f0; --bg:#f8fafc;
+    }
+    body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--slate); }
+    header { background:var(--blue-dark); color:#f8fafc; padding:13px 24px; display:flex; align-items:center; justify-content:space-between; }
+    header h1 { font-size:1.05rem; font-weight:800; }
+    header p  { font-size:0.7rem; color:#94a3b8; margin-top:1px; }
+    header .badge { font-size:0.63rem; background:var(--blue); color:#fff; padding:3px 10px; border-radius:99px; font-weight:700; }
+    .layout { display:grid; grid-template-columns:220px 1fr 290px; height:calc(100vh - 54px); overflow:hidden; }
+
+    .controls { background:#fff; border-right:1px solid var(--border); padding:14px; overflow-y:auto; }
+    .ctrl-section { margin-bottom:14px; }
+    .ctrl-label { font-size:0.6rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted); margin-bottom:7px; display:block; }
+    .radio-group { display:flex; flex-direction:column; gap:4px; }
+    .radio-group label { display:flex; align-items:center; gap:7px; font-size:0.73rem; cursor:pointer; padding:4px 7px; border-radius:6px; transition:background 0.1s; }
+    .radio-group label:hover { background:var(--bg); }
+    .radio-group input[type=radio] { accent-color:var(--blue); width:13px; height:13px; flex-shrink:0; }
+    .slider-row { margin-top:8px; }
+    .slider-row label { font-size:0.72rem; display:flex; justify-content:space-between; margin-bottom:3px; }
+    .slider-row label span { font-weight:700; color:var(--blue); }
+    input[type=range] { width:100%; accent-color:var(--blue); }
+    .btn { width:100%; padding:7px; border-radius:7px; border:1.5px solid var(--border); background:var(--bg); font-size:0.72rem; font-weight:600; color:var(--slate); cursor:pointer; transition:all 0.15s; margin-bottom:6px; }
+    .btn:hover { border-color:var(--blue); color:var(--blue); background:var(--blue-light); }
+    hr { border:none; border-top:1px solid var(--border); margin:10px 0; }
+    .note { font-size:0.64rem; color:var(--muted); line-height:1.55; padding:7px; background:var(--bg); border-radius:6px; border-left:3px solid var(--border); }
+    .legend-row { display:flex; align-items:center; gap:6px; font-size:0.68rem; margin:3px 0; }
+    .dot-swatch { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+
+    .map-wrapper { background:#e2e8f0; display:flex; flex-direction:column; align-items:center; justify-content:center; position:relative; overflow:hidden; gap:0; }
+    #map-canvas { display:block; background:#fff; border:1px solid var(--border); cursor:crosshair; }
+    #chart-canvas { display:none; background:#fff; border:1px solid var(--border); border-top:none; }
+
+    .stats { background:#fff; border-left:1px solid var(--border); padding:14px; overflow-y:auto; }
+    .stats-title { font-size:0.6rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+    .stat-card { background:var(--bg); border-radius:8px; padding:11px; margin-bottom:9px; border:1px solid var(--border); }
+    .stat-card h3 { font-size:0.77rem; font-weight:700; margin-bottom:5px; }
+    .stat-val { font-size:1.25rem; font-weight:800; color:var(--blue); }
+    .stat-sub { font-size:0.63rem; color:var(--muted); margin-top:2px; }
+    .formula { font-family:'Courier New',monospace; font-size:0.72rem; background:#f1f5f9; padding:8px; border-radius:6px; margin:6px 0; line-height:1.6; border-left:3px solid var(--blue); }
+    .interp { font-size:0.7rem; line-height:1.55; padding:8px; border-radius:6px; margin:6px 0; }
+    .interp.clustered { background:#fef2f2; border-left:3px solid var(--red); color:#991b1b; }
+    .interp.dispersed { background:#f0fdf4; border-left:3px solid var(--green); color:#166534; }
+    .interp.random    { background:#eff6ff; border-left:3px solid var(--blue); color:#1e40af; }
+    table.qtbl { width:100%; border-collapse:collapse; font-size:0.68rem; margin-top:6px; }
+    table.qtbl th { background:var(--blue); color:#fff; padding:4px 5px; text-align:center; font-weight:600; }
+    table.qtbl td { padding:4px 5px; border-bottom:1px solid var(--border); text-align:center; }
+    .nni-bar-wrap { position:relative; height:24px; background:#f1f5f9; border-radius:6px; margin:6px 0; overflow:hidden; }
+    .nni-marker { position:absolute; top:0; height:100%; width:3px; border-radius:2px; }
+    .nni-zone { position:absolute; top:0; height:100%; }
+    .nni-label { position:absolute; bottom:-14px; font-size:0.55rem; color:var(--muted); transform:translateX(-50%); white-space:nowrap; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>&#x1F4CD; Point Pattern Explorer</h1>
+    <p>Explore how spatial point patterns are analyzed</p>
+  </div>
+  <span class="badge">GATOR Lab &middot; UF</span>
+</header>
+
+<div class="layout">
+  <aside class="controls">
+    <div class="ctrl-section">
+      <span class="ctrl-label">Point Pattern</span>
+      <div class="radio-group">
+        <label><input type="radio" name="pattern" value="random" checked> Random (CSR)</label>
+        <label><input type="radio" name="pattern" value="clustered"> Clustered</label>
+        <label><input type="radio" name="pattern" value="dispersed"> Dispersed (Uniform)</label>
+      </div>
+    </div>
+    <hr>
+    <div class="ctrl-section">
+      <span class="ctrl-label">Analysis Method</span>
+      <div class="radio-group">
+        <label><input type="radio" name="method" value="nni" checked> Nearest Neighbor (NNI)</label>
+        <label><input type="radio" name="method" value="quadrat"> Quadrat Analysis</label>
+        <label><input type="radio" name="method" value="ripley"> Ripley&rsquo;s K Function</label>
+      </div>
+    </div>
+    <hr>
+    <div class="ctrl-section">
+      <div class="slider-row">
+        <label>Number of points <span id="n-val">80</span></label>
+        <input type="range" id="n-slider" min="20" max="200" value="80" step="5">
+      </div>
+      <div class="slider-row" id="grid-row" style="display:none;">
+        <label>Quadrat grid <span id="grid-val">3 &times; 3</span></label>
+        <input type="range" id="grid-slider" min="2" max="6" value="3">
+      </div>
+    </div>
+    <hr>
+    <div class="ctrl-section">
+      <button class="btn" id="regenerate-btn">&#x1F3B2; Regenerate Points</button>
+      <button class="btn" id="animate-btn">&#x25B6; Animate Pattern Shift</button>
+    </div>
+    <hr>
+    <div class="ctrl-section">
+      <span class="ctrl-label">Legend</span>
+      <div class="legend-row"><div class="dot-swatch" style="background:#2563eb;"></div> Points</div>
+      <div class="legend-row" id="leg-nn" style="display:none;"><div class="dot-swatch" style="background:#f97316; border-radius:0; height:2px; width:14px;"></div> NN distance line</div>
+      <div class="legend-row" id="leg-quad" style="display:none;"><div class="dot-swatch" style="background:rgba(220,38,38,0.15); border:1px solid #dc2626; border-radius:0;"></div> Quadrat grid</div>
+      <div class="legend-row" id="leg-k-obs" style="display:none;"><div class="dot-swatch" style="background:#2563eb; border-radius:0; height:2px; width:14px;"></div> Observed L(d)</div>
+      <div class="legend-row" id="leg-k-csr" style="display:none;"><div class="dot-swatch" style="background:#94a3b8; border-radius:0; height:2px; width:14px; border-top:1px dashed #94a3b8;"></div> CSR expectation</div>
+    </div>
+    <hr>
+    <div class="note" id="method-note">
+      <strong>NNI</strong> measures average distance to each point&rsquo;s nearest neighbor vs. expected under Complete Spatial Randomness.
+    </div>
+  </aside>
+
+  <div class="map-wrapper">
+    <canvas id="map-canvas" width="520" height="420"></canvas>
+    <canvas id="chart-canvas" width="520" height="160"></canvas>
+  </div>
+
+  <aside class="stats">
+    <div class="stats-title">Analysis Results</div>
+    <div id="stats-content">
+      <div class="stat-card"><h3>Select a pattern and method</h3><p style="font-size:0.7rem;color:var(--muted);">Results will appear here.</p></div>
+    </div>
+  </aside>
+</div>
+
+<script>
+'use strict';
+
+const CW = 520, CH = 420, CHART_H = 160;
+const canvas = document.getElementById('map-canvas');
+const ctx = canvas.getContext('2d');
+const chartCanvas = document.getElementById('chart-canvas');
+const chartCtx = chartCanvas.getContext('2d');
+
+const state = {
+  pattern: 'random', method: 'nni',
+  n: 80, gridK: 3, seed: Date.now(),
+  points: [], animFrame: null
+};
+
+// ── PRNG ──────────────────────────────────────────────────────────────────────
+function seededRng(seed) {
+  let s = seed >>> 0;
+  return () => { s = Math.imul(1664525, s) + 1013904223; return (s >>> 0) / 4294967296; };
+}
+function gaussRng(rng) {
+  let u, v, s;
+  do { u = rng()*2-1; v = rng()*2-1; s = u*u+v*v; } while (s >= 1 || s === 0);
+  return u * Math.sqrt(-2 * Math.log(s) / s);
+}
+
+// ── Point generators ──────────────────────────────────────────────────────────
+function generateRandom(n, rng) {
+  const pad = 20;
+  return Array.from({length:n}, () => [pad + rng()*(CW-2*pad), pad + rng()*(CH-2*pad)]);
+}
+
+function generateClustered(n, rng) {
+  const pad = 40;
+  const nClusters = Math.max(3, Math.round(n / 15));
+  const centers = Array.from({length: nClusters}, () => [pad + rng()*(CW-2*pad), pad + rng()*(CH-2*pad)]);
+  const pts = [];
+  for (let i = 0; i < n; i++) {
+    const c = centers[Math.floor(rng() * nClusters)];
+    const spread = 25 + rng() * 20;
+    let x = c[0] + gaussRng(rng) * spread;
+    let y = c[1] + gaussRng(rng) * spread;
+    x = Math.max(5, Math.min(CW-5, x));
+    y = Math.max(5, Math.min(CH-5, y));
+    pts.push([x, y]);
+  }
+  return pts;
+}
+
+function generateDispersed(n, rng) {
+  const pad = 15;
+  const cols = Math.ceil(Math.sqrt(n * (CW-2*pad) / (CH-2*pad)));
+  const rows = Math.ceil(n / cols);
+  const sx = (CW - 2*pad) / cols, sy = (CH - 2*pad) / rows;
+  const pts = [];
+  for (let r = 0; r < rows && pts.length < n; r++) {
+    for (let c = 0; c < cols && pts.length < n; c++) {
+      const jx = (rng()-0.5) * sx * 0.35;
+      const jy = (rng()-0.5) * sy * 0.35;
+      pts.push([pad + (c+0.5)*sx + jx, pad + (r+0.5)*sy + jy]);
+    }
+  }
+  return pts;
+}
+
+function generatePoints() {
+  const rng = seededRng(state.seed);
+  if (state.pattern === 'random') state.points = generateRandom(state.n, rng);
+  else if (state.pattern === 'clustered') state.points = generateClustered(state.n, rng);
+  else state.points = generateDispersed(state.n, rng);
+}
+
+// ── Analysis: Nearest Neighbor ────────────────────────────────────────────────
+function computeNNI(pts) {
+  const n = pts.length;
+  const nnDists = [];
+  const nnPairs = [];
+  for (let i = 0; i < n; i++) {
+    let minD = Infinity, minJ = -1;
+    for (let j = 0; j < n; j++) {
+      if (i === j) continue;
+      const d = Math.hypot(pts[i][0]-pts[j][0], pts[i][1]-pts[j][1]);
+      if (d < minD) { minD = d; minJ = j; }
+    }
+    nnDists.push(minD);
+    nnPairs.push([i, minJ]);
+  }
+  const meanObs = nnDists.reduce((s,d) => s+d, 0) / n;
+  const area = CW * CH;
+  const density = n / area;
+  const meanExp = 0.5 / Math.sqrt(density);
+  const nni = meanObs / meanExp;
+  const se = 0.26136 / Math.sqrt(n * density);
+  const z = (meanObs - meanExp) / se;
+  return { nnDists, nnPairs, meanObs, meanExp, nni, z, n, area, density };
+}
+
+// ── Analysis: Quadrat ─────────────────────────────────────────────────────────
+function computeQuadrat(pts, k) {
+  const counts = new Array(k*k).fill(0);
+  const cellW = CW / k, cellH = CH / k;
+  pts.forEach(([x,y]) => {
+    const c = Math.min(k-1, Math.floor(x / cellW));
+    const r = Math.min(k-1, Math.floor(y / cellH));
+    counts[r*k+c]++;
+  });
+  const n = pts.length;
+  const nQ = k * k;
+  const E = n / nQ;
+  const chi2 = counts.reduce((s, o) => s + (o-E)*(o-E)/E, 0);
+  const df = nQ - 1;
+  const mean = counts.reduce((s,c) => s+c, 0) / nQ;
+  const variance = counts.reduce((s,c) => s + (c-mean)*(c-mean), 0) / (nQ-1);
+  const vmr = variance / mean;
+  // Chi-squared critical values (df, alpha=0.05) — approximate
+  const chi2_crit = df <= 1 ? 3.84 : df <= 2 ? 5.99 : df <= 3 ? 7.81 : df <= 4 ? 9.49 :
+    df <= 5 ? 11.07 : df <= 8 ? 15.51 : df <= 15 ? 25.0 : df <= 24 ? 36.42 : df * 1.5;
+  const significant = chi2 > chi2_crit;
+  return { counts, k, cellW, cellH, E, chi2, df, vmr, significant, chi2_crit, n: pts.length };
+}
+
+// ── Analysis: Ripley's K ──────────────────────────────────────────────────────
+function computeRipleyK(pts) {
+  const n = pts.length;
+  const area = CW * CH;
+  const lambda = n / area;
+  const maxD = Math.min(CW, CH) / 3;
+  const steps = 30;
+  const ds = Array.from({length: steps}, (_, i) => (i+1) * maxD / steps);
+  const K = ds.map(d => {
+    let count = 0;
+    for (let i = 0; i < n; i++) {
+      for (let j = 0; j < n; j++) {
+        if (i === j) continue;
+        if (Math.hypot(pts[i][0]-pts[j][0], pts[i][1]-pts[j][1]) <= d) count++;
+      }
+    }
+    return (area / (n * n)) * count;
+  });
+  // L(d) = sqrt(K(d)/pi) - d (Besag's transformation)
+  const L = K.map((k, i) => Math.sqrt(k / Math.PI) - ds[i]);
+  // CSR expectation: K(d) = pi*d^2, so L(d) = 0
+  return { ds, K, L, maxD, lambda, n, area };
+}
+
+// ── Rendering ─────────────────────────────────────────────────────────────────
+function render() {
+  ctx.clearRect(0, 0, CW, CH);
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, CW, CH);
+
+  const pts = state.points;
+
+  if (state.method === 'nni') renderNNI(pts);
+  else if (state.method === 'quadrat') renderQuadrat(pts);
+  else renderRipley(pts);
+}
+
+function renderNNI(pts) {
+  const res = computeNNI(pts);
+  const maxDist = Math.max(...res.nnDists);
+
+  // Draw NN lines
+  ctx.lineWidth = 1.2;
+  res.nnPairs.forEach(([i,j], idx) => {
+    const t = Math.min(1, res.nnDists[idx] / maxDist);
+    ctx.strokeStyle = `rgba(249,115,22,${0.3 + 0.5*t})`;
+    ctx.beginPath();
+    ctx.moveTo(pts[i][0], pts[i][1]);
+    ctx.lineTo(pts[j][0], pts[j][1]);
+    ctx.stroke();
+  });
+
+  // Draw points
+  drawPoints(pts);
+
+  // Update stats
+  updateNNIStats(res);
+
+  // Hide chart
+  chartCanvas.style.display = 'none';
+}
+
+function renderQuadrat(pts) {
+  const res = computeQuadrat(pts, state.gridK);
+
+  // Draw quadrat grid and counts
+  ctx.strokeStyle = 'rgba(220,38,38,0.5)';
+  ctx.lineWidth = 1.5;
+  ctx.setLineDash([6,4]);
+  for (let i = 1; i < res.k; i++) {
+    ctx.beginPath(); ctx.moveTo(i*res.cellW, 0); ctx.lineTo(i*res.cellW, CH); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(0, i*res.cellH); ctx.lineTo(CW, i*res.cellH); ctx.stroke();
+  }
+  ctx.setLineDash([]);
+
+  // Shade cells by count deviation
+  for (let r = 0; r < res.k; r++) for (let c = 0; c < res.k; c++) {
+    const cnt = res.counts[r*res.k+c];
+    const dev = (cnt - res.E) / Math.max(1, res.E);
+    if (dev > 0) {
+      ctx.fillStyle = `rgba(220,38,38,${Math.min(0.25, dev * 0.15)})`;
+    } else {
+      ctx.fillStyle = `rgba(37,99,235,${Math.min(0.2, Math.abs(dev) * 0.12)})`;
+    }
+    ctx.fillRect(c*res.cellW, r*res.cellH, res.cellW, res.cellH);
+  }
+
+  // Count labels
+  ctx.font = '700 16px Inter, sans-serif';
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  for (let r = 0; r < res.k; r++) for (let c = 0; c < res.k; c++) {
+    const cnt = res.counts[r*res.k+c];
+    ctx.fillStyle = 'rgba(220,38,38,0.7)';
+    ctx.fillText(String(cnt), (c+0.5)*res.cellW, (r+0.5)*res.cellH - 10);
+    // expected
+    ctx.font = '400 10px Inter, sans-serif';
+    ctx.fillStyle = '#94a3b8';
+    ctx.fillText('E=' + res.E.toFixed(1), (c+0.5)*res.cellW, (r+0.5)*res.cellH + 8);
+    ctx.font = '700 16px Inter, sans-serif';
+  }
+
+  drawPoints(pts);
+  updateQuadratStats(res);
+  chartCanvas.style.display = 'none';
+}
+
+function renderRipley(pts) {
+  const res = computeRipleyK(pts);
+
+  drawPoints(pts);
+
+  // Draw Ripley's K chart
+  chartCanvas.style.display = 'block';
+  drawRipleyChart(res);
+  updateRipleyStats(res);
+}
+
+function drawPoints(pts) {
+  pts.forEach(([x,y]) => {
+    ctx.fillStyle = '#2563eb';
+    ctx.beginPath(); ctx.arc(x, y, 3.5, 0, Math.PI*2); ctx.fill();
+    ctx.strokeStyle = '#fff'; ctx.lineWidth = 0.8;
+    ctx.stroke();
+  });
+}
+
+function drawRipleyChart(res) {
+  const cw = 520, ch = CHART_H;
+  chartCtx.clearRect(0, 0, cw, ch);
+  chartCtx.fillStyle = '#fff';
+  chartCtx.fillRect(0, 0, cw, ch);
+
+  const pad = {l:55, r:20, t:25, b:30};
+  const pw = cw - pad.l - pad.r, ph = ch - pad.t - pad.b;
+
+  // Y range
+  const maxAbsL = Math.max(1, ...res.L.map(Math.abs)) * 1.15;
+
+  function tx(d) { return pad.l + (d / res.maxD) * pw; }
+  function ty(l) { return pad.t + ph/2 - (l / maxAbsL) * (ph/2); }
+
+  // Axes
+  chartCtx.strokeStyle = '#cbd5e1'; chartCtx.lineWidth = 1;
+  chartCtx.beginPath(); chartCtx.moveTo(pad.l, pad.t); chartCtx.lineTo(pad.l, pad.t+ph); chartCtx.lineTo(pad.l+pw, pad.t+ph); chartCtx.stroke();
+
+  // Zero line (CSR expectation)
+  chartCtx.setLineDash([5,4]);
+  chartCtx.strokeStyle = '#94a3b8'; chartCtx.lineWidth = 1.5;
+  chartCtx.beginPath(); chartCtx.moveTo(pad.l, ty(0)); chartCtx.lineTo(pad.l+pw, ty(0)); chartCtx.stroke();
+  chartCtx.setLineDash([]);
+
+  // Shade regions
+  chartCtx.fillStyle = 'rgba(220,38,38,0.06)';
+  chartCtx.fillRect(pad.l, pad.t, pw, ty(0)-pad.t);
+  chartCtx.fillStyle = 'rgba(37,99,235,0.06)';
+  chartCtx.fillRect(pad.l, ty(0), pw, pad.t+ph-ty(0));
+
+  // Region labels
+  chartCtx.font = '600 9px Inter'; chartCtx.textAlign = 'right';
+  chartCtx.fillStyle = '#dc2626'; chartCtx.fillText('Clustered', pad.l + pw - 4, pad.t + 12);
+  chartCtx.fillStyle = '#2563eb'; chartCtx.fillText('Dispersed', pad.l + pw - 4, pad.t + ph - 5);
+
+  // L(d) curve
+  chartCtx.strokeStyle = '#2563eb'; chartCtx.lineWidth = 2.5;
+  chartCtx.beginPath();
+  res.ds.forEach((d,i) => {
+    const x = tx(d), y = ty(res.L[i]);
+    if (i === 0) chartCtx.moveTo(x, y); else chartCtx.lineTo(x, y);
+  });
+  chartCtx.stroke();
+
+  // Dots on curve
+  res.ds.forEach((d,i) => {
+    chartCtx.fillStyle = res.L[i] > 0 ? '#dc2626' : '#2563eb';
+    chartCtx.beginPath(); chartCtx.arc(tx(d), ty(res.L[i]), 2.5, 0, Math.PI*2); chartCtx.fill();
+  });
+
+  // Axis labels
+  chartCtx.fillStyle = '#64748b'; chartCtx.font = '600 9px Inter';
+  chartCtx.textAlign = 'center';
+  chartCtx.fillText('Distance (d)', pad.l + pw/2, pad.t + ph + 22);
+  // Y label
+  chartCtx.save();
+  chartCtx.translate(13, pad.t + ph/2);
+  chartCtx.rotate(-Math.PI/2);
+  chartCtx.fillText('L(d) = \u221A(K/\u03C0) \u2212 d', 0, 0);
+  chartCtx.restore();
+
+  // Title
+  chartCtx.fillStyle = '#334155'; chartCtx.font = '700 11px Inter'; chartCtx.textAlign = 'center';
+  chartCtx.fillText("Ripley\u2019s L Function (Besag\u2019s Transformation)", cw/2, 14);
+
+  // Tick labels
+  chartCtx.fillStyle = '#94a3b8'; chartCtx.font = '400 8px Inter'; chartCtx.textAlign = 'center';
+  for (let i = 0; i <= 5; i++) {
+    const d = res.maxD * i / 5;
+    chartCtx.fillText(d.toFixed(0), tx(d), pad.t + ph + 12);
+  }
+  chartCtx.textAlign = 'right';
+  chartCtx.fillText('0', pad.l - 4, ty(0) + 3);
+  chartCtx.fillText(maxAbsL.toFixed(0), pad.l - 4, pad.t + 8);
+  chartCtx.fillText((-maxAbsL).toFixed(0), pad.l - 4, pad.t + ph + 3);
+}
+
+// ── Stats panels ──────────────────────────────────────────────────────────────
+function updateNNIStats(r) {
+  const cls = r.nni < 0.9 ? 'clustered' : r.nni > 1.1 ? 'dispersed' : 'random';
+  const verdict = r.nni < 0.9 ? 'Clustered pattern' : r.nni > 1.1 ? 'Dispersed pattern' : 'Consistent with random';
+  const emoji = r.nni < 0.9 ? '&#x1F534;' : r.nni > 1.1 ? '&#x1F7E2;' : '&#x1F535;';
+
+  const barW = 240, nniPos = Math.max(0, Math.min(1, r.nni / 2.15));
+
+  document.getElementById('stats-content').innerHTML = `
+  <div class="stat-card" style="border-left:4px solid var(--blue);">
+    <h3>Nearest Neighbor Index</h3>
+    <div class="stat-val">${r.nni.toFixed(3)}</div>
+    <div class="stat-sub">z-score: ${r.z.toFixed(2)} &nbsp;|&nbsp; n = ${r.n}</div>
+  </div>
+
+  <div class="stat-card">
+    <h3>NNI Scale</h3>
+    <div style="position:relative;height:36px;margin:8px 0 22px;">
+      <div class="nni-zone" style="left:0;width:42%;background:linear-gradient(90deg,rgba(220,38,38,0.15),rgba(220,38,38,0.04));border-radius:6px 0 0 6px;"></div>
+      <div class="nni-zone" style="left:42%;width:16%;background:rgba(37,99,235,0.08);"></div>
+      <div class="nni-zone" style="left:58%;width:42%;background:linear-gradient(90deg,rgba(5,150,105,0.04),rgba(5,150,105,0.15));border-radius:0 6px 6px 0;"></div>
+      <div class="nni-marker" style="left:${nniPos*100}%;background:#0f172a;z-index:2;"></div>
+      <div class="nni-label" style="left:0;">0</div>
+      <div class="nni-label" style="left:46.5%;">1.0</div>
+      <div class="nni-label" style="left:100%;">2.15</div>
+      <div style="position:absolute;top:100%;left:10%;font-size:0.55rem;color:var(--red);">Clustered</div>
+      <div style="position:absolute;top:100%;left:46%;font-size:0.55rem;color:var(--blue);">Random</div>
+      <div style="position:absolute;top:100%;left:78%;font-size:0.55rem;color:var(--green);">Dispersed</div>
+    </div>
+  </div>
+
+  <div class="stat-card">
+    <h3>Step-by-Step</h3>
+    <div class="formula">
+      Observed mean d&#772; = ${r.meanObs.toFixed(2)} px<br>
+      Expected d&#772;<sub>E</sub> = 0.5 / &radic;(&lambda;) = ${r.meanExp.toFixed(2)} px<br>
+      &lambda; = n/A = ${r.n}/${r.area} = ${r.density.toFixed(6)}<br>
+      <strong>NNI = ${r.meanObs.toFixed(2)} / ${r.meanExp.toFixed(2)} = ${r.nni.toFixed(3)}</strong>
+    </div>
+  </div>
+
+  <div class="interp ${cls}">
+    <strong>${emoji} ${verdict}</strong><br>
+    ${r.nni < 0.9 ? 'NNI &lt; 1 &mdash; points are closer together than expected under CSR. The pattern exhibits significant clustering.' :
+      r.nni > 1.1 ? 'NNI &gt; 1 &mdash; points are more evenly spaced than expected under CSR. The pattern is dispersed/regular.' :
+      'NNI &asymp; 1 &mdash; the observed mean nearest-neighbor distance is close to expected under Complete Spatial Randomness.'}
+  </div>`;
+}
+
+function updateQuadratStats(r) {
+  const cls = r.vmr > 1.3 ? 'clustered' : r.vmr < 0.7 ? 'dispersed' : 'random';
+  const verdict = r.vmr > 1.3 ? 'Clustered pattern' : r.vmr < 0.7 ? 'Dispersed pattern' : 'Consistent with random';
+  const emoji = r.vmr > 1.3 ? '&#x1F534;' : r.vmr < 0.7 ? '&#x1F7E2;' : '&#x1F535;';
+
+  const rows = r.counts.map((c, i) => `<tr><td>Q${i+1}</td><td><strong>${c}</strong></td><td>${r.E.toFixed(1)}</td><td>${((c-r.E)*(c-r.E)/r.E).toFixed(2)}</td></tr>`).join('');
+
+  document.getElementById('stats-content').innerHTML = `
+  <div class="stat-card" style="border-left:4px solid var(--red);">
+    <h3>Quadrat Analysis</h3>
+    <div class="stat-val">&chi;&sup2; = ${r.chi2.toFixed(2)}</div>
+    <div class="stat-sub">df = ${r.df} &nbsp;|&nbsp; Critical (&alpha;=0.05): ${r.chi2_crit.toFixed(2)} &nbsp;|&nbsp; ${r.significant ? '<strong style="color:var(--red);">Significant</strong>' : '<span style="color:var(--muted);">Not significant</span>'}</div>
+  </div>
+
+  <div class="stat-card">
+    <h3>Variance-to-Mean Ratio</h3>
+    <div class="stat-val" style="color:${r.vmr > 1.3 ? 'var(--red)' : r.vmr < 0.7 ? 'var(--green)' : 'var(--blue)'};">VMR = ${r.vmr.toFixed(3)}</div>
+    <div class="stat-sub">VMR &gt; 1 &rarr; clustered &nbsp;|&nbsp; VMR &lt; 1 &rarr; dispersed</div>
+  </div>
+
+  <div class="stat-card">
+    <h3>Quadrat Counts</h3>
+    <table class="qtbl">
+      <thead><tr><th>Cell</th><th>O<sub>i</sub></th><th>E</th><th>(O-E)&sup2;/E</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>
+
+  <div class="stat-card">
+    <h3>Formula</h3>
+    <div class="formula">
+      n = ${r.n} points, k = ${r.k}&times;${r.k} = ${r.k*r.k} quadrats<br>
+      E = n/k = ${r.n}/${r.k*r.k} = ${r.E.toFixed(2)}<br>
+      &chi;&sup2; = &Sigma;(O<sub>i</sub>&minus;E)&sup2;/E = <strong>${r.chi2.toFixed(2)}</strong><br>
+      df = k&minus;1 = ${r.df}
+    </div>
+  </div>
+
+  <div class="interp ${cls}">
+    <strong>${emoji} ${verdict}</strong><br>
+    ${r.vmr > 1.3 ? 'VMR &gt; 1 and &chi;&sup2; is high &mdash; counts vary more than expected, indicating clustering.' :
+      r.vmr < 0.7 ? 'VMR &lt; 1 &mdash; counts are very even across quadrats, indicating a dispersed/regular pattern.' :
+      'VMR &asymp; 1 &mdash; count variation is close to what is expected under Complete Spatial Randomness.'}
+  </div>`;
+}
+
+function updateRipleyStats(r) {
+  const maxL = Math.max(...r.L);
+  const minL = Math.min(...r.L);
+  const avgL = r.L.reduce((s,v) => s+v, 0) / r.L.length;
+  const cls = avgL > 3 ? 'clustered' : avgL < -3 ? 'dispersed' : 'random';
+  const verdict = avgL > 3 ? 'Clustering detected' : avgL < -3 ? 'Dispersion detected' : 'Consistent with random';
+  const emoji = avgL > 3 ? '&#x1F534;' : avgL < -3 ? '&#x1F7E2;' : '&#x1F535;';
+
+  document.getElementById('stats-content').innerHTML = `
+  <div class="stat-card" style="border-left:4px solid var(--blue);">
+    <h3>Ripley&rsquo;s K &amp; L Function</h3>
+    <div class="stat-val">L&#772; = ${avgL.toFixed(2)}</div>
+    <div class="stat-sub">max L(d) = ${maxL.toFixed(2)} &nbsp;|&nbsp; min L(d) = ${minL.toFixed(2)}</div>
+  </div>
+
+  <div class="stat-card">
+    <h3>How to Read the Chart</h3>
+    <div class="formula">
+      K(d) = (A/n&sup2;) &Sigma;<sub>i</sub>&Sigma;<sub>j</sub> I(d<sub>ij</sub> &le; d)<br>
+      L(d) = &radic;(K(d)/&pi;) &minus; d<br><br>
+      Under CSR: K(d) = &pi;d&sup2;, so L(d) = 0
+    </div>
+    <p style="font-size:0.67rem;color:var(--muted);margin-top:6px;">
+      <strong style="color:var(--red);">L(d) &gt; 0</strong> &rarr; more neighbors within d than expected &rarr; <strong>clustering</strong> at that scale<br>
+      <strong style="color:var(--blue);">L(d) &lt; 0</strong> &rarr; fewer neighbors within d than expected &rarr; <strong>dispersion</strong> at that scale
+    </p>
+  </div>
+
+  <div class="stat-card">
+    <h3>Why Multi-Scale Matters</h3>
+    <p style="font-size:0.67rem;color:var(--muted);line-height:1.6;">
+      Unlike NNI (single summary number), Ripley&rsquo;s K reveals patterns at <em>every</em> spatial scale.
+      A process can be clustered at large scales but regular at small scales (e.g., Walmart locations:
+      dispersed locally, clustered nationally). The L(d) chart shows this heterogeneity.
+    </p>
+  </div>
+
+  <div class="stat-card">
+    <h3>Parameters</h3>
+    <div class="formula">
+      n = ${r.n} points<br>
+      A = ${r.area.toLocaleString()} px&sup2;<br>
+      &lambda; = n/A = ${r.lambda.toFixed(6)}<br>
+      Max distance evaluated: ${r.maxD.toFixed(0)} px
+    </div>
+  </div>
+
+  <div class="interp ${cls}">
+    <strong>${emoji} ${verdict}</strong><br>
+    ${avgL > 3 ? 'The L(d) curve is consistently above zero &mdash; the pattern shows significant clustering across multiple scales.' :
+      avgL < -3 ? 'The L(d) curve is consistently below zero &mdash; points are more regularly spaced than expected under CSR.' :
+      'The L(d) curve hovers near zero &mdash; the pattern is broadly consistent with Complete Spatial Randomness.'}
+  </div>`;
+}
+
+// ── UI wiring ─────────────────────────────────────────────────────────────────
+function updateUI() {
+  const isQuad = state.method === 'quadrat';
+  const isNN = state.method === 'nni';
+  const isK = state.method === 'ripley';
+  document.getElementById('grid-row').style.display = isQuad ? 'block' : 'none';
+  document.getElementById('leg-nn').style.display = isNN ? 'flex' : 'none';
+  document.getElementById('leg-quad').style.display = isQuad ? 'flex' : 'none';
+  document.getElementById('leg-k-obs').style.display = isK ? 'flex' : 'none';
+  document.getElementById('leg-k-csr').style.display = isK ? 'flex' : 'none';
+
+  const note = document.getElementById('method-note');
+  if (isNN) note.innerHTML = '<strong>Nearest Neighbor Index (NNI)</strong> compares the observed mean nearest-neighbor distance to the expected distance under CSR.<br><br>NNI &lt; 1 &rarr; clustered<br>NNI &gt; 1 &rarr; dispersed<br>NNI &asymp; 1 &rarr; random';
+  else if (isQuad) note.innerHTML = '<strong>Quadrat Analysis</strong> divides the study area into equal cells, counts points per cell, then uses &chi;&sup2; and VMR to test for randomness.<br><br>VMR &gt; 1 &rarr; clustered<br>VMR &lt; 1 &rarr; dispersed';
+  else note.innerHTML = '<strong>Ripley&rsquo;s K</strong> measures point density at multiple scales. The L(d) transformation makes it easy to read: L(d) &gt; 0 means more neighbors than expected (clustering), L(d) &lt; 0 means fewer (dispersion).';
+}
+
+function rebuild() {
+  if (state.animFrame) { cancelAnimationFrame(state.animFrame); state.animFrame = null; }
+  generatePoints();
+  updateUI();
+  render();
+}
+
+// Pattern radio
+document.querySelectorAll('input[name=pattern]').forEach(el => {
+  el.addEventListener('change', () => { state.pattern = el.value; state.seed = Date.now(); rebuild(); });
+});
+// Method radio
+document.querySelectorAll('input[name=method]').forEach(el => {
+  el.addEventListener('change', () => { state.method = el.value; updateUI(); render(); });
+});
+// N slider
+document.getElementById('n-slider').addEventListener('input', function() {
+  state.n = +this.value; document.getElementById('n-val').textContent = this.value;
+  state.seed = Date.now(); rebuild();
+});
+// Grid slider
+document.getElementById('grid-slider').addEventListener('input', function() {
+  state.gridK = +this.value; document.getElementById('grid-val').textContent = this.value + ' \u00d7 ' + this.value;
+  render();
+});
+// Regenerate
+document.getElementById('regenerate-btn').addEventListener('click', () => { state.seed = Date.now(); rebuild(); });
+
+// ── Animate pattern shift ─────────────────────────────────────────────────────
+document.getElementById('animate-btn').addEventListener('click', () => {
+  if (state.animFrame) { cancelAnimationFrame(state.animFrame); state.animFrame = null; document.getElementById('animate-btn').textContent = '\u25B6 Animate Pattern Shift'; return; }
+  document.getElementById('animate-btn').textContent = '\u23F9 Stop Animation';
+
+  const rng = seededRng(Date.now());
+  // Generate target points for each pattern type
+  const targets = {
+    clustered: generateClustered(state.n, seededRng(state.seed + 1)),
+    random: generateRandom(state.n, seededRng(state.seed + 2)),
+    dispersed: generateDispersed(state.n, seededRng(state.seed + 3))
+  };
+  const sequence = ['clustered', 'random', 'dispersed', 'random'];
+  let seqIdx = 0;
+  let t = 0;
+  const startPts = state.points.map(p => [...p]);
+  let currentFrom = startPts.map(p => [...p]);
+  let currentTo = targets[sequence[0]];
+
+  // Ensure same number of points
+  while (currentTo.length < state.n) currentTo.push([rng()*CW, rng()*CH]);
+  currentTo = currentTo.slice(0, state.n);
+
+  function step() {
+    t += 0.015;
+    if (t >= 1) {
+      t = 0;
+      currentFrom = currentTo.map(p => [...p]);
+      seqIdx = (seqIdx + 1) % sequence.length;
+      currentTo = targets[sequence[seqIdx]];
+      while (currentTo.length < state.n) currentTo.push([rng()*CW, rng()*CH]);
+      currentTo = currentTo.slice(0, state.n);
+      // Update pattern label
+      state.pattern = sequence[seqIdx];
+      document.querySelectorAll('input[name=pattern]').forEach(r => { r.checked = r.value === state.pattern; });
+    }
+    // Ease
+    const ease = t < 0.5 ? 2*t*t : 1-Math.pow(-2*t+2,2)/2;
+    state.points = currentFrom.map((f,i) => {
+      const to = currentTo[i] || f;
+      return [f[0]+(to[0]-f[0])*ease, f[1]+(to[1]-f[1])*ease];
+    });
+    render();
+    state.animFrame = requestAnimationFrame(step);
+  }
+  state.animFrame = requestAnimationFrame(step);
+});
+
+// Boot
+rebuild();
+</script>
+</body>
+</html>

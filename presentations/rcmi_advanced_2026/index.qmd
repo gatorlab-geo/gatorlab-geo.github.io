@@ -1,0 +1,207 @@
+---
+title: "Interactive Tools — GIS & Spatial Analysis for Public Health"
+subtitle: "RCMI Advanced Workshop 2026 · GATOR Lab @ UF"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<style>
+  .tools-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem 0 2rem;
+  }
+  .tool-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s;
+  }
+  .tool-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  }
+  .tool-card-header {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .tool-card-header h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .tool-card-header p {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .tool-card-body {
+    position: relative;
+    background: #f1f5f9;
+  }
+  .tool-card-body iframe {
+    width: 100%;
+    height: 480px;
+    border: none;
+    display: block;
+  }
+  .tool-card-footer {
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid #e2e8f0;
+  }
+  .btn-launch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1.25rem;
+    background: #2563eb;
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-decoration: none !important;
+    transition: background 0.15s;
+  }
+  .btn-launch:hover {
+    background: #1d4ed8;
+    color: #fff !important;
+  }
+  .badge-tag {
+    display: inline-block;
+    padding: 0.2rem 0.65rem;
+    background: #dbeafe;
+    color: #2563eb;
+    border-radius: 99px;
+    font-size: 0.72rem;
+    font-weight: 600;
+  }
+  .resources-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem 3rem;
+  }
+  .resources-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+  }
+  .resource-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .resource-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .resource-list li:last-child {
+    border-bottom: none;
+  }
+  .resource-icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+  .resource-list a {
+    font-weight: 600;
+  }
+  .resource-list .desc {
+    color: #64748b;
+    font-size: 0.85rem;
+  }
+</style>
+
+<div class="tools-grid">
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <h3>🎨 Choropleth Classification Explorer</h3>
+      <p>See how the same data tells different stories depending on the classification method. Compare Quantile, Equal Interval, Natural Breaks, and Standard Deviation classifications on real public health data from Florida.</p>
+    </div>
+    <div class="tool-card-body">
+      <iframe src="classification_explorer.html" loading="lazy" title="Choropleth Classification Explorer"></iframe>
+    </div>
+    <div class="tool-card-footer">
+      <a class="btn-launch" href="classification_explorer.html" target="_blank">Launch Full Screen ↗</a>
+      <span class="badge-tag">Choropleth</span>
+      <span class="badge-tag">Classification</span>
+    </div>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <h3>📍 Point Pattern Explorer</h3>
+      <p>Explore how spatial point patterns are analyzed. Generate random, clustered, or dispersed patterns and examine them with Nearest Neighbor Index, Quadrat Analysis, and Ripley's K function.</p>
+    </div>
+    <div class="tool-card-body">
+      <iframe src="pointpattern-explorer.html" loading="lazy" title="Point Pattern Explorer"></iframe>
+    </div>
+    <div class="tool-card-footer">
+      <a class="btn-launch" href="pointpattern-explorer.html" target="_blank">Launch Full Screen ↗</a>
+      <span class="badge-tag">Point Patterns</span>
+      <span class="badge-tag">NNI</span>
+    </div>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <h3>🗺️ Spatial Neighborhood Explorer</h3>
+      <p>Visualize how spatial neighborhoods are defined. Click any cell to see its neighbors under Queen, Rook, KNN, and distance-band definitions across regular, hexagonal, and irregular grids.</p>
+    </div>
+    <div class="tool-card-body">
+      <iframe src="neighborhood-explorer.html" loading="lazy" title="Spatial Neighborhood Explorer"></iframe>
+    </div>
+    <div class="tool-card-footer">
+      <a class="btn-launch" href="neighborhood-explorer.html" target="_blank">Launch Full Screen ↗</a>
+      <span class="badge-tag">Spatial Weights</span>
+      <span class="badge-tag">Contiguity</span>
+    </div>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <h3>🖌️ Spatial Autocorrelation Painter</h3>
+      <p>Paint values onto a grid and watch Moran's I update in real time. Build intuition for positive and negative spatial autocorrelation with preset patterns or your own custom arrangements.</p>
+    </div>
+    <div class="tool-card-body">
+      <iframe src="spatial_autocorrelation_painter.html" loading="lazy" title="Spatial Autocorrelation Painter"></iframe>
+    </div>
+    <div class="tool-card-footer">
+      <a class="btn-launch" href="spatial_autocorrelation_painter.html" target="_blank">Launch Full Screen ↗</a>
+      <span class="badge-tag">Moran's I</span>
+      <span class="badge-tag">Autocorrelation</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="resources-section">
+  <h2>📑 Workshop Materials</h2>
+  <ul class="resource-list">
+    <li>
+      <span class="resource-icon">🎞️</span>
+      <div>
+        <a href="FIU_RCMI_Advanced_Spatial_Analysis_Workshop_2026.pdf" download>Slide Deck (PDF) ⬇</a>
+        <div class="desc">FIU RCMI Advanced Spatial Analysis Workshop 2026</div>
+      </div>
+    </li>
+    <li>
+      <span class="resource-icon">📓</span>
+      <div>
+        <a href="#" target="_blank">Workshop Notebook (Google Colab) ↗</a>
+        <div class="desc">Hands-on spatial analysis with Python — link coming soon</div>
+      </div>
+    </li>
+  </ul>
+</div>
+```

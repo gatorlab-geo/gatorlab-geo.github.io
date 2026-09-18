@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Choropleth Classification Explorer</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f0f2f5; color: #1a1a2e; }
+
+  .header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white; padding: 18px 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  .header h1 { font-size: 1.5rem; font-weight: 600; }
+  .header p { font-size: 0.85rem; opacity: 0.8; margin-top: 4px; }
+
+  .main { display: flex; height: calc(100vh - 80px); }
+
+  .sidebar {
+    width: 380px; min-width: 380px;
+    background: white; padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.08);
+    display: flex; flex-direction: column; gap: 18px;
+  }
+
+  .control-group { }
+  .control-group label {
+    display: block; font-weight: 600; font-size: 0.85rem;
+    color: #555; text-transform: uppercase; letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+
+  select, input[type=range] {
+    width: 100%; padding: 8px 12px;
+    border: 1px solid #ddd; border-radius: 6px;
+    font-size: 0.95rem; background: white;
+    cursor: pointer;
+  }
+  select:focus { outline: none; border-color: #4361ee; }
+
+  .method-cards {
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .method-card {
+    padding: 10px 14px; border: 2px solid #e0e0e0;
+    border-radius: 8px; cursor: pointer;
+    transition: all 0.2s;
+  }
+  .method-card:hover { border-color: #90b4ff; background: #f8faff; }
+  .method-card.active { border-color: #4361ee; background: #eef2ff; }
+  .method-card .method-name { font-weight: 600; font-size: 0.95rem; }
+  .method-card .method-desc { font-size: 0.78rem; color: #666; margin-top: 2px; }
+
+  .classes-control {
+    display: flex; align-items: center; gap: 12px;
+  }
+  .classes-control input { flex: 1; }
+  .classes-value {
+    font-weight: 700; font-size: 1.1rem; color: #4361ee;
+    min-width: 24px; text-align: center;
+  }
+
+  #histogram-container {
+    background: #fafafa; border-radius: 8px;
+    border: 1px solid #eee; padding: 12px;
+  }
+  #histogram-container h3 {
+    font-size: 0.8rem; color: #555; text-transform: uppercase;
+    letter-spacing: 0.5px; margin-bottom: 8px;
+  }
+  #histogram { width: 100%; height: 150px; }
+
+  .legend-container {
+    background: #fafafa; border-radius: 8px;
+    border: 1px solid #eee; padding: 12px;
+  }
+  .legend-container h3 {
+    font-size: 0.8rem; color: #555; text-transform: uppercase;
+    letter-spacing: 0.5px; margin-bottom: 8px;
+  }
+  .legend-items { display: flex; flex-direction: column; gap: 3px; }
+  .legend-item {
+    display: flex; align-items: center; gap: 8px; font-size: 0.82rem;
+  }
+  .legend-swatch {
+    width: 20px; height: 14px; border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.15); flex-shrink: 0;
+  }
+
+  .stats-box {
+    background: #f0f7ff; border-radius: 8px; padding: 12px;
+    border: 1px solid #d0e3ff; font-size: 0.82rem;
+  }
+  .stats-box .stat-row {
+    display: flex; justify-content: space-between;
+    padding: 2px 0;
+  }
+  .stats-box .stat-label { color: #555; }
+  .stats-box .stat-value { font-weight: 600; }
+
+  .insight-box {
+    background: #fff8e1; border: 1px solid #ffe082;
+    border-radius: 8px; padding: 12px;
+    font-size: 0.82rem; line-height: 1.5;
+  }
+  .insight-box strong { color: #e65100; }
+
+  #map { flex: 1; }
+
+  .info-popup {
+    font-size: 0.85rem; line-height: 1.6;
+  }
+  .info-popup b { color: #1a1a2e; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🗺️ Choropleth Classification Explorer</h1>
+  <p>See how the same data tells different stories depending on the classification method</p>
+</div>
+
+<div class="main">
+  <div class="sidebar">
+
+    <div class="control-group">
+      <label>Variable to Map</label>
+      <select id="variable-select">
+        <option value="smoothed_rate_period3">COVID-19 Rate (Period 3, smoothed)</option>
+        <option value="rate_period3">COVID-19 Rate (Period 3, raw)</option>
+        <option value="pct_below_poverty">% Below Poverty</option>
+        <option value="pct_no_health_insurance">% No Health Insurance</option>
+        <option value="pct_hispanic_or_latino">% Hispanic or Latino</option>
+        <option value="pct_black_or_african_american">% Black or African American</option>
+        <option value="median_household_income">Median Household Income ($)</option>
+        <option value="pop_dens">Population Density</option>
+        <option value="pct_no_high_school">% No High School Diploma</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label>Classification Method</label>
+      <div class="method-cards">
+        <div class="method-card active" data-method="quantile">
+          <div class="method-name">Quantile</div>
+          <div class="method-desc">Equal number of features per class. Most common in public health.</div>
+        </div>
+        <div class="method-card" data-method="equal_interval">
+          <div class="method-name">Equal Interval</div>
+          <div class="method-desc">Equal-width value ranges. Can produce empty classes with skewed data.</div>
+        </div>
+        <div class="method-card" data-method="natural_breaks">
+          <div class="method-name">Natural Breaks (Jenks)</div>
+          <div class="method-desc">Minimizes within-class variance. Finds "natural" groupings in data.</div>
+        </div>
+        <div class="method-card" data-method="std_dev">
+          <div class="method-name">Standard Deviation</div>
+          <div class="method-desc">Classes based on distance from the mean. Best for normally distributed data.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label>Number of Classes</label>
+      <div class="classes-control">
+        <input type="range" id="num-classes" min="3" max="9" value="5" step="1">
+        <span class="classes-value" id="classes-value">5</span>
+      </div>
+    </div>
+
+    <div id="histogram-container">
+      <h3>Distribution &amp; Break Points</h3>
+      <canvas id="histogram"></canvas>
+    </div>
+
+    <div class="legend-container">
+      <h3>Legend</h3>
+      <div class="legend-items" id="legend-items"></div>
+    </div>
+
+    <div class="stats-box" id="stats-box"></div>
+
+    <div class="insight-box" id="insight-box"></div>
+
+  </div>
+
+  <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// ============================================================
+// COLOR PALETTES
+// ============================================================
+const PALETTES = {
+  sequential: ['#ffffcc','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#0c2c84'],
+  diverging: ['#2166ac','#67a9cf','#d1e5f0','#f7f7f7','#fddbc7','#ef8a62','#b2182b'],
+  reds: ['#fee5d9','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#99000d'],
+};
+
+function interpolateColors(palette, n) {
+  if (n <= palette.length) {
+    const step = (palette.length - 1) / (n - 1);
+    return Array.from({length: n}, (_, i) => palette[Math.round(i * step)]);
+  }
+  const colors = [];
+  for (let i = 0; i < n; i++) {
+    const t = i / (n - 1) * (palette.length - 1);
+    const lo = Math.floor(t), hi = Math.ceil(t);
+    const f = t - lo;
+    colors.push(blendColor(palette[lo], palette[hi], f));
+  }
+  return colors;
+}
+
+function blendColor(c1, c2, t) {
+  const [r1,g1,b1] = hexToRgb(c1), [r2,g2,b2] = hexToRgb(c2);
+  const r = Math.round(r1 + (r2-r1)*t), g = Math.round(g1 + (g2-g1)*t), b = Math.round(b1 + (b2-b1)*t);
+  return `#${[r,g,b].map(v => v.toString(16).padStart(2,'0')).join('')}`;
+}
+
+function hexToRgb(hex) {
+  const m = hex.replace('#','').match(/.{2}/g);
+  return m.map(v => parseInt(v, 16));
+}
+
+// ============================================================
+// CLASSIFICATION ALGORITHMS
+// ============================================================
+function quantileBreaks(values, n) {
+  const sorted = [...values].sort((a, b) => a - b);
+  const breaks = [sorted[0]];
+  for (let i = 1; i < n; i++) {
+    const idx = Math.round(i / n * sorted.length) - 1;
+    breaks.push(sorted[Math.max(0, idx)]);
+  }
+  breaks.push(sorted[sorted.length - 1]);
+  // Deduplicate
+  return [...new Set(breaks)].sort((a, b) => a - b);
+}
+
+function equalIntervalBreaks(values, n) {
+  const min = Math.min(...values), max = Math.max(...values);
+  const step = (max - min) / n;
+  const breaks = [];
+  for (let i = 0; i <= n; i++) breaks.push(min + i * step);
+  return breaks;
+}
+
+function naturalBreaksJenks(values, n) {
+  const sorted = [...values].sort((a, b) => a - b);
+  const len = sorted.length;
+  if (n >= len) return sorted;
+
+  // Use Fisher-Jenks algorithm (simplified)
+  const mat1 = Array.from({length: len + 1}, () => new Float64Array(n + 1).fill(Infinity));
+  const mat2 = Array.from({length: len + 1}, () => new Float64Array(n + 1).fill(0));
+
+  for (let i = 1; i <= n; i++) mat1[1][i] = 0;
+  for (let i = 1; i <= len; i++) mat2[i][1] = 1;
+
+  for (let l = 2; l <= len; l++) {
+    let sum = 0, sumSq = 0;
+    for (let m = 1; m <= l; m++) {
+      const idx = l - m;
+      const val = sorted[idx];
+      sum += val;
+      sumSq += val * val;
+      const variance = sumSq - (sum * sum) / m;
+      if (idx > 0) {
+        for (let j = 2; j <= n; j++) {
+          const test = mat1[idx][j - 1] + variance;
+          if (test < mat1[l][j]) {
+            mat1[l][j] = test;
+            mat2[l][j] = idx + 1;
+          }
+        }
+      }
+    }
+    mat1[l][1] = sumSq - (sum * sum) / l;
+  }
+
+  const breaks = [sorted[0]];
+  let k = len;
+  for (let j = n; j >= 2; j--) {
+    const idx = mat2[k][j] - 1;
+    breaks.push(sorted[idx]);
+    k = idx;
+  }
+  breaks.push(sorted[len - 1]);
+  return breaks.sort((a, b) => a - b);
+}
+
+function stdDevBreaks(values, n) {
+  const mean = values.reduce((s, v) => s + v, 0) / values.length;
+  const std = Math.sqrt(values.reduce((s, v) => s + (v - mean) ** 2, 0) / values.length);
+  const halfN = Math.floor(n / 2);
+  const breaks = [];
+  for (let i = -halfN; i <= halfN + (n % 2 === 0 ? 0 : 1); i++) {
+    breaks.push(mean + i * std);
+  }
+  // Clamp to data range
+  const min = Math.min(...values), max = Math.max(...values);
+  breaks[0] = min;
+  breaks[breaks.length - 1] = max;
+  return breaks;
+}
+
+function getBreaks(values, method, n) {
+  switch (method) {
+    case 'quantile': return quantileBreaks(values, n);
+    case 'equal_interval': return equalIntervalBreaks(values, n);
+    case 'natural_breaks': return naturalBreaksJenks(values, n);
+    case 'std_dev': return stdDevBreaks(values, n);
+    default: return quantileBreaks(values, n);
+  }
+}
+
+function classifyValue(val, breaks) {
+  for (let i = 1; i < breaks.length; i++) {
+    if (val <= breaks[i]) return i - 1;
+  }
+  return breaks.length - 2;
+}
+
+// ============================================================
+// FORMAT HELPERS
+// ============================================================
+const VARIABLE_META = {
+  smoothed_rate_period3: { label: 'COVID-19 Smoothed Rate (P3)', fmt: v => v.toFixed(1), palette: 'reds' },
+  rate_period3: { label: 'COVID-19 Rate (P3)', fmt: v => v.toFixed(1), palette: 'reds' },
+  pct_below_poverty: { label: '% Below Poverty', fmt: v => v.toFixed(1) + '%', palette: 'sequential' },
+  pct_no_health_insurance: { label: '% No Health Insurance', fmt: v => v.toFixed(1) + '%', palette: 'sequential' },
+  pct_hispanic_or_latino: { label: '% Hispanic/Latino', fmt: v => v.toFixed(1) + '%', palette: 'sequential' },
+  pct_black_or_african_american: { label: '% Black/African American', fmt: v => v.toFixed(1) + '%', palette: 'sequential' },
+  median_household_income: { label: 'Median HH Income', fmt: v => '$' + Math.round(v).toLocaleString(), palette: 'sequential' },
+  pop_dens: { label: 'Population Density', fmt: v => v.toFixed(0) + '/km²', palette: 'sequential' },
+  pct_no_high_school: { label: '% No HS Diploma', fmt: v => v.toFixed(1) + '%', palette: 'sequential' },
+};
+
+// ============================================================
+// MAP SETUP
+// ============================================================
+const map = L.map('map', { zoomSnap: 0.5 }).setView([25.76, -80.3], 10.5);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a> | Data: FIU-RCMI / ACS',
+  maxZoom: 18,
+}).addTo(map);
+
+let geojsonLayer = null;
+let geojsonData = null;
+
+// ============================================================
+// STATE
+// ============================================================
+let currentVariable = 'smoothed_rate_period3';
+let currentMethod = 'quantile';
+let currentClasses = 5;
+
+// ============================================================
+// DRAW HISTOGRAM
+// ============================================================
+function drawHistogram(values, breaks, colors) {
+  const canvas = document.getElementById('histogram');
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width = canvas.offsetWidth * 2;
+  const H = canvas.height = canvas.offsetHeight * 2;
+  ctx.scale(2, 2);
+  const w = W / 2, h = H / 2;
+  ctx.clearRect(0, 0, w, h);
+
+  const margin = { top: 5, right: 10, bottom: 22, left: 10 };
+  const pw = w - margin.left - margin.right;
+  const ph = h - margin.top - margin.bottom;
+
+  const min = Math.min(...values), max = Math.max(...values);
+  const range = max - min || 1;
+  const nBins = 40;
+  const binWidth = range / nBins;
+  const bins = new Array(nBins).fill(0);
+  values.forEach(v => {
+    const idx = Math.min(Math.floor((v - min) / binWidth), nBins - 1);
+    bins[idx]++;
+  });
+  const maxBin = Math.max(...bins);
+
+  // Draw histogram bars colored by classification
+  for (let i = 0; i < nBins; i++) {
+    const x = margin.left + (i / nBins) * pw;
+    const bw = pw / nBins;
+    const bh = (bins[i] / maxBin) * ph;
+    const midVal = min + (i + 0.5) * binWidth;
+    const classIdx = classifyValue(midVal, breaks);
+    ctx.fillStyle = colors[Math.min(classIdx, colors.length - 1)] || '#ccc';
+    ctx.fillRect(x, margin.top + ph - bh, bw - 0.5, bh);
+  }
+
+  // Draw break lines
+  ctx.strokeStyle = '#333';
+  ctx.lineWidth = 1.5;
+  ctx.setLineDash([4, 3]);
+  const meta = VARIABLE_META[currentVariable];
+  ctx.font = '9px system-ui';
+  ctx.fillStyle = '#333';
+  ctx.textAlign = 'center';
+  for (let i = 1; i < breaks.length - 1; i++) {
+    const x = margin.left + ((breaks[i] - min) / range) * pw;
+    ctx.beginPath();
+    ctx.moveTo(x, margin.top);
+    ctx.lineTo(x, margin.top + ph + 2);
+    ctx.stroke();
+  }
+  ctx.setLineDash([]);
+
+  // Axis labels
+  ctx.fillStyle = '#666';
+  ctx.textAlign = 'left';
+  ctx.fillText(meta.fmt(min), margin.left, h - 4);
+  ctx.textAlign = 'right';
+  ctx.fillText(meta.fmt(max), w - margin.right, h - 4);
+  ctx.textAlign = 'center';
+  ctx.fillText('← lower', margin.left + pw * 0.25, h - 4);
+  ctx.fillText('higher →', margin.left + pw * 0.75, h - 4);
+}
+
+// ============================================================
+// UPDATE LEGEND
+// ============================================================
+function updateLegend(breaks, colors) {
+  const el = document.getElementById('legend-items');
+  const meta = VARIABLE_META[currentVariable];
+  const nClasses = colors.length;
+  let html = '';
+  for (let i = 0; i < nClasses; i++) {
+    const lo = breaks[i], hi = breaks[Math.min(i + 1, breaks.length - 1)];
+    html += `<div class="legend-item">
+      <span class="legend-swatch" style="background:${colors[i]}"></span>
+      <span>${meta.fmt(lo)} — ${meta.fmt(hi)}</span>
+    </div>`;
+  }
+  el.innerHTML = html;
+}
+
+// ============================================================
+// UPDATE STATS
+// ============================================================
+function updateStats(values) {
+  const n = values.length;
+  const mean = values.reduce((s, v) => s + v, 0) / n;
+  const sorted = [...values].sort((a, b) => a - b);
+  const median = sorted[Math.floor(n / 2)];
+  const std = Math.sqrt(values.reduce((s, v) => s + (v - mean) ** 2, 0) / n);
+  const meta = VARIABLE_META[currentVariable];
+
+  document.getElementById('stats-box').innerHTML = `
+    <div class="stat-row"><span class="stat-label">N</span><span class="stat-value">${n.toLocaleString()}</span></div>
+    <div class="stat-row"><span class="stat-label">Min</span><span class="stat-value">${meta.fmt(sorted[0])}</span></div>
+    <div class="stat-row"><span class="stat-label">Mean</span><span class="stat-value">${meta.fmt(mean)}</span></div>
+    <div class="stat-row"><span class="stat-label">Median</span><span class="stat-value">${meta.fmt(median)}</span></div>
+    <div class="stat-row"><span class="stat-label">Max</span><span class="stat-value">${meta.fmt(sorted[n-1])}</span></div>
+    <div class="stat-row"><span class="stat-label">Std Dev</span><span class="stat-value">${meta.fmt(std)}</span></div>
+  `;
+}
+
+// ============================================================
+// UPDATE INSIGHT
+// ============================================================
+function updateInsight() {
+  const el = document.getElementById('insight-box');
+  const insights = {
+    quantile: `<strong>Quantile</strong> ensures each color class has the same number of block groups. 
+      This maximizes visual contrast but can group very different values together or split similar values apart. 
+      It's the most common method in public health mapping.`,
+    equal_interval: `<strong>Equal Interval</strong> divides the data range into equal-width bins. 
+      With skewed data (common in health!), most features end up in one or two classes, making the map look uniform. 
+      Try switching to Quantile to see the difference.`,
+    natural_breaks: `<strong>Natural Breaks (Jenks)</strong> finds "natural" groupings by minimizing 
+      within-class variance. It often produces the most informative map, but class boundaries don't have 
+      round numbers, making legends harder to communicate.`,
+    std_dev: `<strong>Standard Deviation</strong> shows how far each area is from the mean. 
+      Great for spotting outliers, but assumes roughly normal distribution. With skewed health data, 
+      most areas fall in the middle class.`,
+  };
+  el.innerHTML = insights[currentMethod];
+}
+
+// ============================================================
+// MAIN UPDATE FUNCTION
+// ============================================================
+function updateMap() {
+  if (!geojsonData) return;
+
+  const meta = VARIABLE_META[currentVariable];
+  const palette = PALETTES[meta.palette];
+
+  // Extract values (skip nulls)
+  const values = [];
+  const features = geojsonData.features;
+  features.forEach(f => {
+    const v = f.properties[currentVariable];
+    if (v != null && !isNaN(v)) values.push(v);
+  });
+
+  if (values.length === 0) return;
+
+  // Get breaks
+  let breaks = getBreaks(values, currentMethod, currentClasses);
+  const nClasses = breaks.length - 1;
+  const colors = interpolateColors(palette, nClasses);
+
+  // Update map layer
+  if (geojsonLayer) map.removeLayer(geojsonLayer);
+
+  geojsonLayer = L.geoJSON(geojsonData, {
+    style: function(feature) {
+      const v = feature.properties[currentVariable];
+      let fillColor = '#ddd';
+      if (v != null && !isNaN(v)) {
+        const cls = classifyValue(v, breaks);
+        fillColor = colors[Math.min(cls, colors.length - 1)];
+      }
+      return {
+        fillColor: fillColor,
+        fillOpacity: 0.8,
+        weight: 0.4,
+        color: '#666',
+        opacity: 0.5,
+      };
+    },
+    onEachFeature: function(feature, layer) {
+      const p = feature.properties;
+      const fmtVal = (key) => {
+        const m = VARIABLE_META[key];
+        const v = p[key];
+        return (v != null && !isNaN(v)) ? m.fmt(v) : 'N/A';
+      };
+      layer.bindPopup(`
+        <div class="info-popup">
+          <b>Block Group ${p.geoid || '—'}</b><br>
+          Pop: ${(p.total_pop || 0).toLocaleString()}<br>
+          COVID Rate (P3): ${fmtVal('smoothed_rate_period3')}<br>
+          Cases (P3): ${p.case_period3 || 0}<br>
+          <hr style="margin:4px 0;border:none;border-top:1px solid #ddd">
+          Poverty: ${fmtVal('pct_below_poverty')}<br>
+          No Insurance: ${fmtVal('pct_no_health_insurance')}<br>
+          Hispanic: ${fmtVal('pct_hispanic_or_latino')}<br>
+          Black: ${fmtVal('pct_black_or_african_american')}<br>
+          Med. HH Income: ${fmtVal('median_household_income')}<br>
+        </div>
+      `, { maxWidth: 260 });
+
+      layer.on('mouseover', function() {
+        this.setStyle({ weight: 2.5, color: '#333' });
+        this.bringToFront();
+      });
+      layer.on('mouseout', function() {
+        geojsonLayer.resetStyle(this);
+      });
+    }
+  }).addTo(map);
+
+  // Update sidebar components
+  drawHistogram(values, breaks, colors);
+  updateLegend(breaks, colors);
+  updateStats(values);
+  updateInsight();
+}
+
+// ============================================================
+// EVENT HANDLERS
+// ============================================================
+document.querySelectorAll('.method-card').forEach(card => {
+  card.addEventListener('click', () => {
+    document.querySelectorAll('.method-card').forEach(c => c.classList.remove('active'));
+    card.classList.add('active');
+    currentMethod = card.dataset.method;
+    updateMap();
+  });
+});
+
+document.getElementById('variable-select').addEventListener('change', e => {
+  currentVariable = e.target.value;
+  updateMap();
+});
+
+document.getElementById('num-classes').addEventListener('input', e => {
+  currentClasses = parseInt(e.target.value);
+  document.getElementById('classes-value').textContent = currentClasses;
+  updateMap();
+});
+
+// ============================================================
+// LOAD DATA
+// ============================================================
+fetch('classification_explorer_data.geojson')
+  .then(r => r.json())
+  .then(data => {
+    geojsonData = data;
+    updateMap();
+  })
+  .catch(err => {
+    document.getElementById('map').innerHTML = `
+      <div style="padding:40px;text-align:center;color:#666">
+        <h2>Could not load data</h2>
+        <p>Make sure <code>classification_explorer_data.geojson</code> is in the same folder as this HTML file.</p>
+        <p style="font-size:0.85em;margin-top:10px">Error: ${err.message}</p>
+      </div>`;
+  });
+</script>
+</body>
+</html>

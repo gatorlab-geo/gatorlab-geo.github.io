@@ -198,8 +198,8 @@ toc: false
     <li>
       <span class="resource-icon">📓</span>
       <div>
-        <a href="#" target="_blank">Workshop Notebook (Google Colab) ↗</a>
-        <div class="desc">Hands-on spatial analysis with Python — link coming soon</div>
+        <a href="https://colab.research.google.com/drive/11FZrFUM3pmm_iy_C5sqt6Hs3m0PLXZ5S?usp=sharing" target="_blank">Workshop Notebook (Google Colab) ↗</a>
+        <div class="desc">Hands-on spatial analysis with Python</div>
       </div>
     </li>
   </ul>

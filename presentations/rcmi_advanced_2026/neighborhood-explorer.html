@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spatial Neighborhood Explorer — GATOR Lab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --blue:#2563eb; --blue-light:#dbeafe; --blue-dark:#1e3a5f;
+      --green:#059669; --orange:#f97316; --slate:#334155; --muted:#64748b;
+      --border:#e2e8f0; --bg:#f8fafc;
+    }
+    body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--slate); }
+    header { background:var(--blue-dark); color:#f8fafc; padding:13px 24px; display:flex; align-items:center; justify-content:space-between; }
+    header h1 { font-size:1.05rem; font-weight:800; }
+    header p  { font-size:0.7rem; color:#94a3b8; margin-top:1px; }
+    header .badge { font-size:0.63rem; background:var(--blue); color:#fff; padding:3px 10px; border-radius:99px; font-weight:700; }
+    .layout { display:grid; grid-template-columns:230px 1fr 265px; height:calc(100vh - 54px); overflow:hidden; }
+
+    /* Controls */
+    .controls { background:#fff; border-right:1px solid var(--border); padding:14px; overflow-y:auto; }
+    .ctrl-section { margin-bottom:16px; }
+    .ctrl-label { font-size:0.6rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted); margin-bottom:7px; display:block; }
+    .radio-group { display:flex; flex-direction:column; gap:4px; }
+    .radio-group label { display:flex; align-items:center; gap:7px; font-size:0.73rem; cursor:pointer; padding:4px 7px; border-radius:6px; transition:background 0.1s; }
+    .radio-group label:hover { background:var(--bg); }
+    .radio-group input[type=radio] { accent-color:var(--blue); width:13px; height:13px; flex-shrink:0; }
+    .slider-row { margin-top:10px; }
+    .slider-row label { font-size:0.72rem; display:flex; justify-content:space-between; margin-bottom:3px; }
+    .slider-row label span { font-weight:700; color:var(--blue); }
+    input[type=range] { width:100%; accent-color:var(--blue); }
+    .btn { width:100%; padding:7px; border-radius:7px; border:1.5px solid var(--border); background:var(--bg); font-size:0.72rem; font-weight:600; color:var(--slate); cursor:pointer; transition:all 0.15s; }
+    .btn:hover { border-color:var(--blue); color:var(--blue); background:var(--blue-light); }
+    hr { border:none; border-top:1px solid var(--border); margin:12px 0; }
+    .legend-bar { height:11px; border-radius:4px; background:linear-gradient(to right,#dbeafe,#60a5fa,#1e3a5f); margin-bottom:4px; }
+    .legend-labels { display:flex; justify-content:space-between; font-size:0.6rem; color:var(--muted); }
+    .color-key { display:flex; flex-direction:column; gap:4px; margin-top:5px; }
+    .color-key-item { display:flex; align-items:center; gap:7px; font-size:0.68rem; }
+    .swatch { width:13px; height:13px; border-radius:3px; flex-shrink:0; border:1.5px solid rgba(0,0,0,0.12); }
+    .note { font-size:0.64rem; color:var(--muted); line-height:1.55; padding:7px; background:var(--bg); border-radius:6px; border-left:3px solid var(--border); }
+
+    /* Map */
+    .map-wrapper { background:#e2e8f0; display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; }
+    #map-canvas { display:block; max-width:100%; max-height:100%; image-rendering:pixelated; cursor:crosshair; }
+    #tooltip { position:absolute; pointer-events:none; background:rgba(15,23,42,0.9); color:#f8fafc; font-size:0.67rem; padding:5px 10px; border-radius:6px; display:none; white-space:nowrap; z-index:10; }
+    #build-msg { position:absolute; font-size:0.75rem; color:var(--muted); font-weight:600; }
+
+    /* Stats */
+    .stats { background:#fff; border-left:1px solid var(--border); padding:14px; overflow-y:auto; }
+    .stats-title { font-size:0.6rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+    .stat-card { background:var(--bg); border-radius:8px; padding:11px; margin-bottom:9px; border:1px solid var(--border); }
+    .stat-card h3 { font-size:0.77rem; font-weight:700; margin-bottom:5px; }
+    .stat-val { font-size:1.3rem; font-weight:800; color:var(--blue); }
+    .stat-sub { font-size:0.63rem; color:var(--muted); margin-top:2px; }
+    .empty-state { text-align:center; padding:36px 14px; color:var(--muted); }
+    .empty-state .icon { font-size:2.2rem; margin-bottom:8px; }
+    .empty-state p { font-size:0.73rem; line-height:1.6; }
+    table.ntbl { width:100%; border-collapse:collapse; font-size:0.68rem; margin-top:6px; }
+    table.ntbl th { background:var(--blue); color:#fff; padding:4px 6px; text-align:left; font-weight:600; }
+    table.ntbl td { padding:4px 6px; border-bottom:1px solid var(--border); }
+    table.ntbl tr:last-child td { border-bottom:none; }
+    .vpill { display:inline-block; background:var(--blue-light); color:var(--blue); border-radius:4px; padding:1px 5px; font-weight:700; }
+    .lag-row { display:flex; align-items:center; gap:8px; font-size:0.67rem; margin:4px 0; }
+    .lag-row .lbl { flex:1; color:var(--muted); }
+    .lag-row .lval { font-weight:700; }
+    .lag-bar-wrap { height:7px; background:var(--border); border-radius:4px; margin:2px 0 6px; overflow:hidden; }
+    .lag-bar { height:100%; border-radius:4px; }
+    .wt-note { font-size:0.62rem; color:var(--muted); margin-top:8px; line-height:1.5; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>&#x1F5FA; Spatial Neighborhood Explorer</h1>
+    <p>Click any cell to visualize its neighbors</p>
+  </div>
+  <span class="badge">GATOR Lab &middot; UF</span>
+</header>
+
+<div class="layout">
+  <aside class="controls">
+    <div class="ctrl-section">
+      <span class="ctrl-label">Grid Type</span>
+      <div class="radio-group">
+        <label><input type="radio" name="gridType" value="regular" checked> Regular Grid</label>
+        <label><input type="radio" name="gridType" value="hex"> Hexagonal Grid</label>
+        <label><input type="radio" name="gridType" value="voronoi"> Irregular (Voronoi)</label>
+      </div>
+    </div>
+    <hr>
+    <div class="ctrl-section">
+      <span class="ctrl-label">Neighborhood Definition</span>
+      <div class="radio-group">
+        <label><input type="radio" name="neighborType" value="queen" checked> Queen Contiguity</label>
+        <label><input type="radio" name="neighborType" value="rook"> Rook Contiguity</label>
+        <label><input type="radio" name="neighborType" value="knn"> K-Nearest Neighbors</label>
+        <label><input type="radio" name="neighborType" value="distance"> Distance Band</label>
+      </div>
+      <div id="k-row" class="slider-row" style="display:none;">
+        <label>K neighbors <span id="k-val">4</span></label>
+        <input type="range" id="k-slider" min="1" max="12" value="4">
+      </div>
+      <div id="d-row" class="slider-row" style="display:none;">
+        <label>Distance <span id="d-val">120</span> px</label>
+        <input type="range" id="d-slider" min="30" max="300" value="120" step="5">
+      </div>
+    </div>
+    <hr>
+    <div class="ctrl-section">
+      <button class="btn" id="randomize-btn">&#x1F3B2; Randomize Values</button>
+    </div>
+    <hr>
+    <div class="ctrl-section">
+      <span class="ctrl-label">Value Scale</span>
+      <div class="legend-bar"></div>
+      <div class="legend-labels"><span>0 (low)</span><span>50</span><span>100 (high)</span></div>
+    </div>
+    <hr>
+    <div class="ctrl-section">
+      <span class="ctrl-label">Legend</span>
+      <div class="color-key">
+        <div class="color-key-item"><div class="swatch" style="background:#2563eb;"></div> Selected cell</div>
+        <div class="color-key-item"><div class="swatch" style="background:#f97316;"></div> Neighbor</div>
+        <div class="color-key-item"><div class="swatch" style="background:#dbeafe;"></div> Low value (0)</div>
+        <div class="color-key-item"><div class="swatch" style="background:#1e3a5f;"></div> High value (100)</div>
+      </div>
+    </div>
+    <hr>
+    <div class="note" id="grid-note">
+      <strong>Queen:</strong> shares any edge or corner (8 max).<br>
+      <strong>Rook:</strong> shares an edge only (4 max).
+    </div>
+  </aside>
+
+  <div class="map-wrapper">
+    <canvas id="map-canvas" width="580" height="480"></canvas>
+    <div id="tooltip"></div>
+    <div id="build-msg"></div>
+  </div>
+
+  <aside class="stats">
+    <div class="stats-title">Cell Information</div>
+    <div id="stats-content">
+      <div class="empty-state">
+        <div class="icon">&#x1F446;</div>
+        <p>Click any cell on the map to explore its neighborhood structure.</p>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<script>
+'use strict';
+
+// ── Constants ──────────────────────────────────────────────────────────────────
+const CW = 580, CH = 480;          // canvas pixel dimensions
+const canvas = document.getElementById('map-canvas');
+const ctx = canvas.getContext('2d');
+const tooltip = document.getElementById('tooltip');
+
+// ── State ──────────────────────────────────────────────────────────────────────
+const state = {
+  gridType: 'regular', neighborType: 'queen',
+  k: 4, distPx: 120, selectedId: null, cells: [], seed: Date.now()
+};
+// pixelOwner[y*CW+x] = cell index in state.cells array (not cell.id)
+let pixelOwner = null;
+
+// ── Seeded PRNG ────────────────────────────────────────────────────────────────
+function seededRng(seed) {
+  let s = seed >>> 0;
+  return () => { s = Math.imul(1664525, s) + 1013904223; return (s >>> 0) / 4294967296; };
+}
+
+// ── Color helpers ──────────────────────────────────────────────────────────────
+function lerpByte(a, b, t) { return (a + (b - a) * t + 0.5) | 0; }
+function valueToRGB(v) {
+  const t = Math.max(0, Math.min(1, v / 100));
+  // stops: #dbeafe → #3b82f6 → #1e3a5f
+  const s0 = [219,234,254], s1 = [59,130,246], s2 = [30,58,95];
+  const st = t < 0.5 ? [s0, s1, t*2] : [s1, s2, (t-0.5)*2];
+  return [lerpByte(st[0][0],st[1][0],st[2]), lerpByte(st[0][1],st[1][1],st[2]), lerpByte(st[0][2],st[1][2],st[2])];
+}
+
+// ── Grid builders (return cells array) ────────────────────────────────────────
+
+function buildRegularGrid(rng) {
+  const COLS=9, ROWS=8;
+  const cw = CW/COLS, ch = CH/ROWS;
+  const cells = [];
+  for (let r=0; r<ROWS; r++) for (let c=0; c<COLS; c++) {
+    cells.push({ id: cells.length, row:r, col:c,
+      cx: (c+0.5)*cw, cy: (r+0.5)*ch,
+      value: Math.round(rng()*100), type:'regular',
+      rookN:[], queenN:[] });
+  }
+  cells.forEach(cell => {
+    const {row:r, col:c} = cell;
+    for (let dr=-1; dr<=1; dr++) for (let dc=-1; dc<=1; dc++) {
+      if (!dr && !dc) continue;
+      const nr=r+dr, nc=c+dc;
+      if (nr>=0 && nr<ROWS && nc>=0 && nc<COLS) {
+        const nid = nr*COLS+nc;
+        cell.queenN.push(nid);
+        if (Math.abs(dr)+Math.abs(dc)===1) cell.rookN.push(nid);
+      }
+    }
+  });
+  return cells;
+}
+
+function buildHexGrid(rng) {
+  const R=34, COLS=10, ROWS=8;
+  const cells = [];
+  state.dummySeeds = [];
+  for (let c=-2; c<COLS+2; c++) for (let r=-2; r<ROWS+2; r++) {
+    const cx = 35 + c*R*1.5;
+    const cy = 25 + r*R*Math.sqrt(3) + (Math.abs(c)%2===1 ? R*Math.sqrt(3)/2 : 0);
+    if (cx > 15 && cx < CW-15 && cy > 15 && cy < CH-15) {
+      cells.push({ id: cells.length, col:c, row:r, cx, cy,
+        value: Math.round(rng()*100), type:'hex', contigN:[] });
+    } else {
+      state.dummySeeds.push({ cx, cy });
+    }
+  }
+  const thr = R * Math.sqrt(3) * 1.1;
+  cells.forEach(c => {
+    c.contigN = cells.filter(o => o.id!==c.id && Math.hypot(o.cx-c.cx,o.cy-c.cy)<thr).map(o=>o.id);
+  });
+  return cells;
+}
+
+function buildVoronoiGrid(rng) {
+  state.dummySeeds = [];
+  const GCOLS=7, GROWS=6;
+  const cells = [];
+  for (let r=0; r<GROWS; r++) for (let c=0; c<GCOLS; c++) {
+    const jx = (rng()-0.5) * 0.6 * (CW/GCOLS);
+    const jy = (rng()-0.5) * 0.6 * (CH/GROWS);
+    cells.push({ id: cells.length,
+      cx: Math.max(15, Math.min(CW-15, (c+0.5)*CW/GCOLS + jx)),
+      cy: Math.max(15, Math.min(CH-15, (r+0.5)*CH/GROWS + jy)),
+      value: Math.round(rng()*100), type:'voronoi', contigN:[] });
+  }
+  return cells;
+}
+
+// ── Pixel owner computation (run once per grid build) ─────────────────────────
+function computePixelOwner() {
+  pixelOwner = new Int16Array(CW * CH);
+  const N = state.cells.length;
+  const D = state.dummySeeds ? state.dummySeeds.length : 0;
+  
+  const sx = new Float32Array(N + D), sy = new Float32Array(N + D);
+  state.cells.forEach((c,i) => { sx[i]=c.cx; sy[i]=c.cy; });
+  if (D > 0) state.dummySeeds.forEach((c,i) => { sx[N+i]=c.cx; sy[N+i]=c.cy; });
+
+  for (let y=0; y<CH; y++) {
+    const row = y * CW;
+    for (let x=0; x<CW; x++) {
+      let minD = 1e15, best = 0;
+      for (let i=0; i<N+D; i++) {
+        const dx=x-sx[i], dy=y-sy[i], d=dx*dx+dy*dy;
+        if (d < minD) { minD=d; best=i; }
+      }
+      pixelOwner[row + x] = best >= N ? -1 : best;
+    }
+  }
+}
+
+// ── Pixel-based adjacency (for hex and voronoi) ────────────────────────────────
+function computePixelAdjacency() {
+  // Two cells are contiguous if they share an edge in the pixel grid
+  const N = state.cells.length;
+  const adj = new Set();
+  for (let y=0; y<CH; y++) {
+    const row = y * CW;
+    for (let x=0; x<CW; x++) {
+      const o = pixelOwner[row + x];
+      if (x < CW-1) {
+        const r = pixelOwner[row + x + 1];
+        if (r !== o && r !== -1 && o !== -1) adj.add(Math.min(o,r)*10000 + Math.max(o,r));
+      }
+      if (y < CH-1) {
+        const d = pixelOwner[row + CW + x];
+        if (d !== o && d !== -1 && o !== -1) adj.add(Math.min(o,d)*10000 + Math.max(o,d));
+      }
+    }
+  }
+  // Reset
+  state.cells.forEach(c => { c.contigN = []; });
+  adj.forEach(key => {
+    const a = Math.floor(key/10000), b = key % 10000;
+    if (a >= 0 && b >= 0 && a < N && b < N) {
+      state.cells[a].contigN.push(state.cells[b].id);
+      state.cells[b].contigN.push(state.cells[a].id);
+    }
+  });
+
+  // Update visual centroids to pixel-area centroids (for label placement)
+  const sumX = new Float64Array(N), sumY = new Float64Array(N), cnt = new Int32Array(N);
+  for (let y=0; y<CH; y++) for (let x=0; x<CW; x++) {
+    const o = pixelOwner[y*CW+x]; 
+    if (o !== -1) { sumX[o]+=x; sumY[o]+=y; cnt[o]++; }
+  }
+  state.cells.forEach((c,i) => {
+    if (cnt[i]>0) { c.labelCx = sumX[i]/cnt[i]; c.labelCy = sumY[i]/cnt[i]; }
+    else { c.labelCx = c.cx; c.labelCy = c.cy; }
+  });
+}
+
+// ── Neighbor computation ───────────────────────────────────────────────────────
+function getNeighborIds(cell) {
+  if (state.neighborType === 'queen') {
+    return cell.queenN || cell.contigN || [];
+  }
+  if (state.neighborType === 'rook') {
+    return cell.rookN || cell.contigN || [];
+  }
+  if (state.neighborType === 'knn') {
+    return state.cells
+      .filter(o => o.id !== cell.id)
+      .sort((a,b) => Math.hypot(a.cx-cell.cx,a.cy-cell.cy) - Math.hypot(b.cx-cell.cx,b.cy-cell.cy))
+      .slice(0, state.k).map(o => o.id);
+  }
+  // distance
+  return state.cells
+    .filter(o => o.id !== cell.id && Math.hypot(o.cx-cell.cx,o.cy-cell.cy) <= state.distPx)
+    .map(o => o.id);
+}
+
+// ── Rendering ──────────────────────────────────────────────────────────────────
+function renderCells() {
+  if (!pixelOwner) return;
+
+  const sel = state.selectedId !== null ? state.cells.find(c => c.id === state.selectedId) : null;
+  const nbSet = new Set(sel ? getNeighborIds(sel) : []);
+
+  // Precompute per-cell fill colors
+  const N = state.cells.length;
+  const cr = new Uint8Array(N), cg = new Uint8Array(N), cb = new Uint8Array(N);
+  state.cells.forEach((cell, i) => {
+    let r,g,b;
+    if (cell.id === state.selectedId) { r=37; g=99; b=235; }
+    else if (nbSet.has(cell.id))      { r=249; g=115; b=22; }
+    else { [r,g,b] = valueToRGB(cell.value); }
+    cr[i]=r; cg[i]=g; cb[i]=b;
+  });
+
+  // Fill pixels from owner map
+  const img = ctx.createImageData(CW, CH);
+  const data = img.data;
+  for (let i=0; i < pixelOwner.length; i++) {
+    const o = pixelOwner[i], p = i*4;
+    if (o === -1) {
+      data[p]=226; data[p+1]=232; data[p+2]=240; data[p+3]=255;
+    } else {
+      data[p]=cr[o]; data[p+1]=cg[o]; data[p+2]=cb[o]; data[p+3]=255;
+    }
+  }
+
+  // 1-px white borders between different cells
+  for (let y=0; y<CH; y++) {
+    for (let x=0; x<CW; x++) {
+      const i = y*CW+x, o = pixelOwner[i];
+      if (o === -1) continue;
+      if ((x > 0    && pixelOwner[i-1]  !== o) ||
+          (x < CW-1 && pixelOwner[i+1]  !== o) ||
+          (y > 0    && pixelOwner[i-CW] !== o) ||
+          (y < CH-1 && pixelOwner[i+CW] !== o)) {
+        const p=i*4; data[p]=255; data[p+1]=255; data[p+2]=255; data[p+3]=255;
+      }
+    }
+  }
+  ctx.putImageData(img, 0, 0);
+
+  // Distance circle
+  if (state.neighborType==='distance' && sel) {
+    ctx.save();
+    ctx.strokeStyle='#0f172a'; ctx.lineWidth=2;
+    ctx.setLineDash([6,4]); ctx.globalAlpha=0.85;
+    ctx.beginPath(); ctx.arc(sel.cx, sel.cy, state.distPx, 0, Math.PI*2); ctx.stroke();
+    ctx.restore();
+  }
+
+  // KNN lines
+  if (state.neighborType==='knn' && sel) {
+    ctx.save(); ctx.strokeStyle='#f97316'; ctx.lineWidth=1.5;
+    ctx.setLineDash([4,3]); ctx.globalAlpha=0.5;
+    nbSet.forEach(nid => {
+      const nc = state.cells.find(c=>c.id===nid);
+      if (!nc) return;
+      ctx.beginPath(); ctx.moveTo(sel.cx,sel.cy); ctx.lineTo(nc.cx,nc.cy); ctx.stroke();
+    });
+    ctx.restore();
+  }
+
+  // Labels
+  ctx.save();
+  ctx.textAlign='center'; ctx.textBaseline='middle';
+  state.cells.forEach(cell => {
+    const isSel = cell.id === state.selectedId;
+    const isNbr = nbSet.has(cell.id);
+    const lx = cell.labelCx ?? cell.cx;
+    const ly = cell.labelCy ?? cell.cy;
+    const [r,g,b] = valueToRGB(cell.value);
+    const dark = (r*0.299+g*0.587+b*0.114) > 130 && !isSel && !isNbr;
+    ctx.font = `${isSel?'800':'600'} 10px Inter, sans-serif`;
+    ctx.fillStyle = dark ? '#0f172a' : '#ffffff';
+    ctx.fillText(String(cell.value), lx, ly);
+  });
+  ctx.restore();
+}
+
+// ── Tooltip ────────────────────────────────────────────────────────────────────
+function cellAt(cx, cy) {
+  // Map canvas CSS coords → pixel coords
+  const rect = canvas.getBoundingClientRect();
+  const px = (cx - rect.left) * CW / rect.width;
+  const py = (cy - rect.top)  * CH / rect.height;
+  if (!pixelOwner) return null;
+  const xi = Math.max(0,Math.min(CW-1,px|0));
+  const yi = Math.max(0,Math.min(CH-1,py|0));
+  const idx = pixelOwner[yi*CW+xi];
+  return state.cells[idx] || null;
+}
+
+canvas.addEventListener('mousemove', e => {
+  const cell = cellAt(e.clientX, e.clientY);
+  if (!cell) { tooltip.style.display='none'; return; }
+  const isSel = cell.id === state.selectedId;
+  const sel = state.selectedId !== null ? state.cells.find(c=>c.id===state.selectedId) : null;
+  const isNbr = sel ? getNeighborIds(sel).includes(cell.id) : false;
+  const lbl = isSel ? '&#x2714; Selected' : isNbr ? '&#x2192; Neighbor' : '';
+  tooltip.innerHTML = `<strong>#${cell.id}</strong>&nbsp;&nbsp;Value: <strong>${cell.value}</strong>&nbsp;&nbsp;${lbl}`;
+  tooltip.style.display = 'block';
+  const wr = canvas.closest('.map-wrapper').getBoundingClientRect();
+  tooltip.style.left = (e.clientX - wr.left + 14) + 'px';
+  tooltip.style.top  = (e.clientY - wr.top  - 10) + 'px';
+});
+canvas.addEventListener('mouseleave', () => { tooltip.style.display='none'; });
+canvas.addEventListener('click', e => {
+  const cell = cellAt(e.clientX, e.clientY);
+  if (cell) { state.selectedId = cell.id; renderCells(); updateStats(); }
+});
+
+// ── Stats ──────────────────────────────────────────────────────────────────────
+function updateStats() {
+  const panel = document.getElementById('stats-content');
+  if (state.selectedId === null) {
+    panel.innerHTML = `<div class="empty-state"><div class="icon">&#x1F446;</div><p>Click any cell to explore its neighborhood.</p></div>`;
+    return;
+  }
+  const cell = state.cells.find(c=>c.id===state.selectedId);
+  if (!cell) return;
+  const nbIds = getNeighborIds(cell);
+  const nbCells = nbIds.map(id=>state.cells.find(c=>c.id===id)).filter(Boolean);
+  const n = nbCells.length;
+  const w = n > 0 ? (1/n).toFixed(3) : '—';
+  const lag = n > 0 ? (nbCells.reduce((s,c)=>s+c.value,0)/n).toFixed(1) : '—';
+  const diff = n > 0 ? (cell.value - +lag).toFixed(1) : '—';
+  const diffColor = n > 0 ? (cell.value > +lag ? '#059669' : '#dc2626') : '#94a3b8';
+
+  const rows = nbCells.map(nc => {
+    const dist = Math.hypot(nc.cx-cell.cx, nc.cy-cell.cy).toFixed(0);
+    return `<tr><td>#${nc.id}</td><td><span class="vpill">${nc.value}</span></td><td>${w}</td><td>${dist}px</td></tr>`;
+  }).join('');
+
+  panel.innerHTML = `
+  <div class="stat-card" style="border-left:4px solid #2563eb;">
+    <h3>Selected Cell</h3>
+    <div class="stat-val">${cell.value}</div>
+    <div class="stat-sub">ID #${cell.id} &nbsp;&middot;&nbsp; (${Math.round(cell.cx)}, ${Math.round(cell.cy)})</div>
+  </div>
+  <div class="stat-card" style="border-left:4px solid #f97316;">
+    <h3>Neighbors <span style="color:var(--muted);font-weight:400;">(${n})</span></h3>
+    ${n===0 ? '<p style="font-size:0.7rem;color:#94a3b8;">No neighbors with current settings.</p>' : `
+    <table class="ntbl"><thead><tr><th>ID</th><th>Value</th><th>w<sub>ij</sub></th><th>Dist.</th></tr></thead>
+    <tbody>${rows}</tbody></table>`}
+  </div>
+  <div class="stat-card">
+    <h3>Spatial Statistics</h3>
+    <div class="lag-row"><span class="lbl">x<sub>i</sub> (selected)</span><span class="lval">${cell.value}</span></div>
+    <div class="lag-bar-wrap"><div class="lag-bar" style="width:${cell.value}%;background:#2563eb;"></div></div>
+    <div class="lag-row"><span class="lbl">Spatial lag &Sigma;w<sub>ij</sub>x<sub>j</sub></span><span class="lval">${lag}</span></div>
+    <div class="lag-bar-wrap"><div class="lag-bar" style="width:${n>0?+lag:0}%;background:#f97316;"></div></div>
+    <div class="lag-row"><span class="lbl">Difference x<sub>i</sub> &minus; lag</span><span class="lval" style="color:${diffColor};">${diff}</span></div>
+    <p class="wt-note">Row-standardized: w<sub>ij</sub> = 1/${n} = ${w}.<br>Spatial lag = mean of neighbor values.</p>
+  </div>`;
+}
+
+// ── Controls ───────────────────────────────────────────────────────────────────
+function updateNeighborUI() {
+  const isKNN = state.neighborType === 'knn', isDist = state.neighborType === 'distance';
+  document.getElementById('k-row').style.display = isKNN ? 'block' : 'none';
+  document.getElementById('d-row').style.display = isDist ? 'block' : 'none';
+  const note = document.getElementById('grid-note');
+  if (state.gridType === 'regular') {
+    note.innerHTML = '<strong>Queen:</strong> shares any edge or corner (8 max).<br><strong>Rook:</strong> shares an edge only (4 max).';
+  } else if (state.gridType === 'hex') {
+    note.innerHTML = '<strong>Queen &amp; Rook</strong> both show the 6 edge-adjacent (1-ring) neighbors. Hex grids have no corner-only adjacency.';
+  } else {
+    note.innerHTML = '<strong>Queen &amp; Rook</strong> both show shared-edge neighbors from the Voronoi tessellation.';
+  }
+}
+
+function rebuild() {
+  state.selectedId = null;
+  updateStats();
+  const msg = document.getElementById('build-msg');
+  msg.textContent = 'Building…';
+
+  // Allow the browser to paint the message before the heavy computation
+  setTimeout(() => {
+    const rng = seededRng(state.seed);
+    if (state.gridType === 'regular')     state.cells = buildRegularGrid(rng);
+    else if (state.gridType === 'hex')    state.cells = buildHexGrid(rng);
+    else                                  state.cells = buildVoronoiGrid(rng);
+
+    computePixelOwner();
+
+    if (state.gridType !== 'regular') computePixelAdjacency();
+
+    updateNeighborUI();
+    renderCells();
+    msg.textContent = '';
+  }, 10);
+}
+
+document.querySelectorAll('input[name=gridType]').forEach(el => {
+  el.addEventListener('change', () => { state.gridType = el.value; rebuild(); });
+});
+document.querySelectorAll('input[name=neighborType]').forEach(el => {
+  el.addEventListener('change', () => {
+    state.neighborType = el.value; updateNeighborUI();
+    if (state.selectedId !== null) renderCells(); updateStats();
+  });
+});
+document.getElementById('k-slider').addEventListener('input', function() {
+  state.k = +this.value; document.getElementById('k-val').textContent = this.value;
+  if (state.selectedId !== null) renderCells(); updateStats();
+});
+document.getElementById('d-slider').addEventListener('input', function() {
+  state.distPx = +this.value; document.getElementById('d-val').textContent = this.value;
+  if (state.selectedId !== null) renderCells(); updateStats();
+});
+document.getElementById('randomize-btn').addEventListener('click', () => { state.seed = Date.now(); rebuild(); });
+
+rebuild();
+</script>
+</body>
+</html>

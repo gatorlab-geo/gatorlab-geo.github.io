@@ -13,6 +13,10 @@ about:
   template: trestles
   image-width: 100%
   links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/company/gator-lab-uf
+      target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/gatorlab-geo/

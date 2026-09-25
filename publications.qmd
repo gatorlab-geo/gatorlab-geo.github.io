@@ -1,7 +1,5 @@
 ---
 title: "Publications"
-subtitle: "Selected publications"
-description-meta: "Selected publications"
 page-layout: full
 bibliography: references.bib
 csl: apa-custom.csl

@@ -1,10 +1,6 @@
 import re
 import os
 
-# ── Lab Members ────────────────────────────────────────────────────────────────
-# Add names here exactly as they appear in APA-rendered CSL output:
-# "Last, F." — regex will match the full token.
-# Supports both accented and unaccented variants (list both if needed).
 LAB_AUTHORS = [
     "Juhász, L.",
     "Juhasz, L.",
@@ -19,50 +15,56 @@ UNDERLINE_STYLE = (
 BIB_FILE = "references.bib"
 HTML_FILE = "docs/publications.html"
 
-
-def get_bib_key_order(bib_path: str) -> list[str]:
-    """Return cite keys in the order they appear in the .bib file."""
+def get_bib_entries(bib_path: str):
+    """Return cite keys and years in the order they appear in the .bib file."""
     with open(bib_path, "r", encoding="utf-8") as f:
         content = f.read()
-    return re.findall(r'@\w+\{(\w+)\s*,', content)
+    
+    entries = []
+    blocks = content.split('@')[1:]
+    for block in blocks:
+        m_key = re.match(r'\w+\{([^,]+),', block)
+        if not m_key: continue
+        key = m_key.group(1).strip()
+        
+        m_year = re.search(r'year\s*=\s*[\{"]?(\d{4})', block, re.IGNORECASE)
+        year = m_year.group(1) if m_year else "Unknown"
+        entries.append((key, year))
+    return entries
 
-
-def reorder_entries(content: str, bib_keys: list[str]) -> str:
-    """
-    Reorder .csl-entry divs to match the reverse of the bib file order
-    (last entry in bib appears first on the page).
-
-    Quarto renders entries as siblings immediately after the #refs container div,
-    not as children of it. The structure is:
-      <div id="refs" ...></div>
-      <div id="ref-key1" class="csl-entry" ...>...</div>
-      <div id="ref-key2" class="csl-entry" ...>...</div>
-      ...
-      </div>  ← closing outer wrapper
-    """
-    # Match all csl-entry divs (single-line in Quarto's output)
+def reorder_entries(content: str, bib_entries: list) -> str:
     entry_pattern = re.compile(
         r'<div id="(ref-[^"]+)" class="csl-entry"[^>]*>.*?</div>',
         re.DOTALL
     )
 
-    entries = {}  # ref-key -> full html
+    html_entries = {}
     for m in entry_pattern.finditer(content):
-        entries[m.group(1)] = m.group(0)
+        html_entries[m.group(1)] = m.group(0)
 
-    if not entries:
+    if not html_entries:
         return content
 
-    # Build desired order: reverse of bib file (newest = first)
-    desired_keys = [f"ref-{k}" for k in reversed(bib_keys)]
-    ordered = [entries[k] for k in desired_keys if k in entries]
-    # Append any entries not in the bib key list (defensive)
-    for key, html in entries.items():
-        if key not in desired_keys:
-            ordered.append(html)
+    by_year = {}
+    for key, year in reversed(bib_entries):
+        html_key = f"ref-{key}"
+        if html_key in html_entries:
+            if year not in by_year:
+                by_year[year] = []
+            by_year[year].append(html_entries[html_key])
 
-    # Replace the block of csl-entry divs with the reordered ones.
-    # Find the span from the first to the last csl-entry div.
+    sorted_years = sorted(by_year.keys(), reverse=True)
+    
+    new_blocks = []
+    for year in sorted_years:
+        new_blocks.append(f"<h2 style='margin-top: 30px;'>{year}</h2>")
+        new_blocks.append("<ol style='margin-left: 20px;'>")
+        for html in by_year[year]:
+            # Remove any specific margin/indent from csl-entry so it behaves well in <ol>
+            html = re.sub(r'class="csl-entry"', 'class="csl-entry" style="margin-left: 0; text-indent: 0; margin-bottom: 1em;"', html)
+            new_blocks.append(f"<li>{html}</li>")
+        new_blocks.append("</ol>")
+
     first_match = entry_pattern.search(content)
     last_match = None
     for last_match in entry_pattern.finditer(content):
@@ -74,12 +76,16 @@ def reorder_entries(content: str, bib_keys: list[str]) -> str:
     start = first_match.start()
     end = last_match.end()
 
-    new_block = "\n".join(ordered)
-    return content[:start] + new_block + content[end:]
-
+    new_block_str = "\n".join(new_blocks)
+    
+    content = content[:start] + new_block_str + content[end:]
+    
+    # Remove hanging-indent class from parent div if exists
+    content = content.replace('hanging-indent', '')
+    
+    return content
 
 def underline_lab_authors(content: str) -> str:
-    """Wrap lab author name tokens inside .csl-entry divs with an underline span."""
     for name in LAB_AUTHORS:
         pattern = re.escape(name)
         replacement = f'<span style="{UNDERLINE_STYLE}">{name}</span>'
@@ -87,20 +93,16 @@ def underline_lab_authors(content: str) -> str:
         content = safe_pattern.sub(replacement, content)
     return content
 
-
 def fix_publications():
     if not os.path.exists(HTML_FILE):
-        print(f"File not found: {HTML_FILE}")
         return
 
     with open(HTML_FILE, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # 1. Format DOI links
     doi_pattern = re.compile(r'<a href="https://doi\.org/([^"]+)">https://doi\.org/\1</a>')
     content = doi_pattern.sub(r'<a href="https://doi.org/\1">\1</a>', content)
 
-    # 2. Format PDF links to icons
     def pdf_replacement(match):
         url = match.group(1)
         if "files/papers/" in url:
@@ -111,19 +113,14 @@ def fix_publications():
     pdf_pattern = re.compile(r'<a href="([^"]+\.pdf)">([^<]+)</a>')
     content = pdf_pattern.sub(pdf_replacement, content)
 
-    # 3. Reorder entries to match bib file order (last entry in bib = first on page)
     if os.path.exists(BIB_FILE):
-        bib_keys = get_bib_key_order(BIB_FILE)
-        content = reorder_entries(content, bib_keys)
+        bib_entries = get_bib_entries(BIB_FILE)
+        content = reorder_entries(content, bib_entries)
 
-    # 4. Underline lab authors
     content = underline_lab_authors(content)
 
     with open(HTML_FILE, "w", encoding="utf-8") as f:
         f.write(content)
-
-    print(f"Successfully processed {HTML_FILE}")
-
 
 if __name__ == "__main__":
     fix_publications()

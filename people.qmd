@@ -15,7 +15,9 @@ listing:
     contents: 
       - "people/students/patrick_davenport.qmd"
       - "people/students/ashley_throm.qmd"
+      - "people/students/amelia_keefe.qmd"
       - "people/students/incoming_phd_spring.qmd"
+    sort: false
     type: grid
     fields: [image, title, subtitle]
     grid-item-align: center

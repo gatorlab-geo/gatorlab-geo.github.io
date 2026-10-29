@@ -50,6 +50,10 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 
 :::{#hero-heading}
 
+::: {.callout-note appearance="simple"}
+**Prospective PhD Students:** We are seeking a funded PhD student for **Fall 2027** (Priority Deadline: **Dec 31, 2026**) — if we find the right fit. Learn more on our [Join the Lab](join.qmd) page or view the [Position Flyer (PDF)](/files/GATOR_Lab_UF_PhD_flyer.pdf).
+:::
+
 Welcome to the **G**eospatial **A**nalytics, **T**echnology and **O**pen **R**esearch (GATOR) Lab at the [University of Florida](https://ufl.edu). We are part of the [Geomatics Program](https://ffgs.ifas.ufl.edu/about/geomatics/) in the [School of Forest, Fisheries and Geomatics Sciences](https://sffgs.ifas.ufl.edu) at [UF/IFAS](https://ifas.ufl.edu).
 
 We are located at the [Fort Lauderdale Research and Education Center](https://flrec.ifas.ufl.edu) within the Miami metropolitan area.
@@ -68,7 +72,6 @@ Broadly speaking, we are interested in harnessing the latest technological and m
 - **Discrete Global Grid Systems (DGGS)**: Exploring DGGS as a foundational data substrate in geospatial applications and GeoAI.
 
 - **Open Source, Open Data, and Societal Impact**: Ensuring research transparency and community value by translating advanced methods into sustainable open-source tools and accessible data products.
-
 
 :::
 

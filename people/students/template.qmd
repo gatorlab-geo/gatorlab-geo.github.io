@@ -1,0 +1,14 @@
+---
+title: "Future Student"
+subtitle: "PhD Student (Fall 2027)"
+image: "/files/profiles/want_you_join.png"
+started: "Fall 2027"
+about:
+  template: trestles
+---
+
+## Biography
+
+We are looking for a funded PhD student to join the GATOR Lab (ideal start date: **Fall 2027**) — if we find the right fit!
+
+Check out our [Join the Lab](../../join.qmd) page and the [Position Flyer (PDF)](/files/GATOR_Lab_UF_PhD_flyer.pdf) to see what we are looking for and how to apply.

@@ -17,6 +17,7 @@ listing:
       - "people/students/ashley_throm.qmd"
       - "people/students/amelia_keefe.qmd"
       - "people/students/incoming_phd_spring.qmd"
+      - "people/students/template.qmd"
     sort: false
     type: grid
     fields: [image, title, subtitle]
@@ -68,7 +69,7 @@ listing:
 :::{#lab-members}
 :::
 
-Our lab is growing! Check out our [open positions](join.qmd).
+Our lab is growing! We have a **funded PhD opportunity for Fall 2027** (if we find the right fit) — check out our [Join the Lab](join.qmd) page and the [Position Flyer (PDF)](/files/GATOR_Lab_UF_PhD_flyer.pdf).
 
 ## Collaborators
 :::{#collaborators}

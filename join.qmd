@@ -2,28 +2,57 @@
 title: "Join the GATOR Lab"
 ---
 
-## Openings & Opportunities
+## Open Position: Funded PhD Student (Fall 2027)
 
-There are currently **no funded, open positions** available in the GATOR Lab.
+The GATOR Lab at the University of Florida is seeking a **PhD student for a 4-year Graduate Research Assistantship** (ideal start date: **Fall 2027**). As a newly established lab at the intersection of modern computing and geospatial science, we offer the unique opportunity to be part of something new and help shape the future direction of the research group.
 
-However, we are always interested in connecting with passionate researchers. I am open to discussing opportunities with:
+📄 **[Download the Full Position Flyer (PDF)](/files/GATOR_Lab_UF_PhD_flyer.pdf)**
+
+::: {.callout-important appearance="simple"}
+**Note on Fit:** We are not just looking for a researcher—we are looking for the right fit. While the ideal start date is Fall 2027, **this position will only be filled if a suitable candidate is found.** Please familiarize yourself with our work before reaching out.
+:::
+
+### Research Focus Areas
+
+1. **GeoAI & Scalable Analytics**  
+   Developing next-generation GeoAI frameworks and cloud-native workflows. Research topics may include Large Language Models (LLMs) for geospatial reasoning, Agentic AI, and scalable geocomputation frameworks.
+2. **Discrete Global Grid Systems (DGGS)**  
+   Foundational research into one of the most exciting geospatial topics of recent times, focusing on spatial indexing, multi-resolution analysis, and global-scale data integration.
+
+*We also welcome original, well-motivated research proposals from well-qualified candidates whose interests align with our core pillars. To be considered, you will need to articulate what you will bring to the table and why you want to work with us.*
+
+### What We Value & Our Mindset
+
+**Above all, we value intellectual curiosity and a critical mindset.** We are looking for researchers who don't just apply tools, but interrogate them. We are not afraid to ask interesting but difficult questions and engage with challenging problems. You will thrive here if you are a self-starter, value quality over quantity, are passionate about open science, and becoming a geospatial scientist is your goal. On the other hand, you will thrive here *only* if you have these in you.
+
+### What You Will Have Access To & Assistantship Details
+
+- **Assistantship Package:** 4-year research assistantship including an annual stipend, full tuition waiver, and health insurance.
+- **In-Lab AI Workstation:** Dedicated high-performance GPU machine for rapid local development and prototyping.
+- **HiPerGator:** Direct access to the most powerful AI supercomputer in U.S. academia.
+- **Supportive Mentorship:** A collaborative environment where you always have access to personal guidance and active support for your growth.
+- **Location:** Based at the [Fort Lauderdale Research and Education Center](https://flrec.ifas.ufl.edu) (in the Miami metropolitan area). Students may be based in Gainesville, FL during their first year to complete coursework.
+
+### How to Apply
+
+- **Priority Deadline:** **December 31, 2026** *(applications are reviewed on a rolling basis)*.
+- Please email **Dr. Levente Juhász** at [join@gatorlab.io](mailto:join@gatorlab.io) with:
+  1. Your **CV** and a link to your **portfolio or GitHub** (if available).
+  2. A **Brief Statement of Interest** explaining *why* you want to join the GATOR Lab and *how* your interests align with our research pillars. Be creative, authentic, and tell us why you want to join.
+
+*Published papers are nice to have, but not mandatory. Exceptional candidates may be nominated for additional fellowships and external recognition. Final admission depends on satisfying all UF Graduate Admission and U.S. immigration requirements (for international candidates).*
+
+---
+
+## Other Opportunities
+
+Beyond funded openings, we are always interested in connecting with passionate researchers. I am open to discussing opportunities with:
 
 - **Current UF Students** looking to conduct undergraduate or graduate research.
 - **Prospective Students and Postdocs** who have secured or are planning to apply for their own funding (e.g., external fellowships, scholarships, or grants).
 
-*If you fall into one of these categories and your research interests align with the lab's core mission and expertise, we welcome your inquiry.*
+If you fall into one of these categories and your research interests align with the lab's core mission and expertise, feel free to inquire using the instructions above.
 
----
-
-## What We Value
-**Above all, we value intellectual curiosity and a critical mindset.** We are looking for researchers who don't just apply tools, but interrogate them. We are not afraid to ask interesting but difficult questions, and engage with challenging problems. You will thrive here if you are passionate about open science and eager to solve complex spatial problems through a data-science lens.
-
-## How to Inquire
-If you are interested in joining the lab under the aforementioned opportunities, please email **Dr. Levente Juhász** (join@gatorlab.io) with:
-
-1. Your **CV** and a link to your **GitHub/Portfolio**.
-2. A **Brief Statement of Interest** explaining *WHY* GATOR Lab and *HOW* you fit our pillars. This is very important. We are not just looking for researchers, we are looking for the right fit. Be creative, authentic, and tell us why you want to join the GATOR Lab.
-
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: 2rem;">
 *Join us at the University of Florida to build the future of Geospatial Data Science.*
 </div>

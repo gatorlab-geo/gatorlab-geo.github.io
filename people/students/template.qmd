@@ -1,14 +1,19 @@
 ---
-title: "Future Student"
-subtitle: "PhD Student (Fall 2027)"
+title: "Future Lab Member"
+subtitle: "Postdoc & PhD Openings"
 image: "/files/profiles/want_you_join.png"
-started: "Fall 2027"
+started: "2027"
 about:
   template: trestles
 ---
 
-## Biography
+## Open Positions
 
-We are looking for a funded PhD student to join the GATOR Lab (ideal start date: **Fall 2027**) — if we find the right fit!
+We are looking for motivated, curious researchers to join the GATOR Lab (if we find the right mutual fit):
 
-Check out our [Join the Lab](../../join.qmd) page and the [Position Flyer (PDF)](/files/GATOR_Lab_UF_PhD_flyer.pdf) to see what we are looking for and how to apply.
+- **Postdoctoral Associate — Discrete Global Grid Systems (DGGS)** (Start: as soon as feasible)  
+  [Position Details](../../join.qmd#postdoc) · [Download Flyer (PDF)](/files/GATOR_Lab_UF_Postdoc_flyer.pdf)
+- **Funded PhD Student** (Ideal start: Fall 2027 · Priority deadline: Dec 31, 2026)  
+  [Position Details](../../join.qmd#phd) · [Download Flyer (PDF)](/files/GATOR_Lab_UF_PhD_flyer.pdf)
+
+Visit our [Join the Lab](../../join.qmd) page to learn about our mindset, infrastructure, and how to apply.

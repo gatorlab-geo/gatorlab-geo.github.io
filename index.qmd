@@ -51,7 +51,10 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 :::{#hero-heading}
 
 ::: {.callout-note appearance="simple"}
-**Prospective PhD Students:** We are seeking a funded PhD student for **Fall 2027** (Priority Deadline: **Dec 31, 2026**) — if we find the right fit. Learn more on our [Join the Lab](join.qmd) page or view the [Position Flyer (PDF)](/files/GATOR_Lab_UF_PhD_flyer.pdf).
+**Open Positions in the GATOR Lab:**
+
+- **Postdoctoral Associate (DGGS):** Full-time position starting as soon as feasible — [Details](join.qmd#postdoc) · [Flyer (PDF)](/files/GATOR_Lab_UF_Postdoc_flyer.pdf)
+- **Funded PhD Student (Fall 2027):** Priority deadline **Dec 31, 2026** (if we find the right fit) — [Details](join.qmd#phd) · [Flyer (PDF)](/files/GATOR_Lab_UF_PhD_flyer.pdf)
 :::
 
 Welcome to the **G**eospatial **A**nalytics, **T**echnology and **O**pen **R**esearch (GATOR) Lab at the [University of Florida](https://ufl.edu). We are part of the [Geomatics Program](https://ffgs.ifas.ufl.edu/about/geomatics/) in the [School of Forest, Fisheries and Geomatics Sciences](https://sffgs.ifas.ufl.edu) at [UF/IFAS](https://ifas.ufl.edu).

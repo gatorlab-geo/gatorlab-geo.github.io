@@ -16,7 +16,7 @@
 <height>144</height>
 <width>144</width>
 </image>
-<generator>quarto-1.10.19</generator>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Tue, 25 Aug 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Two Papers Accepted: DGGS and Agentic AI</title>
@@ -154,7 +154,7 @@ Accepted at <strong>ACM SIGSPATIAL 2026</strong>, Riverside, CA · <a href="http
   <category>news</category>
   <guid>https://gatorlab.io/posts/summer_2026_recap/</guid>
   <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://gatorlab.io/files/images/summer26_ghent_geoai.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://gatorlab.io/files/images/summer26_ghent_geoai.jpg" medium="image" type="image/jpeg" height="108" width="144"/>
 </item>
 <item>
   <title>Levente Juhász receives 2026 IJGI Young Investigator Award</title>
@@ -194,7 +194,7 @@ Accepted at <strong>ACM SIGSPATIAL 2026</strong>, Riverside, CA · <a href="http
   <category>awards</category>
   <guid>https://gatorlab.io/posts/ijgi_young_investigator_award/</guid>
   <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://gatorlab.io/files/images/juhasz_ijgi_award.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://gatorlab.io/files/images/juhasz_ijgi_award.jpg" medium="image" type="image/jpeg" height="81" width="144"/>
 </item>
 <item>
   <title>Engaging with the Local Geospatial Community in South Florida</title>
@@ -240,7 +240,7 @@ Accepted at <strong>ACM SIGSPATIAL 2026</strong>, Riverside, CA · <a href="http
   <category>event</category>
   <guid>https://gatorlab.io/posts/local_events_april_2026/</guid>
   <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://gatorlab.io/files/images/fau_panel.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://gatorlab.io/files/images/fau_panel.jpg" medium="image" type="image/jpeg" height="110" width="144"/>
 </item>
 <item>
   <title>Top Cited Paper in Transactions in GIS</title>
@@ -310,7 +310,7 @@ Accepted at <strong>ACM SIGSPATIAL 2026</strong>, Riverside, CA · <a href="http
   <category>editorial</category>
   <guid>https://gatorlab.io/posts/ijgi_editor/</guid>
   <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://gatorlab.io/files/images/ijgi.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://gatorlab.io/files/images/ijgi.jpeg" medium="image" type="image/jpeg" height="144" width="144"/>
 </item>
 <item>
   <title>Critical Challenges in GeoAI: Insights from the 2026 SPARC Workshop</title>
@@ -358,7 +358,7 @@ Accepted at <strong>ACM SIGSPATIAL 2026</strong>, Riverside, CA · <a href="http
   <category>event</category>
   <guid>https://gatorlab.io/posts/asu_geoai_workshop/</guid>
   <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://gatorlab.io/files/images/asu_sparc_logo.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://gatorlab.io/files/images/asu_sparc_logo.jpg" medium="image" type="image/jpeg" height="144" width="144"/>
 </item>
 <item>
   <title>New dashboard for GIScience journal analysis</title>

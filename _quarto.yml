@@ -22,10 +22,10 @@ website:
         href: index.qmd
       - text: "Research"
         menu:
-          - text: "Our Vision & Stack"
+          - text: "Projects & Sponsors"
             href: research.qmd
-          - text: "Projects & Grants"
-            href: projects.qmd
+          - text: "Our Vision & Stack"
+            href: stack.qmd
           - text: "Publications"
             href: publications.qmd
       - text: "People"
